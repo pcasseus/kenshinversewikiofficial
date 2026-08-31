@@ -1,58 +1,48 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const CharacterFilters = ({
   searchTerm,
   setSearchTerm,
-  roleFilter,
-  setRoleFilter,
-  divisionFilter,
-  setDivisionFilter,
   suggested,
-}) => (
-  <div className="relative z-10 grid gap-4 sm:grid-cols-2 md:grid-cols-4 mb-10">
-    <div className="relative">
-      <input
-        type="text"
-        placeholder="Search by name..."
-        className="bg-black border border-yellow-500 text-yellow-300 rounded px-4 py-2 w-full"
-        value={searchTerm}
-        onChange={(e) => setSearchTerm(e.target.value)}
-      />
-      {suggested.length > 0 && (
-        <ul className="absolute w-full bg-zinc-900 border border-yellow-400 mt-1 rounded text-sm z-50">
-          {suggested.map((char) => (
-            <li key={char.slug} className="px-4 py-2 hover:bg-yellow-700/30">
-              <Link to={`/characters/${char.slug}`}>{char.name}</Link>
-            </li>
-          ))}
-        </ul>
-      )}
+  onCharacterSelect,
+}) => {
+  return (
+    <div className="relative z-30 mx-auto mb-10 w-full max-w-2xl">
+      <div className="relative">
+        <input
+          type="search"
+          placeholder="Search KVI character dossiers..."
+          className="w-full rounded border border-yellow-500 bg-black px-4 py-3 text-yellow-300 outline-none transition placeholder:text-zinc-600 focus:border-yellow-300 focus:shadow-[0_0_14px_rgba(234,179,8,0.2)]"
+          value={searchTerm}
+          onChange={(event) => setSearchTerm(event.target.value)}
+          autoComplete="off"
+          aria-label="Search KVI characters"
+        />
+
+        {suggested.length > 0 && (
+          <ul className="absolute left-0 right-0 top-full z-50 mt-1 overflow-hidden rounded border border-yellow-400 bg-zinc-950 text-sm shadow-xl">
+            {suggested.map((character) => (
+              <li key={character.slug}>
+                <button
+                  type="button"
+                  onClick={() => onCharacterSelect(character)}
+                  className="flex w-full items-center justify-between px-4 py-3 text-left text-yellow-200 transition hover:bg-yellow-700/30"
+                >
+                  <span>{character.name}</span>
+
+                  {character.comingSoon && (
+                    <span className="ml-4 text-[10px] font-bold uppercase tracking-widest text-red-400">
+                      Locked
+                    </span>
+                  )}
+                </button>
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
     </div>
-
-    <select
-      value={roleFilter}
-      onChange={(e) => setRoleFilter(e.target.value)}
-      className="bg-black border border-yellow-500 text-yellow-300 rounded px-4 py-2 w-full"
-    >
-      <option value="All">All Roles</option>
-      <option value="Hero">Hero</option>
-      <option value="Villain">Villain</option>
-    </select>
-
-    <select
-      value={divisionFilter}
-      onChange={(e) => setDivisionFilter(e.target.value)}
-      className="bg-black border border-yellow-500 text-yellow-300 rounded px-4 py-2 w-full"
-    >
-      <option value="All">All Divisions</option>
-      <option value="S.T.A.T.I.C.">S.T.A.T.I.C.</option>
-      <option value="Unaffiliated">Unaffiliated</option>
-      <option value="Aetherian">Aetherian</option>
-      <option value="Iztan">Iztan</option>
-      <option value="Civilian">Civilian</option>
-    </select>
-  </div>
-);
+  );
+};
 
 export default CharacterFilters;
