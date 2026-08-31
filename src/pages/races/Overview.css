@@ -1,0 +1,173 @@
+body {
+  background-color: #000;
+  color: #00ff9f;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #00ff9f;
+}
+
+/* Codex layout */
+.codex-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.codex-frame {
+  background-color: #001b16;
+  border: 1px solid #00ff9f;
+  border-radius: 4px;
+  padding: 1rem;
+  box-shadow: 0 0 15px #00ff9f33;
+}
+
+.codex-header {
+  color: #00ff9f;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #00ff9f66;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Tab buttons */
+.codex-tab {
+  background-color: #002620;
+  border: 1px solid #00ff9f88;
+  padding: 0.6rem 1.2rem;
+  margin: 0.25rem;
+  font-size: 0.8rem;
+  color: #00ff9f;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 0 0 transparent;
+}
+.codex-tab:hover {
+  background-color: #004c3b;
+  box-shadow: 0 0 8px #00ff9f55;
+}
+.codex-tab.active {
+  background-color: #00ff9f;
+  color: #001b16;
+  border-color: #00ffaa;
+  box-shadow: 0 0 18px #00ff9f88;
+}
+
+/* Scroll section */
+.scroll-section {
+  scrollbar-color: #00ff9f #001b16;
+  scrollbar-width: thin;
+}
+.scroll-section::-webkit-scrollbar {
+  width: 6px;
+}
+.scroll-section::-webkit-scrollbar-thumb {
+  background-color: #00ff9f;
+  border-radius: 3px;
+}
+
+/* Blinking terminal cursor */
+.blinker {
+  display: inline-block;
+  width: 8px;
+  background-color: #00ff9f;
+  margin-left: 2px;
+  animation: blink 1s step-start infinite;
+}
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+/* Threat meter animation */
+.threat-meter {
+  animation: threatPulse 2s infinite ease-in-out;
+}
+@keyframes threatPulse {
+  0%, 100% { filter: brightness(1); }
+  50% { filter: brightness(1.8); }
+}
+
+/* Noise overlay for subtle static FX */
+.noise-overlay {
+  background-image: url('/glitch/noise.gif'); /* use your noise asset */
+  background-size: cover;
+  opacity: 0.025;
+  mix-blend-mode: screen;
+  z-index: 0;
+}
+
+/* Hologram overlay for race images */
+.hologram-overlay {
+  background-image: repeating-linear-gradient(
+    0deg,
+    rgba(0, 255, 159, 0.03),
+    rgba(0, 255, 159, 0.03) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+  animation: flickerHolo 4s infinite linear;
+}
+@keyframes flickerHolo {
+  0%, 100% { opacity: 0.15; }
+  50% { opacity: 0.25; }
+}
+
+/* Optional matrix shimmer (add `matrix` class to parent div to activate) */
+.matrix::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 0%, #00ff9f11 20%, transparent 40%);
+  animation: shimmer 3s linear infinite;
+}
+@keyframes shimmer {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
+}
+
+/* Drift effects for future animation layers (optional) */
+.drift-left {
+  animation: driftLeft 10s ease-in-out infinite alternate;
+}
+.drift-right {
+  animation: driftRight 10s ease-in-out infinite alternate;
+}
+@keyframes driftLeft {
+  0% { transform: translateX(0) translateY(0); }
+  100% { transform: translateX(-15px) translateY(-30px); }
+}
+@keyframes driftRight {
+  0% { transform: translateX(0) translateY(0); }
+  100% { transform: translateX(15px) translateY(-30px); }
+}
+
+/* Slightly bigger + outlined codex tab style */
+.codex-tab.codex-tab-custom {
+  padding: 0.75rem 1.5rem;
+  font-size: 0.9rem;
+  border: 2px solid #00ff9f88;
+  border-radius: 6px;
+}
+
+.codex-tab.codex-tab-custom:hover {
+  border-color: #00ffaa;
+  background-color: #002620;
+}
+
+.codex-tab.codex-tab-custom.active {
+  border-color: #00ffaa;
+  background-color: #00ff9f;
+  color: #001b16;
+  box-shadow: 0 0 18px #00ff9f88;
+}

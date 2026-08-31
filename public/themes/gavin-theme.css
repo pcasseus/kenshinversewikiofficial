@@ -1,0 +1,207 @@
+/* ⚡ Gavin Fusion Theme */
+body[data-theme="gavin"] {
+  background: radial-gradient(circle at center, #001b30 0%, #000000 100%);
+  color: #cceeff;
+  font-family: 'Share Tech Mono', monospace;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x: hidden;
+  transition: background-color 0.6s ease-in-out, color 0.6s ease-in-out;
+}
+
+/* ----------- ENERGY STAGE OVERLAY ----------- */
+body[data-theme="gavin"]::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+  background: linear-gradient(135deg,
+    #00ffff 0%, #007ba7 25%, #120a8f 50%, #003153 75%, #00ffff 100%);
+  background-size: 400% 400%;
+  animation: overloadWave 12s ease infinite;
+  opacity: 0.05;
+}
+
+@keyframes overloadWave {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* ----------- BUTTONS & BORDERS ----------- */
+body[data-theme="gavin"] button,
+body[data-theme="gavin"] .border-yellow-500 {
+  border-color: #00b7ff !important;
+  transition: all 0.4s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+body[data-theme="gavin"] button:hover {
+  background-color: #00d9ff !important;
+  color: #000;
+  box-shadow: 0 0 12px #00e0ff;
+}
+
+/* ----------- PLASMA PULSE ON HOVER ----------- */
+body[data-theme="gavin"] button:hover::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(0, 255, 255, 0.3) 0%, transparent 80%);
+  animation: plasmaPulse 0.6s ease-out;
+  pointer-events: none;
+}
+
+@keyframes plasmaPulse {
+  0% { width: 0; height: 0; opacity: 1; }
+  100% { width: 180px; height: 180px; opacity: 0; }
+}
+
+/* ----------- TEXT COLOR OVERRIDES ----------- */
+body[data-theme="gavin"] .text-yellow-300,
+body[data-theme="gavin"] .text-yellow-400,
+body[data-theme="gavin"] .text-yellow-500 {
+  color: #00d9ff !important;
+}
+
+body[data-theme="gavin"] .bg-zinc-900 {
+  background-color: #001f33 !important;
+}
+
+body[data-theme="gavin"] .bg-black {
+  background-color: #000914 !important;
+}
+
+body[data-theme="gavin"] .hover\:bg-yellow-500:hover {
+  background-color: #00eaff !important;
+  color: #000 !important;
+}
+
+/* ----------- HEADERS & GLOW ----------- */
+body[data-theme="gavin"] h1,
+body[data-theme="gavin"] h2,
+body[data-theme="gavin"] h3,
+body[data-theme="gavin"] .glow-header {
+  text-shadow: 0 0 5px #00eaff, 0 0 10px #00eaffaa;
+  color: #cdefff;
+  animation: glowNova 2.4s infinite alternate;
+}
+
+@keyframes glowNova {
+  from { text-shadow: 0 0 6px #00eaff; }
+  to   { text-shadow: 0 0 20px #ffe76b, 0 0 30px #00eaff; }
+}
+
+/* ----------- MODAL SHIMMER ----------- */
+body[data-theme="gavin"] .modal {
+  animation: pulseNova 3s infinite ease-in-out;
+}
+
+@keyframes pulseNova {
+  0%, 100% { box-shadow: 0 0 12px #00eaff88; }
+  50% { box-shadow: 0 0 20px #ffe76b; }
+}
+
+/* ----------- HUD PANEL ----------- */
+body[data-theme="gavin"] #hud-panel-gavin {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 280px;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid #00eaff;
+  color: #cdefff;
+  padding: 10px 14px;
+  font-size: 0.8rem;
+  font-family: 'Share Tech Mono', monospace;
+  line-height: 1.4;
+  z-index: 998;
+  animation: pulseNova 3s infinite ease-in-out;
+}
+
+body[data-theme="gavin"] #hud-panel-gavin h4 {
+  font-size: 0.95rem;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #00eaff33;
+  color: #ffe76b;
+}
+
+body[data-theme="gavin"] #hud-panel-gavin li::before {
+  content: '⚡ ';
+  color: #00ffff;
+}
+
+/* ----------- FULLSCREEN ENERGY RIPPLE ----------- */
+body[data-theme="gavin"] #vibration-pulse-gavin {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(0, 238, 255, 0.4) 0%, transparent 70%);
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  animation: fusionRipple 0.7s ease-out;
+}
+
+@keyframes fusionRipple {
+  0% { width: 0; height: 0; opacity: 1; }
+  100% { width: 400vw; height: 400vh; opacity: 0; }
+}
+
+/* ----------- BOOT TEXT ----------- */
+body[data-theme="gavin"] #terminal-boot-gavin {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9998;
+  width: 100%;
+  height: 100%;
+  background: #000914;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #00eaff;
+  font-size: 1.1rem;
+  font-family: 'Share Tech Mono', monospace;
+  animation: bootType 6s steps(40, end) 1 forwards;
+  white-space: pre-wrap;
+  padding: 40px;
+  pointer-events: none;
+}
+
+@keyframes bootType {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+/* ----------- THEME TRANSITIONS ----------- */
+body[data-theme="gavin"] .fade-in {
+  animation: fadeIn 0.6s ease-in-out forwards;
+}
+
+body[data-theme="gavin"] .fade-out {
+  animation: fadeOut 0.6s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.98); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; transform: scale(1); }
+  to   { opacity: 0; transform: scale(0.98); }
+}

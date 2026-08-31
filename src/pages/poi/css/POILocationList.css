@@ -1,0 +1,178 @@
+/* ========================
+   SIDEBAR CONTAINER
+======================== */
+.poi-list-sidebar {
+  width: 260px;
+  background-color: #0d1117;
+  color: #f8f8f2;
+  font-family: 'Courier New', monospace;
+  border-right: 2px solid #facc15;
+  overflow-y: auto;
+  padding: 1.5rem 0;
+  box-shadow: inset -2px 0 5px rgba(255, 255, 255, 0.05);
+}
+
+/* ========================
+   TITLE
+======================== */
+.poi-list-title {
+  font-size: 0.75rem;
+  font-weight: bold;
+  letter-spacing: 0.12em;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #38bdf8;
+  text-shadow: 0 0 6px #38bdf8;
+}
+
+/* ========================
+   SCROLLABLE LIST
+======================== */
+.poi-list-scroll {
+  list-style: none;
+  padding: 0 0.5rem;
+  margin: 0;
+}
+
+/* ========================
+   INDIVIDUAL LIST ITEM
+======================== */
+.poi-list-item {
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #facc15;
+  transition: all 0.2s ease;
+  border-left: 3px solid transparent;
+}
+
+.poi-list-item:hover {
+  background-color: rgba(250, 204, 21, 0.1);
+  color: #ffffff;
+  border-left: 3px solid #38bdf8;
+}
+
+.poi-list-item.active {
+  background-color: #facc15;
+  color: #0f0f0f;
+  font-weight: bold;
+  border-left: 3px solid #38bdf8;
+}
+
+/* ========================
+   YELLOW DOT INDICATOR
+======================== */
+.poi-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #facc15;
+  border-radius: 50%;
+  box-shadow: 0 0 6px #facc15;
+  flex-shrink: 0;
+}
+
+/* ========================
+   SPOILER WARNING BLOCK
+======================== */
+.poi-spoiler-block {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  background-color: #0d1117;
+  color: #fefefe;
+  font-family: 'Courier New', monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1.5rem;
+  border-right: 2px solid #facc15;
+  box-shadow: inset -2px 0 5px rgba(255, 255, 255, 0.05);
+  text-align: center;
+  animation: fadeIn 0.6s ease;
+}
+
+.poi-spoiler-warning {
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  color: #facc15;
+  text-shadow: 0 0 6px #facc15;
+  max-width: 320px;
+}
+
+/* ========================
+   SPOILER REVEAL BUTTON
+======================== */
+.poi-spoiler-btn {
+  background-color: #38bdf8;
+  color: #0d1117;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  box-shadow: 0 0 8px #38bdf8;
+  transition: all 0.3s ease;
+}
+
+.poi-spoiler-btn:hover {
+  background-color: #0ea5e9;
+  transform: scale(1.03);
+  box-shadow: 0 0 12px #38bdf8;
+}
+
+/* ========================
+   ANIMATION
+======================== */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ========================
+   RESPONSIVE: Tablet/Mobile
+======================== */
+@media (max-width: 1024px) {
+  .poi-list-sidebar {
+    width: 100%;
+    padding: 1.25rem 0.75rem;
+    border-right: none;
+    border-bottom: 2px solid #facc15;
+  }
+
+  .poi-spoiler-block {
+    border-right: none;
+    border-bottom: 2px solid #facc15;
+    padding: 2rem 1rem;
+  }
+
+  .poi-spoiler-warning {
+    font-size: 0.9rem;
+    max-width: 90%;
+  }
+
+  .poi-spoiler-btn {
+    font-size: 0.85rem;
+    padding: 0.6rem 1.2rem;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 768px) {
+  .poi-spoiler-block {
+    flex-direction: column;
+    padding: 1.5rem 1rem;
+  }
+
+  .poi-spoiler-warning {
+    font-size: 0.85rem;
+  }
+
+  .poi-spoiler-btn {
+    font-size: 0.8rem;
+  }
+}

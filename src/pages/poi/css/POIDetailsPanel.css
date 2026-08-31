@@ -1,0 +1,86 @@
+.poi-sidebar {
+  width: 320px;
+  background-color: #0f172a;
+  border-left: 2px solid #facc15;
+  color: #f8fafc;
+  font-family: 'Courier New', monospace;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  box-shadow: inset 2px 0 4px rgba(250, 204, 21, 0.08);
+}
+.poi-sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #facc15;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #334155;
+  padding-bottom: 0.5rem;
+}
+.poi-sidebar-title {
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #38bdf8;
+  text-shadow: 0 0 5px #38bdf8;
+}
+.poi-sidebar-back {
+  font-size: 0.85rem;
+  color: #f87171;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.2rem;
+}
+.poi-sidebar-tabs {
+  display: flex;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+.poi-tab {
+  flex: 1;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  border: 1px solid #64748b;
+  color: #facc15;
+  background: transparent;
+  padding: 0.4rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  letter-spacing: 0.05em;
+}
+.poi-tab.active {
+  background: #facc15;
+  color: #0f172a;
+  font-weight: bold;
+  border-color: #facc15;
+}
+.poi-sidebar-content {
+  flex: 1;
+  overflow-y: auto;
+  font-size: 0.85rem;
+}
+
+/* Add at the bottom */
+@media (max-width: 768px) {
+  .poi-sidebar {
+    width: 100%;
+    padding: 1rem;
+    box-shadow: none;
+  }
+
+  .poi-sidebar-title {
+    font-size: 0.9rem;
+  }
+
+  .poi-tab {
+    font-size: 0.65rem;
+    padding: 0.3rem;
+  }
+
+  .poi-sidebar-content {
+    font-size: 0.8rem;
+  }
+}

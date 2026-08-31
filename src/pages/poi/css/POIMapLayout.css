@@ -1,0 +1,250 @@
+/* ============ MAIN WRAPPER ============ */
+.poi-map-fixed-wrapper {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3.5rem; /* Leave space for navbar */
+  min-height: calc(100vh - 3.5rem);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* ============ HEADER ============ */
+.poi-map-header {
+  width: 100%;
+  background-color: #0a0a0a;
+  border-bottom: 1px solid #facc15;
+  padding: 0.5rem 0;
+  position: relative;
+  z-index: 100;
+}
+
+.poi-map-header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+}
+
+.poi-map-exit {
+  font-size: 0.75rem;
+  color: #f87171;
+  background: transparent;
+  border: 1px solid #f87171;
+  padding: 0.3rem 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.poi-map-exit:hover {
+  background: #f87171;
+  color: black;
+  font-weight: bold;
+}
+
+.poi-map-center {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.poi-map-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #38bdf8;
+  letter-spacing: 0.12em;
+  text-shadow: 0 0 4px #38bdf8;
+  text-transform: uppercase;
+}
+
+.poi-map-status {
+  font-size: 0.65rem;
+  color: #94a3b8;
+  text-shadow: 0 0 2px #facc15;
+  margin-top: 2px;
+}
+
+.poi-map-status .online {
+  color: #22c55e;
+  font-weight: bold;
+  text-shadow: 0 0 5px #22c55e;
+}
+
+.poi-map-clock {
+  font-size: 0.75rem;
+  color: #facc15;
+  font-family: 'Courier New', monospace;
+  min-width: 65px;
+  text-align: right;
+}
+
+.poi-scanline {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #facc15, transparent);
+  animation: scanpulse 2s infinite ease-in-out;
+}
+
+@keyframes scanpulse {
+  0%, 100% {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+  50% {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}
+
+/* ============ LAYOUT ============ */
+.poi-map-container {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  height: auto;
+}
+
+/* ============ LEFT PANEL ============ */
+.poi-location-list {
+  width: 210px;
+  min-width: 210px;
+  background-color: #0f172a;
+  border-right: 1px solid #facc15;
+  overflow-y: auto;
+}
+
+/* ============ MAP ============ */
+.poi-map-pane {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-right: 1px solid #facc15;
+}
+
+/* ============ MAP SECTION ============ */
+.poi-map-wrapper {
+  height: clamp(600px, 75vh, 850px); /* Increased range */
+  width: 100%;
+  border-bottom: 1px solid #facc15;
+  overflow: hidden;
+  background-color: #000;
+}
+
+
+.poi-leaflet {
+  height: 100% !important;
+  width: 100% !important;
+  z-index: 1;
+}
+
+/* ============ MAP CONTROLS ============ */
+.poi-map-footer-controls {
+  background: rgba(10, 10, 10, 0.95);
+  border-top: 2px solid #38bdf8;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  width: 100%;
+}
+
+.poi-map-btn-group button,
+.poi-map-btn-move button {
+  background: black;
+  border: 1px solid #facc15;
+  color: #facc15;
+  font-size: 0.75rem;
+  padding: 0.4rem 0.75rem;
+  margin: 0.15rem;
+  border-radius: 6px;
+  cursor: pointer;
+  min-width: 60px;
+}
+
+.poi-map-btn-group button:hover,
+.poi-map-btn-move button:hover {
+  background: #facc15;
+  color: black;
+  font-weight: bold;
+}
+
+.poi-map-btn-move {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.poi-map-btn-move > div {
+  display: flex;
+  gap: 0.5rem;
+}
+
+/* ============ RIGHT PANEL ============ */
+.poi-details-panel {
+  width: 280px;
+  min-width: 280px;
+  background-color: #0f172a;
+  border-left: 1px solid #facc15;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+/* Existing styles above remain unchanged... */
+
+/* ============ RESPONSIVE LAYOUT ============ */
+
+/* Tablet and mobile portrait */
+@media (max-width: 1024px) {
+  .poi-map-container {
+    flex-direction: column;
+  }
+
+  .poi-list-sidebar,
+  .poi-sidebar {
+    width: 100%;
+    min-width: unset;
+    border-left: none;
+    border-right: none;
+  }
+
+  .poi-map-wrapper {
+    height: 50vh;
+  }
+
+  .poi-map-footer-controls {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+  }
+
+  .poi-map-btn-group button,
+  .poi-map-btn-move button {
+    font-size: 0.85rem;
+    padding: 0.5rem 1rem;
+    min-width: 100px;
+  }
+}
+
+/* Mobile horizontal and very small height screens */
+@media (max-height: 500px) and (orientation: landscape) {
+  .poi-map-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .poi-list-sidebar,
+  .poi-sidebar {
+    display: none;
+  }
+
+  .poi-map-wrapper {
+    height: 100vh;
+  }
+
+  .poi-map-footer-controls {
+    padding: 0.5rem;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}

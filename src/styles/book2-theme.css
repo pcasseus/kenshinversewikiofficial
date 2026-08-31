@@ -1,0 +1,56 @@
+/* === Book 2 Cinematic Styles === */
+
+/* 🔁 Card Glow Ring */
+@keyframes glowPulse {
+  0%, 100% {
+    box-shadow: 0 0 12px #facc15aa, 0 0 25px #fde04744;
+  }
+  50% {
+    box-shadow: 0 0 24px #facc15, 0 0 35px #fde047;
+  }
+}
+.animate-glow-ring {
+  animation: glowPulse 3s ease-in-out infinite;
+}
+
+/* ⚠️ WANTED Flicker */
+@keyframes wantedPulse {
+  0%, 100% { opacity: 0.25; transform: rotate(6deg); }
+  50% { opacity: 0.9; transform: rotate(6.5deg); }
+}
+.animate-wanted-tag {
+  animation: wantedPulse 1.2s ease-in-out infinite;
+}
+
+/* 🧬 Scan Ring Image Pulse */
+@keyframes scanRing {
+  0% { box-shadow: 0 0 0px #00ffcc44; }
+  50% { box-shadow: 0 0 10px #00ffccaa; }
+  100% { box-shadow: 0 0 0px #00ffcc44; }
+}
+.animate-scan-ring {
+  animation: scanRing 1.5s infinite;
+}
+
+/* 🌌 Starfield Scroll Background */
+@keyframes starfield {
+  0% { background-position: 0 0; }
+  100% { background-position: 1000px 1000px; }
+}
+.animate-starfield {
+  animation: starfield 180s linear infinite;
+}
+
+/* 3D Flip Classes (Add-on) */
+.perspective {
+  perspective: 1000px;
+}
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+.backface-hidden {
+  backface-visibility: hidden;
+}
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}

@@ -1,0 +1,276 @@
+/* ===========================
+   AI BOOT SEQUENCE CENTER
+=========================== */
+.ai-core {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+.ai-ring {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #facc15;
+  border-radius: 50%;
+  animation: rotate 5s linear infinite;
+  box-shadow: 0 0 20px rgba(255, 255, 0, 0.3);
+}
+.ai-scan-dot {
+  width: 12px;
+  height: 12px;
+  background: #22c55e;
+  border-radius: 50%;
+  position: absolute;
+  top: 44px;
+  left: 44px;
+  animation: pulse 2s infinite ease-in-out;
+}
+
+/* AI Core Upgrade Add-ons */
+.animate-holoGlow {
+  animation: holoGlow 6s ease-in-out infinite;
+}
+.ring-grid {
+  background-image: repeating-conic-gradient(from 0deg, rgba(0,255,255,0.04) 0deg 1deg, transparent 1deg 6deg);
+  background-size: 100% 100%;
+  opacity: 0.3;
+}
+
+/* ===========================
+   ANIMATIONS
+=========================== */
+@keyframes rotate {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.3); opacity: 0.5; }
+}
+@keyframes holoGlow {
+  0%, 100% { opacity: 0.25; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(1.05); }
+}
+@keyframes flicker {
+  0%, 100% { opacity: 0.15; }
+  50% { opacity: 0.3; }
+}
+@keyframes glitch-pulse {
+  0%, 100% { opacity: 1; transform: translateX(0); }
+  45% { opacity: 0.8; transform: translateX(-0.5px); }
+  55% { opacity: 0.9; transform: translateX(0.5px); }
+}
+@keyframes blink {
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 1; }
+}
+@keyframes scanline-flicker {
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 1; }
+}
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 4px rgba(255, 255, 0, 0.15); }
+  50% { box-shadow: 0 0 16px rgba(255, 255, 0, 0.3); }
+}
+@keyframes pulse-spin {
+  0%, 100% { transform: scale(1) rotate(0deg); opacity: 0.08; }
+  50% { transform: scale(1.05) rotate(180deg); opacity: 0.15; }
+}
+@keyframes sweep {
+  0% { stroke-dasharray: 0, 100; stroke: rgba(16, 185, 129, 0.2); }
+  50% { stroke: rgba(16, 185, 129, 0.5); }
+  100% { stroke-dasharray: 100, 100; stroke: rgba(16, 185, 129, 1); }
+}
+@keyframes ping-custom {
+  0% { transform: scale(1); opacity: 0.75; }
+  70% { transform: scale(1.75); opacity: 0; }
+  100% { transform: scale(2); opacity: 0; }
+}
+@keyframes rotate-slow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+@keyframes pulse-ring {
+  0%, 100% { opacity: 0.2; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(1.08); }
+}
+@keyframes borderSweep {
+  0% { transform: scale(1); opacity: 0.1; }
+  50% { transform: scale(1.02); opacity: 0.2; }
+  100% { transform: scale(1); opacity: 0.1; }
+}
+@keyframes scrollLine {
+  0% { transform: translateX(-100%); }
+  50% { transform: translateX(0%); }
+  100% { transform: translateX(100%); }
+}
+@keyframes signal-glitch {
+  0%, 100% { opacity: 1; transform: translateX(0); }
+  45% { opacity: 0.85; transform: translateX(-0.5px); }
+  55% { opacity: 0.9; transform: translateX(0.5px); }
+}
+
+/* ===========================
+   ANIMATION UTILITY CLASSES
+=========================== */
+.animate-pulse-glow { animation: pulse-glow 3s ease-in-out infinite; }
+.animate-pulse-spin { animation: pulse-spin 12s linear infinite; }
+.animate-sweep { animation: sweep 4s ease-in-out infinite; }
+.animate-ping-custom { animation: ping-custom 2.5s ease-out infinite; }
+.animate-rotate-slow { animation: rotate-slow 20s linear infinite; }
+.animate-pulse-ring { animation: pulse-ring 2.5s ease-in-out infinite; }
+.animate-blink { animation: blink 1.4s ease-in-out infinite; }
+.animate-borderSweep { animation: borderSweep 2.4s infinite ease-in-out; }
+.animate-scrollLine { animation: scrollLine 5s linear infinite; }
+.glitch-scan { animation: signal-glitch 3s infinite ease-in-out; }
+
+/* ===========================
+   TRANSMISSION PANELS + SCAN
+=========================== */
+.hologram-panel {
+  background-image: 
+    repeating-linear-gradient(0deg, rgba(255,255,255,0.03) 1px, transparent 2px),
+    repeating-linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 2px);
+  background-size: 100% 100%;
+  box-shadow: inset 0 0 1px rgba(0,255,255,0.2), 0 0 12px rgba(0,255,255,0.2);
+  border-radius: 8px;
+}
+.dot-flash {
+  animation: blink 1.5s infinite ease-in-out;
+  font-weight: bold;
+  color: #00ffff;
+  opacity: 0.7;
+}
+.dot-flash.delay-1 { animation-delay: 0.3s; }
+.dot-flash.delay-2 { animation-delay: 0.6s; }
+.underline-animate {
+  position: relative;
+  display: inline-block;
+}
+.underline-animate::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(90deg, cyan, #00e0ff, cyan);
+  animation: scanline-flicker 3s infinite ease-in-out;
+}
+
+/* ===========================
+   SCANLINE BACKGROUND EFFECT
+=========================== */
+.scanlines {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.015),
+    rgba(255, 255, 255, 0.015) 1px,
+    transparent 1px,
+    transparent 2px
+  );
+  z-index: 10;
+  mix-blend-mode: overlay;
+  animation: flicker 2s infinite;
+}
+
+/* ===========================
+   MENU TILE BUTTON GRID
+=========================== */
+.menu-tile {
+  background-color: rgba(20, 20, 20, 0.6);
+  border: 1px solid #facc15;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  text-align: center;
+  transition: transform 0.2s, background-color 0.2s;
+  color: #fefce8;
+  position: relative;
+}
+.menu-tile:hover {
+  transform: scale(1.05);
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.menu-tile span {
+  display: block;
+  margin-top: 0.25rem;
+}
+.menu-tile .badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #ef4444;
+  color: #fff;
+  font-size: 10px;
+  padding: 2px 5px;
+  border-radius: 9999px;
+  font-weight: bold;
+}
+
+/* ===========================
+   LAYOUT CLEANUP (PANELS)
+=========================== */
+.home-panel-wrapper {
+  height: 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+.home-panel-left,
+.home-panel-right {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.home-panel-left {
+  justify-content: flex-start;
+}
+.home-panel-right {
+  justify-content: flex-end;
+}
+.home-sidebar-panel {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: rgba(20, 20, 20, 0.4);
+  border-left: 1px solid rgba(255, 255, 255, 0.05);
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Responsive Hiding for Panels */
+@media (max-width: 1024px) {
+  .home-panel-left,
+  .home-panel-right {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .lg\:block {
+    display: none !important;
+  }
+}
+@media (min-width: 1025px) {
+  .lg\:block {
+    display: block !important;
+  }
+}
+
+.main-interface-wrapper {
+  min-height: 100vh;
+  height: auto;
+  overflow-y: auto;
+}
+
+@media (max-width: 1024px) {
+  .grid-cols-[400px_1fr_400px] {
+    grid-template-columns: 1fr;
+  }
+  .home-sidebar-panel {
+    display: none;
+  }
+}

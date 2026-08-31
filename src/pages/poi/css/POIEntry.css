@@ -1,0 +1,80 @@
+.poi-entry-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.poi-globe {
+  display: block;
+  width: 100vw !important;
+  height: 100vh !important;
+  object-fit: cover;
+}
+
+.poi-entry-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  z-index: 10;
+  padding: 1.5rem;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 1rem;
+  max-width: 90vw;
+}
+
+.poi-entry-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.poi-entry-sub {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  opacity: 0.8;
+}
+
+.poi-entry-button {
+  padding: 0.8rem 1.6rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #00ffee;
+  color: #000;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.poi-entry-button:hover {
+  background-color: #00ccbb;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .poi-entry-title {
+    font-size: 1.5rem;
+  }
+
+  .poi-entry-sub {
+    font-size: 0.9rem;
+  }
+
+  .poi-entry-button {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.2rem;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 500px) {
+  .poi-entry-overlay {
+    top: auto;
+    bottom: 5%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.6);
+  }
+}

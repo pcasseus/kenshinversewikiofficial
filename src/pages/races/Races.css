@@ -1,0 +1,17 @@
+.codex-tab-custom {
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+  min-width: 90px;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .codex-frame {
+    padding: 1rem !important;
+  }
+
+  .scroll-section {
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+}

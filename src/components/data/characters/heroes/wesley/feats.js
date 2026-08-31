@@ -1,0 +1,63 @@
+const feats = {
+  1: [
+    "Engaged in close combat with Shi, a legendary assassin, despite having no recent fight experience.",
+    "Disintegrated a firearm entirely with only early-stage control of his vibrational powers.",
+    "Leveled an entire building with a shockwave blast.",
+    "Survived a lethal, engineered poison designed specifically to kill him.",
+    "Triggered a 4.8 magnitude earthquake just from reactivating his powers.",
+    "Held his ground against A.X.E.L. who had effortlessly defeated both Gavin and Keith.",
+    "Shielded himself and multiple teammates during the underground base collapse.",
+    "Overpowered multiple team members simultaneously during a brief confrontation.",
+    "Accidentally generated seismic tremors detectable from over 40,000 feet in the air.",
+    "Neutralized nearly an entire hangar of advanced androids with minimal effort.",
+    "Matched A.X.E.L. blow-for-blow in close-quarters combat.",
+    "Temporarily stabilized and controlled his unstable transformation form.",
+    "Sank an entire mountain with the force of his vibrational energy."
+  ],
+  2: [
+    "Cleared out an entire warehouse filled with armed soldiers without taking a single hit.",
+    "Accidentally collapsed a major suspension bridge using an uncontrolled power flare.",
+    "Eliminated multiple snipers from over 100 meters away with pinpoint vibrational blasts from just his fingers.",
+    "Shattered a high-ranking officer’s spine effortlessly in close combat.",
+    "Annihilated an entire militia and police force using a single high-frequency scream.",
+    "Hacked multiple encrypted networks to erase all digital records of Zoey and Logan’s identities.",
+    "Silently disabled multiple major news broadcasts to suppress media coverage related to him.",
+    "Recovered from a point-blank fusion energy blast delivered by Gavin Summers.",
+    "Overcame years of deep-rooted mental trauma through guided psychic therapy.",
+    "Simultaneously battled Gavin, Keith, and A.X.E.L. and held his own.",
+    "Fought A.X.E.L. to a standstill while not even at full strength.",
+    "Shielded both New Jersey and New York from a catastrophic blast—absorbing the entire impact himself.",
+    "Fully regenerated from a near-death state through vibrational cellular acceleration.",
+    "Launched A.X.E.L. from New York to Antarctica with a single effortless blast.",
+    "Flew from New York to Antarctica in mere seconds under his own power.",
+    "Overpowered A.X.E.L. across the globe, landing the final blow back in New York.",
+    "Erased A.X.E.L. from existence with no resistance.",
+    "Detected Jade's pregnancy before she was even aware of it herself.",
+    "Identified Roman tailing him by recognizing a subtle inconsistency in his walking pattern."
+  ],
+  3: [
+        "Shook his entire neighborhood from experiencing a vivid nightmare.",
+    "Used geosense across multiple states to locate a hidden underground base.",
+    "Disrupted a time-manipulator’s abilities and subdued him with vibrational interference.",
+    "Outflew a base-wide explosion while carrying two people to safety.",
+    "Single-handedly held off a horde of humanoids while protecting civilians.",
+    "Fought Arian, Ryven, and Wesson simultaneously and held his ground.",
+    "Withstood a city-leveling blast from an alien ship.",
+    "Defeated Arian in combat alongside Gavin.",
+    "Shielded Gavin and Zoey from a ship-wide explosion mid-battle.",
+    "Detected multiple cloaked ships entering Earth’s atmosphere using vibration sense.",
+    "Erased an entire army of humanoids with a single sweeping motion.",
+    "Went toe-to-toe with Kyros in direct combat.",
+    "Sensed Gavin and Danny's final moments from across the planet.",
+    "Held back a city-scale energy blast from impacting the surface.",
+    "Flew from San Francisco to New York in under a minute while severely weakened.",
+    "Shook the Deviant sanctuary of Aetheria with nothing but his angry footsteps.",
+    "Simultaneously restrained Lola against a wall and held Gavin down with raw force.",
+    "Flew into orbit and decimated an entire alien armada while not fully recovered.",
+    "Erased an entire floor of humanoid enemies effortlessly.",
+    "Fought Kyros using a combination of nanotech enhancements and vibrational power.",
+    "Sacrificed himself to unleash a planetary-scale vibrational detonation, annihilating Kyros, his ship, and his entire armada."
+  ]
+};
+
+export default feats;

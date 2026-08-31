@@ -1,0 +1,195 @@
+/* === WESLEY — FULL SPECTRUM + GLITCH THEME === */
+body[data-theme="wesley"] {
+  --bg-base: #0a0014;
+  --text-main: #ffffff;
+  font-family: 'Share Tech Mono', monospace;
+  background-color: var(--bg-base);
+  color: var(--text-main);
+  background-image:
+    radial-gradient(circle at 30% 20%, #330033 0%, transparent 60%),
+    radial-gradient(circle at 70% 80%, #003344 0%, transparent 60%);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* === HEADERS: GLITCH + SPECTRUM === */
+body[data-theme="wesley"] h1,
+body[data-theme="wesley"] h2,
+body[data-theme="wesley"] h3,
+body[data-theme="wesley"] .glitch-text {
+  font-weight: bold;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, red, orange, yellow, lime, cyan, blue, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: hueShift 10s linear infinite, glitch 2s infinite;
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
+}
+
+@keyframes hueShift {
+  0% { filter: hue-rotate(0deg); }
+  100% { filter: hue-rotate(360deg); }
+}
+
+@keyframes glitch {
+  0% { text-shadow: 2px 0 red, -2px 0 cyan; }
+  20% { text-shadow: -2px 0 red, 2px 0 cyan; }
+  40% { text-shadow: 2px 2px lime; }
+  60% { text-shadow: 0 0 10px yellow; }
+  80% { text-shadow: -1px -1px magenta; }
+  100% { text-shadow: 2px 0 red, -2px 0 cyan; }
+}
+
+/* === BUTTONS === */
+body[data-theme="wesley"] button {
+  border: 1px solid transparent;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+  position: relative;
+  z-index: 1;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+body[data-theme="wesley"] button::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: linear-gradient(270deg, red, orange, yellow, lime, cyan, blue, violet);
+  background-size: 600%;
+  opacity: 0.15;
+  z-index: -1;
+  animation: hueShift 8s linear infinite;
+}
+body[data-theme="wesley"] button:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+  color: white;
+  box-shadow: 0 0 12px #ffffff33;
+}
+
+/* === SECTIONS & BORDERS === */
+body[data-theme="wesley"] .bg-zinc-900,
+body[data-theme="wesley"] .bg-black {
+  background-color: rgba(10, 0, 20, 0.8) !important;
+  border: 1px solid transparent;
+  box-shadow: inset 0 0 12px #ffffff11;
+}
+body[data-theme="wesley"] .border-yellow-500,
+body[data-theme="wesley"] .border-yellow-400 {
+  border-image: linear-gradient(90deg, red, orange, yellow, green, cyan, violet) 1;
+  border-width: 1px;
+  border-style: solid;
+}
+
+/* === ABILITIES PANEL === */
+body[data-theme="wesley"] .abilities-panel button {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: white;
+  border-image: linear-gradient(45deg, red, lime, cyan, violet) 1;
+}
+body[data-theme="wesley"] .abilities-panel button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+body[data-theme="wesley"] .abilities-panel .sub-list {
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+body[data-theme="wesley"] .abilities-panel .sub-list button {
+  background-color: rgba(255, 255, 255, 0.08);
+  color: white;
+  border: 1px dashed #ffffff44;
+  font-size: 0.875rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+body[data-theme="wesley"] .abilities-panel .sub-list button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+/* === MODALS === */
+body[data-theme="wesley"] .modal {
+  background-color: #100020;
+  border: 1px solid transparent;
+  border-image: linear-gradient(90deg, red, yellow, lime, cyan, violet) 1;
+  box-shadow: 0 0 16px #ffffff22;
+}
+
+/* === CLASSIFIED BOX === */
+body[data-theme="wesley"] .classified-box {
+  background: rgba(255, 255, 255, 0.04);
+  color: white;
+  border: 1px dashed #ffffff33;
+  text-transform: uppercase;
+  font-family: 'Share Tech Mono', monospace;
+  box-shadow: inset 0 0 12px rgba(255, 255, 255, 0.1);
+}
+
+/* === FOOTER === */
+body[data-theme="wesley"] .profile-footer {
+  background: linear-gradient(to right, #000, #1a0030, #000);
+  color: #ccccff;
+  border-top: 1px solid #ffffff22;
+  box-shadow: inset 0 0 10px #ffffff11;
+}
+
+/* === TERMINAL BOOT SEQUENCE === */
+body[data-theme="wesley"] #terminal-boot-wesley {
+  background-color: #0a0014;
+  color: white;
+  font-family: 'Share Tech Mono', monospace;
+  animation: bootType 6s steps(40, end) 1 forwards;
+  pointer-events: none;
+}
+@keyframes bootType {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+/* === BACKGROUND TEXTURE === */
+body[data-theme="wesley"]::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background: url('https://www.transparenttextures.com/patterns/circuit-board.png') repeat;
+  opacity: 0.05;
+  animation: floatBG 90s linear infinite;
+  z-index: -1;
+}
+@keyframes floatBG {
+  from { background-position: 0 0; }
+  to { background-position: 1000px 1000px; }
+}
+
+/* === HUD PANEL === */
+body[data-theme="wesley"] #hud-panel-wesley {
+  background-color: rgba(32, 0, 48, 0.85);
+  color: white;
+  border: 1px solid transparent;
+  border-image: linear-gradient(90deg, red, orange, yellow, green, cyan, violet) 1;
+  font-family: 'Share Tech Mono', monospace;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+}
+
+/* === VIBRATION PULSE === */
+body[data-theme="wesley"] #vibration-pulse-wesley {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.25) 0%, transparent 70%);
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  animation: rippleScreen 0.6s ease-out;
+}
+@keyframes rippleScreen {
+  0% { width: 0; height: 0; opacity: 1; }
+  100% { width: 400vw; height: 400vh; opacity: 0; }
+}
