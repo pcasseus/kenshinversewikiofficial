@@ -20,7 +20,6 @@ const MobileLandscapeInterface = () => {
 
       {/* Full-width below */}
       <IncomingTransmissionPanel />
-      <SignalFeedPanel />
     </div>
   );
 };

@@ -26,12 +26,12 @@ const TopHUD = ({ onRedoBootup }) => {
       <div className="mx-auto flex w-full max-w-[1800px] flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
         <div className="min-w-0 text-left">
           <h2 className="break-words font-bold leading-snug text-yellow-300">
-            Editing Phase — {now}
+            KVI Archive Online — {now}
           </h2>
 
           <p className="mt-1 max-w-3xl text-xs leading-relaxed text-gray-300">
-            All books complete. Final polishing in progress. Publishing of Book
-            1 goal: Spring 2026.
+            Official archive access for KVI: Hello To Yesterday. Projected
+            release: Spring 2027.
           </p>
         </div>
 

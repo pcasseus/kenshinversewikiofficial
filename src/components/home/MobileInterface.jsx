@@ -3,7 +3,6 @@ import TopHUD from "./TopHUD";
 import TrilogyProgressPanel from "./TrilogyProgressPanel";
 import EditingProgressPanel from "./EditingProgressPanel";
 import IncomingTransmissionPanel from "./IncomingTransmissionPanel";
-import SignalFeedPanel from "./SignalFeedPanel";
 
 const MobileInterface = ({ onRedoBootup }) => {
   return (
@@ -17,8 +16,6 @@ const MobileInterface = ({ onRedoBootup }) => {
           <TrilogyProgressPanel />
           <EditingProgressPanel />
         </div>
-
-        <SignalFeedPanel />
       </div>
     </div>
   );
