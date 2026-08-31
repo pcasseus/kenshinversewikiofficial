@@ -3,28 +3,26 @@ import TopHUD from "./TopHUD";
 import TrilogyProgressPanel from "./TrilogyProgressPanel";
 import EditingProgressPanel from "./EditingProgressPanel";
 import IncomingTransmissionPanel from "./IncomingTransmissionPanel";
-import SignalFeedPanel from "./SignalFeedPanel";
 
 const MainInterface = ({ onRedoBootup }) => {
   return (
-    <div className="min-h-screen w-full overflow-x-hidden bg-black">
+    <div className="flex min-h-[calc(100dvh-48px)] w-full flex-col overflow-x-hidden bg-black">
       <TopHUD onRedoBootup={onRedoBootup} />
 
-      <div className="mx-auto grid w-full max-w-[1800px] grid-cols-[minmax(260px,320px)_minmax(0,1fr)_minmax(260px,320px)] gap-4 px-4 py-5 xl:grid-cols-[minmax(300px,360px)_minmax(0,1fr)_minmax(300px,360px)] xl:gap-6 xl:px-6">
-        <aside className="min-w-0">
-          <TrilogyProgressPanel />
-        </aside>
+      <div className="mx-auto flex w-full max-w-[1720px] flex-1 px-4 pb-0 pt-5 xl:px-6 xl:pb-0 xl:pt-6">
+        <div className="grid w-full flex-1 grid-cols-1 items-stretch gap-5 lg:grid-cols-[minmax(280px,0.8fr)_minmax(0,2fr)_minmax(280px,0.8fr)] xl:gap-6">
+          <aside className="flex min-h-0 min-w-0">
+            <TrilogyProgressPanel />
+          </aside>
 
-        <main className="min-w-0">
-          <div className="mx-auto flex w-full max-w-[1000px] flex-col gap-6">
+          <main className="flex min-h-0 min-w-0">
             <IncomingTransmissionPanel />
-            <SignalFeedPanel />
-          </div>
-        </main>
+          </main>
 
-        <aside className="min-w-0">
-          <EditingProgressPanel />
-        </aside>
+          <aside className="flex min-h-0 min-w-0">
+            <EditingProgressPanel />
+          </aside>
+        </div>
       </div>
     </div>
   );
