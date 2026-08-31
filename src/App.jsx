@@ -2,41 +2,41 @@
 import React, { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-// 🔐 Firebase Auth Context
+// Firebase Auth Context
 import { FirebaseProvider } from "./contexts/FirebaseProvider";
 
-// 🧱 Core Components
+// Core Components
 import Navbar from "./components/navbar/Navbar";
 import ScrollToTop from "./components/ScrollToTop";
 
-// 🧠 Responsive Home Interface
+// Responsive Home Interface
 import ResponsiveInterface from "./components/home/ResponsiveInterface";
 
-// 👤 Characters
+// Characters
 import CharacterGallery from "./components/CharacterGallery";
 import SecureCharacterProfile from "./components/profiles/SecureCharacterProfile";
 
-// 📺 Broadcast
+// Broadcast
 import Broadcast from "./pages/broadcast/Broadcast";
 
-// 🧭 Lore
+// Lore
 import Lore from "./pages/Lore";
 import Races from "./pages/races/Races";
 import POIHub from "./pages/POIHub";
-import Leaderboard from "./pages/leaderboard/Leaderboard"
+import Leaderboard from "./pages/leaderboard/Leaderboard";
 
-// 📘 Trilogies
+// Trilogies
 import TrilogyOne from "./pages/trilogies/TrilogyOne";
 
-// 🔐 Auth Pages
+// Auth Pages
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import ForgotPassword from "./pages/ForgotPassword";
 
-// 📄 About
+// About
 import About from "./pages/About";
 
-// 🗣 Voice Preloader
+// Voice Preloader
 import { usePreloadVoices } from "./utils/usePreloadVoices";
 
 function App() {
@@ -46,6 +46,7 @@ function App() {
     if ("scrollRestoration" in window.history) {
       window.history.scrollRestoration = "manual";
     }
+
     document.body.style.overflow = "auto";
   }, []);
 
@@ -57,44 +58,43 @@ function App() {
         <div className="min-h-screen bg-black text-green-400 font-mono">
           <Navbar />
 
-          <main className="px-6 py-8">
+          <main className="w-full min-w-0">
             <Routes>
-              {/* 🌐 Home */}
+              {/* Home */}
               <Route path="/" element={<ResponsiveInterface />} />
 
-              {/* 👤 Characters */}
+              {/* Characters */}
               <Route path="/characters" element={<CharacterGallery />} />
               <Route
                 path="/characters/:slug"
                 element={<SecureCharacterProfile />}
               />
 
-              {/* 📺 Broadcast */}
+              {/* Broadcast */}
               <Route path="/broadcast" element={<Broadcast />} />
 
-              {/* 📘 Trilogy Hub */}
+              {/* Trilogy Hub */}
               <Route path="/trilogy-1" element={<TrilogyOne />} />
 
-              {/* 🧭 Lore */}
+              {/* Lore */}
               <Route path="/lore" element={<Lore />} />
               <Route path="/lore/races" element={<Races />} />
               <Route path="/lore/pois/*" element={<POIHub />} />
               <Route path="/lore/leaderboard" element={<Leaderboard />} />
 
-
-              {/* 🔐 Auth */}
+              {/* Auth */}
               <Route path="/login" element={<Login />} />
               <Route path="/register" element={<Register />} />
               <Route path="/forgot-password" element={<ForgotPassword />} />
 
-              {/* 📄 About */}
+              {/* About */}
               <Route path="/about" element={<About />} />
 
-              {/* 🛑 404 */}
+              {/* 404 */}
               <Route
                 path="*"
                 element={
-                  <div className="text-center text-red-500 text-xl py-20">
+                  <div className="px-4 py-20 text-center text-xl text-red-500 sm:px-6">
                     404 — Page not found
                   </div>
                 }

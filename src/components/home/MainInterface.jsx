@@ -7,29 +7,24 @@ import SignalFeedPanel from "./SignalFeedPanel";
 
 const MainInterface = ({ onRedoBootup }) => {
   return (
-    <div className="hidden md:flex flex-col min-h-screen h-auto overflow-y-auto">
+    <div className="min-h-screen w-full overflow-x-hidden bg-black">
       <TopHUD onRedoBootup={onRedoBootup} />
 
-      <div className="flex-1 w-full">
-        <div className="grid grid-cols-1 md:grid-cols-[400px_1fr_400px] min-h-screen">
-          {/* Left Sidebar */}
-          <div className="home-sidebar-panel">
-            <TrilogyProgressPanel />
-          </div>
+      <div className="mx-auto grid w-full max-w-[1800px] grid-cols-[minmax(260px,320px)_minmax(0,1fr)_minmax(260px,320px)] gap-4 px-4 py-5 xl:grid-cols-[minmax(300px,360px)_minmax(0,1fr)_minmax(300px,360px)] xl:gap-6 xl:px-6">
+        <aside className="min-w-0">
+          <TrilogyProgressPanel />
+        </aside>
 
-          {/* Center Panel */}
-          <div className="overflow-y-auto max-h-[calc(100vh-80px)] px-4 py-6 sm:p-6">
-            <div className="w-full max-w-[1000px] mx-auto flex flex-col gap-6">
-              <IncomingTransmissionPanel />
-              <SignalFeedPanel />
-            </div>
+        <main className="min-w-0">
+          <div className="mx-auto flex w-full max-w-[1000px] flex-col gap-6">
+            <IncomingTransmissionPanel />
+            <SignalFeedPanel />
           </div>
+        </main>
 
-          {/* Right Sidebar */}
-          <div className="home-sidebar-panel">
-            <EditingProgressPanel />
-          </div>
-        </div>
+        <aside className="min-w-0">
+          <EditingProgressPanel />
+        </aside>
       </div>
     </div>
   );

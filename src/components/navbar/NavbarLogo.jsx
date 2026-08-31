@@ -5,7 +5,7 @@ export default function NavbarLogo() {
   return (
     <Link
       to="/"
-      className="text-yellow-400 text-[1rem] sm:text-[1.4rem] font-extrabold uppercase tracking-[0.3em] hover:text-yellow-300 transition cursor-glow"
+      className="cursor-glow min-w-0 truncate text-[0.85rem] font-extrabold uppercase tracking-[0.18em] text-yellow-400 transition hover:text-yellow-300 sm:text-[1rem] sm:tracking-[0.25em] lg:text-[1.2rem] lg:tracking-[0.3em]"
     >
       The KenshinVerse
     </Link>
