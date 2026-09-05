@@ -1,6 +1,5 @@
 const warren = {
-  id: "#050",
-  name: "Warren Summers",
+  name: "Warren Halden",
   slug: "warren",
   image: "/warren.jpg",
   class: "Human",
@@ -17,7 +16,7 @@ const warren = {
     "place of birth": "San Antonio, Texas"
   },
     abilities: [
-      { name: "Peak Human Physiology", description: "Warren Summers stands as a living testament to the pinnacle of natural human potential. Though not enhanced by Deviant genetics or experimental augmentation (beyond his cybernetic arm), his body operates at the highest level a human can achieve. Years of relentless training, battlefield experience, and elite-level conditioning have refined his strength, speed, reflexes, and endurance to their absolute peak. Every movement is optimized, every strike efficient, and every reaction measured. His pain tolerance is extraordinarily high — the result of decades surviving wounds, burns, and trauma that would incapacitate most. Warren has learned not just how to fight, but how to survive, adapt, and recover in the harshest environments. His physical durability is matched by a near-flawless command of his body, allowing him to function under extreme stress and injury without losing effectiveness.", book: "Book 3" },
+      { name: "Peak Human Physiology", description: "Warren Halden stands as a living testament to the pinnacle of natural human potential. Though not enhanced by Deviant genetics or experimental augmentation (beyond his cybernetic arm), his body operates at the highest level a human can achieve. Years of relentless training, battlefield experience, and elite-level conditioning have refined his strength, speed, reflexes, and endurance to their absolute peak. Every movement is optimized, every strike efficient, and every reaction measured. His pain tolerance is extraordinarily high — the result of decades surviving wounds, burns, and trauma that would incapacitate most. Warren has learned not just how to fight, but how to survive, adapt, and recover in the harshest environments. His physical durability is matched by a near-flawless command of his body, allowing him to function under extreme stress and injury without losing effectiveness.", book: "Book 3" },
       
       {
         name: "Master Combatant",
@@ -88,28 +87,28 @@ const warren = {
     relationships: [
 
       {
-        name: "Katherine Summers",
+        name: "Katherine Halden",
         role: "Wife",
         status: "Alive",
         link: "/characters/katherine",
         image: "/katherine.jpg"
       },
       {
-        name: "Gavin Summers",
+        name: "Gavin Halden",
         role: "Son",
         status: "Alive",
         link: "/characters/warren",
         image: "/warren.jpg"
       },
       {
-        name: "Aiden Summers",
+        name: "Aiden Halden",
         role: "Son",
         status: "Alive",
         link: "/characters/aiden",
         image: "/aiden.jpg"
       },
       {
-        name: "Logan Summers",
+        name: "Logan Halden",
         role: "Son",
         status: "Alive",
         link: "/characters/logan",

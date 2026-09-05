@@ -1,5 +1,4 @@
 const enzo = {
-  id: "#012",
   name: "Enzo Antonov",
   slug: "enzo",
   image: "/enzo.jpg",
@@ -8,7 +7,7 @@ const enzo = {
   tagline: "",
   primaryPower: "Regenerative Reconstitution",
   stats: {
-    affiliation: "Iztan",
+    affiliation: "Iztahn",
     gender: "Male",
     height: "5'6\"",
     weight: "139 lbs",

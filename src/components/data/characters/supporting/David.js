@@ -1,5 +1,4 @@
 const david = {
-  id: "#037",
   name: "David De Luca",
   slug: "david",
   image: "/david.jpg",
@@ -34,11 +33,11 @@ const david = {
         image: "/robert.jpg"
     },
     {
-        name: "Andrew Torres",
+        name: "Jesús Torres",
         role: "Acquaintance",
         status: "Alive",
-        link: "/characters/andrew",
-        image: "/andrew.jpg"
+        link: "/characters/jesús",
+        image: "/jesús.jpg"
     },
     {
         name: "Anthony Delgado",

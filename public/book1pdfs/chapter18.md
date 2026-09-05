@@ -1,10 +1,10 @@
-Int. Iztan’s Mountain Base | Chamber Room \- Afternoon
+Int. Iztahn’s Mountain Base | Chamber Room \- Afternoon
 
-Ajax arrives in the Iztan Chamber Room and takes a moment to survey the technology and generators connected to the chamber. The front of the room is dominated by the chamber itself, which hums with power and pulses with light. Below the chamber, he notices a set of consoles and computers where Celeste is working on the chamber's settings.
+Ajax arrives in the Iztahn Chamber Room and takes a moment to survey the technology and generators connected to the chamber. The front of the room is dominated by the chamber itself, which hums with power and pulses with light. Below the chamber, he notices a set of consoles and computers where Celeste is working on the chamber's settings.
 
 The chamber is filled with green water, and within it, Ajax can discern the lower half of a human being taking form. The legs and feet have already taken shape, while the rest of the body is still in the process of formation. As he observes, he can see the gradual emergence of muscles and bones, accompanied by the gentle sound of water sloshing around within the chamber.
 
-Ajax's eyes dart to the monitor on Celeste's left, where the progress bar reads 47%, filling him with anxiety. Scanning the room, he catches sight of monitors on her right displaying Azazel's medical records and Zoey's medical records. Amongst it all, he notices Iztan soldiers positioned throughout the room, including some directly below him.
+Ajax's eyes dart to the monitor on Celeste's left, where the progress bar reads 47%, filling him with anxiety. Scanning the room, he catches sight of monitors on her right displaying Azazel's medical records and Zoey's medical records. Amongst it all, he notices Iztahn soldiers positioned throughout the room, including some directly below him.
 
 Ajax (Whispering)   
 Damn it. We really are running out of time. 
@@ -24,7 +24,7 @@ He turns to Celeste, who is standing right behind him.
 Celeste   
 Hello Ajax. 
 
-Ajax lunges forward, striking quickly, but Celeste effortlessly evades him. She grabs him by his suit's shoulder strap and teleports them both to the ground below. With a powerful motion, she hurls him across the rugged surface, sending Ajax rolling and his suit scraping against the ground. Despite the forceful impact, he lands on his feet, his focus locked onto Celeste. As he scans his surroundings, he realizes he's encircled by a squad of Iztan soldiers, all with weapons ready.
+Ajax lunges forward, striking quickly, but Celeste effortlessly evades him. She grabs him by his suit's shoulder strap and teleports them both to the ground below. With a powerful motion, she hurls him across the rugged surface, sending Ajax rolling and his suit scraping against the ground. Despite the forceful impact, he lands on his feet, his focus locked onto Celeste. As he scans his surroundings, he realizes he's encircled by a squad of Iztahn soldiers, all with weapons ready.
 
 Ajax   
 You won’t get away with this, Celeste. 
@@ -38,7 +38,7 @@ I'd rather die than surrender to the likes of you.
 Celeste   
 Who said anything about surrendering? Kill him. 
 
-The Iztan Soldiers raise their rifles, and Ajax's cybernetic arm rapidly transforms into an energy cannon. With a quick motion, he shoots the ground, propelling himself into the air, effortlessly dodging their gunfire. Taking aim at the clustered soldiers, he fires a series of energy blasts, obliterating all of the androids in their tracks. As he lands gracefully with a soft thud, his arm morphs into an energy blade, casting a captivating blue glow that bathes the area in light. He charges at Celeste, his movements flowing effortlessly with precision.
+The Iztahn Soldiers raise their rifles, and Ajax's cybernetic arm rapidly transforms into an energy cannon. With a quick motion, he shoots the ground, propelling himself into the air, effortlessly dodging their gunfire. Taking aim at the clustered soldiers, he fires a series of energy blasts, obliterating all of the androids in their tracks. As he lands gracefully with a soft thud, his arm morphs into an energy blade, casting a captivating blue glow that bathes the area in light. He charges at Celeste, his movements flowing effortlessly with precision.
 
 Without flinching, Celeste watches as Ajax charges toward her. With a raised hand, she raises an ergokinetic barrier that forms around her. However, Ajax's blade slices through the shield effortlessly, causing the energy to disperse in a shower of sparks. Celeste stands there in shock, her eyes widening in surprise.
 
@@ -81,7 +81,7 @@ Great.
 Ajax looks at the holographic status on his arm and sees that it's at 0% charge. He can feel the hum of the arm as it begins to recharge, and he looks around the room, taking in the damage that has been done. He can barely see anything in front of him, and he can feel the heat from the blast against his skin.
 
 Ajax (Thinking)   
-Iztan thought they could defeat me once, but I came back stronger. This time, I'll make sure they stay down for good. 
+Iztahn thought they could defeat me once, but I came back stronger. This time, I'll make sure they stay down for good. 
 
 Ajax's eyes burn as he navigates the thick smoke, his determination driving him forward. Amid the choking haze, he arrives at the consoles, coughing and struggling to clear his lungs. His fingers dance over the keys, focused on the task of shutting down the chamber.
 
@@ -93,7 +93,7 @@ Ajax's heart aches as he thinks back on all the losses he's suffered. The memory
 Ajax (Thinking)  
 But I can damn well make sure they don’t cause any more harm. And as for you, Azazel...
 
-Ajax finishes tampering with Iztan's systems. As he looks up at the chamber, he can't help but feel a sense of unease. The deformed body inside is still forming, its limbs twisting and contorting as it takes shape. More than half of Azazel's body is complete, and Ajax can see the grotesque details of the villain’s body. The skin is mottled and twisted, and the limbs are elongated and bent at unnatural angles.
+Ajax finishes tampering with Iztahn's systems. As he looks up at the chamber, he can't help but feel a sense of unease. The deformed body inside is still forming, its limbs twisting and contorting as it takes shape. More than half of Azazel's body is complete, and Ajax can see the grotesque details of the villain’s body. The skin is mottled and twisted, and the limbs are elongated and bent at unnatural angles.
 
 Ajax  
 You won't be coming back, not on my watch.
@@ -105,7 +105,7 @@ I have to admit, I'm pretty impressed with how strong you've become. That blast 
 
 Ajax struggles to break free, but the lasso tightens around him, cutting off his air supply. He gasps for breath, his vision starting to blur. The room spins around him as he tries to stay conscious. He attempts to use one of the weapons in his arm, but his eyes go wide when he remembers that his arm isn't charged. He's completely defenseless. As he gasps for air, his eyes flutter shut, and his body starts to go limp. The last thing he hears is the sound of Celeste's laughter echoing.
 
-Ext. Iztan’s Mountain Base \- Afternoon 
+Ext. Iztahn’s Mountain Base \- Afternoon 
 
 Gavin drags Aiden toward the surface, his arms wrapped tightly around Aiden's waist. Aiden struggles against him, kicking and thrashing in an attempt to break free from Gavin's grip. As they emerge from the mountain, Aiden finally manages to wriggle out of Gavin's grasp, landing on the outside of the mountain.
 
@@ -151,7 +151,7 @@ Gavin shakes his head, his eyes filled with sadness.
 Gavin   
 It's not luck, Aiden. You used to be stronger than me, but that's not the case anymore. I'll admit that the last time we fought, we were definitely evenly matched. But now I’m far stronger than you.
 
-Aiden's eyes widen at Gavin's words, his mind racing as he remembers why he chose to join Iztan in the first place. The memory of holding Violet's lifeless body in his arms floods his mind, and his heart pounds in his chest. The pain of that moment becomes almost unbearable, and he senses a sudden surge of rage building within him.
+Aiden's eyes widen at Gavin's words, his mind racing as he remembers why he chose to join Iztahn in the first place. The memory of holding Violet's lifeless body in his arms floods his mind, and his heart pounds in his chest. The pain of that moment becomes almost unbearable, and he senses a sudden surge of rage building within him.
 
 Aiden   
 No\!
@@ -236,10 +236,10 @@ His strikes become more forceful, each hit landing with greater impact on Gavin.
 
 Gavin crashes through multiple trees, the sound of splintering wood resonating through the forest. He tumbles through the air before plunging into a deep, icy-cold river below. As Gavin sinks to the riverbed, Aiden lands gracefully on the riverbank, his eyes fixed on the spot where Gavin disappeared from sight.
 
-Int. Iztan’s Mountain Base | East Wing \- Afternoon
+Int. Iztahn’s Mountain Base | East Wing \- Afternoon
 
 Earlier…  
-Charging ahead of the others, Jade and Danny encounter a group of Iztan soldiers. Jade effortlessly dispatches several androids using her bare hands, leaving them frostbitten and sprawled on the ground. While surveying the scene, she spots one of the androids crawling toward a weapon. She approaches it with determined steps, and her foot lands on the android's arm with a sickening crunch. Leaning down, her gaze turns ice-cold as she locks eyes with the android's face.
+Charging ahead of the others, Jade and Danny encounter a group of Iztahn soldiers. Jade effortlessly dispatches several androids using her bare hands, leaving them frostbitten and sprawled on the ground. While surveying the scene, she spots one of the androids crawling toward a weapon. She approaches it with determined steps, and her foot lands on the android's arm with a sickening crunch. Leaning down, her gaze turns ice-cold as she locks eyes with the android's face.
 
 Jade  
 You really should’ve just stayed down.
@@ -398,7 +398,7 @@ Jade gently rests her hand on the door, and it quickly chills under her touch. W
 Danny   
 That works. 
 
-Int. Iztan’s Mountain Base | Celeste’s Lab \- Afternoon
+Int. Iztahn’s Mountain Base | Celeste’s Lab \- Afternoon
 
 Jade steps cautiously into the lab, her eyes scanning the area for any signs of danger. Danny follows closely behind her, his eyes darting around the room with a sense of urgency. 
 
@@ -562,7 +562,7 @@ You know, if you're trying to intimidate me, you're doing a pretty lousy job.
 
 Jade fearlessly charges forward, her eyes locked onto the three Talias.
 
-Int. Iztan’s Mountain Base | West Cave \- Afternoon
+Int. Iztahn’s Mountain Base | West Cave \- Afternoon
 
 Meanwhile…  
 Axel crashes into the cave at full speed, with Keith hot on his heels. He unleashes a flurry of punches at Axel's face, each one landing with a sickening thud. Axel's head snaps back with the force of the blows, but he manages to catch Keith's fist and throw him to the ground. Keith hits the floor hard, his flames extinguished by the cave water. Axel turns just in time to hear Wesley's fierce cry as he comes down feet first. His boot connects with Axel's jaw, sending them both crashing into the ground. The impact sends up a cloud of water, dust, and rocks, creating a chaotic scene in the cave.
@@ -768,7 +768,7 @@ You’re lying.
 Axel   
 I mean, it’s coded in my DNA. 
 
-As the ground finally stops shaking from Iztan's machine, an overwhelming heat begins to build behind Axel. He turns around just in time to witness Keith effortlessly obliterating all of his clones. Axel's eyes widen in shock, and he takes a step back, desperately attempting to put some distance between himself and Keith. However, it's already too late.
+As the ground finally stops shaking from Iztahn's machine, an overwhelming heat begins to build behind Axel. He turns around just in time to witness Keith effortlessly obliterating all of his clones. Axel's eyes widen in shock, and he takes a step back, desperately attempting to put some distance between himself and Keith. However, it's already too late.
 
 Keith's eyes blaze with fury as he shoots out two fire rope constructs that wrap around Axel's arms in a fiery embrace. The ropes sear into Axel's skin, down to the bone, and he grits his teeth, suppressing a scream.
 

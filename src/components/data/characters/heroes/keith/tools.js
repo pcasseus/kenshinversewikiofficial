@@ -2,7 +2,7 @@ const tools = [
   {
     name: "No Tools Logged",
     description: "",
-    image: "/tools/",
+    image: null,
   },
 ];
 

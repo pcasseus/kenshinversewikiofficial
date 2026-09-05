@@ -1,5 +1,4 @@
 const azazel = {
-  id: "#015",
   name: "Azazel Pierce",
   slug: "azazel",
   image: "/azazel.jpg",
@@ -8,7 +7,7 @@ const azazel = {
   tagline: "",
   primaryPower: "Wraithborne Physiology & Soul Thread Possession",
   stats: {
-    affiliation: "Iztan",
+    affiliation: "Iztahn",
     gender: "Male",
     height: "6'0\"",
     weight: "170 lbs",

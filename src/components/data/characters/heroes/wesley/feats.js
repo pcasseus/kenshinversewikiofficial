@@ -22,7 +22,7 @@ const feats = {
     "Annihilated an entire militia and police force using a single high-frequency scream.",
     "Hacked multiple encrypted networks to erase all digital records of Zoey and Logan’s identities.",
     "Silently disabled multiple major news broadcasts to suppress media coverage related to him.",
-    "Recovered from a point-blank fusion energy blast delivered by Gavin Summers.",
+    "Recovered from a point-blank fusion energy blast delivered by Gavin Halden.",
     "Overcame years of deep-rooted mental trauma through guided psychic therapy.",
     "Simultaneously battled Gavin, Keith, and A.X.E.L. and held his own.",
     "Fought A.X.E.L. to a standstill while not even at full strength.",

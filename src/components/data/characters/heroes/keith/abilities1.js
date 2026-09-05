@@ -1,159 +1,319 @@
 const abilities = [
   {
     name: "Beta Deviant Physiology",
-    books: [1],
-    description:
-      "Beta-class Deviants form the backbone of the powered population. Their abilities manifest later between ages 15 and 16, including a wide array of enhancements across physical, elemental, or mental categories. Many Betas possess accelerated healing, increased strength, speed, or environmental adaptation, while some evolve into mid-tier powerhouses capable of manipulating matter, energy, or perception. Though not as innately powerful as Alphas, Betas exhibit consistent growth and high survivability. With sufficient training and field experience, Betas can overwhelm entire squads or neutralize Omega threats with ease. They are valued for their balance of raw ability and trainability, and serve as the standard.",
-    evolved: [
-      {
-        books: [2],
-        title: "Enhanced Physiology",
-        description:
-          "While Keith's physiology as a Beta-class Deviant remains relatively standard in terms of strength, speed, and durability, his evolution is marked by something far less physical—the emergence of a second consciousness within him. Following the awakening of his dormant twin, Keith's body did not mutate or grow stronger in the traditional sense. Instead, his power became more intelligent, precise, and instinctive. The presence within him, though quiet at first, acted as a subconscious ally. Reflexes sharpened. Reaction time improved. His fire began to move before he did, offering adaptive defense and instinctual offense that no amount of training could replicate. Rather than brute enhancements, Keith’s progression reflects a deep synergy—two minds sharing one body, one flame, and one purpose.",
+    domain: "Deviant Physiology",
+    classification: "Physiology",
+    release: "KVI",
+    discovery: "beginning",
+
+    description: `
+Beta-class Deviants form the backbone of the powered population. Their abilities manifest later between ages 15 and 16, including a wide array of enhancements across physical, elemental, or mental categories. Many Betas possess accelerated healing, increased strength, speed, or environmental adaptation, while some evolve into mid-tier powerhouses capable of manipulating matter, energy, or perception. Though not as innately powerful as Alphas, Betas exhibit consistent growth and high survivability. With sufficient training and field experience, Betas can overwhelm entire squads or neutralize Omega threats with ease. They are valued for their balance of raw ability and trainability, and serve as the standard.
+    `.trim(),
+
+    progression: {
+      KVI: {
+        middle: {
+          title: "Enhanced Physiology",
+
+          description: `
+Following Ethan's emergence as an active second consciousness, Keith's Beta-class physiology undergoes a subtle internal evolution. His raw strength, speed, and durability do not suddenly increase by a dramatic degree. Instead, his chimeric biology begins actively accommodating both brothers at once. His nervous system becomes capable of processing Ethan's awareness alongside his own, improving reaction speed, threat response, and coordination without making Keith physically appear different.
+His thermoregulation also becomes more efficient, allowing his body to sustain greater concentrations of heat with less wasted output and improved resistance to the strain created by his own fire. Once Keith and Ethan consciously agree to work together, Keith's hazel irises permanently mutate into a fiery golden-orange, becoming the clearest outward sign that both sides of his chimeric biology are now actively expressed.
+          `.trim(),
+        },
+
+        end: {
+          title: "Peak Physiology",
+
+          description: `
+Once Keith and Ethan establish complete synchronization, Keith's body becomes capable of supporting both brothers as simultaneously active participants within the same Deviant system. Their minds remain completely separate, but Keith's nervous system, thermoregulation, and fire-producing biology can temporarily accommodate both consciousnesses operating at full capacity.
+
+This allows Keith to move and attack while Ethan independently reacts, defends, manipulates fire, and controls his own projected extensions without disrupting Keith's actions. The body remains physically Keith's, but both brothers can now draw upon and regulate their shared biological power system at the same time.
+
+This synchronization reaches its most extreme expression during Twin Flame, though maintaining that state places severe strain on Keith's body and cannot be sustained indefinitely.
+          `.trim(),
+        },
       },
-      {
-        books: [3],
-        title: "Peak Physiology",
-        description:
-          "At full power, Keith and his twin achieve perfect mental and biological harmony. Their connection deepens from instinct to full communication, allowing them to think, fight, and adapt as one. This internal unity enhances every aspect of his being: two minds piloting a single form with no delay, no conflict. Every strike, every flame, every movement becomes a collaboration. His flames burn hotter, react faster, and carry the focused will of both brothers. The body remains Keith’s, but the power is shared, refined through trust, balance, and bond. This is the truest expression of the Twin Flame.",
-      },
-    ],
+    },
+
     subAbilities: [],
   },
+
   {
     name: "Fire Manipulation",
-    books: [1],
-    description:
-      "Keith has the ability to create, shape, and control fire. His flames are directly influenced by his emotional state. Rage, fear, adrenaline, and stress all act as fuel. Early on, this connection makes his powers volatile and difficult to control. The more emotionally unstable he becomes, the hotter and more destructive the flames grow. While his raw potential is immense, his fire can only reach its peak when driven by negative emotions. Visually, his fire flickers between red when his intent is controlled or non-lethal, and orange when he becomes dangerous or lethal. These shifts serve as a reflection of his internal state.",
-    evolved: [
-      {
-        books: [1],
-        title: "Fraternal Flame",
-        description:
-          "After being seriously injured by Axel, Keith's body underwent an unexpected reaction. Something long buried stirred awake. Gavin Summers was the first to witness the radiant figure of fire emerging from Keith’s belly button while he lay unconscious, only to disappear seconds later. Following the incident, Keith began noticing strange shifts. His flames sometimes moved on their own, reacting to threats before he did. At first, he wrote it off as instinct, but the pattern grew stronger.\n\nConcerned, Valeria Adair-Taylor ran a deeper scan of Keith’s DNA. The results revealed a shocking anomaly: two distinct but merged DNA sets. Keith hadn’t just absorbed a twin in the womb. He had inherited his twin’s Deviant gene. More than that, his twin’s consciousness had survived in a dormant state, only now beginning to awaken.\n\nThis new power is called Fraternal Flame. No longer driven purely by emotion, Keith gains access to flames that act with intention. They move tactically, shield instinctively, and strike with an awareness that doesn’t feel like his own. For the first time, he is not alone. His brother fights beside him, their instincts fused into one.",
+    domain: "Fire Manipulation",
+    classification: "Core Ability",
+    release: "KVI",
+    discovery: "beginning",
+
+    description: `
+Keith has the ability to create, shape, and control fire. His flames are directly influenced by his emotional state. Rage, fear, adrenaline, and stress all act as fuel. Early on, this connection makes his powers volatile and difficult to control. The more emotionally unstable he becomes, the hotter and more destructive his flames grow.
+While his raw potential is immense, Keith initially reaches his greatest output through intense negative emotion. His natural fire burns orange at every level, with changes in brightness, density, temperature, and intensity reflecting how much power he is producing rather than changing the flame into a different color.
+    `.trim(),
+
+    progression: {
+      KVI: {
+        middle: {
+          title: "Fraternal Flame",
+
+          description: `
+Following Axel's psychic attack, the barrier preventing Ethan from reaching beyond Keith's subconscious is torn open. Ethan had already been conscious since the day Keith's powers first manifested, silently watching the outside world through his brother's senses, but he had never been capable of directly interacting with it. Gavin Summers becomes the first person to witness this change when a radiant humanoid figure of golden-yellow fire projects from Keith's body while Keith lies unconscious before collapsing back inside him.
+Concerned by the unexplained manifestation, Valeria Adair-Taylor performs a deeper examination of Keith's DNA and discovers two distinct but biologically integrated genetic profiles. Keith had absorbed his fraternal twin, Ethan, during fetal development. Ethan had carried the Deviant gene responsible for their fire abilities, and portions of his genetic material became permanently incorporated into Keith's developing body. Although Ethan's physical body never developed independently, his consciousness survived within the anomalous Deviant system they now share.
+After Keith and Ethan consciously agree to work together, Fraternal Flame becomes Keith's natural operating state. Keith remains in physical control of their body and generates his signature orange fire, while Ethan remains fully conscious within him and produces golden-yellow fire of his own. Ethan can communicate with Keith, react to threats Keith cannot see, partially emerge from his body, or temporarily project his entire Flame Entity into the physical world.
+Their fire becomes more precise, responsive, and tactically versatile because two independent minds can now interact with the same power system at once. Keith's hazel eyes permanently mutate into a fiery golden-orange following their synchronization.
+          `.trim(),
+        },
+
+        end: {
+          title: "Twin Flame",
+
+          description: `
+Twin Flame is the most powerful synchronized state Keith and Ethan can achieve. Rather than Ethan repeatedly projecting from Keith's body and returning after each intervention, Ethan manifests his entire golden-yellow Flame Entity directly over Keith, molding himself around his brother like living armor.
+Keith remains physically in control of his body while Ethan stays continuously active around him as a second combat form. Their consciousnesses remain completely separate. They do not merge into a new person or lose their individual identities.
+While Twin Flame is active, Keith and Ethan can operate simultaneously at full capacity. Keith controls his physical movements and orange fire while Ethan independently manipulates his golden-yellow form, allowing him to defend blind spots, create additional limbs, intercept attacks, control constructs, reinforce movement, restrain enemies, and launch secondary attacks without forcing Keith to interrupt his own offense.
+Their combined operation effectively allows both brothers to express their respective sides of the shared fire ability at the same time, dramatically increasing their total output, heat concentration, construct speed, reaction capability, and battlefield coverage.
+Keith's existing psychic protection also extends across Ethan while their consciousnesses are synchronized inside Twin Flame, shielding both brothers as part of the same protected system. Their flames remain visually distinct throughout the state. Keith's fire burns orange, while every flame directly generated or controlled by Ethan burns golden-yellow.
+The power comes at a severe cost. Keith's body must sustain two fully active expressions of the same Deviant system simultaneously, placing intense strain on his nervous system, thermoregulation, and physical endurance. As the state begins to fail, Ethan's more complex extensions and additional limbs destabilize first, followed by the golden-yellow overlay itself.
+Once Ethan's surrounding form collapses, Keith is forced back into Fraternal Flame until their bodies and minds recover enough to attempt Twin Flame again.
+          `.trim(),
+        },
       },
-      {
-        books: [3],
-        title: "Twin Flame",
-        description:
-          "The most powerful version of Keith’s ability is unlocked when his connection to his twin becomes complete. Ethan’s consciousness fully awakens, not as a fading memory or temporary voice, but as a second mind living permanently inside Keith. They do not merge into one identity. Instead, they co-exist. Two minds, one body. Keith controls the body physically, but Ethan is fully present—thinking, watching, and speaking from within.\n\nThis form is called Twin Flame. It is not just a transformation of power, but of identity. Keith becomes something new, a vessel shared by two brothers who were never meant to be separated. In combat, their coordination becomes instinctive. Ethan analyzes and predicts, while Keith delivers with overwhelming power. Their instincts and personalities blend into a fighting style that is both strategic and brutally efficient.\n\nIn this state, Keith’s fire shifts between red, orange, and golden yellow. The flames are no longer chaotic. They move with synchronized intention. When Ethan takes over to attack directly, the fire burns golden yellow—a signature visual of his influence and control. These moments are fast, focused, and nearly unstoppable.\n\nTwin Flame is not just Keith’s final form. It is the full realization of a bond that transcended life and death. Two souls, now one force, bound forever and burning brighter than ever.",
-      },
-    ],
+    },
+
     subAbilities: [],
   },
+
   {
-    name: "Pyrokinesis Projection",
-    books: [1],
-    description:
-      "Keith can emit and manipulate fire through a variety of projectile forms, each generated through a mix of internal heat regulation and controlled ignition of surrounding oxygen. These attacks vary in speed, temperature, and kinetic force depending on his focus, physical condition, and emotional intensity. Common forms include fireballs, concentrated flame streams, arcing bursts, and high-speed flame darts. While destructive, these projectiles are as versatile as they are reactive, capable of mid-flight redirection and variable impact force.",
-    evolved: [
-      {
-        books: [1],
-        title: "Fraternal Pyrokinesis Projection",
-        description:
-          "With the awakening of Ethan’s consciousness, Keith’s projectile control reaches new levels of accuracy and complexity. Now acting in tandem, the twin bond allows for multi-directional assaults and preemptive counters. In some cases, Ethan can momentarily emerge from Keith’s body as a pyrokinetic construct, an independent extension of flame, firing off an attack before dissolving back into Keith. This construct operates with reflexes distinct from Keith’s own, allowing their joint attacks to come from angles or with timing that would otherwise be impossible. The result is a dynamic, instinctive form of ranged combat that feels almost alive.",
+    name: "Flame Projection",
+    domain: "Fire Manipulation",
+    classification: "Application",
+    release: "KVI",
+    discovery: "beginning",
+
+    description: `
+Keith can emit and manipulate fire through a variety of projectile forms, each generated through a mix of internal heat regulation and controlled ignition of surrounding oxygen. These attacks vary in speed, temperature, and kinetic force depending on his focus, physical condition, and emotional intensity.
+
+Common forms include fireballs, concentrated flame streams, arcing bursts, and high-speed flame darts. While destructive, these projectiles are as versatile as they are reactive, capable of mid-flight redirection and variable impact force.
+    `.trim(),
+
+    progression: {
+      KVI: {
+        middle: {
+          title: "Fraternal Flame Projection",
+
+          description: `
+With Ethan capable of actively participating in combat, Keith's ranged fire control gains an entirely new layer of versatility. Keith continues generating orange projectiles while Ethan can independently produce golden-yellow attacks, allowing the brothers to strike from multiple angles or respond to different threats simultaneously.
+
+Ethan can partially emerge from Keith's body to fire around his blind spots or fully project his Flame Entity for short periods, creating a second mobile source of fire on the battlefield. Their independent reactions allow attacks to overlap, redirect, or counter incoming threats with timing Keith could never reproduce alone.
+          `.trim(),
+        },
       },
-    ],
+    },
+
     subAbilities: [
       {
-        books: [1],
         name: "Fire Blasts",
-        description:
-          "Short-range bursts of superheated flame expelled from the palms, forearms, feet, or even his hair. These serve as Keith’s primary offensive tool, ideal for suppressing opponents or creating concussive shockfire in close quarters. The blasts vary in intensity depending on Keith’s emotional state and can be used for both crowd control and focused damage.",
+        domain: "Fire Manipulation",
+        classification: "Application",
+        release: "KVI",
+        discovery: "beginning",
+
+        description: `
+Short-range bursts of superheated flame expelled from the palms, forearms, feet, or even his hair. These serve as Keith's primary offensive tool, ideal for suppressing opponents or creating concussive shockfire in close quarters. The blasts vary in intensity depending on Keith's emotional state and can be used for both crowd control and focused damage.
+        `.trim(),
       },
+
       {
-        books: [1],
         name: "Flame Jet Stream",
-        description:
-          "A concentrated, high-pressure stream of fire used to blast through barriers, suppress enemy movement, or sweep through wide areas. Can be redirected beneath him for brief propulsion bursts.",
+        domain: "Fire Manipulation",
+        classification: "Application",
+        release: "KVI",
+        discovery: "beginning",
+
+        description: `
+A concentrated, high-pressure stream of fire used to blast through barriers, suppress enemy movement, or sweep through wide areas. It can also be redirected beneath Keith for brief propulsion bursts.
+        `.trim(),
       },
+
       {
-        books: [1],
         name: "Thermal Orbs",
-        description:
-          "Spherical fire projectiles launched by hand. These orbs explode on impact or shortly after, depending on Keith’s emotional control.",
+        domain: "Fire Manipulation",
+        classification: "Application",
+        release: "KVI",
+        discovery: "beginning",
+
+        description: `
+Spherical fire projectiles launched by hand. These concentrated orbs can explode immediately on impact or be held together briefly before detonating, allowing Keith to vary their timing and destructive force.
+        `.trim(),
       },
+
       {
-        books: [1],
         name: "Pyrorespiratory Discharge",
-        description:
-          "A raw, primal release of fire exhaled directly from his mouth. It is less refined than his other techniques, fueled more by instinct and emotion than control. The blast is unpredictable, dangerous, and often erupts alongside a guttural roar, making it as much a warning as it is an attack.",
+        domain: "Fire Manipulation",
+        classification: "Application",
+        release: "KVI",
+        discovery: "beginning",
+
+        description: `
+A raw, primal release of concentrated fire exhaled directly from Keith's mouth.
+        `.trim(),
       },
     ],
   },
+
   {
     name: "Controlled Burn",
-    books: [1],
-    description:
-      "At higher levels of focus, Keith can maintain flames in a suspended, non-lethal state. He can will his fire to remain present but harmless, surrounding enemies, illuminating dark areas, or heating up objects without destruction. This form of fire control gives him flexibility in both combat and utility, allowing him to use his flames for intimidation, interrogation, or protective shielding without causing collateral damage.",
+    domain: "Fire Manipulation",
+    classification: "Technique",
+    release: "KVI",
+    discovery: "beginning",
+
+    description: `
+At higher levels of focus, Keith can maintain flames in a suspended, non-lethal state. He can will his fire to remain present but harmless, surrounding enemies, illuminating dark areas, or heating objects without destroying them.
+
+This degree of fire control gives him flexibility in both combat and utility, allowing him to use his flames for intimidation, interrogation, environmental control, or protection without automatically causing collateral damage.
+    `.trim(),
+
+    subAbilities: [],
   },
+
   {
     name: "Heat Vision",
-    books: [1],
-    description:
-      "Keith can channel intense heat through his gaze, setting objects ablaze or causing surfaces to melt with sustained eye contact. The longer he focuses on a target, the hotter it becomes.",
+    domain: "Fire Manipulation",
+    classification: "Application",
+    release: "KVI",
+    discovery: "beginning",
+
+    description: `
+Keith can channel intense heat through his gaze, rapidly heating whatever he focuses on. Sustained attention can ignite combustible material, weaken structural surfaces, or melt sufficiently vulnerable substances. The longer Keith maintains his focus, the greater the concentration of heat becomes.
+    `.trim(),
+
+    subAbilities: [],
   },
+
   {
-    name: "Pyrokine Grip",
-    books: [2],
-    description:
-      "Keith’s connection to fire is so refined that his touch becomes a direct ignition point. When he chooses to activate it, he can channel concentrated heat through his skin with precise control. This is not ambient warmth but targeted, pressure-based combustion. Anything he makes contact with from metal and concrete to organic material can begin to ignite, melt, or burn from the inside out.\n\nInstead of simply lighting objects on fire, Pyro-Touch breaks them down at the molecular level. The internal structure collapses, leading to rapid disintegration. It allows Keith to melt weapons, breach reinforced surfaces, or neutralize threats instantly with a single touch.",
+    name: "Pyrokinetic Grip",
+    domain: "Fire Manipulation",
+    classification: "Technique",
+    release: "KVII",
+
+    description: `
+Keith's connection to fire becomes refined enough that physical contact can serve as a direct point of concentrated thermal transfer. When he chooses to activate it, he can channel extreme heat through his hands with precise control, causing metal, concrete, or organic material to ignite, melt, or structurally fail from the point of contact.
+
+Rather than merely coating a target in external flame, Pyrokinetic Grip forces intense heat directly into whatever Keith is touching. This allows him to melt weapons, breach reinforced surfaces, destroy restraints, or inflict devastating close-range damage while controlling exactly where the thermal breakdown occurs.
+    `.trim(),
+
+    subAbilities: [],
   },
+
   {
     name: "Pyrokinetic Constructs",
-    books: [1],
-    description:
-      "Keith’s flames aren’t just destructive. They’re moldable, responsive to instinct and reflex more than conscious design. When focused, Keith can shape his fire into temporary constructs used for combat, movement, or intimidation. These forms often emerge from emotion, survival instinct, or muscle memory, and are shaped by the wild, chaotic environment he was raised in. While not always symmetrical or refined, they are powerful and effective.",
-    evolved: [
-      {
-        title: "Fraternal Pyrokinetic Constructs",
-        books: [1],
-        description:
-          "With Ethan’s presence emerging, Keith’s constructs gain sharper edges and more deliberate forms. Ethan’s consciousness allows him to launch constructs from Keith’s body without needing his physical movement. Animals and shapes formed from fire now operate with independent motion and strategic awareness, often acting as support mid-fight while Keith focuses on other tasks. These constructs are more stable and often react faster than Keith alone could manage.",
+    domain: "Fire Manipulation",
+    classification: "Application",
+    release: "KVI",
+    discovery: "beginning",
+
+    description: `
+Keith's flames are not limited to uncontrolled destruction. Through concentration and instinct, he can shape his orange fire into temporary constructs used for combat, movement, defense, restraint, or intimidation.
+
+Many of his constructs are influenced by muscle memory and immediate need rather than careful artistic design, allowing him to create functional shapes in the middle of combat without sacrificing momentum.
+    `.trim(),
+
+    progression: {
+      KVI: {
+        middle: {
+          title: "Fraternal Pyrokinetic Constructs",
+
+          description: `
+Once Ethan becomes an active participant, the brothers can manipulate constructs independently of one another. Keith can create and control orange constructs while Ethan produces golden-yellow extensions or takes direct control of existing fire to support Keith from another angle.
+
+Ethan can create limbs, barriers, weapons, or other shapes from his projected Flame Entity without requiring Keith to physically perform the corresponding motion. This allows one brother to maintain a construct while the other continues fighting, dramatically expanding their ability to multitask in combat.
+          `.trim(),
+        },
+
+        end: {
+          title: "Twin Pyrokinetic Constructs",
+
+          description: `
+During Twin Flame, Ethan's full golden-yellow form remains continuously manifested around Keith, giving both brothers simultaneous access to construct creation. Keith can attack or move while Ethan instantly forms additional arms, shields, wings, restraints, weapons, or supporting structures directly from the surrounding overlay.
+
+Either brother can alter the shape or purpose of active fire in real time, allowing constructs to transition between offensive, defensive, and movement functions without being dismissed and recreated. Their greatest advantage is not complete autonomy from the twins, but the ability for two independent minds to manipulate different constructs or different parts of the same construct at the exact same time.
+          `.trim(),
+        },
       },
-      {
-        title: "Twin Pyrokinetic Constructs",
-        books: [1],
-        description:
-          "At peak sync, Keith and Ethan’s minds work together seamlessly, allowing full dual control over every flame-built form. Constructs can now act autonomously at range, respond to commands in real-time, and even change shape mid-use. Ethan can take over an existing construct, adjust its path, or layer multiple behaviors into one form. Their combat use is not only efficient but surgical. The constructs now feel less like tools and more like summoned allies.",
-      },
-    ],
+    },
+
     subAbilities: [
       {
         name: "Flame Lassos",
-        books: [1],
-        description:
-          "Dense, rope-like threads of fire coiled into tight strands. When thrown, they wrap around targets to bind limbs, drag enemies, or tether Keith to objects for navigation. They burn hot but remain stable enough to use in non-lethal ways. Perfect for takedowns, captures, or quick movement across the field.",
+        domain: "Fire Manipulation",
+        classification: "Application",
+        release: "KVI",
+        discovery: "beginning",
+
+        description: `
+Dense, rope-like strands of concentrated fire that Keith can extend or throw toward a target. They can wrap around limbs, drag enemies, restrain movement, or tether Keith to surrounding structures. Their temperature can be deliberately reduced when capture rather than injury is the goal.
+        `.trim(),
       },
+
       {
         name: "Dragon Construct",
-        books: [1],
-        description:
-          "A long, serpentine dragon erupts from Keith’s flames, swirling around enemies in midair. Its body wraps tightly, burning everything it touches. With multiple coils and a snapping maw, it functions both as a trap and a strike weapon, locking enemies in place while dealing intense damage.",
+        domain: "Fire Manipulation",
+        classification: "Application",
+        release: "KVI",
+        discovery: "beginning",
+
+        description: `
+A long, serpentine dragon formed from Keith's orange fire. It can coil around enemies, strike with its jaws, redirect through the air, or constrict around targets to restrict movement while applying intense heat.
+        `.trim(),
       },
+
       {
         name: "Lion Construct",
-        books: [1],
-        description:
-          "This construct barrels forward with primal force, shaped like a giant lion made of fire. Its roar echoes as it charges, swiping with claws that hit like directional blasts. Each strike feels like a concussive fire wave, tearing through barriers and pinning enemies to the ground.",
+        domain: "Fire Manipulation",
+        classification: "Application",
+        release: "KVII",
+
+        description: `
+A large lion formed from concentrated fire that charges targets with heavy forward momentum. Its claws and body can deliver powerful directional bursts of heat and concussive force, allowing the construct to break through barriers, knock enemies from their footing, or pin them beneath sustained pressure.
+        `.trim(),
       },
+
       {
         name: "Gorilla Construct",
-        books: [2],
-        description:
-          "A hulking construct formed to hold, lift, or block massive weight. The gorilla emerges from the flames with solid arms and a wide stance, capable of catching falling debris or bracing collapsing structures. While not fast, its raw power and defensive ability make it a tank in any scenario.",
+        domain: "Fire Manipulation",
+        classification: "Application",
+        release: "KVII",
+
+        description: `
+A hulking fire construct built around raw strength and structural support. Its oversized arms can catch falling debris, hold open collapsing structures, restrain large opponents, or brace against incoming force. While less mobile than Keith's other constructs, it is one of his most useful defensive and rescue-oriented creations.
+        `.trim(),
       },
+
       {
         name: "Humvee Construct",
-        books: [3],
-        description:
-          "A heavy-duty, flaming construct that mimics the size and design of an armored Humvee. It crashes through obstacles and enemies alike, absorbing attacks while plowing ahead. Ethan often deploys this when the team needs a battering ram or a temporary shield against enemy fire.",
+        domain: "Fire Manipulation",
+        classification: "Application",
+        release: "KVIII",
+
+        description: `
+A heavy-duty fire construct modeled after an armored Humvee. Keith can send it crashing through obstacles or hostile forces as a mobile battering ram while its dense structure absorbs incoming attacks. Ethan can independently guide or reinforce the construct when the brothers are operating together.
+        `.trim(),
       },
+
       {
         name: "Phoenix Construct",
-        books: [3],
-        description:
-          "Keith’s most advanced and iconic construct. When summoned, a radiant phoenix of golden flame soars into the sky before diving at its target. The moment it makes contact, it explodes in a controlled burst of cleansing fire. The phoenix often signals Ethan’s direct influence, its wings glowing with golden-yellow heat. It can also be used for area denial, large-scale takedowns, or intimidation. The attack is rare but devastating.",
+        domain: "Fire Manipulation",
+        classification: "Application",
+        release: "KVI",
+        discovery: "beginning",
+
+        description: `
+Keith's most advanced and iconic animal construct. He shapes a massive phoenix from concentrated orange fire and sends it soaring toward a target before detonating it in a controlled burst of extreme heat.
+
+Its size, flight path, and explosive output can be adjusted depending on the situation, allowing it to function as a precision strike, area-denial attack, or large-scale offensive technique.
+
+Ethan can independently guide or augment the construct after awakening, but Ethan's own ability to reshape his projected golden-yellow Flame Entity into a phoenix is a separate application and should not be confused with Keith's Phoenix Construct.
+        `.trim(),
       },
     ],
   },

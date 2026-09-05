@@ -1,4 +1,4 @@
-Iztan's Base | Celeste's Lab \- Morning
+Iztahn's Base | Celeste's Lab \- Morning
 
 As Celeste sits at her computer, she's fully immersed in Zoey's files, the soft glow of the screen casting a gentle light across her determined expression. Aiden enters the room, his footsteps silent, and he clears his throat, breaking the quiet concentration that surrounds her.
 
@@ -33,7 +33,7 @@ Celeste
 What are you talking about? 
 
 Aiden   
-What you promised me if I joined Iztan. Do you remember? 
+What you promised me if I joined Iztahn. Do you remember? 
 
 A subtle inkling of doubt starts to form in Celeste's thoughts.
 
@@ -256,7 +256,7 @@ Ajax
 What do you mean? 
 
 Justin  
-If we're going to win the war with Iztan, we need Wes. He's going to be the key to our success. If his head isn’t in the game- 
+If we're going to win the war with Iztahn, we need Wes. He's going to be the key to our success. If his head isn’t in the game- 
 
 Ajax interrupts, starting to catch on.
 
@@ -279,7 +279,7 @@ It’s starting.
 Int. Frasier Industries Sublevel 16 | Control Room \- Morning 
 
 Meanwhile…  
-Gavin, Jade, and Keith are diligently running multiple training scenarios, preparing themselves for the upcoming battle against Iztan. In the control room, Valeria keeps a vigilant eye on Gavin's progress, monitoring the training sessions closely on the monitors.
+Gavin, Jade, and Keith are diligently running multiple training scenarios, preparing themselves for the upcoming battle against Iztahn. In the control room, Valeria keeps a vigilant eye on Gavin's progress, monitoring the training sessions closely on the monitors.
 
 Valeria   
 Jade pull off the helmet. 
@@ -310,7 +310,7 @@ Valeria
 I did. I took a look at the source code and found that someone had made some specific changes to the scenario that Wes was placed in. 
 
 Jade   
-So Iztan must’ve hacked his computer and messed with his mission.
+So Iztahn must’ve hacked his computer and messed with his mission.
 
 Keith   
 But, how would they know what we were doing?
@@ -322,13 +322,13 @@ Keith
 Yeah, but look at how easily Celeste got into it a few days ago. 
 
 Valeria  
-It's clear that Iztan wasn't behind this.
+It's clear that Iztahn wasn't behind this.
 
 Jade   
 How do you know?
 
 Valeria   
-I initially suspected that Iztan had hacked Wes, but when I tried to save him while he was under, I discovered that the entire code had been changed, just as I said before. After you and Keith took him downstairs, it was back to Wes' original code. There are only two possible explanations: either one of us did something, or- 
+I initially suspected that Iztahn had hacked Wes, but when I tried to save him while he was under, I discovered that the entire code had been changed, just as I said before. After you and Keith took him downstairs, it was back to Wes' original code. There are only two possible explanations: either one of us did something, or- 
 
 Keith interrupts Valeria. 
 
@@ -477,7 +477,7 @@ Thanks for the pep talk.
 Teddy (Signing)   
 I’ll always be here for you. Now go. 
 
-With a newfound sense of confidence, Wesley confidently exits the gym, his resolve set on finally bringing an end to the war with Iztan. His heart races within his chest as he heads towards the elevator, a whirlwind of thoughts about the battles ahead racing through his mind. He takes a deep breath, mentally preparing for the challenges on the horizon.
+With a newfound sense of confidence, Wesley confidently exits the gym, his resolve set on finally bringing an end to the war with Iztahn. His heart races within his chest as he heads towards the elevator, a whirlwind of thoughts about the battles ahead racing through his mind. He takes a deep breath, mentally preparing for the challenges on the horizon.
 
 Approaching the elevator, he glances back into the gym and spots his uncle giving him a supportive wave. The memory of his uncle's encouraging words washes over him, fortifying his sense of conviction.
 
@@ -536,12 +536,12 @@ Yeah, I get it. Come on.
 Wesley and Gavin stroll over to join the rest of the team, who all turn their attention toward Wesley, a blend of concern and curiosity reflected in their expressions. As he approaches, he notices the worry in their eyes but offers a reassuring nod. Gradually, the tension leaves their bodies, and their faces relax into welcoming smiles.
 
 Justin   
-Now that everyone is here, I'm sure most of you have noticed the flickering lights on the other floors. As you may have guessed, Iztan is finally putting their plan into motion.
+Now that everyone is here, I'm sure most of you have noticed the flickering lights on the other floors. As you may have guessed, Iztahn is finally putting their plan into motion.
 
 Justin pulls up a holographic map of the United States, displaying three red dots marking the three major U.S. power grids. The map reveals a mix of blacked-out states and highlighted ones in blue, providing a clear visualization of the extent of the blackout.
 
 Justin   
-The blacked-out states on the map are a clear indication that the power grid has already failed in those areas. As time passes, more and more states are affected, and the situation is becoming increasingly dire. People across the country are panicking as the power outage spreads, and it's clear that Iztan's plan is working. It's only a matter of time before the entire nation is plunged into darkness.
+The blacked-out states on the map are a clear indication that the power grid has already failed in those areas. As time passes, more and more states are affected, and the situation is becoming increasingly dire. People across the country are panicking as the power outage spreads, and it's clear that Iztahn's plan is working. It's only a matter of time before the entire nation is plunged into darkness.
 
 Wesley notices three blinking green dots at each power grid location on the map. 
 
@@ -565,7 +565,7 @@ I’m still not sure about this plan. We’re sacrificing the country to-
 Justin interrupts. 
 
 Justin   
-I understand the potential consequences of our actions, but I believe that this is the best course of action to take in order to locate Iztan Headquarters. 
+I understand the potential consequences of our actions, but I believe that this is the best course of action to take in order to locate Iztahn Headquarters. 
 
 Jade   
 And how are we supposed to get there?
@@ -614,12 +614,12 @@ As Ajax, Wesley, Jade, and Keith approach the display cases, Justin accesses the
 William   
 Any accessories and all of your footwear are already in the briefcases. 
 
-As they each grab their suits from the display cases, Ajax, Wesley, Jade, and Keith make their way toward the elevator, holding their suits tightly in their arms. Meanwhile, William, Valeria, Andrew, Robert, and Justin remain behind, watching as they leave. William then turns to Andrew and Robert.
+As they each grab their suits from the display cases, Ajax, Wesley, Jade, and Keith make their way toward the elevator, holding their suits tightly in their arms. Meanwhile, William, Valeria, Jesús, Robert, and Justin remain behind, watching as they leave. William then turns to Jesús and Robert.
 
 William  
 Thank you guys, for helping. 
 
-Andrew   
+Jesús   
 No problem. 
 
 Robert   
@@ -630,7 +630,7 @@ No seriously. You guys were a lot of help, which is why I also designed you suit
 
 Quietly approaching from behind, Valeria comes up with two briefcases in hand.
 
-Andrew   
+Jesús   
 No way. 
 
 Robert   
@@ -644,7 +644,7 @@ William looks between the two of them, wearing a big smile on their face.
 William   
 Guys go. 
 
-Andrew and Robert head toward the elevators to their rooms. 
+Jesús and Robert head toward the elevators to their rooms. 
 
 Int. Frasier Industries Level 51 | Justin’s Office \- Morning
 
@@ -687,13 +687,13 @@ Danny (Shouting)
 This suit is sick\!
 
 William   
-Ok, I think it's about time you guys found out what your suits were made for. I'll start with Danny, Jade, Ajax, Robert, and Andrew, considering you were all under similar circumstances.
+Ok, I think it's about time you guys found out what your suits were made for. I'll start with Danny, Jade, Ajax, Robert, and Jesús, considering you were all under similar circumstances.
 
 Jade is wearing a sleek costume that perfectly matches her icy powers. She wears a form-fitting blue and white bodysuit that is accented with silver lines and detailing. The bodysuit has a high collar and long sleeves, with a diamond-shaped cutout on her chest. Over the bodysuit, she is wearing a white and blue vest with a high collar and silver trimmings. The vest has a diamond-shaped cutout on the back, which adds a touch of elegance to the outfit. She also wears white and blue high-heeled boots that match her vest, with silver accents on the heels. Her hair is up in two braided ponytails. 
 
 Danny is dressed in a lightweight, stretchy material that allows for maximum mobility. The majority of the costume is a vibrant green with black accents on the boots, belt, and gloves. The lightning bolt emblem on his chest is also green and outlined in black. His boots are knee-high with a slight heel, and his gloves are fingerless. He is also wearing a black utility belt that has pockets for carrying equipment. The most unique feature of his costume is the pair of black goggles that cover his eyes. The goggles are made of a flexible material that can conform to his face and have clear lenses that allow him to see clearly while running at superhuman speeds.
 
-Ajax is wearing a dark blue and black uniform with a silver star on the chest, silver stripes on the shoulders, and silver accents on the gloves and boots. The costume also has a utility belt with pouches for carrying equipment. Robert and Andrew are wearing similar suits, lacking the extra details.
+Ajax is wearing a dark blue and black uniform with a silver star on the chest, silver stripes on the shoulders, and silver accents on the gloves and boots. The costume also has a utility belt with pouches for carrying equipment. Robert and Jesús are wearing similar suits, lacking the extra details.
 
 William   
 From what I’ve seen, none of you needed any specific suit enhancements for your powers, so I went for more of a fashion look. Similar to the other suits, it's bullet, weapon, and Azazel-proof. How does it feel? 
@@ -707,7 +707,7 @@ A little tight. But, good.
 Ajax  
 Fine.
 
-Andrew  
+Jesús  
 Azazel-proof? 
 
 William  
@@ -729,25 +729,25 @@ Danny
 Got it.
 
 Justin   
-Also, Andrew I have something else for you.
+Also, Jesús I have something else for you.
 
 Justin grabs a second briefcase on his desk and opens it. Inside, lay three different handguns along with multiple clips.
 
-Andrew   
+Jesús   
 Guns? I don’t know if you forgot what I do for a living, but I have those already. 
 
 Justin   
 That’s not the point. The clips are loaded with specialized bullets that’ll take out an android with a single shot. 
 
-Andrew   
+Jesús   
 To the head?
 
 Justin   
 It doesn't matter where. As long as you hit them, they’re done. 
 
-Justin closes the briefcase and hands it over to Andrew. 
+Justin closes the briefcase and hands it over to Jesús. 
 
-Andrew   
+Jesús   
 Thanks. 
 
 Justin   
@@ -826,7 +826,7 @@ Ajax
 Superhero looks good on you. 
 
 William   
-I've already caught everyone up on what their suits can do, and you're the last one. Your suit is built with a material that's capable of withstanding bullets, weapons, and Azazel's powers. Those are crucial features that I added to everyone's suits after the unfortunate incident with Shi and Iztan.
+I've already caught everyone up on what their suits can do, and you're the last one. Your suit is built with a material that's capable of withstanding bullets, weapons, and Azazel's powers. Those are crucial features that I added to everyone's suits after the unfortunate incident with Shi and Iztahn.
 
 William looks down at the gauntlets on his arms.
 

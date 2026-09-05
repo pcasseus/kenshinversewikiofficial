@@ -1,101 +1,176 @@
 const abilities = [
   {
-    name: "Human Physiology",
-    books: [1],
-    description:
-      "Humans are the non-powered majority of the global population. While they lack innate abilities or mutations, their adaptability, innovation, and resilience have allowed them to thrive in a world increasingly shaped by Deviants. Human potential is expressed not through enhanced biology, but through technology, intelligence, strategy, and sheer willpower. Many humans pursue mastery in science, combat, or leadership roles—filling vital positions in organizations like S.T.A.T.I.C., military divisions, and political bodies. Though they do not possess elemental powers or physical augmentations, elite human operatives can outmaneuver or even neutralize lower-tier Deviants through skill, planning, and specialized equipment.",
-    evolved: [],
-    subAbilities: [],
-  },
-  {
     name: "Omni-Technical Intellect",
-    books: [1],
-    description:
-      "William Hutton possesses an extraordinary, multidimensional intellect centered around engineering, systems design, and technological innovation. Unlike other genius minds that focus purely on theory or scientific discovery, William’s intelligence is practical, intuitive, and highly adaptive. He can deconstruct, comprehend, and rebuild even the most complex machines, infrastructures, or energy systems. His deep understanding of mechanics and circuitry allows him to solve problems in real time, often creating efficient, elegant solutions faster than most teams of experts.",
-    evolved: [],
+    domain: "Engineering & Systems Expertise",
+    classification: "Expertise",
+    release: "KVI",
+    discovery: "beginning",
+
+    description: `
+William Hutton possesses an extraordinary, multidimensional intellect centered around engineering, systems design, and technological innovation. Unlike other genius minds that focus primarily on theory or scientific discovery, William's intelligence is practical, intuitive, and highly adaptive. He can deconstruct, comprehend, and rebuild even the most complex machines, infrastructures, or energy systems.
+
+His deep understanding of mechanics, circuitry, software, propulsion, and integrated systems allows him to solve technical problems in real time, often producing efficient and elegant solutions faster than entire teams of specialists.
+    `.trim(),
+
     subAbilities: [],
   },
+
   {
     name: "Rapid Technical Synthesis",
-    books: [1],
-    description:
-      "William’s intelligence is defined by a hyper-intuitive grasp of mechanical systems, infrastructure, and power-based technology. He does not just understand machines; he perceives their logic instantly. Whether it is human-built hardware, ancient mechanisms, or unfamiliar digital frameworks, William can adapt to almost any form of technology with minimal exposure. His mind rapidly internalizes blueprints, systems, and functions, allowing him to reengineer, optimize, or repair them under pressure. This instinctive synthesis makes him a one-of-a-kind engineer who can turn any tool, vehicle, or system into something he understands and controls.",
-    evolved: [],
+    domain: "Engineering & Systems Expertise",
+    classification: "Expertise",
+    release: "KVI",
+    discovery: "beginning",
+
+    description: `
+William's intelligence is defined by a highly intuitive grasp of mechanical systems, infrastructure, and advanced technology. He does not simply understand machines after studying them. He rapidly identifies the logic governing how their components interact.
+
+Whether working with human-built hardware, ancient mechanisms, experimental prototypes, or unfamiliar digital frameworks, William can adapt to new technology with minimal exposure. His mind quickly internalizes blueprints, functions, and system relationships, allowing him to reengineer, optimize, repair, or repurpose complex machinery under pressure.
+    `.trim(),
+
     subAbilities: [
       {
         name: "Mechanical Engineering Mastery",
-        books: [1],
-        description:
-          "William’s understanding of machines is second nature. He can build, optimize, or repair anything from vehicles and drones to high-performance suits and advanced robotics. His deep knowledge of engineering principles allows him to design systems that are both efficient and durable, often improving upon the original concept. Whether working with raw materials or cutting-edge prototypes, William brings precision, creativity, and reliability to everything he builds.",
+        release: "KVI",
+        discovery: "beginning",
+
+        description: `
+William possesses expert command of mechanical engineering and can design, construct, repair, or improve systems ranging from vehicles and drones to robotics, weapons platforms, and specialized machinery. His understanding of engineering principles allows him to balance performance, durability, efficiency, and maintainability without sacrificing the intended function of the design.
+        `.trim(),
       },
+
       {
         name: "Vehicle & Avionics Specialist",
-        books: [1],
-        description:
-          "As S.T.A.T.I.C.'s leading aerospace engineer, William designed all major team aircraft, including the Javelin, Helldiver, and Avenger. He specializes in propulsion systems, flight dynamics, cloaking architecture, and rapid-response AI integration. His work ensures that every vehicle operates with precision, speed, and adaptability in high-risk environments, often pushing the boundaries of what atmospheric and spaceflight systems can achieve.",
+        release: "KVI",
+        discovery: "beginning",
+
+        description: `
+As one of S.T.A.T.I.C.'s foremost aerospace engineers, William specializes in propulsion systems, flight dynamics, avionics, cloaking architecture, navigation, and integrated artificial intelligence. He is responsible for the design and maintenance of several major S.T.A.T.I.C. aircraft, including the Javelin, Helldiver, and Avenger.
+
+His work allows these vehicles to operate reliably in hostile environments while supporting rapid deployment, atmospheric flight, and advanced mission requirements.
+        `.trim(),
       },
     ],
   },
-  {
-    name: "Power System Analytics",
-    books: [1],
-    description:
-      "Despite lacking powers himself, William has an uncanny ability to study and decode the unique biology, energy signatures, and behavioral traits of Deviants and extraterrestrial beings. By watching a Deviant in action, even for a short time, he can often infer how their ability functions, what fuels it, and where its limitations lie. His insights allow him to design optimized gear, suggest advanced applications, and help others unlock deeper control over their powers.",
-    evolved: [],
-    subAbilities: [
-      {
-        name: "Power Profiling",
-        books: [1],
-        description:
-          "By analyzing a Deviant’s real-time movement, energy output, and neurological response patterns, William can reverse-engineer the fundamental mechanics of their power. He uses this data to theorize improvements.",
-      },
-      {
-        name: "Field Optimization",
-        books: [1],
-        description:
-          "William frequently enhances a Deviant's performance through personalized gear and suit integration. His upgrades amplify strengths, cover tactical blind spots, and in rare cases have catalyzed dormant or unstable powers into fully formed abilities through tech-aided breakthroughs and simulations.",
-      },
-    ],
-  },
+
   {
     name: "Suit & Equipment Engineering",
-    books: [1],
-    description:
-      "William is responsible for all team suits and specialized combat gear, each custom-built to align with the user’s power set, physiology, and personality. These suits are more than armor. They function as responsive, tech-augmented extensions of the wearer, embedded with environmental defenses, stealth capabilities, sensory interfaces, and real-time diagnostics. William’s designs ensure optimal performance under extreme conditions, while also providing emotional and physical support tailored to each hero’s journey. He has also pioneered advanced mechanical limb replacements for teammates who have experienced limb loss in the line of duty. These prosthetics are not only durable and functional, but are integrated seamlessly with the user’s neural pathways and combat systems. In many cases, they restore and even enhance their combat capabilities.",
-    evolved: [],
+    domain: "Engineering & Systems Expertise",
+    classification: "Expertise",
+    release: "KVI",
+    discovery: "beginning",
+
+    description: `
+William is responsible for designing and maintaining many of S.T.A.T.I.C.'s specialized suits, combat systems, and field technologies. Rather than treating equipment as generic armor or hardware, he builds each system around the physiology, abilities, movement patterns, and operational needs of its intended user.
+
+His suits often incorporate environmental protection, impact management, sensory systems, diagnostics, power-regulation technology, and specialized interfaces designed to complement the wearer rather than interfere with them.
+
+William has also developed advanced mechanical replacements for operatives who have suffered severe limb loss. These systems are designed to restore natural movement while integrating directly with the user's nervous system and existing combat equipment.
+    `.trim(),
+
     subAbilities: [
       {
         name: "Integrated Enhancements",
-        books: [1],
-        description:
-          "Every suit William designs comes equipped with a core suite of cutting-edge systems, refined through constant field testing. These include kinetic dampeners to absorb impact trauma, energy dispersal nodes that redirect hostile blasts, and neural-response circuits that sync suit functions with the user’s reflexes. Sensory overlays enhance perception across multiple spectra, while adaptive camouflage allows real-time environmental blending. In critical moments, emergency containment failsafes activate to shield the wearer from internal surges, external overloads, or total system failure. These enhancements are not just features but are the reason S.T.A.T.I.C. operatives survive the impossible.",
+        release: "KVI",
+        discovery: "beginning",
+
+        description: `
+William equips specialized suits with systems tailored to the individual operative. Depending on the design, these may include kinetic dampeners, energy-dispersal systems, neural-response interfaces, environmental protection, diagnostic monitoring, enhanced sensory systems, adaptive camouflage, or emergency failsafes.
+
+Rather than applying every technology universally, William selects and modifies each system according to the user's physiology, abilities, and mission requirements.
+        `.trim(),
       },
+
       {
         name: "Limb Reconstruction Engineering",
-        books: [1],
-        description:
-          "William’s prosthetic designs are fully mechanized, featuring precision motor function, modular compatibility with user powers, and sensory feedback systems that allow natural movement. Some are even equipped with combat tools or tech-augmented enhancements beyond normal human limits.",
+        release: "KVI",
+        discovery: "beginning",
+
+        description: `
+William can design advanced mechanical prosthetics capable of restoring precise motor function after catastrophic limb loss. These replacements incorporate responsive actuators, sensory-feedback systems, neural interfaces, and modular architecture that allows them to integrate naturally with the user's movement and equipment.
+
+Certain designs can also support specialized combat systems or technological enhancements when the operative's role requires them.
+        `.trim(),
       },
+
       {
         name: "Adaptive Design Philosophy",
-        books: [1],
-        description:
-          "William treats every suit and device as a living system that evolves alongside its user. He refines his designs through constant analysis of field performance, power growth, and psychological feedback. Each update is precise and intentional, tailored to amplify the user's abilities while supporting their mental and emotional needs. His gear is never static. It grows, adapts, and transforms with the person who wears it.",
+        release: "KVI",
+        discovery: "beginning",
+
+        description: `
+William rarely considers a piece of equipment permanently finished. He continually evaluates field performance, damage patterns, user feedback, changing mission requirements, and the development of an operative's abilities.
+
+That information is used to refine later versions of suits, weapons, prosthetics, and support systems. His equipment evolves alongside the people using it rather than remaining locked to its original specifications.
+        `.trim(),
       },
     ],
   },
+
   {
     name: "Tactical Systems & Software Design",
-    books: [1],
-    description:
-      "William is a highly capable systems developer and digital engineer, able to construct custom OS environments, secure software protocols, and integrate live-data systems across both human and alien interfaces. His real-time tools serve as mission-critical infrastructure for the team’s survival.",
-    evolved: [],
+    domain: "Engineering & Systems Expertise",
+    classification: "Expertise",
+    release: "KVI",
+    discovery: "beginning",
+
+    description: `
+William is highly skilled in systems development and digital engineering, allowing him to create custom operating environments, secure communication architecture, diagnostic software, automated control systems, and live-data infrastructure.
+
+His software frequently connects S.T.A.T.I.C. personnel, vehicles, suits, facilities, and mission systems into unified operational networks, allowing information to move between field teams and command personnel in real time.
+    `.trim(),
+
     subAbilities: [
       {
         name: "Mission Control Interface",
-        books: [1],
-        description:
-          "William maintains a central link to all team vitals, suit diagnostics, atmospheric conditions, and battlefield telemetry. This system is operated through a custom wrist-mounted or neural-linked device that allows him to issue commands, deploy failsafes, or monitor energy signatures remotely.",
+        release: "KVI",
+        discovery: "beginning",
+
+        description: `
+William can build and maintain integrated mission-control systems capable of monitoring operative vitals, suit diagnostics, environmental conditions, vehicle status, battlefield telemetry, and energy signatures simultaneously.
+
+These systems allow him to identify equipment failures, monitor rapidly changing conditions, activate remote safeguards, and provide technical support to deployed operatives while remaining connected to the broader mission network.
+        `.trim(),
+      },
+    ],
+  },
+
+  {
+    name: "Power System Analytics",
+    domain: "Deviant Systems Analysis",
+    classification: "Expertise",
+    release: "KVI",
+    discovery: "beginning",
+
+    description: `
+Despite possessing no Deviant abilities himself, William has developed extensive expertise in studying powered physiology, energy behavior, and the technological requirements associated with unusual abilities. By examining a Deviant's movement, output, biological responses, and environmental effects, he can often determine the underlying mechanics governing their abilities.
+
+This understanding allows William to identify technical limitations, design specialized equipment, improve containment or safety systems, and develop technology capable of helping operatives use their abilities more effectively.
+    `.trim(),
+
+    subAbilities: [
+      {
+        name: "Power Profiling",
+        release: "KVI",
+        discovery: "beginning",
+
+        description: `
+By studying a Deviant's movement, energy output, physiological responses, and interactions with the surrounding environment, William can construct a working technical model of how their abilities function.
+
+These profiles help him identify recurring patterns, operational limitations, energy requirements, and potential areas where specialized technology could improve control or safety.
+        `.trim(),
+      },
+
+      {
+        name: "Field Optimization",
+        release: "KVI",
+        discovery: "beginning",
+
+        description: `
+William uses power-profile data to design equipment specifically around an operative's capabilities. His modifications can improve stability, reduce dangerous feedback, compensate for physical limitations, or provide technological support for techniques the user would otherwise struggle to perform safely.
+
+Rather than increasing a Deviant's biological power directly, William's systems help them use what they already possess with greater efficiency, precision, and reliability.
+        `.trim(),
       },
     ],
   },

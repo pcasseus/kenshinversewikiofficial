@@ -1,138 +1,456 @@
 import React from "react";
-import { getWeaknessDomain } from "../../utils/weaknessDomains";
+
+import {
+  ChevronRight,
+  TriangleAlert,
+} from "lucide-react";
+
+import {
+  getWeaknessDomain,
+} from "../../utils/weaknessDomains";
+
+import {
+  CURRENT_RELEASE,
+  filterRecords,
+  getDiscoveryStage,
+} from "../../utils/profileRecordAccess";
+
+const isHumanRace = (
+  raceDisplay
+) => {
+  if (
+    typeof raceDisplay !== "string"
+  ) {
+    return false;
+  }
+
+  return (
+    raceDisplay
+      .trim()
+      .toLowerCase() === "human"
+  );
+};
 
 const WeaknessesSection = ({
   character,
+  raceDisplay,
   setSelectedAbility,
   subVisible,
   toggleSub,
   selectedBooks,
+  activeStage = "beginning",
 }) => {
-  const weaknesses = Array.isArray(character?.weaknesses)
-    ? character.weaknesses
-    : [];
+  const humanRecord =
+    isHumanRace(raceDisplay);
 
-  const isBookMatch = (books = []) =>
-    books.some((b) => selectedBooks.includes(b));
+  const weaknesses =
+    Array.isArray(
+      character?.weaknesses
+    )
+      ? character.weaknesses
+      : [];
 
-  const visible = weaknesses.filter((w) => isBookMatch(w.books));
+  const sectionTitle =
+    humanRecord
+      ? "Limitations & Vulnerabilities"
+      : "Weaknesses";
 
-  const grouped = visible.reduce((acc, w) => {
-    const domain = getWeaknessDomain(w.name);
-    if (!acc[domain]) acc[domain] = [];
-    acc[domain].push(w);
-    return acc;
-  }, {});
+  const getCurrentProgression =
+    (entry) =>
+      entry?.progression?.[
+        CURRENT_RELEASE
+      ] || null;
+
+  const getDomain = (
+    weakness
+  ) => {
+    if (
+      typeof weakness?.domain ===
+        "string" &&
+      weakness.domain.trim()
+    ) {
+      return weakness.domain.trim();
+    }
+
+    return getWeaknessDomain(
+      weakness.name
+    );
+  };
+
+  const prepareWeaknessForModal =
+    (
+      entry,
+      parentDomain = null
+    ) => {
+      const progression =
+        getCurrentProgression(
+          entry
+        );
+
+      const beginning =
+        progression?.beginning ||
+        null;
+
+      const middle =
+        progression?.middle ||
+        null;
+
+      const end =
+        progression?.end ||
+        null;
+
+      const domain =
+        entry.domain ||
+        parentDomain ||
+        getWeaknessDomain(
+          entry.name
+        );
+
+      const discovery =
+        getDiscoveryStage(
+          entry
+        );
+
+      const progressionStates =
+        {};
+
+      if (progression) {
+        if (beginning) {
+          progressionStates.beginning =
+            {
+              title:
+                beginning.title ||
+                entry.name,
+
+              description:
+                beginning.description ||
+                entry.description ||
+                "",
+            };
+        }
+
+        if (middle) {
+          progressionStates.middle =
+            {
+              title:
+                middle.title ||
+                entry.name,
+
+              description:
+                middle.description ||
+                "",
+            };
+        }
+
+        if (end) {
+          progressionStates.end =
+            {
+              title:
+                end.title ||
+                entry.name,
+
+              description:
+                end.description ||
+                "",
+            };
+        }
+      }
+
+      return {
+        ...entry,
+
+        name:
+          beginning?.title ||
+          entry.name,
+
+        description:
+          beginning?.description ||
+          entry.description ||
+          "",
+
+        domain,
+
+        classification:
+          entry.classification ||
+          (
+            humanRecord
+              ? "Limitation"
+              : "Vulnerability"
+          ),
+
+        discovery,
+
+        __theme: "danger",
+
+        __release:
+          CURRENT_RELEASE,
+
+        __progression:
+          Object.keys(
+            progressionStates
+          ).length > 1
+            ? progressionStates
+            : null,
+      };
+    };
+
+  const visibleWeaknesses =
+    filterRecords(
+      weaknesses,
+      activeStage,
+      selectedBooks
+    );
+
+  if (
+    visibleWeaknesses.length === 0
+  ) {
+    return null;
+  }
+
+  const grouped =
+    visibleWeaknesses.reduce(
+      (
+        acc,
+        weakness
+      ) => {
+        const domain =
+          getDomain(
+            weakness
+          );
+
+        if (!acc[domain]) {
+          acc[domain] = [];
+        }
+
+        acc[domain].push(
+          weakness
+        );
+
+        return acc;
+      },
+      {}
+    );
 
   return (
-    <section className="rounded border border-red-700 p-6 mb-10 bg-gradient-to-b from-black to-zinc-900">
-      {/* HEADER */}
-      <h2 className="text-red-400 text-xl font-bold mb-8 uppercase tracking-widest">
-        Weaknesses
-      </h2>
+    <section className="mb-10 overflow-hidden rounded-lg border border-red-700/70 bg-zinc-950">
+      <div className="border-b border-red-700/30 bg-red-950/10 px-5 py-4">
+        <p className="mb-1 text-[9px] uppercase tracking-[0.24em] text-zinc-600">
+          S.T.A.T.I.C. Vulnerability Analysis
+        </p>
 
-      <div className="space-y-10">
-        {Object.entries(grouped).map(([domain, items]) => (
-          <div key={domain}>
-            {/* DOMAIN HEADER */}
-            <h3 className="text-red-300 text-xs uppercase tracking-widest border-b border-red-700/60 pb-1 mb-4">
-              {domain}
-            </h3>
+        <h2 className="text-sm font-bold uppercase tracking-[0.25em] text-red-400">
+          {sectionTitle}
+        </h2>
+      </div>
 
-            <div className="grid gap-3">
-              {items.map((weakness, idx) => {
-                const critical = weakness.critical === true;
-                const hasSub =
-                  Array.isArray(weakness.subWeaknesses) &&
-                  weakness.subWeaknesses.length > 0;
+      <div className="space-y-8 p-5 sm:p-6">
+        {Object.entries(
+          grouped
+        ).map(
+          ([
+            domain,
+            items,
+          ]) => (
+            <div key={domain}>
+              <div className="mb-4 flex items-center gap-3">
+                <h3 className="shrink-0 text-[9px] font-bold uppercase tracking-[0.23em] text-red-400">
+                  {domain}
+                </h3>
 
-                return (
-                  <div key={`${weakness.name}-${idx}`} className="relative">
-                    {/* MAIN WEAKNESS BUTTON */}
-                    <button
-                      onClick={() =>
-                        setSelectedAbility({
-                          ...weakness,
-                          __theme: "danger",
-                        })
-                      }
-                      className={`w-full flex justify-between items-center px-4 py-2 rounded border text-left pr-10 transition-all duration-200
-                        ${
-                          critical
-                            ? "border-red-500 text-red-200 shadow-[0_0_14px_rgba(255,0,0,0.45)]"
-                            : "border-red-700 text-red-300 hover:text-red-100"
-                        }
-                      `}
-                      style={{
-                        backgroundColor: "#0b0b0b",
-                        backgroundImage: `
-                          linear-gradient(rgba(255,0,0,0.22) 1px, transparent 1px),
-                          linear-gradient(to right, rgba(255,0,0,0.22) 1px, transparent 1px)
-                        `,
-                        backgroundSize: "22px 22px",
-                      }}
-                    >
-                      <span>{weakness.name}</span>
+                <div className="h-px flex-1 bg-red-700/40" />
+              </div>
 
-                      {critical && (
-                        <span className="text-xs font-bold tracking-widest text-red-400">
-                          CRITICAL
-                        </span>
-                      )}
-                    </button>
+              <div className="grid grid-cols-1 gap-3 xl:grid-cols-2">
+                {items.map(
+                  (
+                    weakness,
+                    index
+                  ) => {
+                    const critical =
+                      weakness.critical ===
+                      true;
 
-                    {/* SUB TOGGLE */}
-                    {hasSub && (
-                      <button
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          toggleSub(weakness.name);
-                        }}
-                        className="absolute top-2 right-2 text-red-400 hover:text-black hover:bg-red-600 p-1 rounded transition"
-                        title="Expand sub-weaknesses"
+                    const visibleSubs =
+                      filterRecords(
+                        weakness?.subWeaknesses,
+                        activeStage,
+                        selectedBooks
+                      );
+
+                    const hasSub =
+                      visibleSubs.length > 0;
+
+                    const expanded =
+                      subVisible?.[
+                        weakness.name
+                      ] === true;
+
+                    return (
+                      <div
+                        key={`${weakness.name}-${index}`}
+                        className="min-w-0"
                       >
-                        ▶
-                      </button>
-                    )}
+                        <div className="relative">
+                          <button
+                            type="button"
+                            onClick={() =>
+                              setSelectedAbility(
+                                prepareWeaknessForModal(
+                                  weakness,
+                                  domain
+                                )
+                              )
+                            }
+                            className={`
+                              min-h-[46px]
+                              w-full
+                              rounded
+                              border
+                              bg-black
+                              px-4
+                              py-3
+                              text-left
+                              text-sm
+                              transition
+                              ${
+                                hasSub
+                                  ? "pr-11"
+                                  : ""
+                              }
+                              ${
+                                critical
+                                  ? "border-red-500 text-red-100 shadow-[0_0_16px_rgba(239,68,68,0.15)] hover:bg-red-950/20"
+                                  : "border-red-800/80 text-red-300 hover:border-red-500 hover:bg-red-950/20 hover:text-red-100"
+                              }
+                            `}
+                            style={{
+                              backgroundImage: `
+                                linear-gradient(rgba(255,0,0,0.09) 1px, transparent 1px),
+                                linear-gradient(to right, rgba(255,0,0,0.09) 1px, transparent 1px)
+                              `,
 
-                    {/* SUB-WEAKNESSES */}
-                    {hasSub && subVisible[weakness.name] && (
-                      <div className="pl-5 mt-3 space-y-2">
-                        {weakness.subWeaknesses.map((sub, sidx) => {
-                          if (!isBookMatch(sub.books)) return null;
+                              backgroundSize:
+                                "22px 22px",
+                            }}
+                          >
+                            <span className="flex items-center gap-2">
+                              {critical && (
+                                <TriangleAlert
+                                  size={14}
+                                  className="shrink-0 text-red-400"
+                                />
+                              )}
 
-                          return (
+                              <span className="min-w-0 flex-1">
+                                {
+                                  weakness.name
+                                }
+                              </span>
+
+                              {critical && (
+                                <span className="shrink-0 text-[9px] font-bold uppercase tracking-widest text-red-400">
+                                  Critical
+                                </span>
+                              )}
+                            </span>
+                          </button>
+
+                          {hasSub && (
                             <button
-                              key={`${sub.name}-${sidx}`}
-                              onClick={(e) => {
-                                e.stopPropagation();
-                                setSelectedAbility({
-                                  ...sub,
-                                  __theme: "danger",
-                                });
+                              type="button"
+                              onClick={(event) => {
+                                event.stopPropagation();
+
+                                toggleSub(
+                                  weakness.name
+                                );
                               }}
-                              className="w-full text-left border border-red-700 text-red-300 px-3 py-1 rounded transition text-sm hover:text-black hover:bg-red-600"
-                              style={{
-                                backgroundColor: "#0b0b0b",
-                                backgroundImage: `
-                                  linear-gradient(rgba(255,0,0,0.18) 1px, transparent 1px),
-                                  linear-gradient(to right, rgba(255,0,0,0.18) 1px, transparent 1px)
-                                `,
-                                backgroundSize: "20px 20px",
-                              }}
+                              className="
+                                absolute
+                                right-2
+                                top-1/2
+                                flex
+                                h-8
+                                w-8
+                                -translate-y-1/2
+                                items-center
+                                justify-center
+                                rounded
+                                text-red-400
+                                transition
+                                hover:bg-red-600
+                                hover:text-black
+                              "
+                              aria-label={`${
+                                expanded
+                                  ? "Collapse"
+                                  : "Expand"
+                              } ${weakness.name}`}
                             >
-                              ⚠ {sub.name}
+                              <ChevronRight
+                                size={17}
+                                className={`transition-transform duration-200 ${
+                                  expanded
+                                    ? "rotate-90"
+                                    : ""
+                                }`}
+                              />
                             </button>
-                          );
-                        })}
+                          )}
+                        </div>
+
+                        {hasSub &&
+                          expanded && (
+                            <div className="mt-2 space-y-2 border-l border-red-700/40 pl-3">
+                              {visibleSubs.map(
+                                (
+                                  sub,
+                                  subIndex
+                                ) => (
+                                  <button
+                                    key={`${sub.name}-${subIndex}`}
+                                    type="button"
+                                    onClick={() =>
+                                      setSelectedAbility(
+                                        prepareWeaknessForModal(
+                                          sub,
+                                          domain
+                                        )
+                                      )
+                                    }
+                                    className="
+                                      w-full
+                                      rounded
+                                      border
+                                      border-red-800/70
+                                      bg-black
+                                      px-3
+                                      py-2
+                                      text-left
+                                      text-xs
+                                      text-red-300
+                                      transition
+                                      hover:border-red-500
+                                      hover:bg-red-950/20
+                                      hover:text-red-100
+                                    "
+                                  >
+                                    {
+                                      sub.name
+                                    }
+                                  </button>
+                                )
+                              )}
+                            </div>
+                          )}
                       </div>
-                    )}
-                  </div>
-                );
-              })}
+                    );
+                  }
+                )}
+              </div>
             </div>
-          </div>
-        ))}
+          )
+        )}
       </div>
     </section>
   );

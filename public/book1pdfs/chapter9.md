@@ -2,7 +2,7 @@ Int. Headquarters Lab \- Morning
 Minutes after Keith left the lab to investigate the explosion, a series of subsequent explosions relentlessly shook the entire base. Fueled by urgency, Valeria hurriedly made her way to the communications console. Simultaneously, William initiated a security lockdown for the lab, reinforcing all glass windows and exits with robust steel barricades.
 
 William   
-I think we're under attack. Iztan must've ​found the base somehow. 
+I think we're under attack. Iztahn must've ​found the base somehow. 
 
 William glances back at Valeria, his mind filled with curiosity. 
 
@@ -19,7 +19,7 @@ Communications are completely fried, and ​I can't get a signal out.
 
 The sound of fists thudding against the fortified doors reaches their ears, prompting a tense atmosphere. In response, Wesley's hand twitches, while William accesses the security footage from the hallway.
 
-Wesley's fingers begin to twitch more as William manages to retrieve the hallway's security feed. A sinking feeling envelops William's heart as he locks his gaze onto the monitor, revealing the presence of three unmistakable Iztan soldiers.
+Wesley's fingers begin to twitch more as William manages to retrieve the hallway's security feed. A sinking feeling envelops William's heart as he locks his gaze onto the monitor, revealing the presence of three unmistakable Iztahn soldiers.
 
 William   
 Val, we have a problem. 
@@ -32,12 +32,12 @@ How did they get in here? There’s no way they got past Keith.
 William  
 They must’ve broken in from the other side. ​They're coming at us from all sides. 
 
-In a sudden move, an Iztan soldier turns, firing and disabling the camera. Valeria shifts her focus, rushing to Wesley and starts moving his gurney.
+In a sudden move, an Iztahn soldier turns, firing and disabling the camera. Valeria shifts her focus, rushing to Wesley and starts moving his gurney.
 
 Valeria   
 We need to move Wesley to the other room before the-
 
-Valeria's actions come to a pause when an Iztan soldier forcefully smashes through the door, effortlessly tearing it from its hinges in a single fluid motion. The doors hurtle across the lab, colliding with the wall with a resounding crash. Simultaneously, the remaining soldiers unleash a relentless volley of bullets.
+Valeria's actions come to a pause when an Iztahn soldier forcefully smashes through the door, effortlessly tearing it from its hinges in a single fluid motion. The doors hurtle across the lab, colliding with the wall with a resounding crash. Simultaneously, the remaining soldiers unleash a relentless volley of bullets.
 
 William (Shouting)   
 Take cover\! 
@@ -92,7 +92,7 @@ Thanks.
 The entire base trembles once more, the force of another explosion reverberating through the hangar.
 
 Valeria   
-Iztan is attacking the base. Keith went to find Danny, but I'm assuming from all the shaking that he's run into a few obstacles.
+Iztahn is attacking the base. Keith went to find Danny, but I'm assuming from all the shaking that he's run into a few obstacles.
 
 Wesley (Weakly)  
 What about my father? Gavin? Danny?
@@ -131,9 +131,9 @@ HQ to Helldiver. I repeat, 'HQ to Helldiver.'
 
 Int. Helldiver \- Morning  
 Meanwhile…  
-Gavin, Andrew, and Robert remain oblivious to the ongoing Iztan assault as they make their way to the base. However, their arrival is still approximately thirty minutes away.
+Gavin, Jesús, and Robert remain oblivious to the ongoing Iztahn assault as they make their way to the base. However, their arrival is still approximately thirty minutes away.
 
-Andrew   
+Jesús   
 How far are we? 
 
 Gavin   
@@ -173,7 +173,7 @@ I’m on my way back now. William, ​what’s wrong? Is it Wes?
 Gavin's attention sharpens as he catches the sound of an explosion echoing in the background.
 
 William (On Radio)   
-Iztan’s invaded the base. We need you back here now\!
+Iztahn’s invaded the base. We need you back here now\!
 
 Gavin (On Radio)  
 What\! How? Are you guys still safe?
@@ -214,7 +214,7 @@ The link between the Helldiver and Headquarters suddenly goes dead.
 Gavin   
 Will? Wes?
 
-Andrew  
+Jesús  
 What the hell happened?
 
 Gavin panics as he tries to fix the connection, but his attempts are in vain.
@@ -244,7 +244,7 @@ Wesley's mind races through various scenarios, trying to piece together a plausi
 Wesley (Thinking)  
 Unless…crap.
 
-Wesley glances past the S.T.A.T.I.C. scientists and spots three more Iztan soldiers aiming their guns.
+Wesley glances past the S.T.A.T.I.C. scientists and spots three more Iztahn soldiers aiming their guns.
 
 Wesley (Shouting)  
 Guys get down\!
@@ -317,15 +317,15 @@ Gavin paces back and forth, his anxiety practically palpable. Restless and on ed
 Gavin   
 This is not good.
 
-Andrew   
+Jesús   
 Can’t this thing go any faster?
 
-Growing frustrated, Gavin raises his voice, directing his frustration at Andrew.
+Growing frustrated, Gavin raises his voice, directing his frustration at Jesús.
 
 Gavin (Shouting)  
 We’re already moving at max speed\! If we weren't, don’t ​you think I would’ve changed that by now?
 
-Unhappy with Gavin's tone, Andrew steps forward, his stance threatening as if gearing up for a fight. Recognizing the escalating danger, Robert swiftly intervenes, positioning himself between the two. His physical presence serves as a barrier, preventing Andrew from making any rash moves.
+Unhappy with Gavin's tone, Jesús steps forward, his stance threatening as if gearing up for a fight. Recognizing the escalating danger, Robert swiftly intervenes, positioning himself between the two. His physical presence serves as a barrier, preventing Jesús from making any rash moves.
 
 Robert   
 Alright relax\! Snapping at each ​other isn’t going to help. 
@@ -379,7 +379,7 @@ Ok.
 Gavin (On Radio)   
 Wes need you to hold on for me, ok? I'll be ​there soon. You're not dying on me today.
 
-Gavin disconnects and faces Andrew and Robert, ready to lay out his plan.
+Gavin disconnects and faces Jesús and Robert, ready to lay out his plan.
 
 Gavin  
 The autopilot will take you guys the rest of the way. Back me up as soon as you get there.
@@ -392,36 +392,36 @@ It's simple. I'll fly ahead and break into the base. I'm fast, but I'm not that 
 
 Gavin goes up to Robert and takes the briefcase. He transfers it into a backpack, which he then slings over his back.
 
-Andrew  
+Jesús  
 What is with you and these ​dysfunctional plans? 
 
 Gavin  
 Relax. I know what I'm doing.
 
-Andrew stares at Gavin, his expression a mix of disbelief and skepticism, clearly struggling to process the proposed plan.
+Jesús stares at Gavin, his expression a mix of disbelief and skepticism, clearly struggling to process the proposed plan.
 
-Andrew  
+Jesús  
 Do you? Because what if you don't get to him, huh? Then what?
 
 Gavin  
 It's better than us sitting up here on our asses while my friends are fighting for their lives. And if Wes dies, that's on me. In fact, if any of them die, it's on me. I'll do whatever I have to do to save them.
 
-Gavin walks away from Andrew, his focus set on the ship's door. Right as he's about to press the button to open it, Andrew steps in.
+Gavin walks away from Jesús, his focus set on the ship's door. Right as he's about to press the button to open it, Jesús steps in.
 
-Andrew  
+Jesús  
 Wait.
 
-Gavin comes to an abrupt stop, caught off guard by the sudden interruption. He faces Andrew, a mix of confusion and frustration evident in his expression.
+Gavin comes to an abrupt stop, caught off guard by the sudden interruption. He faces Jesús, a mix of confusion and frustration evident in his expression.
 
 Gavin  
 What?
 
-Andrew dips his hand into the unmarked box, handling it with care as he retrieves the A.P.E.X. canister.
+Jesús dips his hand into the unmarked box, handling it with care as he retrieves the A.P.E.X. canister.
 
-Andrew  
+Jesús  
 You might need this.
 
-Andrew hands over the A.P.E.X. canister to Gavin. Gavin takes it, ensuring its safety by placing it securely in his backpack for transport.
+Jesús hands over the A.P.E.X. canister to Gavin. Gavin takes it, ensuring its safety by placing it securely in his backpack for transport.
 
 Gavin  
 Thanks. 
@@ -438,7 +438,7 @@ How are you going to breathe up there?
 Gavin  
 As soon as I get up there, I’ll absorb some energy from the sun and create a ​barrier that’ll allow me to breathe up there. 
 
-Gavin looks at Andrew and picks up on the uncertainty in his eyes. He can tell that Andrew is still unsure about the plan, and Gavin understands the weight of the responsibility he's taking on.
+Gavin looks at Jesús and picks up on the uncertainty in his eyes. He can tell that Jesús is still unsure about the plan, and Gavin understands the weight of the responsibility he's taking on.
 
 Gavin  
 Relax, I've got this.
@@ -733,7 +733,7 @@ Superior.
 Jade bursts into laughter, a blend of amusement and defiance, as she locks eyes with Celeste.
 
 Jade  
-Wow, is everyone in Iztan this delusional?
+Wow, is everyone in Iztahn this delusional?
 
 Celeste lets out a low chuckle, a hint of smugness in her expression as she reacts to Jade's response.
 

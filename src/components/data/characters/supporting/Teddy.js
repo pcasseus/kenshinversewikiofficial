@@ -1,5 +1,4 @@
 const teddy = {
-  id: "#027",
   name: "Teddy Johnson",
   slug: "teddy",
   image: "/teddy.jpg",
@@ -111,7 +110,7 @@ const teddy = {
         image: "/ajax.jpg"
       },
       {
-        name: "Gavin Summers",
+        name: "Gavin Halden",
         role: "Honorary Nephew",
         status: "Alive",
         link: "/characters/gavin",

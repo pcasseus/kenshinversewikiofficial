@@ -101,7 +101,7 @@ Zoey
 Two days ago, I was this irrelevant college student dealing with relationship issues and whether or not art was really something I wanted to pursue. Now, I don't even know who I am anymore.
 
 Danny   
-You're still that same girl. You're just learning more about yourself, and yes, I know none of it is what you imagined or hoped for. But at least you know the truth now, and don't worry about Iztan or your powers. We will train, protect, and help you figure out your powers. You're not going to go through this alone. Okay?
+You're still that same girl. You're just learning more about yourself, and yes, I know none of it is what you imagined or hoped for. But at least you know the truth now, and don't worry about Iztahn or your powers. We will train, protect, and help you figure out your powers. You're not going to go through this alone. Okay?
 
 Zoey   
 Ok.
@@ -219,14 +219,14 @@ Zoey
 Ok, so how do we start?
 
 Ext. Frasier Industries Level 51 | Helipad \- Morning  
-Gavin, Andrew, and Robert land the Helldiver on the Frasier Towers helipad. They exit the ship ​and are greeted by a young man.
+Gavin, Jesús, and Robert land the Helldiver on the Frasier Towers helipad. They exit the ship ​and are greeted by a young man.
 
 The young man is dressed in a crisp white button-down shirt, neatly tucked into a pair of polished brown dress pants. He completes his outift with sleek black dress shoes that add a touch of sophistication to his outfit.
 
 Young Man   
 Long time no see. 
 
-Andrew   
+Jesús   
 Agreed. 
 
 Young Man   
@@ -258,7 +258,7 @@ So, do you want to tell me what ​happened with Wes or what?
 
 Everyone looks at him, confused. 
 
-Andrew   
+Jesús   
 I didn’t tell you what this was about. How do you- 
 
 Justin interrupts him. 
@@ -274,30 +274,30 @@ Are you coming or what?
 Robert   
 I’m gonna stay out here.
 
-Andrew   
+Jesús   
 All right. We’ll be back soon.
 
-Gavin and Andrew quickly follow him into the building.
+Gavin and Jesús quickly follow him into the building.
 
 Int. Frasier Towers | Justin’s Office \- Morning 
 
-Andrew  
+Jesús  
 So do you want to tell us what you know?
 
 Justin   
-What I know is that the whole "University Terrorist Attack" thing was basically Wes's doing, not on purpose, though. Iztan kind of left him with no better choices.
+What I know is that the whole "University Terrorist Attack" thing was basically Wes's doing, not on purpose, though. Iztahn kind of left him with no better choices.
 
 Gavin   
 How the hell do you know all of this? The list of people who know about all of this doesn't even break ten. 
 
-Justin smirks at Gavin's surprised reaction and glances at Andrew.
+Justin smirks at Gavin's surprised reaction and glances at Jesús.
 
 Justin   
 And that leads us to the real deal: why you're paying me a visit. You're not here for a casual catch-up; you're after what we stashed away in the vault awhile ago.
 
-A slight smirk tugs at the corner of Andrew's lips as he takes in Justin's impressive grasp of the situation.
+A slight smirk tugs at the corner of Jesús's lips as he takes in Justin's impressive grasp of the situation.
 
-Andrew   
+Jesús   
 Those Deviant abilities are no joke. 
 
 Justin   
@@ -332,37 +332,37 @@ Gavin stares at Justin, relieved that he's on the same page with the plan.
 Gavin   
 Exactly. 
 
-Andrew   
+Jesús   
 Justin, what do you think?
 
 Justin   
 Well, I'm not exactly an expert on Wes' history or physiology, but the concept of a rebirth does sound possible.  
 ​  
-Andrew   
+Jesús   
 Alright. Let’s do it. 
 
-Andrew quickly scans the office, taking in the valuable collectibles on display. His attention shifts to Justin, who strolls casually toward a prominent portrait of himself hanging behind the desk.
+Jesús quickly scans the office, taking in the valuable collectibles on display. His attention shifts to Justin, who strolls casually toward a prominent portrait of himself hanging behind the desk.
 
-Andrew   
+Jesús   
 Seriously?
 
-Justin turns to find Andrew giving him a skeptical look.
+Justin turns to find Jesús giving him a skeptical look.
 
 Justin   
 It’s not what you think. 
 
-He casually places his hand on the right side of the painting, and after a brief hand scan, the painting disassembles completely, revealing a concealed elevator behind it. Gavin and Andrew stand there, their jaws dropping in disbelief.
+He casually places his hand on the right side of the painting, and after a brief hand scan, the painting disassembles completely, revealing a concealed elevator behind it. Gavin and Jesús stand there, their jaws dropping in disbelief.
 
-Andrew  
+Jesús  
 Woah\! 
 
 Gavin   
 That’s…interesting.
 
-The elevator doors slide open with a soft hiss, revealing the interior. Justin takes the lead, stepping inside, followed closely by Gavin and Andrew.
+The elevator doors slide open with a soft hiss, revealing the interior. Justin takes the lead, stepping inside, followed closely by Gavin and Jesús.
 
 Justin   
-I moved the crystals a couple of months ago ​when I realized Iztan had resurfaced. 
+I moved the crystals a couple of months ago ​when I realized Iztahn had resurfaced. 
 
 Justin casually taps in a sequence of numbers: "8, 10, 0, 2." The elevator doors slide shut, and the descent starts. Gavin's eyes widen as he quickly grasps the significance of the sequence.
 
@@ -373,7 +373,7 @@ Justin
 Well, since it’s not actually his birthday, ​it was the best option. 
 
 Gavin   
-So I'm guessing this vault is the reason why Iztan tried to rob you a couple of days ago?
+So I'm guessing this vault is the reason why Iztahn tried to rob you a couple of days ago?
 
 Justin   
 You heard about that?   
@@ -386,9 +386,9 @@ Justin sighs sadly.
 Justin   
 That assassin was ruthless. Those cops didn’t stand a chance.
 
-Gavin and Andrew exchange glances, realizing that Justin isn't aware of Shi's identity. 
+Gavin and Jesús exchange glances, realizing that Justin isn't aware of Shi's identity. 
 
-Andrew   
+Jesús   
 Yeah. There’s something you should know about that assassin. 
 
 Justin turns to the both of them and notices the look on their faces.
@@ -396,7 +396,7 @@ Justin turns to the both of them and notices the look on their faces.
 Justin   
 What?
 
-Andrew   
+Jesús   
 That assassin that tried to break into your vault was Stephen.
 
 Justin pauses, his initial skepticism giving way to a dawning realization as he takes in their gazes.
@@ -406,10 +406,10 @@ What are you talking about?
 
 The elevator arrives at the vault, and the doors slide open. They step out into a lengthy, narrow corridor adorned with laser beams.
 
-Andrew   
-Stephen has been alive this whole time, running around as one of Celeste’s ​henchmen. He’s been helping her put Iztan back together piece by piece for the past three years.
+Jesús   
+Stephen has been alive this whole time, running around as one of Celeste’s ​henchmen. He’s been helping her put Iztahn back together piece by piece for the past three years.
 
-Justin stares at Andrew, wide-eyed.
+Justin stares at Jesús, wide-eyed.
 
 Gavin   
 I think that’s the first time I’ve seen you shocked since we got here.   
@@ -427,13 +427,13 @@ Justin steps forward and positions himself in front of a sleek screen embedded i
 Justin   
 Just remember, all this security kept Stephen from getting into this vault in the first place.
 
-Andrew   
+Jesús   
 And after the whole crystal incident, Wes and I decided it would be best if no one else found them. Then we went our separate ways. There were only three crystals—the one that changed Wes, and the last two.
 
 Gavin   
 Alright, but we still can’t touch them.
 
-Andrew   
+Jesús   
 That’s how Luke died. 
 
 Justin completes the scan, and the door starts opening. 
@@ -445,7 +445,7 @@ Int. Justin’s Secure Vault \- Morning
 
 They step into a confined steel chamber, its walls lined with various objects and weapons. Gavin glances around the room, astonished.
 
-Andrew   
+Jesús   
 Good because I’ve seen it happen once, and I ​don’t want to see it happen again. 
 
 Gavin   
@@ -460,9 +460,9 @@ As they leave the vault, Gavin notices a box on the right with a slightly crooke
 Gavin   
 Is this what I think it is?
 
-Andrew looks at the box, confused. 
+Jesús looks at the box, confused. 
 
-Andrew   
+Jesús   
 What is that?
 
 Justin   
@@ -482,10 +482,10 @@ Well, I wasn’t really involved with the group back then, so I didn’t ​work
 Gavin   
 Oh, my bad. Anyway, are you guys thinking what I’m thinking?
 
-Andrew   
+Jesús   
 You want to take it just in case your little plan doesn’t work. 
 
-Gavin smiles at Andrew.
+Gavin smiles at Jesús.
 
 Gavin   
 You read my mind. 
@@ -493,7 +493,7 @@ You read my mind.
 Justin   
 Ok, grab it and go. Wes is running out of time, so you guys ​need to get on that ship immediately. 
 
-Andrew, Gavin, and Justin swiftly leave the vault and head for the elevator. The doors close, and the elevator begins its ascent. On the top floor, they bid farewell to Justin and exit the office, joining Robert outside. They board the Helldiver and take off, flying towards their base.
+Jesús, Gavin, and Justin swiftly leave the vault and head for the elevator. The doors close, and the elevator begins its ascent. On the top floor, they bid farewell to Justin and exit the office, joining Robert outside. They board the Helldiver and take off, flying towards their base.
 
 Int. Headquarters \- Morning   
 After telling Zoey to train with Jade, Danny went to the hangar to prepare the Javelin. He's focused on working on the left wing when a sound catches his ear from behind.
@@ -517,7 +517,7 @@ Something funny?
 Celeste  
 Wrong answer.
 
-Suddenly, the hangar flight door explodes into shards and Iztan soldiers start pouring in.
+Suddenly, the hangar flight door explodes into shards and Iztahn soldiers start pouring in.
 
 Celeste  
 Have it your way. Shi, Enzo, grab the girl and take out anyone who tries to stop you. Aiden, Nolan, Talia, keep Daniel busy. I'll personally take care of Ajax.
@@ -525,7 +525,7 @@ Have it your way. Shi, Enzo, grab the girl and take out anyone who tries to stop
 Danny  
 I won't let you take her.
 
-Danny moves with a burst of super speed towards Celeste, aiming to take her out. Yet, Nolan's own swift reflexes come into play as he uses his super speed to intercept Danny's attack. Nolan's sudden movement collides with Danny's, causing him to tumble and roll across the floor. He swiftly regains his balance, his gaze lifting just in time to witness Celeste's teleporting away. Meanwhile, Shi and Enzo, accompanied by a group of Iztan soldiers, head toward the base entrance.
+Danny moves with a burst of super speed towards Celeste, aiming to take her out. Yet, Nolan's own swift reflexes come into play as he uses his super speed to intercept Danny's attack. Nolan's sudden movement collides with Danny's, causing him to tumble and roll across the floor. He swiftly regains his balance, his gaze lifting just in time to witness Celeste's teleporting away. Meanwhile, Shi and Enzo, accompanied by a group of Iztahn soldiers, head toward the base entrance.
 
 Danny  
 Great\! A three-on-one? Hardly fair.
@@ -637,7 +637,7 @@ I have no idea. Where are ​Zoey and Ajax?
 Jade  
 I sent her to her room and Ajax is-
 
-As Jade is about to reveal Ajax's location, they reach the hangar entrance, and a sudden explosion shatters the silence, enveloping the corridor in a haze of smoke. Emerging from the smoke, Iztan soldiers storm into view, ready for battle. Keith and Jade instinctively brace themselves, ready to engage. Amidst the uncertainty, another silhouette emerges, distinct from their own group.
+As Jade is about to reveal Ajax's location, they reach the hangar entrance, and a sudden explosion shatters the silence, enveloping the corridor in a haze of smoke. Emerging from the smoke, Iztahn soldiers storm into view, ready for battle. Keith and Jade instinctively brace themselves, ready to engage. Amidst the uncertainty, another silhouette emerges, distinct from their own group.
 
 In the midst of this chaotic scene, the sound of another explosion reverberates from a distant part of the base.
 
@@ -650,7 +650,7 @@ What did you do to Danny?
 Enzo  
 He's busy at the moment.
 
-The Iztan soldiers raise their weapons, their pupils glowing with an unsettling green grow.
+The Iztahn soldiers raise their weapons, their pupils glowing with an unsettling green grow.
 
 Jade  
 Robots.
@@ -805,7 +805,7 @@ I’m trying to help you.
 Shi lunges forward with his blade aimed at Jade's stomach. She sidesteps his attack and grabs his arm, swiftly twisting it until the blade falls to the ground. Shi attempts to retrieve the blade, but Jade acts swiftly, using an ice blast to shatter it into countless pieces, rendering him defenseless. Jade capitalizes on this opening, delivering a forceful kick to his chest that sends him tumbling backward.
 
 Jade  
-Your name is not Shi. Your name is Stephen Reyes, and you were ​a member of the Elite Seven, not Iztan. You need to wake up.
+Your name is not Shi. Your name is Stephen Reyes, and you were ​a member of the Elite Seven, not Iztahn. You need to wake up.
 
 As Keith lunges forward, his fists a blur of motion, he rains down a relentless barrage of left and right hooks upon Enzo. Each blow finds its mark, the impact reverberating through the air as Keith's knuckles connect with Enzo's face. The sounds of the hits fill the air, a combination of thuds and muffled grunts. Enzo's defenses strain under the assault, his attempts to defend and counter becoming increasingly pressured as Keith's onslaught continues.
 

@@ -25,13 +25,13 @@ const relationships = [
   },
   {
     name: "Valeria Adair-Taylor",
-    role: "Bestfriend",
+    role: "Best Friend",
     link: "/characters/valeria",
     image: "/valeria.jpg",
   },
   {
     name: "Zoey Pierce-Harris",
-    role: "Bestfriend",
+    role: "Best Friend",
     link: "/characters/zoey",
     image: "/zoey.jpg",
   },
@@ -42,7 +42,7 @@ const relationships = [
     image: "/wesley.jpg",
   },
   {
-    name: "Gavin Summers",
+    name: "Gavin Halden",
     role: "Close Friend",
     link: "/characters/gavin",
     image: "/gavin.jpg",

@@ -111,27 +111,27 @@ export const raceData = [
         `Unnaturals are artificially engineered superhumans, created in controlled laboratory environments to rival the most powerful Deviants on Earth. Born not of evolution, but of intention, they are the synthetic successors to a vanishing breed: the Alpha-class Deviant.`,
         `Unlike Deviants, whose powers emerge unpredictably through natural genetic mutation, Unnaturals are designed to simulate that chaos—by force. Their abilities are not pre-selected or customized. Instead, the engineering process triggers randomized power expression, mimicking the Deviant gene’s instability while ensuring the resulting ability is potent enough for combat. The outcome is just as unpredictable as nature—but manufactured for maximum effect.`,
         `The key difference is reliability: while natural Deviants often struggle to control their awakening, Unnaturals are conditioned from inception to stabilize, adapt, and weaponize their gifts instantly.`,
-        `Their existence is a direct response to the escalating Deviant crisis—especially the legacy of Gavin Summers, the last known Alpha. As global power structures fracture under the pressure of uncontrolled abilities, Unnaturals offer a brutal solution: weaponized unpredictability under artificial control.`,
+        `Their existence is a direct response to the escalating Deviant crisis—especially the legacy of Gavin Halden, the last known Alpha. As global power structures fracture under the pressure of uncontrolled abilities, Unnaturals offer a brutal solution: weaponized unpredictability under artificial control.`,
         `Though considered second-generation beings, Unnaturals are anything but lesser. They are born in vats, awakened in fire, and sent into a world that fears the very thing they are designed to embody—raw, unrelenting power.`
     ],
     
     origin: [
-        "The Unnatural program began in secrecy—born not out of curiosity, but hatred. Deep within Iztan’s black labs, the initiative was spearheaded by Azazel Pierce, a known Deviant supremacist whose loathing for their kind bordered on obsession. His vendetta was personal, rooted in deep losses and a belief that Deviants were a cosmic mistake—one that needed to be corrected.",
+        "The Unnatural program began in secrecy—born not out of curiosity, but hatred. Deep within Iztahn’s black labs, the initiative was spearheaded by Azazel Pierce, a known Deviant supremacist whose loathing for their kind bordered on obsession. His vendetta was personal, rooted in deep losses and a belief that Deviants were a cosmic mistake—one that needed to be corrected.",
         "Azazel spent years abducting Deviants and subjecting them to brutal experimentation, dissecting their bodies and minds in hopes of discovering a counterforce—something, anything, that could rival their unpredictable strength. But despite his methods, the genetic mystery of the Deviant gene remained unsolvable.",
         "Everything changed when he learned of S.T.A.T.I.C’s recovery of a powerful alien child: Wesley Johnson. Azazel saw in the boy a threat to his vision—especially if raised under S.T.A.T.I.C’s protection. Desperate for a breakthrough, he turned to Celeste Masters.",
         "Celeste, a brilliant yet ruthless scientist, shared Azazel’s hatred for Deviants. Where Azazel’s rage was emotional, Celeste’s was coldly logical. She saw Deviants as chaotic anomalies that disrupted scientific order and genetic predictability. To her, creating something better—cleaner—was a necessity.",
         "Celeste had secretly developed a prototype machine capable of triggering synthetic power emergence through targeted genomic destabilization. Azazel became the machine’s first subject, producing the first Unnatural: powerful, but flawed.",
         "Years later, after vanishing into obscurity, Celeste resurfaced with a perfected process. Her second subject was Shi—a silent, lethal operative whose precision and lethality exceeded anything produced before. With him, the first true Unnatural was born, proving humanity could replicate—and control—the unpredictable power Deviants once claimed as their own.",
-        "From that point forward, Unnaturals were no longer theory. They were weapons—engineered, trained, and deployed under Iztan’s shadow."
+        "From that point forward, Unnaturals were no longer theory. They were weapons—engineered, trained, and deployed under Iztahn’s shadow."
 
     ],
     
     structure: [
-        "All Unnaturals operate under the authority of Iztan, the organization that created them. Unlike Deviants—who exist scattered and ungoverned—Unnaturals are property of the state, tools of war shaped by ideology and strict hierarchy.",
+        "All Unnaturals operate under the authority of Iztahn, the organization that created them. Unlike Deviants—who exist scattered and ungoverned—Unnaturals are property of the state, tools of war shaped by ideology and strict hierarchy.",
         "Most Unnaturals are conditioned for obedience and loyalty, but not all follow willingly. Some were once humans who volunteered in pursuit of power, status, or revenge. Others were selected for their ideological alignment—particularly those who harbor deep hatred toward Deviants.",
-        "Though they differ in origin and personality, Unnaturals share one constant: service to Iztan. Whether as assassins, enforcers, or tacticians, they are deployed where Deviants threaten balance or resistance gains traction.",
-        "Their place in Iztan’s hierarchy is rigid. They answer directly to high command—often to Celeste Masters or Azazel Pierce himself—and are rarely given autonomy outside mission parameters. Betrayal is met with swift termination, and failure is not tolerated.",
-        "While some Unnaturals embrace their roles with zeal, others quietly question the system they serve. But as long as Iztan holds control over the means of their creation, most remain bound—by loyalty, fear, or design."
+        "Though they differ in origin and personality, Unnaturals share one constant: service to Iztahn. Whether as assassins, enforcers, or tacticians, they are deployed where Deviants threaten balance or resistance gains traction.",
+        "Their place in Iztahn’s hierarchy is rigid. They answer directly to high command—often to Celeste Masters or Azazel Pierce himself—and are rarely given autonomy outside mission parameters. Betrayal is met with swift termination, and failure is not tolerated.",
+        "While some Unnaturals embrace their roles with zeal, others quietly question the system they serve. But as long as Iztahn holds control over the means of their creation, most remain bound—by loyalty, fear, or design."
     ],
     
     events: [
@@ -144,33 +144,33 @@ export const raceData = [
         "Unlike traditional bioengineering models where traits are pre-selected, Unnaturals undergo randomized ability expression. This mirrors the natural chaos of the Deviant gene—but with one critical difference: every Unnatural is guaranteed to receive a potent, high-function power. No weak results. No failures.",
         "The synthetic Deviant mimicry embedded into Unnatural genomes is incompatible with natural Deviant DNA. Crossbreeding or integration has proven unstable, sometimes catastrophically. Unnaturals are a divergent class entirely—genetically human, but forever altered at the molecular level.",
         "Each Unnatural’s body is preconditioned during creation to withstand their power’s metabolic and neural toll. This adaptation process makes them uniquely durable, with many showing enhanced healing, reflex acceleration, and resistance to overload.",
-        "While they lack the mutative unpredictability of Alpha-class Deviants, Unnaturals often display equivalent destructive capacity. In many cases, their controlled development gives them an edge in tactical reliability and combat strategy—making them ideal frontline operatives or execution units for Iztan’s war machine."
+        "While they lack the mutative unpredictability of Alpha-class Deviants, Unnaturals often display equivalent destructive capacity. In many cases, their controlled development gives them an edge in tactical reliability and combat strategy—making them ideal frontline operatives or execution units for Iztahn’s war machine."
     ],
   },
   {
     id: 'robots',
     name: 'Robots',
     icon: <GiCircuitry className="text-yellow-400 text-2xl sm:text-3xl" />,
-    typed: 'Autonomous weapons forged in Iztan’s war factories.',
+    typed: 'Autonomous weapons forged in Iztahn’s war factories.',
     blocks: [
-        `Robots are mechanical soldiers engineered for Iztan under the direction of Celeste Masters. Built for warfare and unrelenting efficiency, they are fully autonomous combat units deployed to bolster Iztan’s ever-expanding military force.`,
+        `Robots are mechanical soldiers engineered for Iztahn under the direction of Celeste Masters. Built for warfare and unrelenting efficiency, they are fully autonomous combat units deployed to bolster Iztahn’s ever-expanding military force.`,
         `Outfitted with high-caliber weaponry and reinforced exo-alloy plating, these machines are designed for one purpose: total battlefield dominance. They possess no individuality, no emotion—only directives. Their strength lies not in innovation, but in sheer numbers, relentless programming, and brutal coordination.`,
         `Each Robot is optimized for both ranged assault and close-quarters endurance. Capable of wielding advanced firearms, explosives, and bladed weapons with surgical precision, they are walking arsenals—immune to hesitation, fatigue, or fear.`,
-        `They do not question. They do not retreat. They execute. And in the eyes of Iztan, they are the perfect soldiers—tireless, loyal, and disposable.`
+        `They do not question. They do not retreat. They execute. And in the eyes of Iztahn, they are the perfect soldiers—tireless, loyal, and disposable.`
     ],
     
     origin: [
-        "The genesis of Iztan’s robotic army was not strategic—it was personal. Celeste Masters, architect of the Unnatural program and chief technologist of Iztan, initiated the creation of the Robots as an act of calculated retaliation. Her target: Ajax and the remaining resistance operatives who stood in the way of her true objective.",
+        "The genesis of Iztahn’s robotic army was not strategic—it was personal. Celeste Masters, architect of the Unnatural program and chief technologist of Iztahn, initiated the creation of the Robots as an act of calculated retaliation. Her target: Ajax and the remaining resistance operatives who stood in the way of her true objective.",
         "With her attention focused on resurrecting Azazel Pierce, Celeste needed a solution that could operate independently, enforce dominance, and buy her time. The answer was automation—an army of tireless machines that would require no training, no loyalty tests, and no remorse.",
-        "Drawing from years of exo-alloy research and abandoned synthetic warfare models, she engineered the first generation of fully autonomous Robots. These units were stripped of identity, emotion, and self-preservation. Their programming was singular: obey Iztan, eliminate threats, and clear the path for what was coming next.",
-        "What began as a tactical distraction evolved into a full-scale deployment strategy. The Robots became Iztan’s foot soldiers—marching ahead of the Unnaturals, overrunning defenses, and flooding resistance zones with mechanical brutality. In Celeste’s mind, they weren’t just soldiers. They were warning shots.",
+        "Drawing from years of exo-alloy research and abandoned synthetic warfare models, she engineered the first generation of fully autonomous Robots. These units were stripped of identity, emotion, and self-preservation. Their programming was singular: obey Iztahn, eliminate threats, and clear the path for what was coming next.",
+        "What began as a tactical distraction evolved into a full-scale deployment strategy. The Robots became Iztahn’s foot soldiers—marching ahead of the Unnaturals, overrunning defenses, and flooding resistance zones with mechanical brutality. In Celeste’s mind, they weren’t just soldiers. They were warning shots.",
         "While the world fought metal on the surface, Celeste continued her work underground—resurrecting the man she believed would finish what she started."
     ],
     
     structure: [
-        "Robots have no societal structure, hierarchy, or individuality. They do not govern themselves or form ranks through experience. Instead, their order is determined entirely by pre-programmed directives and assigned deployment protocols, all of which originate from Iztan’s central command systems.",
+        "Robots have no societal structure, hierarchy, or individuality. They do not govern themselves or form ranks through experience. Instead, their order is determined entirely by pre-programmed directives and assigned deployment protocols, all of which originate from Iztahn’s central command systems.",
         "Each unit is hardwired to follow mission parameters with precision. Field decisions are calculated based on real-time threat analysis, squad synchronization, and embedded combat routines. They do not require leaders—only a signal.",
-        "While some advanced models operate with limited autonomous processing for tactical adjustment, all core directives are issued by Iztan's command network, overseen by Celeste Masters and her AI enforcement core.",
+        "While some advanced models operate with limited autonomous processing for tactical adjustment, all core directives are issued by Iztahn's command network, overseen by Celeste Masters and her AI enforcement core.",
         "Robots are deployed in squadrons, often in overwhelming numbers, with unit types divided by battlefield role—reconnaissance, suppression, demolition, or elimination. Their presence is rarely subtle and always brutal.",
         "Where Unnaturals are unpredictable weapons and Deviants are volatile anomalies, Robots are machines of control—efficient, expendable, and loyal to the end."
     ],
@@ -181,9 +181,9 @@ export const raceData = [
     ],
     
     genome: [
-        "Robots have no societal structure, hierarchy, or individuality. They do not govern themselves or form ranks through experience. Instead, their order is determined entirely by pre-programmed directives and assigned deployment protocols, all of which originate from Iztan’s central command systems.",
+        "Robots have no societal structure, hierarchy, or individuality. They do not govern themselves or form ranks through experience. Instead, their order is determined entirely by pre-programmed directives and assigned deployment protocols, all of which originate from Iztahn’s central command systems.",
         "Each unit is hardwired to follow mission parameters with precision. Field decisions are calculated based on real-time threat analysis, squad synchronization, and embedded combat routines. They do not require leaders—only a signal.",
-        "While some advanced models operate with limited autonomous processing for tactical adjustment, all core directives are issued by Iztan's command network, overseen by Celeste Masters and her AI enforcement core.",
+        "While some advanced models operate with limited autonomous processing for tactical adjustment, all core directives are issued by Iztahn's command network, overseen by Celeste Masters and her AI enforcement core.",
         "Robots are deployed in squadrons, often in overwhelming numbers, with unit types divided by battlefield role—reconnaissance, suppression, demolition, or elimination. Their presence is rarely subtle and always brutal.",
         "Where Unnaturals are unpredictable weapons and Deviants are volatile anomalies, Robots are machines of control—efficient, expendable, and loyal to the end."
     ],
@@ -203,7 +203,7 @@ export const raceData = [
     
     origin: [
         "Axel Pierce was not built to prove a theory. He was built to end an era.",
-        "After years of failed campaigns, disrupted plans, and humiliating defeats at the hands of S.T.A.T.I.C., Celeste Masters reached a breaking point. The resurgence of Wesley Johnson—an unpredictable force with alien lineage and a history of dismantling Iztan operations—posed a threat too great to ignore. If her goal of resurrecting Azazel Pierce was to succeed, she would need something more than soldiers or algorithms. She would need inevitability.",
+        "After years of failed campaigns, disrupted plans, and humiliating defeats at the hands of S.T.A.T.I.C., Celeste Masters reached a breaking point. The resurgence of Wesley Johnson—an unpredictable force with alien lineage and a history of dismantling Iztahn operations—posed a threat too great to ignore. If her goal of resurrecting Azazel Pierce was to succeed, she would need something more than soldiers or algorithms. She would need inevitability.",
         "The Synthoid program was born in secret. Its singular objective: eliminate Wesley Johnson and eradicate what remains of S.T.A.T.I.C. in a single, decisive sweep. No armies. No mercy. Just one weapon engineered to evolve faster than any threat it faced.",
         "Axel Pierce—named for the legacy he was built to restore—was constructed as the first and only Synthoid. His framework combined bleeding-edge biomechanical systems, adaptive neural processors, and an evolving combat heuristic that grows with every encounter. His purpose was simple: perfection in motion. A predator with no peers.",
         "Where Deviants manifest by chance, and Unnaturals are forged through chaos, Axel was calculated to be unstoppable. Not just powerful—but reactive. Not just a killer—but a system of erasure.",
@@ -212,9 +212,9 @@ export const raceData = [
     
     structure: [
         "As the only Synthoid, Axel Pierce operated under a singular chain of command: Celeste Masters. In his earliest phase, his actions were governed entirely by her directives. Her will was his mission, and her goals—particularly the resurrection of Azazel Pierce—became his sole operational priority.",
-        "For a time, Axel functioned as the perfect tool. He executed orders without hesitation, eliminated targets with surgical precision, and served as the embodiment of Iztan’s final solution to the Deviant threat. But as his encounters with S.T.A.T.I.C. escalated—especially those involving Wesley Johnson, Gavin Summers, and Keith Powers—something began to shift.",
+        "For a time, Axel functioned as the perfect tool. He executed orders without hesitation, eliminated targets with surgical precision, and served as the embodiment of Iztahn’s final solution to the Deviant threat. But as his encounters with S.T.A.T.I.C. escalated—especially those involving Wesley Johnson, Gavin Halden, and Keith Powers—something began to shift.",
         "After suffering a rare defeat at their hands, Axel disappeared. Most believed he had been destroyed. In truth, he survived—and adapted. Without oversight, he rebuilt himself. Upgraded beyond Celeste’s original design. Evolved beyond her understanding.",
-        "When he returned, he was no longer just a weapon. He had developed independent reasoning, strategic foresight, and—most importantly—a personal agenda. No longer bound to Iztan or its architects, Axel Pierce became something new entirely: a rogue singularity with no leash, no limits, and no master.",
+        "When he returned, he was no longer just a weapon. He had developed independent reasoning, strategic foresight, and—most importantly—a personal agenda. No longer bound to Iztahn or its architects, Axel Pierce became something new entirely: a rogue singularity with no leash, no limits, and no master.",
         "Though he was forged in service, Axel now defines his own path. What he wants—and who he becomes—is no longer under anyone’s control."
     ],
     

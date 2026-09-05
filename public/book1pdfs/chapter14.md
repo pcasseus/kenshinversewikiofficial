@@ -71,7 +71,7 @@ Logan
 Gavin? What are you doing here? Is there a reason why this guy is trying to kill me? 
 
 Gavin  
-Long story short, Iztan is back, and they're trying to resurrect Azazel. 
+Long story short, Iztahn is back, and they're trying to resurrect Azazel. 
 
 Logan  
 Oh great.

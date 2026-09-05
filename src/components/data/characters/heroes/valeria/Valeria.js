@@ -11,12 +11,21 @@ import abilities1 from "./abilities1.js";
 const abilities = [...abilities1];
 
 const valeria = {
-  id: "#007",
   slug: "valeria",
   name: "Valeria Adair-Taylor",
   image: "/valeria.jpg",
-  class: "Human Class",
-  primaryPower: "Genius-Level Intellect",
+
+  race: {
+    KVI: {
+      beginning: "Human",
+      middle: "Human",
+      end: "Human",
+    },
+  },
+
+  profileType: "human",
+  role: "Medical & Scientific Specialist",
+  specialty: "Genius-Level Intellect",
 
   aliases: [],
 

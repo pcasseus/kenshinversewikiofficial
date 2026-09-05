@@ -1,24 +1,24 @@
 Ext. Queens New York Neighborhood \- Night  
-As Wesley's life hangs in the balance, Gavin makes the difficult decision to leave the base in search of a potential solution – Andrew Torres.
+As Wesley's life hangs in the balance, Gavin makes the difficult decision to leave the base in search of a potential solution – Jesús Torres.
 
-Andrew steps through the front door, his workday attire unmistakably conveying the story of his day. A white undershirt peeks out from beneath his crisply worn dress pants, while his tactical shoes rest comfortably near the entrance. It's clear that he has just returned home from work, his demeanor subtly revealing the traces of fatigue from the day.
+Jesús steps through the front door, his workday attire unmistakably conveying the story of his day. A white undershirt peeks out from beneath his crisply worn dress pants, while his tactical shoes rest comfortably near the entrance. It's clear that he has just returned home from work, his demeanor subtly revealing the traces of fatigue from the day.
 
 Gavin is dressed in a cream-colored denim trucker jacket over a white shirt. His outfit is completed with gray cargo pants and white sneakers.
 
-Andrew   
+Jesús   
 What the hell are you doing here?
 
 Gavin   
 I need your help.
 
-Andrew attempts to close the door, but Gavin isn't having it.
+Jesús attempts to close the door, but Gavin isn't having it.
 
 Gavin   
-Andrew, if you close that door in my face, I swear I'll blast it open.
+Jesús, if you close that door in my face, I swear I'll blast it open.
 
-Andrew notices Gavin's clenched fists and decides to leave the house, closing the door behind him.
+Jesús notices Gavin's clenched fists and decides to leave the house, closing the door behind him.
 
-Andrew  
+Jesús  
 I'd watch how you talk to me. You might have powers, but I can put you on your ass before you can blink.
 
 Gavin's lips curl into a smirk as he slowly unclenches his fists, a subtle reminder of the gravity of the situation hanging between them.
@@ -26,21 +26,21 @@ Gavin's lips curl into a smirk as he slowly unclenches his fists, a subtle remin
 Gavin   
 I didn't come here to fight. You know I wouldn't have shown up if it weren't important.
 
-Andrew rolls his eyes and lets out an exasperated sigh.
+Jesús rolls his eyes and lets out an exasperated sigh.
 
-Andrew   
+Jesús   
 Fine. Come in.
 
 Int. Torres Residence \- Night  
-Andrew steps into the home, Gavin trailing behind him. After a brief moment, a woman enters the living room. 
+Jesús steps into the home, Gavin trailing behind him. After a brief moment, a woman enters the living room. 
 
 The young woman is dressed in a black sweater featuring the NYPD logo on the front. She pairs it with shorts and comfortable slippers.
 
 Young Woman   
 Babe, who's this?
 
-Andrew   
-An old friend, this is Gavin. Gavin, meet my girlfriend, Natasha. Nat, this is Gavin Summers.
+Jesús   
+An old friend, this is Gavin. Gavin, meet my girlfriend, Natasha. Nat, this is Gavin Halden.
 
 Gavin reaches out, offering a handshake to Natasha in a warm and friendly manner.
 
@@ -50,15 +50,15 @@ It's nice to meet you.
 Natasha   
 Same to you.
 
-Andrew  
+Jesús  
 So, what are you doing here?
 
 Gavin   
 You may want to sit down for this.
 
-The group settles into their seats, creating a relaxed atmosphere. Gavin's gaze shifts between Natasha and Andrew, a hint of confusion dancing across his expression as he silently observes the dynamic between them.
+The group settles into their seats, creating a relaxed atmosphere. Gavin's gaze shifts between Natasha and Jesús, a hint of confusion dancing across his expression as he silently observes the dynamic between them.
 
-Andrew  
+Jesús  
 Feel free to say whatever you're about to say; she's aware of everything.
 
 Gavin (Thinking)  
@@ -67,7 +67,7 @@ He must really trust her, since he's told her everything.
 Gavin   
 This is about Wes.
 
-Andrew abruptly stands up, but Natasha quickly stops him by gripping his arm.
+Jesús abruptly stands up, but Natasha quickly stops him by gripping his arm.
 
 Natasha (Whispering)   
 Let's just hear him out.
@@ -75,49 +75,49 @@ Let's just hear him out.
 Gavin   
 I know you two aren't on the best of terms, but- 
 
-Andrew interrupts him.
+Jesús interrupts him.
 
-Andrew   
+Jesús   
 Then you would know I don't care what you have to say about ​him; that kid is dead to me.
 
-Fed up, Gavin shouts at Andrew.​
+Fed up, Gavin shouts at Jesús.​
 
 Gavin (Shouting)   
 If you keep interrupting me, he'll be literally dead. So can you put aside your ​meaningless grudge for 20 minutes and let me explain?
 
-Andrew looks at Gavin, clearly taken aback and at a loss for words. He then quietly reseats himself.
+Jesús looks at Gavin, clearly taken aback and at a loss for words. He then quietly reseats himself.
 
 Gavin   
-Thank you. In the last year, Noxus has been stealing gear from different places like Omega Labs and Dynamic Industries. My team and I intercepted one of their heists and ran into some highly trained operatives. One was a top assassin named Shi. He surprised us, and Jade ended up in the infirmary.
+Thank you. In the last year, Noxus has been stealing gear from different places like Omega Labs and Dynamic Industries. My team and I intercepted one of their heists and ran into some highly trained operatives. One was a top assassin named Shi. He surprised us, and Jade ended up in the infirelena.
 
-Gavin easily picks up on the genuine concern etched across Andrew's face.
+Gavin easily picks up on the genuine concern etched across Jesús's face.
 
 Gavin  
 She's okay. But the blades he's using are coated with some kind of poison. It's meant to mess with our powers and make us sick. Our scientists came up with a cure, so she's stable now. But there's a problem.
 
-Andrew  
+Jesús  
 What?
 
 Gavin  
-Noxus was a cover for Iztan. They’re back and stronger than ever.
+Noxus was a cover for Iztahn. They’re back and stronger than ever.
 
-Andrew  
+Jesús  
 You’re joking.
 
 Gavin   
 I wish I was.
 
-Andrew  
+Jesús  
 That doesn’t make any sense.
 
 Gavin  
 Once we pieced it together, I headed to Los Angeles to track down Wes. With all of us laying low for the past couple of years and our resources running thin, it was obvious we were in over our heads. When I showed him everything, he was able to figure out what they were building.
 
-Andrew  
+Jesús  
 Which is?
 
 Gavin   
-An Iztan project that was created to bring back the dead.  
+An Iztahn project that was created to bring back the dead.  
 ​  
 Natasha   
 I don’t like where this is going.
@@ -125,41 +125,41 @@ I don’t like where this is going.
 Gavin   
 They’re trying to resurrect Azazel.
 
-Andrew looks skeptical, his nervousness evident. He tglances at Gavin, questioning him.
+Jesús looks skeptical, his nervousness evident. He tglances at Gavin, questioning him.
 
-Andrew   
+Jesús   
 That's not possible. Are you sure?
 
 Gavin   
-Wes said the same thing. He got hold of the original schematics from one of their labs, and he figured out that they don't need his body, just his blood and another closely related sample. As soon as we figured that out, Iztan showed up and attacked both of us. We managed to beat them, but they still got away.
+Wes said the same thing. He got hold of the original schematics from one of their labs, and he figured out that they don't need his body, just his blood and another closely related sample. As soon as we figured that out, Iztahn showed up and attacked both of us. We managed to beat them, but they still got away.
 
-Andrew   
+Jesús   
 Who's behind this?
 
 Gavin   
 Celeste. 
 
-Andrew sighs in frustration.
+Jesús sighs in frustration.
 
-Andrew   
+Jesús   
 I forgot about her. She's obsessed with him.
 
 Gavin   
 After we brought that information to Ajax, he told us Azazel had a daughter.
 
-Andrew  
+Jesús  
 A daughter? Are we talking about the same Azazel? The racist who brutally killed almost all of the Deviants? That Azazel?
 
 Gavin   
 If you're going to back out now, tell me.
 
-Andrew   
+Jesús   
 I'm not backing out.
 
 Gavin  
 Good, because you're going to scream at me ​for this next part.
 
-Andrew   
+Jesús   
 What do you mean?
 
 Gavin  
@@ -168,39 +168,39 @@ Have you guys been watching the news recently?
 Natasha   
 No. Why?
 
-Natasha switches on the TV and flips to channel seven. The screen reveals the destruction at Baxter University. Andrew and Natasha share a moment of stunned silence as Andrew reads the headline.
+Natasha switches on the TV and flips to channel seven. The screen reveals the destruction at Baxter University. Jesús and Natasha share a moment of stunned silence as Jesús reads the headline.
 
-Andrew   
+Jesús   
 University Terrorist Attack?
 
 Gavin   
 I wouldn't go so far as to label it a terrorist attack. It was more like a fight between a couple of individuals, and in the process of our escape, Wes took down the building.
 
-Andrew  
+Jesús  
 Explain. 
 
 Gavin   
 Wes informed us about an event that B.U. was hosting, so we thought it was the perfect opportunity to safely and quickly extract her. But, the mission went south fast.
 
-Andrew   
-Iztan found her first.
+Jesús   
+Iztahn found her first.
 
 Gavin   
 Yeah, they were there too, and they brought out some of their major players. The assassin I mentioned earlier, Shi, showed up. Wes ended up holding him off while I got the kids out. Which is how he got hurt
 
-Andrew  
+Jesús  
 We might not be on the best of terms, but Wes was undeniably one of the best fighters I've ever known, and he has powers to add to that. So I don't see how he could lose.
 
 Gavin   
 That's the thing. I was supposed to get the kids out and get back to help him. But I had a run-in with my older brother.
 
-Andrew   
+Jesús   
 Wait, you have an older brother?
 
 Gavin   
-And a younger one too, except he's not working for the enemy. Aidan was a S.T.A.T.I.C. agent, and then he joined Noxus, or Iztan now. I took him on and ended up losing. My loss left Wes with two problems to deal with.
+And a younger one too, except he's not working for the enemy. Aidan was a S.T.A.T.I.C. agent, and then he joined Noxus, or Iztahn now. I took him on and ended up losing. My loss left Wes with two problems to deal with.
 
-Andrew   
+Jesús   
 Okay, here's what I don't understand: you both have powers, while this guy is just your regular run-of-the-mill assassin.
 
 Natasha   
@@ -211,27 +211,27 @@ Gavin looks at her and briefly lets his eyes glow electric blue before returning
 Gavin  
 We didn't lose to some random human – he's an Unnatural.
 
-Andrew  
+Jesús  
 Why am I not surprised? What are his powers?
 
 Gavin  
 He has some insane regeneration powers. So if I blast off a ​limb or something, it comes back.
 
-Andrew   
+Jesús   
 Interesting. 
 
 Gavin   
 Also, there’s something you should know...
 
-Feeling tense, Andrew gives Gavin a hard look, uncertain of how he could possibly surpass the news they just received.
+Feeling tense, Jesús gives Gavin a hard look, uncertain of how he could possibly surpass the news they just received.
 
-Andrew   
+Jesús   
 What?  
    
 Gavin   
 Wes and I found out who the assassin is. It’s part of the ​reason I came to you in the first place.
 
-Andrew   
+Jesús   
 Gavin, stop stalling and spit it out already.
 
 Gavin takes a deep breath and lets out a heavy sigh.
@@ -239,24 +239,24 @@ Gavin takes a deep breath and lets out a heavy sigh.
 Gavin   
 Shi is Stephen.
 
-Andrew's body tenses subtly, his eyes widening in disbelief as he looks at Gavin.
+Jesús's body tenses subtly, his eyes widening in disbelief as he looks at Gavin.
 
-Andrew  
+Jesús  
 Gavin, if this is some dumb elaborate joke, I will shoot you right here in this living room.
 
 Gavin   
-Andrew, I'm not lying to you, and I would never joke about something like this.
+Jesús, I'm not lying to you, and I would never joke about something like this.
 
-Andrew looks into Gavin's eyes and realizes he's telling the truth. He leans back and tries to come to terms with all of the information.
+Jesús looks into Gavin's eyes and realizes he's telling the truth. He leans back and tries to come to terms with all of the information.
 
-Andrew   
+Jesús   
 This changes everything.
 
 Natasha   
 But this doesn't make any sense. Why would Stephen ever work for them?
 
-Andrew  
-She's right. He would never willingly work with Iztan. He has to be under mind control or something. Is he?
+Jesús  
+She's right. He would never willingly work with Iztahn. He has to be under mind control or something. Is he?
 
 Gavin   
 Honestly, I don't know, but it didn't seem like he knew who Wes was during our first encounter.
@@ -269,13 +269,13 @@ Gavin sighs deeply.
 Gavin   
 He got injured badly.
 
-Andrew   
+Jesús   
 How bad are we talking?
 
 Gavin   
 Well, for starters, his powers are gone. He also has two shattered arms and a poisonous stab wound.
 
-Andrew  
+Jesús  
 Jesus. Alright, but what about the cure? You mentioned you guys used it to save Jade.
 
 Gavin   
@@ -287,32 +287,32 @@ How so?
 Gavin   
 The cure was made to support Deviants like Jade and myself.
 
-Andrew   
+Jesús   
 Wes isn’t a Deviant...
 
 Gavin   
 Exactly. Not only that, but this is also a modified poison specifically made for him. The poison is destroying him at a cellular level, if that makes sense. I'm not good at the science stuff. But once it runs its course, he dies.
 
-Andrew  
+Jesús  
 How much time does he have?
 
 Gavin   
 They're working on a modified version of Jade's antidote, which won't save him. It's just going to buy him more time. Which brings me to the reason why I specifically came to you for help.
 
-Andrew  
+Jesús  
 What did you have in mind?
 
 Gavin   
 The crystals.
 
-Andrew's lips curl into a half-smile, a touch of skepticism coloring his expression as he releases a soft, disbelieving scoff in response to Gavin's proposal.
+Jesús's lips curl into a half-smile, a touch of skepticism coloring his expression as he releases a soft, disbelieving scoff in response to Gavin's proposal.
 
-Andrew   
+Jesús   
 You can’t be serious.
 
-Andrew's smirk gradually fades, replaced by a more serious demeanor as he detects the gravity in Gavin's expression. In response, he exchanges his initial expression for a stern gaze.
+Jesús's smirk gradually fades, replaced by a more serious demeanor as he detects the gravity in Gavin's expression. In response, he exchanges his initial expression for a stern gaze.
 
-Andrew   
+Jesús   
 Gavin absolutely not. What the hell do you want with those?
 
 Gavin   
@@ -324,23 +324,23 @@ So you're saying that because he no longer has his powers, the crystals might tr
 Gavin   
 Exactly.
 
-Andrew  
+Jesús  
 That’s not even possible.
 
 Gavin   
 You don't know that, and it's the sole reason I'm sharing all of this with you right now. You're the only one, aside from Wes, who knows the crystals' whereabouts, and he can't exactly communicate with me. I can't do this without your help.
 
-Andrew   
+Jesús   
 Then I guess you're finding another way.
 
-Andrew stands up and heads towards the staircase.
+Jesús stands up and heads towards the staircase.
 
 Gavin (Shouting)  
 You literally just said you weren’t backing out\!
 
-Andrew stops at the bottom of the staircase, shooting Gavin an annoyed glare.
+Jesús stops at the bottom of the staircase, shooting Gavin an annoyed glare.
 
-Andrew (Shouting)   
+Jesús (Shouting)   
 Yeah, that was before you brought up messing with those crystals. You're right; I was there, and I had a front-row seat to those things killing one of my friends just by touch and turning the other one into a walking natural disaster.
 
 Gavin glances at Natasha, his expression conveying a clear sense of desperation, seeking her help.
@@ -358,7 +358,7 @@ Gavin stands up and walks over to the front door.
 Gavin   
 None of you even cared enough to check in with him when his uncle died. He's still actively sacrificing so much.
 
-Andrew   
+Jesús   
 What the hell are you talking about?
 
 Gavin  
@@ -366,18 +366,18 @@ He doesn't even know I'm here, and when he finds out, he's going to kill me. I t
 
 Gavin storms out of the house, slamming the front door behind him. His eyes briefly glow cerulean blue as he flies off the front porch and takes to the night sky.
 
-Defeated, Andrew sinks down onto the staircase, his posture heavy with frustration. Natasha, looking concerned, walks up to him, her demeanor showing her worry as she approaches to offer comfort.
+Defeated, Jesús sinks down onto the staircase, his posture heavy with frustration. Natasha, looking concerned, walks up to him, her demeanor showing her worry as she approaches to offer comfort.
 
-Andrew   
+Jesús   
 I can't let him use those crystals, Nat. You know why I can't.
 
 Natasha   
 I do. But are you willing to lose another friend? It destroyed you last time.
 
-Andrew  
+Jesús  
 I don’t know…
 
-Natasha climbs up the stairs and kneels down in front of Andrew.
+Natasha climbs up the stairs and kneels down in front of Jesús.
 
 Natasha   
 I understand you're confused right now. But you need to figure this out fast before it's too late. I'm going to bed.
@@ -406,7 +406,7 @@ Valeria
 Really?
 
 Jade  
-It was the summer after they beat Azazel, and I was just a rookie in training. He passed by the workout room and noticed I was still struggling with my powers. He was still dealing with a lot, but he stayed with me for hours. By the time he left for school, I stopped freezing everything around me. Now I’m a member of this team, and I was able to visit my family again before the whole Noxus/Iztan situation.
+It was the summer after they beat Azazel, and I was just a rookie in training. He passed by the workout room and noticed I was still struggling with my powers. He was still dealing with a lot, but he stayed with me for hours. By the time he left for school, I stopped freezing everything around me. Now I’m a member of this team, and I was able to visit my family again before the whole Noxus/Iztahn situation.
 
 Valeria   
 I never knew that.
@@ -432,7 +432,7 @@ Valeria
 I’m so sorry. 
 
 Jade   
-Iztan has taken so many things away from us already, but now they’ve completely crossed the line. They aren’t going to get away with what they did to him.
+Iztahn has taken so many things away from us already, but now they’ve completely crossed the line. They aren’t going to get away with what they did to him.
 
 Valeria's tablet beeps, catching Jade's attention. She quickly stands up, a sense of anticipation evident in her movements.
 
@@ -763,35 +763,35 @@ Be careful out there.
 Gavin   
 I will. 
 
-Gavin hangs up the phone and heads to the bay door of the ship. He presses the button to open it and stands there, waiting for the door to fully slide open. As it does, he's greeted by the sight of Andrew and a young man outside. Gavin's reaction is subtle, his eyes rolling briefly in a hint of exasperation before he adjusts his posture and steps away from the door.
+Gavin hangs up the phone and heads to the bay door of the ship. He presses the button to open it and stands there, waiting for the door to fully slide open. As it does, he's greeted by the sight of Jesús and a young man outside. Gavin's reaction is subtle, his eyes rolling briefly in a hint of exasperation before he adjusts his posture and steps away from the door.
 
-Andrew wears a navy leather bomber jacket over a black t-shirt, paired with blue jeans and black running shoes. The young man is wearing a pink hoodie and sweatpants, along with white sneakers.
+Jesús wears a navy leather bomber jacket over a black t-shirt, paired with blue jeans and black running shoes. The young man is wearing a pink hoodie and sweatpants, along with white sneakers.
 
-Andrew (Shouting)   
+Jesús (Shouting)   
 Wait\! 
 
-Andrew steps onto the Helldiver, his footsteps echoing softly in the confined space. His gaze follows Gavin, who is making his way toward the cockpit with determined strides. The sound of Gavin's sneakers against the metal floor resonates in the air as Andrew quickens his pace to catch up.
+Jesús steps onto the Helldiver, his footsteps echoing softly in the confined space. His gaze follows Gavin, who is making his way toward the cockpit with determined strides. The sound of Gavin's sneakers against the metal floor resonates in the air as Jesús quickens his pace to catch up.
 
 Gavin   
 You've already made it very clear that ​you're absolutely useless.
 
-Andrew  
+Jesús  
 I changed my mind.
 
-Gavin stops and turns around, curious about Andrew's intentions.
+Gavin stops and turns around, curious about Jesús's intentions.
 
 Gavin   
 Why? 
 
-Andrew   
+Jesús   
 Because you were right. We weren't there for him before, but now we're here to make up for that.
 
 Gavin   
 Great\! You can start by telling me how you found ​me and who the guy outside is.
 
-Andrew signals for the young man to also board the ship.
+Jesús signals for the young man to also board the ship.
 
-Andrew   
+Jesús   
 First, I'm an FBI agent, and since you're making calls left and right, it wasn't hard to trace you. You should be more careful.
 
 Gavin chuckles, a smirk playing at the corner of his lips. His eyes light up with an electric blue glow.
@@ -799,12 +799,12 @@ Gavin chuckles, a smirk playing at the corner of his lips. His eyes light up wit
 Gavin   
 Yeah, well, I'm not your average pedestrian.
 
-As Andrew answers his other question, his eyes go back to ​normal.
+As Jesús answers his other question, his eyes go back to ​normal.
 
-Andrew   
+Jesús   
 Second, do you not recognize him?
 
-The young man walks up behind Andrew, and Gavin's brows furrow in confusion as he looks between the two of them.
+The young man walks up behind Jesús, and Gavin's brows furrow in confusion as he looks between the two of them.
 
 Gavin   
 Should I?
@@ -820,36 +820,36 @@ Garcia?
 Robert   
 Bingo. 
 
-Andrew   
+Jesús   
 Rob, Stephen, and I go way back, so of course I brought him along.
 
 Gavin   
 Whatever, we’re running out of time. Where are the crystals?
 
-Andrew   
+Jesús   
 Wes and I gave it to someone we ​knew we could trust.
 
 Gavin   
 Who?
 
-Andrew walks to the ship's control panel and inputs the crystal's coordinates into the GPS system. Gavin glances over his shoulder.
+Jesús walks to the ship's control panel and inputs the crystal's coordinates into the GPS system. Gavin glances over his shoulder.
 
 Gavin   
-Frasier Industries? Iztan tried to rob them a couple of days ago. Why would you give the crystals to Tony Frasier?
+Frasier Industries? Iztahn tried to rob them a couple of days ago. Why would you give the crystals to Tony Frasier?
 
-Andrew   
+Jesús   
 We actually gave it to his son, Justin Frasier. He’s a close friend.
 
 Gavin   
 You were just bragging about being an FBI agent two minutes ago. Why didn’t you just hide it yourself?
 
-Andrew   
+Jesús   
 Who do you think I work for? The Men in Black? I don't have a government-sized budget behind me. Justin's father is literally one of the richest men on the planet, which means they have top-tier security.
 
 Gavin  
 A middle-aged man who works for a top-secret organization and whose uniform also happens to be a black suit sounds very Men in Black to me.
 
-Andrew  
+Jesús  
 Middle-aged? I’m four years older than you.
 
 Gavin  
@@ -865,7 +865,7 @@ Gavin becomes serious, remembering the urgency of the situation.
 Gavin  
 Right. Let’s go. 
 
-Andrew  
+Jesús  
 I’ll call ahead and let him know we’re coming. ​We need to be in and out.
 
 Gavin gets into the cockpit, and the Helldiver takes off toward Frasier Tower.

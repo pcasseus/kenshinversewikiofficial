@@ -1,5 +1,4 @@
 const justin = {
-  id: "#024",
   name: "Justin Frasier",
   slug: "justin",
   image: "/justin.jpg",
@@ -35,11 +34,11 @@ const justin = {
         image: "/robert.jpg"
     },
     {
-        name: "Andrew Torres",
+        name: "Jesús Torres",
         role: "Friend",
         status: "Alive",
-        link: "/characters/andrew",
-        image: "/andrew.jpg"
+        link: "/characters/jesús",
+        image: "/jesús.jpg"
     },
     {
         name: "Anthony Delgado",

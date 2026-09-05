@@ -2,7 +2,7 @@ Int. The Avenger Level 3 | Conference Room \- Afternoon
 
 The conference room aboard the Avenger is impressively spacious, boasting a futuristic design characterized by sleek metal walls and a large window that grants a breathtaking view of space. Dominating the center of the room is the holotable, which emits a gentle, illuminating blue light, casting a glow upon everyone present, including Wesley.
 
-Wesley stands there, his arms crossed, his gaze fixed upon the holodesk's geomap projection of Iztan's secret mountain base. His expression carries the weight of deep contemplation, his brow furrowed with intense concentration. The hologram's glow plays across his features, enhancing his already intense demeanor.
+Wesley stands there, his arms crossed, his gaze fixed upon the holodesk's geomap projection of Iztahn's secret mountain base. His expression carries the weight of deep contemplation, his brow furrowed with intense concentration. The hologram's glow plays across his features, enhancing his already intense demeanor.
 
 In the midst of this scene, Danny enters the conference room.
 
@@ -49,7 +49,7 @@ William falls silent as a massive influx of light blue and a few orange markers 
 Keith   
 Heat signatures?
 
-Andrew   
+Jesús   
 Christ.
 
 William   
@@ -90,23 +90,23 @@ Now that we know she's alive and where they're holding her, what's the plan?
 Everyone looks to Ajax, awaiting his plan. 
 
 Ajax   
-I hate to say it, but we need to divide and conquer. If we're going to stop Iztan and save Zoey, we're going to need to split into teams. 
+I hate to say it, but we need to divide and conquer. If we're going to stop Iztahn and save Zoey, we're going to need to split into teams. 
 
 Wesley   
 What are you thinking? 
 
 Ajax   
-Jade and Danny will rescue Zoey. While the rest of us take on Iztan's forces and power through to Celeste's machine. 
+Jade and Danny will rescue Zoey. While the rest of us take on Iztahn's forces and power through to Celeste's machine. 
 
-Andrew   
+Jesús   
 I have a special request. 
 
-Ajax regards Andrew with a look of curiosity, his eyebrows slightly raised as he waits for him to speak. Although he has a feeling that he knows what Andrew is about to ask, he's eager to hear him out before making any assumptions. 
+Ajax regards Jesús with a look of curiosity, his eyebrows slightly raised as he waits for him to speak. Although he has a feeling that he knows what Jesús is about to ask, he's eager to hear him out before making any assumptions. 
 
-Andrew   
+Jesús   
 If we run into Stephen, let me and Rob handle it. 
 
-Ajax's eyes shift over to Wesley, who is standing nearby. Without saying a word, Wesley nods in agreement to Ajax, signaling that he is on board with Andrew's plan. 
+Ajax's eyes shift over to Wesley, who is standing nearby. Without saying a word, Wesley nods in agreement to Ajax, signaling that he is on board with Jesús's plan. 
 
 Ajax   
 No problem. 
@@ -136,7 +136,7 @@ Wait\! When we beat them, where are we going to put them?
 Ajax   
 Justin and I already thought of that.
 
-Andrew   
+Jesús   
 What’s the plan? 
 
 Justin  
@@ -233,7 +233,7 @@ Just as he's about to enter the base, he remembers his uncle's words from earlie
 Wesley (Thinking)   
 "I believe in you, Wes. You have the strength of your mother, the resilience of your father, and the courage of your grandfather.”
 
-Int. Iztan’s Mountain Base | Hangar \- Afternoon
+Int. Iztahn’s Mountain Base | Hangar \- Afternoon
 
 Wesley dives through the hole, and he can sense that something is off. 
 
@@ -280,11 +280,11 @@ We have more incoming.
 
 Ajax looks past Gavin and notices the remaining soldiers from Wesley’s attack gathering.
 
-Andrew (Shouting)   
+Jesús (Shouting)   
 We’re about to be surrounded in a couple of seconds. 
 
 Ajax (Shouting)   
-Keith, take those guys up there out\! Wesley, Robert, and Andrew, take out the ones behind us\! Gavin clear a path so Danny and Jade can head into the base to save Zoey. We’ll take care of the remaining soldiers and head inside\!
+Keith, take those guys up there out\! Wesley, Robert, and Jesús, take out the ones behind us\! Gavin clear a path so Danny and Jade can head into the base to save Zoey. We’ll take care of the remaining soldiers and head inside\!
 
 Keith (Shouting)   
 I’m on it. 
@@ -306,7 +306,7 @@ Three\! Two\! One\!
 
 As Keith soars toward the incoming bullets, Gavin adjusts his barrier to let him through. Keith charges into the volley, his fiery aura effortlessly disintegrating the bullets. Arriving in front of his foes, he swipes his arm through the air, unleashing a scorching slash that cuts through the atmosphere like a hot knife through butter. The flames engulf them, and the sound of their circuits frying echoes across the hangar.
 
-Gavin drops his barrier, and Andrew, Robert, and Wesley charge the soldiers on their side. Gavin transforms into his energy form, unleashing a powerful plasma blast into the crowd of Iztan soldiers. The blast hits them with the force of a thousand suns, and their metallic bodies are torn apart. As the dust settles, Gavin powers down from his energy form, his body still glowing with residual energy. 
+Gavin drops his barrier, and Jesús, Robert, and Wesley charge the soldiers on their side. Gavin transforms into his energy form, unleashing a powerful plasma blast into the crowd of Iztahn soldiers. The blast hits them with the force of a thousand suns, and their metallic bodies are torn apart. As the dust settles, Gavin powers down from his energy form, his body still glowing with residual energy. 
 
 Gavin (Shouting)   
 Go\!
@@ -322,9 +322,9 @@ Gavin\!
 Gavin (Shouting)   
 Understood\!
 
-Ajax charges forward, slamming into the first Iztan Soldier and sending it flying across the room. Gavin follows closely behind and flies up into the air.
+Ajax charges forward, slamming into the first Iztahn Soldier and sending it flying across the room. Gavin follows closely behind and flies up into the air.
 
-As the remaining Iztan Soldiers close in, Ajax swings his shield in a wide arc, knocking several of them back. Gavin's eyes glow electric blue as he unleashes a barrage of plama blasts, tearing through the androids and leaving smoking craters in their wake. 
+As the remaining Iztahn Soldiers close in, Ajax swings his shield in a wide arc, knocking several of them back. Gavin's eyes glow electric blue as he unleashes a barrage of plama blasts, tearing through the androids and leaving smoking craters in their wake. 
 
 Gavin lands, standing back to back with Ajax. They’re immediately surrounded by some surviving soldiers from Wesley’s attack, who charge in. 
 
@@ -341,52 +341,52 @@ Oh, you can’t be serious. Ajax, look out\!
 
 Gavin dashes in front of Ajax's back. He puts up a plasma energy shield, and the bullets ricochet off harmlessly.
 
-As the Iztan Soldiers reload, Gavin condenses his shield, forming it into a tight ball of plasma energy. He takes a deep breath, and with a flick of his wrist, he hurls the ball of energy forward.
+As the Iztahn Soldiers reload, Gavin condenses his shield, forming it into a tight ball of plasma energy. He takes a deep breath, and with a flick of his wrist, he hurls the ball of energy forward.
 
-The ball of energy streaks through the air, leaving a trail of light in its wake. It slams into the Iztan Soldiers, exploding on impact and taking out several of them. The androids are thrown back, their metal bodies smoking and sparking.
+The ball of energy streaks through the air, leaving a trail of light in its wake. It slams into the Iztahn Soldiers, exploding on impact and taking out several of them. The androids are thrown back, their metal bodies smoking and sparking.
 
-Meanwhile, with Wesley, Andrew, and Robert...  
-Andrew kicks an android backwards, sending it sprawling across the floor. The android's head bounces off the hard metal surface. Andrew quickly raises his handgun and takes aim, his eyes fixed on the android's head. He takes a deep breath, steadying his aim, and pulls the trigger. The android's head explodes in a shower of sparks and metal. The android twitches for a moment before going still.
+Meanwhile, with Wesley, Jesús, and Robert...  
+Jesús kicks an android backwards, sending it sprawling across the floor. The android's head bounces off the hard metal surface. Jesús quickly raises his handgun and takes aim, his eyes fixed on the android's head. He takes a deep breath, steadying his aim, and pulls the trigger. The android's head explodes in a shower of sparks and metal. The android twitches for a moment before going still.
 
-Andrew   
+Jesús   
 This is getting annoying\! 
 
-As more androids close in, Andrew expertly wields his handgun with deadly accuracy, systematically taking out one android after another. A soldier attempts to swing at him, and he smoothly ducks beneath the attack, then rapidly raises his gun, delivering a precise headshot to another soldier. He turns back, seizing the opportunity to pull another soldier close and execute a point-blank shot to the side of their head.
+As more androids close in, Jesús expertly wields his handgun with deadly accuracy, systematically taking out one android after another. A soldier attempts to swing at him, and he smoothly ducks beneath the attack, then rapidly raises his gun, delivering a precise headshot to another soldier. He turns back, seizing the opportunity to pull another soldier close and execute a point-blank shot to the side of their head.
 
-In the midst of this intense combat, another soldier charges at him, and Andrew responds with a knee to the stomach, sending the soldier crashing to the ground. Simultaneously, he raises his other arm, dispatching yet another soldier charging towards him.
+In the midst of this intense combat, another soldier charges at him, and Jesús responds with a knee to the stomach, sending the soldier crashing to the ground. Simultaneously, he raises his other arm, dispatching yet another soldier charging towards him.
 
-However, the soldier on the ground manages to grab hold of Andrew's leg, and before he knows it, he finds himself restrained by three more soldiers.
+However, the soldier on the ground manages to grab hold of Jesús's leg, and before he knows it, he finds himself restrained by three more soldiers.
 
-Andrew (Shouting)   
+Jesús (Shouting)   
 Guys\!
 
-Wesley is busy taking on three Iztan soldiers when he notices Andrew's in trouble.
+Wesley is busy taking on three Iztahn soldiers when he notices Jesús's in trouble.
 
 Wesley (Shouting)   
 Hang on\! 
 
 Wesley charges towards the first android, grabbing its rifle and using it to strike itself in the face, sending it tumbling backward. In a fluid motion, he pivots and delivers a forceful blow to the second android's face with the rifle, sending it sprawling to the ground. However, just as he turns around, the third android grabs him from behind, causing him to drop the rifle. Remaining calm and composed, Wesley skillfully takes control of the situation by flipping the soldier over his shoulder, using the android's own momentum to take it down.
 
-The first soldier tackles him, and they both hit the ground hard. Wesley uses both of his feet to kick the soldier away. With his agility and quick reflexes, he executes a front flip, raising his arms and firing concussive blasts at the soldiers restraining Andrew, setting him free. Andrew breathes a sigh of relief.
+The first soldier tackles him, and they both hit the ground hard. Wesley uses both of his feet to kick the soldier away. With his agility and quick reflexes, he executes a front flip, raising his arms and firing concussive blasts at the soldiers restraining Jesús, setting him free. Jesús breathes a sigh of relief.
 
 Wesley   
 You alright? 
 
-Andrew  
+Jesús  
 Yeah thanks. 
 
 Wesley  
 No problem. 
 
-Andrew   
+Jesús   
 Where's Rob? 
 
-Suddenly, a new wave of androids appears, cornering Andrew and Wesley. They prepare for another fight, and Wesley glances around, realizing that the others are still engaged in battle as well.
+Suddenly, a new wave of androids appears, cornering Jesús and Wesley. They prepare for another fight, and Wesley glances around, realizing that the others are still engaged in battle as well.
 
 Wesley (Whispering)   
 Great.
 
-Andrew  
+Jesús  
 They’re like roaches. 
 
 But suddenly, Robert emerges from the ground, phasing his way to the surface. He grabs two of the androids and tosses them straight into the ceiling. The impact is so powerful that they break into pieces, scattering debris all over the place. 
@@ -397,16 +397,16 @@ Thanks for the assist\!
 Robert   
 I've got your back. 
 
-The other androids are stunned, and Andrew and Wesley take advantage of the momentary distraction.
+The other androids are stunned, and Jesús and Wesley take advantage of the momentary distraction.
 
-As Andrew pulls out a second gun, he aims it at the eight remaining androids and fires multiple shots. The androids are riddled with bullets, causing them to stagger around as they malfunction.
+As Jesús pulls out a second gun, he aims it at the eight remaining androids and fires multiple shots. The androids are riddled with bullets, causing them to stagger around as they malfunction.
 
 Wesley (Shouting)  
 Everyone, cover your ears\! 
 
 Wesley, seeing an opportunity, steps forward and flails his arms releasing a vibrational wave. The wave is so powerful that it shakes the ground beneath their feet, and the androids are ripped apart into pieces. The blast wave echoes through the surrounding area, finishing off any remaining soldiers, and the ground shakes for several seconds. 
 
-Wesley breathes a sigh of relief as he looks around and sees no more Iztan soldiers. 
+Wesley breathes a sigh of relief as he looks around and sees no more Iztahn soldiers. 
 
 They quickly group up and start moving into the base, into a hallway that's a strange mix of the mountain and technology. The walls are made of rough-hewn stone, but there are wires and cables running along the ceiling. Wesley can feel the tension in the air as they move forward, and notices the worry etched on Gavin's face.
 
@@ -446,7 +446,7 @@ Something tells me that something’s waiting for us on the other side of that d
 Wesley   
 You’re not wrong. 
 
-Int. Iztan’s Mountain Base \- Afternoon
+Int. Iztahn’s Mountain Base \- Afternoon
 
 Wesley fires a concussive blast at the doors. As they crumple under the force of his attack, the sound of metal twisting and bending fills the air. The blast sends shards of metal flying in all directions, and the room beyond is bathed in a bright light. As the light fades, they see Shi and Enzo standing in front of them. Shi's eyes are cold and calculating, and Enzo's face is set in a determined scowl.
 
@@ -472,14 +472,14 @@ As Keith steps forward, Wesley immediately raises his arm, blocking his path.
 Wesley (Whispering)   
 Remember the plan. 
 
-Keith stands down, and as Wesley's eyes shift to Andrew and Robert, they silently nod at each other before charging at Shi and Enzo. Fists start flying, and the room erupts into chaos as the four of them engage in a fierce brawl, their bodies slamming into each other.
+Keith stands down, and as Wesley's eyes shift to Jesús and Robert, they silently nod at each other before charging at Shi and Enzo. Fists start flying, and the room erupts into chaos as the four of them engage in a fierce brawl, their bodies slamming into each other.
 
-Meanwhile, Wesley and the others rush past them down the corridor, approaching another pair of doors. Wesley races ahead, delivering a concussive punch to the door, causing it to break inward. Inside, they find more Iztan soldiers who turn their rifles toward the doorway. The soldiers appear tense, their fingers twitching on the triggers, creating a momentary standoff in the otherwise silent room, interrupted only by distant sounds of battle. In a calming gesture, Wesley steps forward, his hands raised to signify peace.
+Meanwhile, Wesley and the others rush past them down the corridor, approaching another pair of doors. Wesley races ahead, delivering a concussive punch to the door, causing it to break inward. Inside, they find more Iztahn soldiers who turn their rifles toward the doorway. The soldiers appear tense, their fingers twitching on the triggers, creating a momentary standoff in the otherwise silent room, interrupted only by distant sounds of battle. In a calming gesture, Wesley steps forward, his hands raised to signify peace.
 
 Wesley  
 We don't want to fight. We just want to talk. 
 
-The Iztan soldiers look skeptical, but they lower their rifles slightly. Wesley smirks. 
+The Iztahn soldiers look skeptical, but they lower their rifles slightly. Wesley smirks. 
 
 Wesley   
 Just kidding. 
@@ -507,7 +507,7 @@ Everyone seems to be holding their breath, waiting for the doors to open. Sudden
 Wesley   
 Heads up. 
 
-Int. Iztan’s Mountain Base \- Afternoon
+Int. Iztahn’s Mountain Base \- Afternoon
 
 As the elevator doors open, the group steps into a vast, cavernous chamber deep within the mountain villain's base. The walls consist of rough-hewn stone, and the air carries the heavy scent of damp earth.
 

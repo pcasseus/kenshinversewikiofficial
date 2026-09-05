@@ -1,42 +1,70 @@
 const abilities = [
   {
     name: "Cognitive-Molecular Phase Modulation",
-    books: [2],
-    description:
-      "Through focused neural control and bioelectrical precision, Danny can accelerate the vibrational state of matter at the molecular level. His brain, supported by the ARC Node, can target the atomic lattice of objects and selectively increase molecular motion. This grants him fine-tuned interaction with matter, from destabilizing solid structures to preparing his own body for phasing transitions.",
-    evolved: [
-      {
-        books: [2],
-        title: "Phase Shift",
-        description:
-          "By tuning his molecular vibration frequency, Danny can enter a non-reactive state that allows him to pass through solid matter. This ability relies on the combined function of his accelerated cognition, chlorozene-regulated bioelectric system, and the stabilizing role of the ARC Node. Each transition requires precise neurological timing and metabolic focus, ensuring his body remains intact as he phases through obstacles or opponents.",
-      },
-    ],
-    subAbilities: [],
-  },
-  {
-    name: "Expert Neurokinetic Combatant",
-    books: [1],
-    description:
-      "Danny’s combat style was forged in the high-pressure crucible of S.T.A.T.I.C.’s elite training program, a regimen built to prepare agents for direct engagements with Deviants, Unnaturals, and other unpredictable threats. His foundation draws from traditional disciplines such as boxing, close-quarters combat, and pressure-point targeting, but what sets him apart is how he restructured every technique around speed, reaction time, and kinetic output.\n\nThe ARC chips implanted throughout his journey play as much of a role as his power. They sharpen his cognitive hyperacceleration, stabilize his nervous system, and allow his strikes to carry controlled bursts of bioelectric force. Rather than fighting within the rhythm of a battle, Danny dictates it. Every motion is calculated in real time, every shift in position happens at impossible speed, and every strike lands with the weight of momentum and electricity combined. His style is a relentless fusion of blinding offense, sudden repositioning, and precision execution, all refined by training, technology, and power working as one.",
+    domain: "Neuroelectric Deviance",
+    classification: "Technique",
+    release: "KVII",
+    discovery: "beginning",
+
+    description: `
+Through focused neural control and neuroelectric precision, Danny can accelerate and regulate the molecular vibration of his own body. His Cognitive Hyperacceleration gives him the processing speed necessary to coordinate these changes across billions of cells simultaneously, while his neural regulator maintains synchronization between his nervous system and shifting molecular state. By precisely altering how his body interacts with surrounding matter, Danny can temporarily transition beyond normal physical contact without compromising his biological structure.
+    `.trim(),
+
     subAbilities: [
       {
-        books: [1],
+        name: "Phase Shift",
+        release: "KVII",
+        discovery: "beginning",
+
+        description: `
+By precisely tuning the molecular vibration of his body, Danny can enter a non-reactive phase state that allows him to pass through solid matter. His accelerated cognition coordinates the transition almost instantaneously, while his neural regulator keeps every part of his body synchronized throughout the shift. This allows Danny to phase through obstacles, escape restraints, evade incoming attacks, or pass directly through opponents without physically interacting with them.
+        `.trim(),
+      },
+    ],
+  },
+
+  {
+    name: "Expert Neurokinetic Combatant",
+    domain: "Training & Expertise",
+    classification: "Skill",
+    release: "KVI",
+    discovery: "beginning",
+
+    description: `
+Danny’s combat style was developed through rigorous training under S.T.A.T.I.C., preparing him for direct engagements with Deviants, Unnaturals, and other unpredictable threats. His foundation incorporates boxing, close-quarters combat, pressure-point targeting, and practical field techniques, all of which Danny has adapted around his extraordinary speed, reaction time, and accelerated cognition.
+
+Rather than matching an opponent’s pace, Danny constantly works ahead of it. His mind reads movements, identifies openings, and calculates responses before his body commits to an action, allowing him to move through combat with exceptional accuracy. Speed becomes part of the technique itself, letting him change position between exchanges, attack from unconventional angles, and string together combinations before an opponent can properly adjust. His neuroelectric physiology further reinforces his physical output, allowing momentum, precision, and controlled electrical force to work alongside his formal training. The result is a fast-paced and highly adaptive fighting style built around staying several moves ahead of whoever stands in front of him.
+    `.trim(),
+
+    subAbilities: [
+      {
         name: "Martial Override",
-        description:
-          "Years of intensive instruction gave Danny a solid technical foundation, but his speed-enhanced cognition allows him to adapt faster than most fighters can process. He reads micro-movements, body language, and visual cues in real time, identifying openings and turning them into decisive takedowns. This ability makes him unpredictable and nearly impossible to outmaneuver once he has locked onto an opponent.",
+        release: "KVI",
+        discovery: "beginning",
+
+        description: `
+Danny combines his formal combat training with Cognitive Hyperacceleration to analyze opponents while actively fighting them. He tracks posture, balance, defensive habits, body language, and subtle preparatory movements, running through possible responses before selecting the most effective counter. The longer an exchange continues, the more information Danny has to work with, allowing him to exploit openings with increasingly precise timing.
+        `.trim(),
       },
+
       {
-        books: [1],
         name: "Speed-Strike Protocol",
-        description:
-          "Danny’s attacks are more than fast. Each one is mechanically optimized through motion, combining velocity, precision, and bioelectric reinforcement. Every punch carries kinetic weight that lands harder than his size would suggest, while his flurries are delivered faster than most opponents can register or defend against.",
+        release: "KVI",
+        discovery: "beginning",
+
+        description: `
+Danny incorporates acceleration directly into his striking technique, using carefully controlled changes in speed to increase the momentum behind punches, kicks, and combinations. His accelerated cognition allows him to maintain accuracy even while attacking at extreme speeds, letting him place multiple strikes across specific targets before most opponents can properly respond. Rather than relying solely on raw velocity, Danny controls his approach, impact, and follow-through to keep his attacks efficient and prevent his own momentum from compromising his technique.
+        `.trim(),
       },
+
       {
-        books: [1],
         name: "Burst Acceleration",
-        description:
-          "By drawing directly on his chlorozene-fueled neuroelectric system, Danny can unleash sudden bursts of overwhelming speed. These surges allow him to dodge mid-combo, counter during impossibly tight windows, or reposition from unexpected angles. The result is a fighting rhythm that opponents cannot predict, as Danny strikes from vectors outside the normal flow of combat.",
+        release: "KVI",
+        discovery: "beginning",
+
+        description: `
+Danny can briefly increase his acceleration during an exchange, changing position before an opponent can adjust to his previous movement. He uses these bursts to close gaps, evade attacks at the last possible moment, slip around defenses, intercept movement, or approach from a new angle before delivering his next strike. Combined with his accelerated perception, Burst Acceleration allows Danny to continually rewrite the spacing of a fight and keep opponents reacting to positions he has already abandoned.
+        `.trim(),
       },
     ],
   },

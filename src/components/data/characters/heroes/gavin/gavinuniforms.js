@@ -1,12 +1,21 @@
-import gavinUniforms from "./gavinuniforms";
-
 const gavinsUniforms = [
   {
     id: "war_suit",
     name: "War Suit",
     label: "Gavin's War Suit",
-    description:
-      "Introduced in Book 1, the War Suit was given to Gavin for his mission to stop Celeste’s plan to resurrect Azazel. Designed specifically for the battle against Iztan, the suit was engineered to stabilize Gavin’s absorption powers, helping him regulate the immense energy he draws in and protecting him from overload. Forged from rare alloys and nanotech fibers, it can endure tremendous heat, concussive force, and radiation, ensuring Gavin’s body and mind can withstand the strain of his fusion-based abilities.\n\nDisplayed in the database is a sleek black combat suit accented with muted platinum trim, its design minimalist yet undeniably commanding. Circular nodes are embedded along the chest, arms, and legs, each acting as a regulator to absorb, redistribute, and balance the volatile energy Gavin channels. At the center of the chest lies a circular core-plate, symbolic of his role as a living reactor. The surface of the suit is a textured nanoweave, reactive under pressure, shimmering faintly as it flexes to contain sudden energy surges. A matching black utility belt rests at the waist with a platinum clasp, complementing the understated but powerful aesthetic. The integrated boots and gloves are built for stability, ensuring Gavin can remain grounded while unleashing or absorbing devastating amounts of power. Functional, regal, and precise, the design reflects Gavin’s identity as both a weapon and a stabilizer, a soldier built to hold the impossible within himself.",
+    release: "KVI",
+    discovery: "end",
+
+    description: `
+Introduced during the war against Iztan, Gavin's War Suit was engineered specifically to support his nuclear fusion-based abilities in high-output combat. Rather than increasing his power directly, the suit helps regulate the immense amounts of energy moving through his body, reducing the risk of instability and overload as his internal reserves rise.
+
+The suit is constructed from heat-resistant alloys and reinforced nanotech fibers capable of enduring extreme temperatures, radiation, and concussive force. A network of circular regulator nodes positioned across the chest, arms, and legs helps monitor, redistribute, and stabilize excess energy throughout the suit.
+
+At the center of the chest is a larger core node that serves as the primary stabilization point for the system. Together with the surrounding regulators, it allows Gavin to channel increasingly powerful energy states while maintaining greater control over the strain placed on his body.
+
+Visually, the War Suit consists of a sleek black combat uniform with muted platinum accents, integrated gloves and boots, and a reinforced utility belt. Its restrained design reflects its purpose: containment, stability, and control for a Deviant whose greatest danger can be the amount of power his own body is capable of holding.
+    `.trim(),
+
     images: ["/uniforms/gavin1.png", "/uniforms/gavin2.png"],
   },
 ];

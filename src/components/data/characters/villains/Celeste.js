@@ -1,5 +1,4 @@
 const celeste = {
-  id: "#014",
   name: "Celeste Masters",
   slug: "celeste",
   image: "/celeste.jpg",
@@ -8,7 +7,7 @@ const celeste = {
   tagline: "",
   primaryPower: "Entropikinesis",
   stats: {
-    affiliation: "Iztan",
+    affiliation: "Iztahn",
     gender: "Female",
     height: "5'4\"",
     weight: "117 lbs",
@@ -52,7 +51,7 @@ const celeste = {
             { name: "False Memory Implantation", description: "Beyond overwriting, she can implant entirely fabricated events—creating believable dreams, encounters, or life experiences that never occurred. These can be used to manipulate emotions, beliefs, or behaviors long-term.", book: "Book 1"},
         ]
     },
-      { name: "Hyper Intellect", description: "Before leading Iztan, Celeste was one of the most brilliant scientific minds of her generation—her intellect honed through years of cutting-edge research in advanced biology, energy manipulation, neural engineering, and Deviant physiology. Her mind operates on multiple levels simultaneously, processing data, predicting behavior, and solving complex problems faster than most supercomputers. This intelligence isn’t just academic—it’s weaponized.Celeste has personally engineered most of Iztan’s advanced technology and infrastructure. Her greatest achievement lies in her perfection of a procedure that allows ordinary humans to survive and wield powers on par with high-tier Deviants. This breakthrough—based on a synthesis of harvested Deviant DNA, neuroadaptive interfaces, and Entropikinetic conditioning—represents a monumental leap in post-human warfare. She is not just a tactician; she is the architect of Iztan’s power base.", book: "Book 1" },      
+      { name: "Hyper Intellect", description: "Before leading Iztahn, Celeste was one of the most brilliant scientific minds of her generation—her intellect honed through years of cutting-edge research in advanced biology, energy manipulation, neural engineering, and Deviant physiology. Her mind operates on multiple levels simultaneously, processing data, predicting behavior, and solving complex problems faster than most supercomputers. This intelligence isn’t just academic—it’s weaponized.Celeste has personally engineered most of Iztahn’s advanced technology and infrastructure. Her greatest achievement lies in her perfection of a procedure that allows ordinary humans to survive and wield powers on par with high-tier Deviants. This breakthrough—based on a synthesis of harvested Deviant DNA, neuroadaptive interfaces, and Entropikinetic conditioning—represents a monumental leap in post-human warfare. She is not just a tactician; she is the architect of Iztahn’s power base.", book: "Book 1" },      
       { 
         name: "Master Hand-to-Hand Combatant", 
         description: "Driven by a deep vendetta against Deviants, Celeste has refined her close-quarters combat abilities to a lethal art. Her mastery is not born from raw power alone, but from relentless training, tactical precision, and an unbreakable will. She is capable of dismantling multiple opponents—even highly trained S.T.A.T.I.C. operatives—with ruthless efficiency. Every strike she delivers is calculated, every movement honed to exploit weakness. Her combat style blends multiple martial disciplines with her energy manipulation, making her a brutally effective force in melee confrontations.", 

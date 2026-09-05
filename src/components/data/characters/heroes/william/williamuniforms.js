@@ -1,13 +1,5 @@
 import williamUniforms from "./williamuniforms";
 
-const williamsUniforms = [
-  {
-    id: "",
-    name: "No Suits Logged",
-    label: "No Suits Logged",
-    description: "",
-    images: [],
-  },
-];
+const williamsUniforms = [];
 
 export default williamsUniforms;

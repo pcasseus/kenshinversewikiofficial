@@ -2,68 +2,78 @@ const relationships = [
   {
     name: "Ajax Johnson",
     role: "Adoptive Father",
-    link: "",
-    image: "/ajax.jpg",
+    release: "KVI",
+    link: "/characters/ajax",
   },
+
   {
     name: "Lucinda Johnson",
     role: "Adoptive Mother",
+    release: "KVI",
     link: "",
-    image: "/lucinda.jpg",
   },
+
   {
     name: "Teddy Johnson",
     role: "Adoptive Uncle",
-    link: "",
-    image: "/teddy.jpg",
+    release: "KVI",
+    link: "/characters/teddy",
   },
+
   {
-    name: "Warren Summers",
+    name: "Warren Halden",
     role: "Honorary Uncle",
-    link: "",
-    image: "/warren.jpg",
+    release: "KVI",
+    link: "/characters/warren",
   },
+
   {
-    name: "Katherine Summers",
+    name: "Katherine Halden",
     role: "Honorary Aunt",
+    release: "KVI",
     link: "",
-    image: "/katherine.jpg",
   },
+
   {
     name: "Valeria Adair-Taylor",
     role: "Close Friend",
+    release: "KVI",
     link: "/characters/valeria",
-    image: "/valeria.jpg",
   },
+
   {
-    name: "Gavin Summers",
+    name: "Gavin Halden",
     role: "Close Friend",
+    release: "KVI",
     link: "/characters/gavin",
-    image: "/gavin.jpg",
   },
+
   {
     name: "Keith Powers",
-    role: "Close Friend",
+    role: "Teammate",
+    release: "KVI",
     link: "/characters/keith",
-    image: "/keith.jpg",
   },
+
   {
     name: "Jade Stone",
     role: "Close Friend",
+    release: "KVI",
     link: "/characters/jade",
-    image: "/jade.jpg",
   },
+
   {
     name: "Zoey Pierce-Harris",
     role: "Close Friend",
+    release: "KVI",
     link: "/characters/zoey",
-    image: "/zoey.jpg",
   },
+
   {
     name: "William Hutton",
     role: "Close Friend",
+    release: "KVI",
     link: "/characters/william",
-    image: "/william.jpg",
   },
 ];
 

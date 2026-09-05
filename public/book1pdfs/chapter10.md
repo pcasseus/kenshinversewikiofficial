@@ -30,7 +30,7 @@ Danny (Whispering)
 Perfect.
 
 Int. Headquarters Lab \- Morning   
-Danny rushes into the lab, a surge of urgency coursing through him as he takes in the intense scene unfolding before his eyes. The lab is in ruins, with fallen Iztan soldiers scattered amidst the wreckage. His gaze scans the room, landing on the exhausted figures of William and Valeria, both streaked with blood. His attention shifts to the gurney where Valeria fights to save a critically wounded Wesley. They all look back, relieved to see Danny.
+Danny rushes into the lab, a surge of urgency coursing through him as he takes in the intense scene unfolding before his eyes. The lab is in ruins, with fallen Iztahn soldiers scattered amidst the wreckage. His gaze scans the room, landing on the exhausted figures of William and Valeria, both streaked with blood. His attention shifts to the gurney where Valeria fights to save a critically wounded Wesley. They all look back, relieved to see Danny.
 
 William  
 Danny\! You’re ok\!
@@ -260,7 +260,7 @@ Descending gradually, Gavin's body returns to its normal state. His gaze shifts 
 Gavin  
 I got this. Get to the base ​and help the others. ​
 
-Andrew and Robert exchange nods, as they guide the Helldiver towards the base's entrance. As the aircraft touches down, Aiden unleashes a powerful surge of energy, obliterating a significant cluster of trees. The explosive display catches Gavin’s attention. 
+Jesús and Robert exchange nods, as they guide the Helldiver towards the base's entrance. As the aircraft touches down, Aiden unleashes a powerful surge of energy, obliterating a significant cluster of trees. The explosive display catches Gavin’s attention. 
 
 Aiden (Shouting)  
 That was a nice attack. But ​now it’s my turn.  
@@ -322,7 +322,7 @@ Aiden
 Don't tell me you're still trying to "save" me. Are you forgetting everything I've done?
 
 Gavin  
-How could I forget? Betraying the team. Working ​with Iztan. Almost killing Ajax.
+How could I forget? Betraying the team. Working ​with Iztahn. Almost killing Ajax.
 
 Aiden  
 Don't forget killing your best friend.
@@ -376,7 +376,7 @@ I didn’t really have a choice.
 The flames around Keith fade, and he returns to his regular appearance. 
 
 Keith  
-Did you find Andrew Torres?
+Did you find Jesús Torres?
 
 Gavin  
 I did. He and Robert Garcia are on the base, providing backup.  
@@ -395,10 +395,10 @@ Agreed.
 Keith and Gavin clash with Aiden and Enzo. 
 
 Int. Headquarters Hangar \- Morning   
-Andrew and Robert touch down the Helldiver in the hangar. Stepping out, they take in the extensive damage left behind by Danny's recent fight.
+Jesús and Robert touch down the Helldiver in the hangar. Stepping out, they take in the extensive damage left behind by Danny's recent fight.
 
-Andrew   
-Iztan is definitely here. 
+Jesús   
+Iztahn is definitely here. 
 
 Robert   
 Whoever they attacked definitely put up a good fight. 
@@ -406,9 +406,9 @@ Whoever they attacked definitely put up a good fight.
 Unknown Voice  
 Are you two supposed to be ​reinforcements? 
 
-Amidst the chaos, a familiar voice cuts through like a knife, causing Andrew and Robert to freeze. They turn to witness Shi emerging from behind the damaged Javelin, battered and bruised yet undeniably alive. Shock and disbelief spread across their faces as they lock eyes with their supposedly "dead" friend.
+Amidst the chaos, a familiar voice cuts through like a knife, causing Jesús and Robert to freeze. They turn to witness Shi emerging from behind the damaged Javelin, battered and bruised yet undeniably alive. Shock and disbelief spread across their faces as they lock eyes with their supposedly "dead" friend.
 
-Andrew   
+Jesús   
 Stephen, I don't know what they did to you, but we don't have to fight.
 
 Robert   
@@ -422,18 +422,18 @@ They turn around, taken aback by the unexpected sight of Talia standing right be
 Robert (Whispering)   
 Here we go. You take Stephen; ​I’ll handle her. ​
 
-Andrew glances at his friend, a hint of hesitation in his expression.
+Jesús glances at his friend, a hint of hesitation in his expression.
 
-Andrew (Whispering)  
+Jesús (Whispering)  
 Rob, I can't attack him; he doesn't know what he's doing. 
 
 Robert (Whispering)  
 That may be true, but if we don't fight ​back, we'll end up dead.
 
-Andrew (Whispering)   
+Jesús (Whispering)   
 Damn it. ​
 
-Shi and Andrew charge at each other, and they collide. Meanwhile, Robert takes to the air, speeding towards Talia as she creates multiple duplicates of herself.
+Shi and Jesús charge at each other, and they collide. Meanwhile, Robert takes to the air, speeding towards Talia as she creates multiple duplicates of herself.
 
 Int. Headquarters Lab \- Morning  
 Meanwhile…  
@@ -448,10 +448,10 @@ Yeah.
 Zoey  
 What about me? ​
 
-Their eyes connect, and Wesley senses an unwavering determination in her look. There's a fierce resolve that has taken hold of her, an unfamiliar yet clear readiness to fight, protect their group, and bring down Iztan by any means necessary.
+Their eyes connect, and Wesley senses an unwavering determination in her look. There's a fierce resolve that has taken hold of her, an unfamiliar yet clear readiness to fight, protect their group, and bring down Iztahn by any means necessary.
 
 Wesley  
-I need you to stay here with Valeria and William in case there are any Iztan soldiers lurking around the base. Yes, you have powers, ​but the last thing we need is Celeste getting her hands on you. 
+I need you to stay here with Valeria and William in case there are any Iztahn soldiers lurking around the base. Yes, you have powers, ​but the last thing we need is Celeste getting her hands on you. 
 
 Zoey  
 But- 
@@ -548,7 +548,7 @@ Celeste notices Ajax's smirk.
 Ajax  
 What can I say? My son's a fighter.
 
-Robert bursts into the room, his face twisted in pain as he crashes onto the ground. Andrew quickly follows, landing with a thud next to his friend. Shi and Talia stride in moments later.
+Robert bursts into the room, his face twisted in pain as he crashes onto the ground. Jesús quickly follows, landing with a thud next to his friend. Shi and Talia stride in moments later.
 
 Shi  
 That was embarrassing. 
@@ -556,14 +556,14 @@ That was embarrassing.
 Talia   
 Looks like all those rumors I heard about The Elite Seven were wrong. 
 
-Celeste turns around, her attention immediately drawn to Andrew and Robert lying on the ground.
+Celeste turns around, her attention immediately drawn to Jesús and Robert lying on the ground.
 
 Celeste  
-Andrew Torres and ​Robert Garcia.
+Jesús Torres and ​Robert Garcia.
 
-Andrew grimaces in pain, his grip tight on his injured arm, his gaze fixed on Celeste. Beside him, Robert lets out a low groan, his hand pressed against his wounded side.
+Jesús grimaces in pain, his grip tight on his injured arm, his gaze fixed on Celeste. Beside him, Robert lets out a low groan, his hand pressed against his wounded side.
 
-Andrew  
+Jesús  
 Celeste Masters. 
 
 Celeste  
@@ -574,7 +574,7 @@ What did you do to him?
 
 With a burst of super-speed, Danny whisks Wesley into the hallway. In that instant, Jade and Ajax's expressions shift from worry to relief and surprise as they lay eyes on Wesley, standing there alive and well.
 
-Wesley's taken aback by the sight of his childhood friends on the floor, but he snaps his focus back to Celeste. A brief flicker of surprise crosses his face, but he swiftly masks it with determination. He puts on a confident smile, keeping his emotions in check, his determination to beat Iztan quickly takes over.
+Wesley's taken aback by the sight of his childhood friends on the floor, but he snaps his focus back to Celeste. A brief flicker of surprise crosses his face, but he swiftly masks it with determination. He puts on a confident smile, keeping his emotions in check, his determination to beat Iztahn quickly takes over.
 
 Wesley  
 Miss me? 
@@ -585,17 +585,17 @@ You\!
 Wesley  
 Danny now\!
 
-As Wesley gives Danny the signal, everything around Danny stops in motion once again. This time he’s moving so fast that not even Nolan can see what he’s doing. In a blur of motion, Danny grabs Robert and Andrew and drops them behind Wesley. He then zips back to phase Jade and Ajax out of Celeste's attack, swiftly relocating them to safety behind Wesley. With Wesley now at the front of the group, they're ready to face Celeste.
+As Wesley gives Danny the signal, everything around Danny stops in motion once again. This time he’s moving so fast that not even Nolan can see what he’s doing. In a blur of motion, Danny grabs Robert and Jesús and drops them behind Wesley. He then zips back to phase Jade and Ajax out of Celeste's attack, swiftly relocating them to safety behind Wesley. With Wesley now at the front of the group, they're ready to face Celeste.
 
 As Danny moves them behind Wesley, everything resumes its regular speed. Reacting instantly, Wesley raises his arms and fires a concussive blast. Beside him, Danny charges a lightning blast and releases it simultaneously with Wesley's attack. Their combined assault creates an explosive fusion of concussive force and crackling lightning. The blast hits Nolan, Celeste, Shi, and Talia, throwing them back into the hangar. With the aftermath settling, Wesley turns to Danny, exchanging a nod of approval. They turn to everyone else still recovering. 
 
 Wesley  
 Is everyone okay?
 
-Andrew  
+Jesús  
 I was in the middle ​of a conversation. ​
 
-Wesley rolls his eyes at Andrew's remark, clearly annoyed.
+Wesley rolls his eyes at Jesús's remark, clearly annoyed.
 
 Wesley  
 Wow, I'm so sorry I ​saved your life.
@@ -705,12 +705,12 @@ How did you-
 Axel   
 Nice try.
 
-With a powerful throw, Axel sends Robert crashing to the ground, knocking him out. Wesley, Ajax, and Danny swiftly turn, only to find Andrew missing. Suddenly, a loud rumble reverberates through the air as the Helldiver's engines roar to life. Their gaze shifts upward to witness Andrew at the controls, determination evident in his expression.
+With a powerful throw, Axel sends Robert crashing to the ground, knocking him out. Wesley, Ajax, and Danny swiftly turn, only to find Jesús missing. Suddenly, a loud rumble reverberates through the air as the Helldiver's engines roar to life. Their gaze shifts upward to witness Jesús at the controls, determination evident in his expression.
 
 Wesley, Ajax, and Danny (Thinking)  
 That idiot. ​
 
-Facing the Helldiver, Axel's expression twists into a sinister grin as Andrew targets the ship's gun at him. Axel raises his hand, his eyes shifting to a deep forest green as he unleashes an energy blast aimed directly at the ship. The powerful blast propels the Helldiver uncontrollably, hurtling it towards a nearby wall. The impact creates a deafening roar as the ship crashes into the wall.
+Facing the Helldiver, Axel's expression twists into a sinister grin as Jesús targets the ship's gun at him. Axel raises his hand, his eyes shifting to a deep forest green as he unleashes an energy blast aimed directly at the ship. The powerful blast propels the Helldiver uncontrollably, hurtling it towards a nearby wall. The impact creates a deafening roar as the ship crashes into the wall.
 
 Wesley (Shouting)  
 No\!
@@ -723,7 +723,7 @@ Danny\!
 Danny  
 I'm on it.
 
-In a lightning-fast dash, Danny zips past Wesley towards the Helldiver. He effortlessly phases through the ship's structure to reach Andrew, his movements a rapid blur. With Andrew in his arms, Danny phases out, placing him safely at the hangar's edge, and rejoins Wesley's side, 
+In a lightning-fast dash, Danny zips past Wesley towards the Helldiver. He effortlessly phases through the ship's structure to reach Jesús, his movements a rapid blur. With Jesús in his arms, Danny phases out, placing him safely at the hangar's edge, and rejoins Wesley's side, 
 
 Danny  
 The ship took the brunt of the ​blast. He’s just unconscious. 
@@ -1007,7 +1007,7 @@ Guys, come on\!
 
 William and Valeria finally reach Wesley and Danny, but as they get to them, a burst of flames breaches the lounge. The fire rapidly spreads, engulfing the room within seconds. William, Valeria, Wesley, and Danny find themselves trapped, the flames closing in. They look around desperately, seeking an escape route, but none is apparent. The intense heat sears their skin, causing blisters to form. Suddenly, a loud boom reverberates through the base, shaking everything. William's eyes widen in horror as the ceiling gives way, collapsing on top of them. 
 
-Int. Iztan Hideout | Celeste’s Lab \- ???  
+Int. Iztahn Hideout | Celeste’s Lab \- ???  
 Zoey slowly blinks her eyes open, a groan escaping her lips as her hand instinctively reaches for her throbbing head. Her vision remains blurred, and she blinks a few more times to clear it. Gradually, the surroundings come into focus: she's trapped in what looks like a cell, its walls constructed from rough rock, giving off an underground vibe. The air feels damp and stale, illuminated only by a dim overhead bulb. Attempting to stand, Zoey's legs give way, causing her to stumble and land on the hard floor with an audible thud. She winces, gripping her head as a dull ache persists. Suddenly, a noise reaches her ears, prompting her to look up and spot a figure standing outside the cell. Her vision sharpens, revealing Celeste.​
 
 Celeste  

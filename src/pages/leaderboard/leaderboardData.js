@@ -3,9 +3,9 @@ export const PHASES = ["start", "mid", "end"];
 export const CHARACTERS = {
   axel: { name: "Axel Pierce", image: "/axel.jpg" },
   azazel: { name: "Azazel Pierce", image: "/azazel.jpg" },
-  aiden: { name: "Aiden Summers", image: "/aiden.jpg" },
+  aiden: { name: "Aiden Halden", image: "/aiden.jpg" },
   celeste: { name: "Celeste Masters", image: "/celeste.jpg" },
-  gavin: { name: "Gavin Summers", image: "/gavin.jpg" },
+  gavin: { name: "Gavin Halden", image: "/gavin.jpg" },
   wesley: { name: "Wesley Johnson", image: "/wesley.jpg" },
   keith: { name: "Keith Powers", image: "/keith.jpg" },
   danny: { name: "Danny Foster", image: "/danny.jpg" },
@@ -17,7 +17,7 @@ export const CHARACTERS = {
   ajax: { name: "Ajax Johnson", image: "/ajax.jpg" },
   zoey: { name: "Zoey Pierce-Harris", image: "/zoey.jpg" },
   brianna: {name: "Brianna Gutiérrez", image: "/brianna.jpg"},
-  andrew: {name: "Andrew Torres", image: "/andrew.jpg"},
+  jesús: {name: "Jesús Torres", image: "/jesús.jpg"},
   robert: {name: "Robert Garcia", image: "/robert.jpg"},
 };
 
@@ -65,7 +65,7 @@ export const leaderboardPhases = {
     talia: 650,
     robert: 650,
     ajax: 450,
-    andrew: 100,
+    jesús: 100,
     zoey: 150,
   }),
 
@@ -86,7 +86,7 @@ export const leaderboardPhases = {
     ajax: 1252,
     brianna: 1528,
     robert: 1256,
-    andrew: 200,
+    jesús: 200,
     zoey: 150,
   }),
 };

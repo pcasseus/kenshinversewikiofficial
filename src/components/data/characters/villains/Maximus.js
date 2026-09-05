@@ -1,5 +1,4 @@
 const maximus = {
-  id: "#009",
   name: "Maximus Stryker",
   slug: "maximus",
   image: "/maximus.jpg",
@@ -8,7 +7,7 @@ const maximus = {
   tagline: "",
   primaryPower: "Mimicry Touch",
   stats: {
-    affiliation: "Iztan",
+    affiliation: "Iztahn",
     gender: "Male",
     height: "5'11\"",
     weight: "160 lbs",

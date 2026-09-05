@@ -1,4 +1,4 @@
-Int. Iztan’s Mountain Base \- Afternoon 
+Int. Iztahn’s Mountain Base \- Afternoon 
 
 Keith and Gavin are still recovering from their fight with Axel's clones when the elevator doors suddenly open. Danny speeds in with Jade and Zoey, finding the pair in a crater.
 
@@ -19,7 +19,7 @@ Keith
 All good. I'm just glad you guys are alright and that you found Zoey. 
 
 Jade   
-Yeah, we ran into a few problems. We took down Nolan and Talia. Robert beat Enzo, and Andrew is handling Shi. All that's left are Aiden, Axel, Celeste, and Azazel.
+Yeah, we ran into a few problems. We took down Nolan and Talia. Robert beat Enzo, and Jesús is handling Shi. All that's left are Aiden, Axel, Celeste, and Azazel.
 
 Keith   
 We only have three villains to worry about. Well technically two.
@@ -96,7 +96,7 @@ Keith, Jade, Gavin, Zoey, and Danny instinctively grab onto anything stable with
 Gavin   
 No time to argue. Let's go. Zoey, stay close to Danny. If things start getting too crazy, he's taking you back to the ship.
 
-Int. Iztan’s Mountain Base | Chamber Room \- Afternoon
+Int. Iztahn’s Mountain Base | Chamber Room \- Afternoon
 
 Zoey nods in agreement. Without wasting a moment, they dash towards the chamber room, their footsteps echoing through the cavernous passageway as they navigate the tunnel. As they approach the entrance to the chamber room, their eyes widen in shock and awe at the scene that unfolds before them. The destruction is staggering, as if a cataclysmic force had been unleashed within the very heart of the room.
 
@@ -421,7 +421,7 @@ The red omega blast collides with Wesley, creating a deafening impact that engul
 The explosion sends rocks, debris, and water hurtling in all directions, creating a chaotic shower of destruction. The cloud of smoke and dust engulfs the area where Wesley once stood, rendering it impossible to see through the aftermath of the collision. Azazel's maniacal laughter echoes through the air, a chilling reminder of his twisted victory in ending Wesley's life. His malicious joy resonates with every wicked cackle, amplifying the sense of malevolence that now fills the air.
 
 Azazel (as Axel)   
-You thought you could beat me? I'm the mighty Azazel, leader of Iztan, conqueror of Deviants, and the strongest being on the planet. Your worthless bloodline never stood a chance.
+You thought you could beat me? I'm the mighty Azazel, leader of Iztahn, conqueror of Deviants, and the strongest being on the planet. Your worthless bloodline never stood a chance.
 
 As the dust begins to settle, Azazel's maniacal laughter gradually fades, replaced by an intrigued silence. Through the dissipating cloud, he catches a glimpse of two distinct auras: a fiery blaze on the left and a prussian blue radiance on the right. 
 
@@ -661,7 +661,7 @@ With a coordinated motion, Wesley bounces off one last wall, launching himself d
 
 Azazel's furious assault persists as he relentlessly smashes his fists down on Wesley's back, forcing him to disconnect. Closing the distance, he grabs Wesley by the throat, maintaining a strong grip, and together they descend, their bodies scraping across the terrain of the mountain. The struggle escalates, with both adversaries locked in a fierce battle for control, their power clashing so violently that it shakes the very foundation of the mountain itself.
 
-Int. Iztan Chamber Room \- Morning
+Int. Iztahn Chamber Room \- Morning
 
 Bursting through the ceiling, they crash back into the chamber room with an impact that shakes the entire space, sending debris and dust raining down around them. Azazel, fueled by his rage, hurls Wesley downward with savage force, intent on driving him straight into the ground.
 

@@ -1,24 +1,24 @@
 const relationships = [
   {
-    name: "Warren Summers",
+    name: "Warren Halden",
     role: "Father",
     link: "",
     image: "/warren.jpg",
   },
   {
-    name: "Katherine Summers",
+    name: "Katherine Halden",
     role: "Mother",
     link: "",
     image: "/katherine.jpg",
   },
   {
-    name: "Aiden Summers",
+    name: "Aiden Halden",
     role: "Brother",
     link: "",
     image: "/aiden.jpg",
   },
   {
-    name: "Logan Summers",
+    name: "Logan Halden",
     role: "Brother",
     link: "",
     image: "/logan.jpg",
@@ -31,7 +31,7 @@ const relationships = [
   },
   {
     name: "Wesley Johnson",
-    role: "Bestfriend",
+    role: "Best Friend",
     link: "/characters/wesley",
     image: "/wesley.jpg",
   },
@@ -46,12 +46,6 @@ const relationships = [
     role: "Close Friend",
     link: "/characters/valeria",
     image: "/valeria.jpg",
-  },
-  {
-    name: "Gavin Summers",
-    role: "Close Friend",
-    link: "/characters/gavin",
-    image: "/gavin.jpg",
   },
   {
     name: "Keith Powers",

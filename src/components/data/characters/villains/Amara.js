@@ -1,5 +1,4 @@
 const amara = {
-  id: "#045",
   name: "Amara Shaw",
   slug: "amara",
   image: "/amara.jpg",
@@ -8,7 +7,7 @@ const amara = {
   tagline: "",
   primaryPower: "Kinetic Acceleration",
   stats: {
-    affiliation: "Iztan",
+    affiliation: "Iztahn",
     gender: "Male",
     height: "5'4\"",
     weight: "119 lbs",

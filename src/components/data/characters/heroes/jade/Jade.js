@@ -14,11 +14,19 @@ import psychProfile from "./psychProfile.js";
 const abilities = [...abilities1, ...abilities2, ...abilities3];
 
 const jade = {
-  id: "#003",
   slug: "jade",
   name: "Jade Stone",
+
   image: "/jade.jpg",
-  class: "Beta Class Deviant",
+
+  race: {
+    KVI: {
+      beginning: "Beta Class Deviant",
+      middle: "Beta Class Deviant",
+      end: "Gamma Class Deviant",
+    },
+  },
+
   primaryPower: "Frost Genesis",
 
   aliases: [],

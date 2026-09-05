@@ -161,7 +161,7 @@ And they can’t.
 
 Not yet.
 
-It’s been three years since the day everything broke apart. Since Iztan. Since Azazel. Since the team fractured for good.
+It’s been three years since the day everything broke apart. Since Iztahn. Since Azazel. Since the team fractured for good.
 
 They blame him.
 
@@ -300,7 +300,7 @@ His voice tightens with the last word, and for a second, his icy blue eyes flick
 
 Wesley catches it. That momentary hesitation is all he needs.
 
-“It’s Iztan. Isn’t it?”
+“It’s Iztahn. Isn’t it?”
 
 Gavin’s eyes widen slightly. “You don’t seem very shocked.”
 
@@ -314,7 +314,7 @@ Gavin gapes. “Why didn’t you tell me? Also—why are you on the dark web?”
 
 Wesley crosses his arms. “Why me?”
 
-“Because besides your dad and mine, you’re the only person alive who understands Iztan from the inside. What they’re capable of.”
+“Because besides your dad and mine, you’re the only person alive who understands Iztahn from the inside. What they’re capable of.”
 
 Wesley doesn’t speak. His jaw tenses.
 
@@ -356,7 +356,7 @@ He studies Gavin’s face, noting the guilt threading through his jawline and fu
 
 “The most recent robbery,” Gavin says. “P.A.R.A.G.O.N. Last week.”
 
-He swipes through the holocube’s interface. “The team and I intercepted Iztan operatives—Jade, Keith, Danny and me—but we got ambushed by a second group.”
+He swipes through the holocube’s interface. “The team and I intercepted Iztahn operatives—Jade, Keith, Danny and me—but we got ambushed by a second group.”
 
 As he speaks, more images appear. Wesley steps beside him now, eyeing the footage.
 
@@ -488,7 +488,7 @@ Gavin watches as Wesley’s fingers tear across the keyboard with near-mechanica
 
 As the barrage slows, dozens of windows remain open, displaying image after image: bodies, shattered labs, burned insignias, news clips, classified leaks.
 
-“His kill count is unreal,” Wesley says. “And not random either—politicians, federal agents, high-level contractors. All hits for money. Big money. Which means Iztan has a serious stockpile of funds somewhere.”
+“His kill count is unreal,” Wesley says. “And not random either—politicians, federal agents, high-level contractors. All hits for money. Big money. Which means Iztahn has a serious stockpile of funds somewhere.”
 
 Gavin exhales. “And we didn’t know about this... why?”
 
@@ -590,7 +590,7 @@ The holographic light washes over him, casting soft blue shadows across his brow
 
 He turns on his heel and heads back to the dining table, his fingers already tapping across his laptop. He presses three keys in quick succession. The desktop interface vanishes, replaced with a secondary system. Dozens of folders snap into view. He navigates with surgical precision.
 
-Gavin watches from behind, his eyes pausing on one particular folder: Iztan.
+Gavin watches from behind, his eyes pausing on one particular folder: Iztahn.
 
 Wesley clicks into it, types in a password, then scrolls until he lands on a file labeled simply: Resurrection.
 
@@ -600,7 +600,7 @@ On screen, the same schematics appear—but complete. Older. A finalized version
 
 Gavin stares. “Wait—what is this?”
 
-Wesley doesn’t look up. “It’s a chamber. Designed to bring people back from the dead. I saw it in one of Iztan’s labs years ago. I stole the blueprint. S.T.A.T.I.C. tested it… called it a failure.”
+Wesley doesn’t look up. “It’s a chamber. Designed to bring people back from the dead. I saw it in one of Iztahn’s labs years ago. I stole the blueprint. S.T.A.T.I.C. tested it… called it a failure.”
 
 The silence that follows is thick—until Wesley suddenly freezes.
 

@@ -1,45 +1,114 @@
 const weaknesses = [
   {
-    name: "Chip Dependency",
-    books: [1],
-    description:
-      "Danny’s powers are inseparable from the ARC Node. Without it, his neuroelectric system runs too hot, his cognition races out of control, and his body risks seizing under the strain. Even with the implant, he has lived through versions that were unstable, temporary, or outright dangerous. If the chip is damaged or disrupted, Danny can collapse into instability, leaving him vulnerable and unable to focus his powers.",
+    name: "Regulator Dependency",
+    domain: "Neural Regulation",
+    classification: "Technological Dependency",
+    release: "KVI",
+    discovery: "beginning",
+
+    description: `
+Danny’s natural neuroelectric system operates at a rate his body cannot reliably coordinate without technological regulation. His ARC Node keeps his accelerated cognition, motor functions, neuroelectric output, and molecular state synchronized. If the implant is damaged or removed, those systems begin falling out of alignment. Danny may involuntarily accelerate, shift between normal and hyperfast speech, lose precise control of his movements, release unintended neuroelectric energy, or partially phase without meaning to. The longer he remains unregulated, the harder it becomes for him to consciously keep his mind and body operating at the same speed.
+    `.trim(),
+
+    subWeaknesses: [],
   },
+
   {
-    name: "Mental Overload",
-    books: [1],
-    description:
-      "Danny’s accelerated cognition is both his greatest strength and one of his greatest risks. Even with load balancing, the constant flood of data, outcomes, and possibilities can overwhelm him under extreme stress. When his focus fractures, he can overthink in combat, stumble into decision paralysis, or push his brain past safe operating limits. Prolonged exposure to sensory chaos or psychic interference can cripple him.",
+    name: "ARC Node Thermal Limit",
+    domain: "Neural Regulation",
+    classification: "Technological Limit",
+    release: "KVI",
+    discovery: "beginning",
+
+    description: `
+Danny’s original ARC-7.9X Node can regulate his natural abilities reliably, but sustained high-output activity can eventually exceed the implant’s processing capacity. Prolonged use of maximum speed, heavy neuroelectric output, or repeated cognitive overclocking causes heat to accumulate within the device. If its temperature rises too far, Danny must reduce his output or risk regulator failure. This limitation belongs to the original ARC Node itself rather than Danny’s physiology and is eliminated by William Hutton’s upgraded Quantum Synaptic Lattice.
+    `.trim(),
+
+    subWeaknesses: [],
   },
+
   {
-    name: "Energy Burnout",
-    books: [1],
-    description:
-      "Danny’s powers recycle motion into electricity, but the loop is not infinite. Overexertion drains his nervous system and leaves him physically and mentally exhausted. If he pushes too far, his body floods with residual chlorozene energy, creating painful static feedback and loss of fine control. Recovery from burnout can take hours or longer, depending on how hard he pushed himself.",
+    name: "Cognitive Saturation",
+    domain: "Cognitive Limits",
+    classification: "Mental Limit",
+    release: "KVI",
+    discovery: "beginning",
+
+    description: `
+Cognitive Hyperacceleration allows Danny to process enormous amounts of information in moments, but greater processing speed does not guarantee that every problem has an immediate solution. Situations involving insufficient information, rapidly changing variables, psychic interference, or deliberately unpredictable behavior can overwhelm even his ability to calculate ahead. When too many possibilities remain equally viable, Danny can lose the predictive advantage he normally relies upon and be forced to react without a clear answer.
+    `.trim(),
+
+    subWeaknesses: [],
   },
+
   {
-    name: "Construct Fragility",
-    books: [1],
-    description:
-      "While hardlight constructs are powerful, they are tied directly to Danny’s focus and chlorozene flow. If his concentration slips or his energy balance destabilizes, constructs can weaken or shatter. This makes them unreliable in prolonged fights where Danny is injured, distracted, or mentally taxed.",
+    name: "Finite Neuroelectric Reserves",
+    domain: "Neuroelectric Limits",
+    classification: "Energy Limit",
+    release: "KVI",
+    discovery: "beginning",
+
+    description: `
+Danny can generate tremendous amounts of bioelectric energy through his accelerated physiology, but his body is not an infinite power source. Sustained maximum-speed movement, repeated neuroelectric attacks, regeneration, and Chloro manifestations all draw from the same underlying system. Heavy expenditure eventually leaves his output diminished and his body physically exhausted, forcing Danny to choose how he distributes his remaining energy during prolonged engagements.
+    `.trim(),
+
+    subWeaknesses: [],
   },
+
   {
-    name: "Strain from Healing",
-    books: [1],
-    description:
-      "Rapid regeneration keeps Danny in the fight, but healing drains energy that could be used offensively. Severe or repeated injuries can trap him in a cycle where his power prioritizes survival over combat, slowing his effectiveness. The pain of accelerated tissue repair also leaves him momentarily vulnerable if the wounds are extreme.",
+    name: "Chloro Construct Concentration",
+    domain: "Neuroelectric Limits",
+    classification: "Concentration Limit",
+    release: "KVI",
+    discovery: "beginning",
+
+    description: `
+Chloro constructs are created by compressing Danny’s neuroelectric energy into stable hardlight forms, making them more cognitively demanding than ordinary neuroelectric attacks. Maintaining multiple or increasingly complex constructs requires continuous precision. Powerful impacts, sudden disruptions to his concentration, or attempting to sustain too many forms simultaneously can destabilize their structure and cause them to break apart.
+    `.trim(),
+
+    subWeaknesses: [],
   },
+
   {
-    name: "Emotional and Psychological Strain",
-    books: [1],
-    description:
-      "Danny’s powers magnify his natural neurodivergence. He often struggles to manage frustration, impatience, or hyperfocus, especially under emotional duress. This can make him reckless, cause him to take unnecessary risks, or push him to burn through energy reserves too quickly. His confidence masks how fragile his balance really is without stability from the chip.",
+    name: "Accelerated Healing Cost",
+    domain: "Neuroelectric Limits",
+    classification: "Physiological Cost",
+    release: "KVI",
+    discovery: "beginning",
+
+    description: `
+Danny’s regenerative ability accelerates his natural recovery rather than making him immune to injury. Repairing significant damage consumes substantial biological and neuroelectric resources, reducing the energy available for speed and offensive abilities. Severe injuries can therefore weaken Danny even while they are actively healing, and damage beyond his regenerative capabilities can still incapacitate or kill him.
+    `.trim(),
+
+    subWeaknesses: [],
   },
+
+  {
+    name: "Speed Differential",
+    domain: "Combat Limitations",
+    classification: "Combat Limitation",
+    release: "KVI",
+    discovery: "beginning",
+
+    description: `
+Much of Danny’s combat advantage depends on operating faster than his opponent can perceive, process, or respond. Enemies capable of matching his speed, anticipating his movement, restricting his available routes, or reacting within his accelerated perception can dramatically reduce that advantage. Danny remains an extensively trained combatant without a speed advantage, but opponents who can genuinely keep pace force him into a far more conventional fight.
+    `.trim(),
+
+    subWeaknesses: [],
+  },
+
   {
     name: "Overextension Risk",
-    books: [3],
-    description:
-      "Danny’s speed and bioelectric system have theoretical limits, but his hypercognitive drive often pushes him to exceed them. If he clears those limits by too much, the strain on his molecular structure can become catastrophic. His body risks destabilizing under the combined pressure of vibration, energy buildup, and chlorozene output. In the worst cases, this could lead to disintegration, leaving nothing behind. The possibility of vanishing out of existence is the ultimate danger of his gift, and it is a line he constantly dances on when he pushes harder than anyone else could survive.",
+    domain: "Extreme Overload",
+    classification: "Critical Limit",
+    release: "KVIII",
+    discovery: "end",
+
+    description: `
+Danny can force Cognitive Hyperacceleration beyond the operating range his physiology was naturally built to sustain. At extreme levels, his cognition, neuroelectric output, physical acceleration, and molecular vibration begin escalating together faster than his body can safely maintain them. Continuing past this threshold risks progressive molecular destabilization, causing portions of his body to lose physical cohesion. If Danny refuses to slow down, the process can become irreversible and ultimately result in complete physical disintegration.
+    `.trim(),
+
+    subWeaknesses: [],
   },
 ];
 

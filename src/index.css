@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body {
+html,
+body {
   height: 100%;
   overflow-x: hidden;
   overflow-y: auto;
@@ -17,14 +18,12 @@ html, body {
 body {
   background: #050505;
   color: #39ff14;
-  font-family: 'Share Tech Mono', monospace;
-  background-image: repeating-linear-gradient(
-    0deg,
-    rgba(0, 255, 0, 0.03),
-    rgba(0, 255, 0, 0.03) 1px,
-    transparent 1px,
-    transparent 2px
-  );
+  font-family: "Share Tech Mono", monospace;
+  background-image: repeating-linear-gradient(0deg,
+      rgba(0, 255, 0, 0.03),
+      rgba(0, 255, 0, 0.03) 1px,
+      transparent 1px,
+      transparent 2px);
   background-size: 100% 2px;
   animation: scanlines 0.8s linear infinite;
 }
@@ -32,12 +31,15 @@ body {
 .perspective {
   perspective: 1000px;
 }
+
 .preserve-3d {
   transform-style: preserve-3d;
 }
+
 .backface-hidden {
   backface-visibility: hidden;
 }
+
 .rotate-y-180 {
   transform: rotateY(180deg);
 }
@@ -45,29 +47,36 @@ body {
 .cursor-glow {
   position: relative;
 }
+
 .cursor-glow::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: 50%;
   width: 120%;
   height: 120%;
-  background: radial-gradient(circle, rgba(255,255,0,0.2) 0%, transparent 80%);
+  background: radial-gradient(circle,
+      rgba(255, 255, 0, 0.2) 0%,
+      transparent 80%);
   transform: translate(-50%, -50%);
   pointer-events: none;
   opacity: 0;
   transition: opacity 0.3s ease;
 }
+
 .cursor-glow:hover::after {
   opacity: 1;
 }
 
 @keyframes blink {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 1;
     transform: scale(1);
     box-shadow: 0 0 4px #facc15;
   }
+
   50% {
     opacity: 0.2;
     transform: scale(1.3);
@@ -83,12 +92,15 @@ body {
   .perspective {
     perspective: 1500px;
   }
+
   .preserve-3d {
     transform-style: preserve-3d;
   }
+
   .rotate-y-180 {
     transform: rotateY(180deg);
   }
+
   .backface-hidden {
     backface-visibility: hidden;
   }
@@ -98,6 +110,7 @@ body {
   0% {
     background-position: 0 0;
   }
+
   100% {
     background-position: 0 2px;
   }
@@ -107,10 +120,12 @@ body {
   0% {
     background-position: 0 0;
   }
+
   100% {
     background-position: 0 100%;
   }
 }
+
 .animate-scroll-matrix {
   animation: scroll-matrix 40s linear infinite;
 }
@@ -122,17 +137,89 @@ body {
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: repeating-linear-gradient(
-    0deg,
-    rgba(255, 0, 0, 0.05),
-    rgba(255, 0, 0, 0.05) 1px,
-    transparent 1px,
-    transparent 2px
-  );
+  background-image: repeating-linear-gradient(0deg,
+      rgba(255, 0, 0, 0.05),
+      rgba(255, 0, 0, 0.05) 1px,
+      transparent 1px,
+      transparent 2px);
   pointer-events: none;
   z-index: 5;
   mix-blend-mode: overlay;
   opacity: 0.3;
+}
+
+/*
+ * CHARACTER DOSSIER READABILITY
+ *
+ * Character profiles intentionally use very small
+ * archive-style metadata throughout the interface.
+ * Share Tech Mono begins to lose legibility below
+ * roughly 9px on desktop displays, so the dossier
+ * establishes a minimum readable size without
+ * changing the typography used elsewhere on the site.
+ */
+
+.profile-dossier .text-\[7px\] {
+  font-size: 9px !important;
+  line-height: 1.35 !important;
+}
+
+.profile-dossier .text-\[8px\] {
+  font-size: 9px !important;
+  line-height: 1.4 !important;
+}
+
+.profile-dossier .text-\[9px\] {
+  font-size: 10px !important;
+  line-height: 1.4 !important;
+}
+
+/*
+ * Extremely dark archive labels become difficult
+ * to distinguish from the black dossier background.
+ * These adjustments remain scoped to profiles only.
+ */
+
+.profile-dossier .text-zinc-700 {
+  color: rgb(113 113 122) !important;
+}
+
+.profile-dossier .text-zinc-600 {
+  color: rgb(161 161 170) !important;
+}
+
+/*
+ * Letter spacing is part of the classified-database
+ * aesthetic, but excessive tracking becomes harder
+ * to parse at small sizes.
+ */
+
+.profile-dossier .tracking-\[0\.32em\] {
+  letter-spacing: 0.26em !important;
+}
+
+.profile-dossier .tracking-\[0\.3em\] {
+  letter-spacing: 0.25em !important;
+}
+
+.profile-dossier .tracking-\[0\.28em\] {
+  letter-spacing: 0.24em !important;
+}
+
+.profile-dossier .tracking-\[0\.25em\] {
+  letter-spacing: 0.22em !important;
+}
+
+.profile-dossier .tracking-\[0\.24em\] {
+  letter-spacing: 0.21em !important;
+}
+
+.profile-dossier .tracking-\[0\.22em\] {
+  letter-spacing: 0.2em !important;
+}
+
+.profile-dossier .tracking-\[0\.2em\] {
+  letter-spacing: 0.18em !important;
 }
 
 *,
@@ -181,5 +268,22 @@ select {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
+  }
+}
+
+@media (max-width: 640px) {
+  /*
+   * Mobile already renders the interface at a much
+   * closer visual scale, so we avoid pushing metadata
+   * substantially larger than necessary.
+   */
+
+  .profile-dossier .text-\[7px\],
+  .profile-dossier .text-\[8px\] {
+    font-size: 9px !important;
+  }
+
+  .profile-dossier .text-\[9px\] {
+    font-size: 9.5px !important;
   }
 }

@@ -1,5 +1,4 @@
 const talia = {
-  id: "#013",
   name: "Talia Yassin",
   slug: "talia",
   image: "/talia.jpg",
@@ -8,7 +7,7 @@ const talia = {
   tagline: "",
   primaryPower: "Atomic Echo",
   stats: {
-    affiliation: "Iztan",
+    affiliation: "Iztahn",
     gender: "Female",
     height: "5'11\"",
     weight: "160 lbs",

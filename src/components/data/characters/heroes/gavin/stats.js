@@ -9,21 +9,21 @@ const stats = {
       height: "6'1\"",
 
       physique:
-        "Athletic-lean and wiry with compact muscle definition. Broad shoulders without being hulking. His build reflects rigorous past training, with some lost bulk due to stress, limited nutrition, and prolonged time in hiding.",
+        "Athletic-lean and wiry with compact muscle definition and naturally broad shoulders. His frame retains the conditioning of extensive combat training, though prolonged stress, inconsistent nutrition, and months spent in hiding have left him noticeably leaner than he once was.",
 
       skinTone:
-        "Light peachy beige complexion. Tans slightly but remains fairly pale, leaning more ivory than golden. Skin appears smooth and even, with limited sun exposure consistent with an indoor and concealed lifestyle.",
+        "Light peachy beige complexion with ivory undertones. His skin remains fairly pale with only a slight tendency to tan, consistent with limited sun exposure during his time in hiding.",
 
       hair: {
         style:
-          "Grown out, wavy, and unkempt from months without a cut. Dirty blonde with sun-kissed tips. Strands fall over the forehead and around the ears. Front falls just past eyebrow level, with the back brushing the collar.",
-        color: "Dirty blonde",
+          "Grown out, wavy, and unkempt after months without a proper cut. Strands fall across his forehead and around his ears, with the front reaching just past eyebrow level and the back brushing his collar.",
+        color: "Dirty blonde with naturally lighter, sun-kissed ends",
       },
 
       facialHair:
-        "Light scruff and dusting of stubble along the jawline and upper lip. Subtle but noticeable, suggesting inconsistent grooming rather than neglect.",
+        "Light scruff with uneven stubble along the jawline and upper lip, suggesting inconsistent grooming during his time in hiding.",
 
-      eyes: "Clear, icy blue. Eye intensity increases during power surges, with a visible glow that varies depending on energy output level.",
+      eyes: "Clear, icy blue. During power surges, his eyes emit an increasingly intense glow corresponding to the amount of fusion energy he is actively channeling.",
     },
   },
 };

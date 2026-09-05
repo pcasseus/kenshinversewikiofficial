@@ -1,20 +1,20 @@
 const relationships = [
   {
     name: "Jeremiah Harris",
-    role: "Adopted Father",
+    role: "Adoptive Father",
     link: "",
     image: "/jeremiah.jpg",
   },
   {
     name: "Lashana Harris",
-    role: "Adopted Mother",
+    role: "Adoptive Mother",
     link: "",
     image: "/lashana.jpg",
   },
   {
     name: "Azazel Pierce",
-    role: "Father",
-    link: "",
+    role: "Biological Father",
+    link: "/characters/azazel",
     image: "/azazel.jpg",
   },
   {
@@ -34,6 +34,18 @@ const relationships = [
     role: "Close Friend",
     link: "/characters/wesley",
     image: "/wesley.jpg",
+  },
+  {
+    name: "Gavin Halden",
+    role: "Friend",
+    link: "/characters/gavin",
+    image: "/gavin.jpg",
+  },
+  {
+    name: "Keith Powers",
+    role: "Friend",
+    link: "/characters/keith",
+    image: "/keith.jpg",
   },
 ];
 

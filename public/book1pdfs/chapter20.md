@@ -1,4 +1,4 @@
-Int. Iztan’s Mountain Base | Chamber Room \- Afternoon
+Int. Iztahn’s Mountain Base | Chamber Room \- Afternoon
 
 Azazel (as Axel)   
 We are now one. 
@@ -290,7 +290,7 @@ Wesley's cry reverberates across the entire mountain, sending shockwaves through
 
 For a fleeting moment, it appears as if time itself has paused, leaving only the haunting sound of Wesley's pain echoing throughout the landscape.
 
-Int. Iztan’s Mountain Base \- Afternoon
+Int. Iztahn’s Mountain Base \- Afternoon
 
 Elsewhere…  
 Gavin and Keith stand back to back, their bodies aglow with energy and fire, while the Axel clones encircle them, their eyes glowing with malice. Both Gavin and Keith wear fierce and determined expressions in their eyes.
@@ -331,115 +331,115 @@ Gavin interrupts him, his voice filled with clear worry.
 Gavin   
 Wes. He needs us. 
 
-Int. Iztan’s Mountain Base \- Afternoon
+Int. Iztahn’s Mountain Base \- Afternoon
 
-As Andrew faces off against Shi, Robert engages in combat against Enzo. Suddenly, Andrew tumbles across the floor, and the entire room shakes as Azazel's machine activates.
+As Jesús faces off against Shi, Robert engages in combat against Enzo. Suddenly, Jesús tumbles across the floor, and the entire room shakes as Azazel's machine activates.
 
 Shi   
 Looks like Azazel is back. 
 
-Andrew   
+Jesús   
 No\! 
 
-Andrew (Thinking)  
+Jesús (Thinking)  
 Damn it, Wes. What's going on down there? 
 
-Andrew charges forward, delivering a powerful punch towards Shi's face. However, Shi catches Andrew's fist mid-air with a strong grip. In a split-second countermove, Shi attempts to strike Andrew with his free hand, but Andrew is equally quick in stopping Shi's incoming punch.
+Jesús charges forward, delivering a powerful punch towards Shi's face. However, Shi catches Jesús's fist mid-air with a strong grip. In a split-second countermove, Shi attempts to strike Jesús with his free hand, but Jesús is equally quick in stopping Shi's incoming punch.
 
-In a tense struggle, the two opponents vie for the upper hand. Shi manages to free his hand from Andrew's grasp, delivering a punishing blow to Andrew's face. The force of the impact sends Andrew staggering backward, leaving him momentarily disoriented.
+In a tense struggle, the two opponents vie for the upper hand. Shi manages to free his hand from Jesús's grasp, delivering a punishing blow to Jesús's face. The force of the impact sends Jesús staggering backward, leaving him momentarily disoriented.
 
-As Andrew tries to recover his balance, Shi seizes an opportunity, flipping him over. Remarkably, Andrew manages to land on his feet. However, before he can regain his composure, Shi is already back on him with a follow-up punch.
+As Jesús tries to recover his balance, Shi seizes an opportunity, flipping him over. Remarkably, Jesús manages to land on his feet. However, before he can regain his composure, Shi is already back on him with a follow-up punch.
 
-The force behind Shi's punch is overwhelming, sending Andrew sprawling backward like a ragdoll and rolling across the floor. Pain sears through his body as he fights to regain his footing. Despite the room spinning around him and the dizziness, he knows he must stay focused, even with the odds stacked against him.
+The force behind Shi's punch is overwhelming, sending Jesús sprawling backward like a ragdoll and rolling across the floor. Pain sears through his body as he fights to regain his footing. Despite the room spinning around him and the dizziness, he knows he must stay focused, even with the odds stacked against him.
 
 Shi   
 Throwing you around was fun, but I think it’s time we end this. Don’t you?
 
-Andrew   
+Jesús   
 You know damn well I’m not looking to kill you.
 
 Shi   
 Right. Right. You’re trying to save my soul because I’m your childhood best friend. 
 
-Andrew  
+Jesús  
 Celeste messed with your memories, Stephen. We were best friends, and we still are. We fought together, had each other's backs for years. How can you forget that? 
 
 Shi  
-Spare me, Andrew. 
+Spare me, Jesús. 
 
-Shi's eyes gleam with deadly focus as he smoothly draws his blade from its sheath, effortlessly twirling it between his fingers with masterful dexterity. The metal glints in the dim light, amplifying the danger of the intense situation. With the blade in hand, Shi launches a series of rapid jabs towards Andrew, who skillfully blocks each one with split-second precision. With each jab, the blade inches dangerously closer to Andrew's vulnerable points.
+Shi's eyes gleam with deadly focus as he smoothly draws his blade from its sheath, effortlessly twirling it between his fingers with masterful dexterity. The metal glints in the dim light, amplifying the danger of the intense situation. With the blade in hand, Shi launches a series of rapid jabs towards Jesús, who skillfully blocks each one with split-second precision. With each jab, the blade inches dangerously closer to Jesús's vulnerable points.
 
-With a calculated move, Shi changes tactics, aiming a jab directly at Andrew's throat. However, Andrew reacts quickly, pushing Shi's arm back just in time to avoid a potentially lethal strike. Unfazed, Shi fluidly switches arms, flipping the blade again, this time targeting Andrew's eye. Andrew manages to block this jab as well, but the close calls are beginning to take a toll on his composure.
+With a calculated move, Shi changes tactics, aiming a jab directly at Jesús's throat. However, Jesús reacts quickly, pushing Shi's arm back just in time to avoid a potentially lethal strike. Unfazed, Shi fluidly switches arms, flipping the blade again, this time targeting Jesús's eye. Jesús manages to block this jab as well, but the close calls are beginning to take a toll on his composure.
 
-Sensing an opportunity, Shi changes his strategy once more, aiming for Andrew's leg with lightning speed. Andrew skillfully blocks the attack, his muscles straining under the pressure. Shi withdraws his arm momentarily, seemingly assessing his next move, before launching a surprise jab straight at the middle of Andrew's face.
+Sensing an opportunity, Shi changes his strategy once more, aiming for Jesús's leg with lightning speed. Jesús skillfully blocks the attack, his muscles straining under the pressure. Shi withdraws his arm momentarily, seemingly assessing his next move, before launching a surprise jab straight at the middle of Jesús's face.
 
-Reacting with instinctive reflexes, Andrew doesn't hesitate; he uses both hands to firmly grip Shi's arm, preventing the blade from reaching its target. The two adversaries lock eyes, engaged in a silent contest of wills as they strain against each other's strength.
+Reacting with instinctive reflexes, Jesús doesn't hesitate; he uses both hands to firmly grip Shi's arm, preventing the blade from reaching its target. The two adversaries lock eyes, engaged in a silent contest of wills as they strain against each other's strength.
 
-Andrew  
-Do you hear yourself? You’re talking like the very same group you swore you would destroy. You didn’t start this war on Iztan’s side. You started it with us. You and Wes were the ones who took out Azazel in the first place. We ended Iztan together three years ago.
+Jesús  
+Do you hear yourself? You’re talking like the very same group you swore you would destroy. You didn’t start this war on Iztahn’s side. You started it with us. You and Wes were the ones who took out Azazel in the first place. We ended Iztahn together three years ago.
 
 Shi  
-Oh, right. The legendary showdown. My version's a bit different, though. Wesley was the one who murdered Azazel, not me. Wesley was the one who sunk the Iztan seabase, not me. Wesley was the one who created a 6.5 earthquake, not me. Are you noticing the pattern here? Because I certainly am, and it’s crystal clear.. 
+Oh, right. The legendary showdown. My version's a bit different, though. Wesley was the one who murdered Azazel, not me. Wesley was the one who sunk the Iztahn seabase, not me. Wesley was the one who created a 6.5 earthquake, not me. Are you noticing the pattern here? Because I certainly am, and it’s crystal clear.. 
 
-Shi's initial attempt to slice is smoothly evaded by Andrew, who ducks under the attack. Shi follows up with a punch, but Andrew's impressive reflexes once again come into play as he smoothly evades the blow by ducking once more.
+Shi's initial attempt to slice is smoothly evaded by Jesús, who ducks under the attack. Shi follows up with a punch, but Jesús's impressive reflexes once again come into play as he smoothly evades the blow by ducking once more.
 
-Andrew retaliates by punching Shi in the face, causing him to stagger. Without hesitation, Andrew follows up with a spinning kick aimed at Shi's stomach, landing a powerful blow that makes Shi lose his grip on his blade, which clatters to the ground. The force of the kick throws Shi backward, and he collides with a nearby wall, momentarily disoriented. Before Shi can regain his balance, Andrew rushes forward, springing into the air and driving his knee into Shi's face, sending him reeling deeper into the wall.
+Jesús retaliates by punching Shi in the face, causing him to stagger. Without hesitation, Jesús follows up with a spinning kick aimed at Shi's stomach, landing a powerful blow that makes Shi lose his grip on his blade, which clatters to the ground. The force of the kick throws Shi backward, and he collides with a nearby wall, momentarily disoriented. Before Shi can regain his balance, Jesús rushes forward, springing into the air and driving his knee into Shi's face, sending him reeling deeper into the wall.
 
-As Andrew attempts to deliver a follow-up punch with his other hand, Shi raises his arm in a timely block, preventing the punch from connecting directly. Determined to maintain the pressure, Shi counterattacks and lands a solid punch on Andrew's nose, causing him to stumble backward, momentarily stunned.
+As Jesús attempts to deliver a follow-up punch with his other hand, Shi raises his arm in a timely block, preventing the punch from connecting directly. Determined to maintain the pressure, Shi counterattacks and lands a solid punch on Jesús's nose, causing him to stumble backward, momentarily stunned.
 
-Shi lunges forward, grabbing Andrew's throat, his fingers closing around it. He tightens his grip in an attempt to control the situation. 
+Shi lunges forward, grabbing Jesús's throat, his fingers closing around it. He tightens his grip in an attempt to control the situation. 
 
-Andrew (Hoarsely)  
-You've got it twisted, Azazel possessed you, and Wes saved you. Wes sank the Iztan base and caused the earthquake because he was trying to save you and the rest of the world. He barely had control over his abilities back then, but he still had your back all the way up to the end. He always had all of our backs, and we were all inseparable back then.
+Jesús (Hoarsely)  
+You've got it twisted, Azazel possessed you, and Wes saved you. Wes sank the Iztahn base and caused the earthquake because he was trying to save you and the rest of the world. He barely had control over his abilities back then, but he still had your back all the way up to the end. He always had all of our backs, and we were all inseparable back then.
 
 Shi  
 Brothers? Seriously? So where were you when I lodged my blade in his side? Did he tell you about that moment? Because I remember every detail, especially the sad look in his eyes as I twisted it.
 
-Shi hurls Andrew backward with strong force, sending him tumbling uncontrollably across the rough ground. Grains of dust and pebbles rise from the impact, swirling in the air around him as he fights to regain his footing.
+Shi hurls Jesús backward with strong force, sending him tumbling uncontrollably across the rough ground. Grains of dust and pebbles rise from the impact, swirling in the air around him as he fights to regain his footing.
 
-Groaning in pain, Andrew struggles to find the strength to stand again, but his body protests, weakened by the intense fight. Managing to prop himself up on one elbow, he falters and collapses back to the ground, his muscles trembling from exhaustion and the blows he's endured.
+Groaning in pain, Jesús struggles to find the strength to stand again, but his body protests, weakened by the intense fight. Managing to prop himself up on one elbow, he falters and collapses back to the ground, his muscles trembling from exhaustion and the blows he's endured.
 
 Shi  
 If we really are best friends it would’ve been you by his side and not Gavin. 
 
-Andrew   
+Jesús   
 You don’t understand. We fell out of touch after we lost you…
 
 Shi   
 Wait so let me get this straight. So, all of you just collectively stopped talking to one of your friends after another one of your friends supposedly died? Are we sure I’m the evil one here? The more you speak the more I see just how right I really am. 
 
-Andrew   
+Jesús   
 What are you talking about?
 
-Shi charges forward with incredible speed, launching himself toward Andrew. In a swift move, Andrew rolls aside just in time, narrowly avoiding Shi's airborne attack. The ground trembles as Shi lands, leaving a deep imprint of his boot in the earth.
+Shi charges forward with incredible speed, launching himself toward Jesús. In a swift move, Jesús rolls aside just in time, narrowly avoiding Shi's airborne attack. The ground trembles as Shi lands, leaving a deep imprint of his boot in the earth.
 
-Andrew wastes no time, quickly getting back on his feet, his eyes fixed on Shi, who immediately launches a barrage of punches. Shi's fists dart through the air like lightning, aiming for Andrew's vulnerable spots. Andrew's instincts kick in, and he manages to block the first punch aimed at his stomach by raising his arm in a defensive position. Seeing Shi's next punch coming for his side, Andrew reacts again, bringing his arm up to protect himself.
+Jesús wastes no time, quickly getting back on his feet, his eyes fixed on Shi, who immediately launches a barrage of punches. Shi's fists dart through the air like lightning, aiming for Jesús's vulnerable spots. Jesús's instincts kick in, and he manages to block the first punch aimed at his stomach by raising his arm in a defensive position. Seeing Shi's next punch coming for his side, Jesús reacts again, bringing his arm up to protect himself.
 
-Despite Shi's relentless assault, Andrew's endurance and resolve are put to the test as the continuous punches land with force, throwing him off balance. Struggling to regain his footing, Andrew feels the toll of Shi's punches on his body. Undeterred, Shi draws another blade, ready to face Andrew again. Despite the odds, Andrew charges back at Shi, his determination unwavering. However, before he can close the distance, Shi kicks him, sending Andrew sprawling against the unforgiving wall.
+Despite Shi's relentless assault, Jesús's endurance and resolve are put to the test as the continuous punches land with force, throwing him off balance. Struggling to regain his footing, Jesús feels the toll of Shi's punches on his body. Undeterred, Shi draws another blade, ready to face Jesús again. Despite the odds, Jesús charges back at Shi, his determination unwavering. However, before he can close the distance, Shi kicks him, sending Jesús sprawling against the unforgiving wall.
 
-Andrew winces at the impact but refuses to succumb to the pain. Shi, spotting an opening, raises his arm, brandishing another blade, aiming for a deadly stab at Andrew's face. Andrew raises his hands in the nick of time, catching Shi's arm, straining with all his might to stop the imminent attack. The blade hovers dangerously close to his face, the tension between them evident as they lock eyes.
+Jesús winces at the impact but refuses to succumb to the pain. Shi, spotting an opening, raises his arm, brandishing another blade, aiming for a deadly stab at Jesús's face. Jesús raises his hands in the nick of time, catching Shi's arm, straining with all his might to stop the imminent attack. The blade hovers dangerously close to his face, the tension between them evident as they lock eyes.
 
 Shi  
 Everyone puts Wesley on this pedestal when he’s really just a ticking time bomb that’s eventually going to snap. Him going to college with those powers of his was already telling me all I needed to know. Let’s say he loses his control in a populated area. What do you think is going to happen? Those people don’t even know the freak they’re sharing a building with, when they have a right to know. 
 
-Andrew   
+Jesús   
 He has perfect control over his powers now. What you’re suggesting is never going to happen. 
 
 Shi   
 You're dumber than you look if you truly believe that.
 
-Andrew exerts all his strength to restrain Shi, their muscles locked in a fierce struggle for control. In a split-second decision, Andrew shifts his head to the side, causing Shi's blade to slam into the wall with a resounding thud. The metal grinds against the surface as Shi drags both the blade and Andrew along the rough wall.
+Jesús exerts all his strength to restrain Shi, their muscles locked in a fierce struggle for control. In a split-second decision, Jesús shifts his head to the side, causing Shi's blade to slam into the wall with a resounding thud. The metal grinds against the surface as Shi drags both the blade and Jesús along the rough wall.
 
-Andrew grabs Shi's outstretched wrist, using the momentum to gracefully duck under his arm and smoothly switch positions. Now, Andrew faces Shi from the opposite side, his arms securely wrapped around Shi's stomach, forming a formidable grip. With remarkable finesse and strength, Andrew executes a skillful maneuver, effortlessly flipping them both backward and sending them crashing to the ground.
+Jesús grabs Shi's outstretched wrist, using the momentum to gracefully duck under his arm and smoothly switch positions. Now, Jesús faces Shi from the opposite side, his arms securely wrapped around Shi's stomach, forming a formidable grip. With remarkable finesse and strength, Jesús executes a skillful maneuver, effortlessly flipping them both backward and sending them crashing to the ground.
 
-The impact reverberates through their bodies as Shi lands on his head with a thud, and Andrew lands on his back. Despite the strain and pain, Andrew quickly springs into action, executing a front flip to get back on his feet. In contrast, Shi rolls over, visibly affected by the forceful flip, as he tries to regain his footing. Nonetheless, he refuses to back down and makes another attempt to stand up.
+The impact reverberates through their bodies as Shi lands on his head with a thud, and Jesús lands on his back. Despite the strain and pain, Jesús quickly springs into action, executing a front flip to get back on his feet. In contrast, Shi rolls over, visibly affected by the forceful flip, as he tries to regain his footing. Nonetheless, he refuses to back down and makes another attempt to stand up.
 
 With a sudden burst of speed and radiance, a golden blur streaks into the room, carrying incredible force. It sends Shi hurtling across the room, defying gravity as he soars high into the sky before crashing into a distant wall. The sheer power behind the attack leaves a visible imprint on the wall. Shi's body limply falls to the floor, disoriented and momentarily incapacitated. As the golden blur comes to a stop, the radiance fades, revealing Danny, Jade, and Zoey.
 
 Jade  
-Andrew\!
+Jesús\!
 
-Andrew   
+Jesús   
 I’m fine. But, we have bigger problems. Azazel is back. 
 
 Their collective gaze turns to him, expressions filled with pure shock.
@@ -463,7 +463,7 @@ I’m going to kill every last one of you.
 
 Rising to his feet, fury etching across his face, Shi reclaims both of his deadly blades, gripping them tightly. With a primal and determined roar, he charges at the group. However, before Shi can reach them, the ground beneath them begins to shake violently.
 
-A deep, guttural cry reverberates through the room, shaking the very foundations of the mountain. The force of the sound wave is immense, throwing everyone to the ground as if caught in a tempest. Zoey is the first to be hit, collapsing and clutching her head in pain, while Jade, Andrew, and Danny are also thrown to the ground.
+A deep, guttural cry reverberates through the room, shaking the very foundations of the mountain. The force of the sound wave is immense, throwing everyone to the ground as if caught in a tempest. Zoey is the first to be hit, collapsing and clutching her head in pain, while Jade, Jesús, and Danny are also thrown to the ground.
 
 Wesley's presence becomes undeniable with a haunting and awe-inspiring cry that commands the attention of everyone present. As the powerful vibration wave washes over Shi, he clutches his head in agony, his screams echoing through the room. However, the true devastation of the wave is hidden, causing unseen damage deep within Shi's body. The pain is unmistakable in his contorted expression as he falls to the ground, writhing in torment.
 
@@ -480,9 +480,9 @@ Are you ok?
 Zoey   
 I’m not too sure.
 
-Quickly, Wesley assists Jade, helping her up while both of them steady themselves. Their gaze remains fixed on the incapacitated Shi. Afterwards, Danny moves over to Andrew, extending a supportive hand to help him stand.
+Quickly, Wesley assists Jade, helping her up while both of them steady themselves. Their gaze remains fixed on the incapacitated Shi. Afterwards, Danny moves over to Jesús, extending a supportive hand to help him stand.
 
-Andrew   
+Jesús   
 Was that…?
 
 Danny   
@@ -490,7 +490,7 @@ Yeah it was and it didn’t sound good.
 
 As the tension in the room reaches its peak, an unexpected explosion shatters the ceiling above, sending debris and clouds of dust swirling through the air. Emerging from the chaos is a figure, silhouetted against the falling debris.
 
-Andrew  
+Jesús  
 Rob?
 
 With a determined yet indifferent expression, Robert carries an unconscious and beaten Enzo in his arms. He tosses Enzo onto the rocky ground, causing a burst of dust to rise around him upon impact.
@@ -500,7 +500,7 @@ As the dust begins to settle, the group's attention shifts from the remnants of 
 Robert  
 From the looks of it, you guys heard it too. 
 
-Andrew   
+Jesús   
 Wes is in trouble. Danny, Jade, and Zoey go up ahead. Rob take Enzo back to the ship, and watch over the villains while I try to bring Stephen back.  
 
 They all look over to see Shi still disoriented from the vibration wave.
@@ -508,7 +508,7 @@ They all look over to see Shi still disoriented from the vibration wave.
 Jade   
 Are you sure?
 
-Andrew   
+Jesús   
 I’ll be fine. 
 
 Jade   
@@ -527,7 +527,7 @@ With graceful hands, Jade's focus narrows on three bars at the cell's forefront.
 Jade   
 That should make things easier for you. Here’s one more thing…
 
-Jade closes her hand, focusing her powers to create an intricate ice key, which she then hands over to Andrew. 
+Jade closes her hand, focusing her powers to create an intricate ice key, which she then hands over to Jesús. 
 
 Jade   
 Good Luck. 
@@ -537,14 +537,14 @@ Danny takes Jade and Zoey's hands, and they speed toward the elevator.
 Robert   
 If anyone can get through to him, it's you. Do what you have to do.
 
-Andrew   
+Jesús   
 You know I will. 
 
-Robert flies over, picking up Enzo by the hem of his suit, securely holding him. His eyes meet Andrew's, and they exchange a nod of acknowledgment before Robert heads toward the hangar, carrying Enzo with him.
+Robert flies over, picking up Enzo by the hem of his suit, securely holding him. His eyes meet Jesús's, and they exchange a nod of acknowledgment before Robert heads toward the hangar, carrying Enzo with him.
 
 In agony, gripping his head, blood trickles from his ears and nose—a testament to the powerful impact of Wesley's earlier cry. Shi's eyes dart around the room, realization dawning upon him: he's trapped in an ice prison.
 
-Andrew  
+Jesús  
 Stephen, we shared everything: our hopes, our fears. We hung out every day, stayed up until 10 a.m. playing video games. We did everything together. We were more than friends. We were family.
 
 As Shi remains trapped within the icy prison, his body trembles with pain, and a torrent of memories rushes through his mind like a relentless tide. The agony etched on his face deepens, his eyes reflecting the turmoil within his very soul.
@@ -552,7 +552,7 @@ As Shi remains trapped within the icy prison, his body trembles with pain, and a
 Shi  
 Shut up. Stop trying to mess with my head. I don't need your sentimental crap.
 
-Andrew  
+Jesús  
 You're Stephen Reyes, not Shi. You were a hero, man. You saved lives, inspired people. You aren't the merciless assassin you've been brainwashed to be. Don't let Celeste's mind games snuff out the real you.
 
 Upon hearing his name, his mind becomes a battleground, where the fragments of his past collide with the harsh reality of the present. Memories, long suppressed and buried beneath layers of darkness, resurface with vivid clarity. Faces of loved ones, lost amidst the chaos of his journey, haunt him like haunting specters.
@@ -560,7 +560,7 @@ Upon hearing his name, his mind becomes a battleground, where the fragments of h
 Shi  
 Stephen...Reyes? That name…
 
-Andrew   
+Jesús   
 Yes exactly.
 
 He grips his head, groaning in excruciating pain, as his identity seems to shift and warp, caught between the person he once was and the one he became, fueled by anger and vengeance. The memories claw at him, demanding to be acknowledged, yet intertwined with a history he had long forgotten.
@@ -570,12 +570,12 @@ Visions of tender moments, laughter, and the warmth of his friendships clash wit
 Stephen   
 No... no... no. What have I done?
 
-Tears well in Stephen's eyes, reflecting the torment he carries within, as memories of his merciless crimes and heinous murders flood his consciousness. Each painful recollection serves as a haunting reminder of who he has been. As the memories cease their relentless assault, Stephen finds himself back in the present, his tear-filled eyes meeting Andrew's worried gaze through the bars of the ice prison.
+Tears well in Stephen's eyes, reflecting the torment he carries within, as memories of his merciless crimes and heinous murders flood his consciousness. Each painful recollection serves as a haunting reminder of who he has been. As the memories cease their relentless assault, Stephen finds himself back in the present, his tear-filled eyes meeting Jesús's worried gaze through the bars of the ice prison.
 
 Stephen  
-Andrew?
+Jesús?
 
-Andrew   
+Jesús   
 Stephen? Is that really you?
 
 Stephen   
@@ -588,24 +588,24 @@ The memory lingers in his mind like a haunting ghost, replaying itself in vivid,
 Stephen   
 Wes, no\! What did I do? What did I do? 
 
-Stephen's tear-filled eyes lock onto Andrew's, desperate for answers and consumed by the fear that he has committed an unspeakable act against one of his closest friends. The weight of his actions presses heavily on his conscience, leaving him trembling with guilt and uncertainty.
+Stephen's tear-filled eyes lock onto Jesús's, desperate for answers and consumed by the fear that he has committed an unspeakable act against one of his closest friends. The weight of his actions presses heavily on his conscience, leaving him trembling with guilt and uncertainty.
 
-Andrew   
+Jesús   
 Wes is fine\! He’s ok\! 
 
 Stephen   
 But I- 
 
-As Stephen's turmoil intensifies, another torrent of memories crashes over him like an unrelenting storm. This time, it's the painful recollection of his brutal fight with Andrew back at the S.T.A.T.I.C. base, each moment etched in excruciating detail.
+As Stephen's turmoil intensifies, another torrent of memories crashes over him like an unrelenting storm. This time, it's the painful recollection of his brutal fight with Jesús back at the S.T.A.T.I.C. base, each moment etched in excruciating detail.
 
-As he strikes Andrew multiple times in the face, Wesley sees himself, the sound of fists connecting with flesh echoing in his ears—a haunting reminder of the violence he unleashed upon another one of his best friends.
+As he strikes Jesús multiple times in the face, Wesley sees himself, the sound of fists connecting with flesh echoing in his ears—a haunting reminder of the violence he unleashed upon another one of his best friends.
 
 Stephen  
 I hurt you too. 
 
-Andrew gazes at him, clearly upset, silently recalling their past fight.
+Jesús gazes at him, clearly upset, silently recalling their past fight.
 
-Andrew   
+Jesús   
 It wasn’t you. None of it was. 
 
 Stephen   
@@ -626,10 +626,10 @@ His vision wavers, and his body feels disconnected, no longer entirely his own. 
 
 As each second passes, Stephen's consciousness slips farther away. His body betrays him, and he can no longer maintain his composure. Surrendering to the overwhelming tide, he collapses to the cold, unforgiving ground, unable to bear the burden of his memories.
 
-Andrew   
+Jesús   
 Stephen\!
 
-Int. Iztan’s Mountain Base | Chamber Room \- Afternoon.
+Int. Iztahn’s Mountain Base | Chamber Room \- Afternoon.
 
 Azazel (as Axel)  
 Well, well, well, look at you, Wesley. Uncle, mother, and now your father – quite the macabre family reunion you've orchestrated. You've got this uncanny knack for drawing death and despair to those you hold close. 

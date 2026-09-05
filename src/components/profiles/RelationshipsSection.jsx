@@ -1,155 +1,161 @@
 import React, { useState } from "react";
+
 import { ArrowRight, X } from "lucide-react";
 
-const ITEMS_PER_PAGE = 9;
+import { Link } from "react-router-dom";
+
+const CURRENT_RELEASE = "KVI";
 
 const RelationshipsSection = ({ character }) => {
-  const family = (character.relationships || []).filter((rel) =>
-    [
-      "Father",
-      "Adopted Father",
-      "Mother",
-      "Adopted Mother",
-      "Brother",
-      "Sister",
-      "Bestfriend",
-      "Close Friend",
-      "Uncle",
-      "Aunt",
-      "Girlfriend",
-      "Boyfriend",
-      "Husband",
-      "Wife",
-    ].some((role) => rel.role.includes(role))
-  );
+  const affiliations = Array.isArray(character?.relationships)
+    ? character.relationships.filter((relation) => {
+        if (!relation) {
+          return false;
+        }
 
-  const [page, setPage] = useState(0);
-  const [enlargedImage, setEnlargedImage] = useState(null);
+        /*
+         * Legacy records without a release tag are
+         * treated as KVI until they are migrated.
+         */
+        if (!relation.release) {
+          return true;
+        }
 
-  const totalPages = Math.ceil(family.length / ITEMS_PER_PAGE);
-  const startIndex = page * ITEMS_PER_PAGE;
-  const currentPageItems = family.slice(
-    startIndex,
-    startIndex + ITEMS_PER_PAGE
-  );
+        return relation.release === CURRENT_RELEASE;
+      })
+    : [];
+
+  const [selectedRelation, setSelectedRelation] = useState(null);
+
+  if (affiliations.length === 0) {
+    return null;
+  }
 
   return (
-    <section
-      className="relative border border-yellow-600 rounded-xl p-8 mb-32 overflow-hidden"
-      style={{
-        background:
-          "linear-gradient(180deg, #1f1f1f 0%, #0d0d0d 55%, #000000 100%)",
-      }}
-    >
-      {/* Header */}
-      <h2 className="text-yellow-300 text-xl font-bold text-center mb-14 tracking-widest uppercase">
-        Family
-      </h2>
+    <section className="overflow-hidden rounded-lg border border-yellow-500/60 bg-zinc-950">
+      {/* HEADER */}
 
-      {family.length === 0 ? (
-        <div className="text-yellow-400 font-mono text-sm uppercase tracking-widest border border-yellow-700 p-6 rounded bg-black text-center">
-          No known family data on file.
+      <div className="flex flex-col gap-2 border-b border-yellow-500/30 bg-yellow-500/5 px-5 py-4 sm:flex-row sm:items-center sm:justify-between">
+        <div>
+          <p className="mb-1 text-[9px] uppercase tracking-[0.24em] text-zinc-600">
+            S.T.A.T.I.C. Association Record
+          </p>
+
+          <h2 className="text-sm font-bold uppercase tracking-[0.25em] text-yellow-300">
+            Affiliations
+          </h2>
         </div>
-      ) : (
-        <>
-          {/* Cards Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 max-w-6xl mx-auto">
-            {currentPageItems.map((relation, index) => (
-              <div
-                key={index}
-                className="rounded-xl border border-yellow-600 p-6 text-center relative"
-                style={{
-                  backgroundImage: `
-                    linear-gradient(#f5c8421f 1px, transparent 1px),
-                    linear-gradient(to right, #f5c8421f 1px, transparent 1px)
-                  `,
-                  backgroundSize: "28px 28px",
-                  backgroundColor: "#000",
-                }}
-              >
-                {/* Image */}
-                <img
-                  src={relation.image}
-                  alt={relation.name}
-                  onClick={() => setEnlargedImage(relation.image)}
-                  className="w-24 h-24 rounded-full border-2 border-yellow-500 object-cover mx-auto mb-4 cursor-pointer hover:scale-105 transition"
-                />
 
-                {/* Name */}
-                <div className="text-yellow-200 font-bold text-lg">
-                  {relation.name}
-                </div>
+        <span className="text-[9px] uppercase tracking-[0.2em] text-zinc-500">
+          KVI Confirmed Contacts
+        </span>
+      </div>
 
-                {/* Role */}
-                <div className="text-yellow-400 italic text-sm mb-4">
-                  {relation.role}
-                </div>
+      {/* AFFILIATION LIST */}
 
-                {/* Link */}
-                {relation.link && relation.link.trim() !== "" && (
-                  <a
-                    href={relation.link}
-                    className="inline-flex items-center gap-1 text-yellow-300 text-xs uppercase font-mono border border-yellow-500 px-3 py-1 rounded hover:bg-yellow-500 hover:text-black transition"
-                  >
-                    View <ArrowRight size={14} />
-                  </a>
-                )}
+      <div className="px-5 py-5 sm:px-6">
+        <div className="flex flex-wrap gap-2.5">
+          {affiliations.map((relation, index) => (
+            <button
+              key={`${relation.name}-${index}`}
+              type="button"
+              onClick={() => setSelectedRelation(relation)}
+              className="
+                rounded
+                border
+                border-yellow-700/80
+                bg-black
+                px-4
+                py-2
+                text-xs
+                font-bold
+                tracking-wide
+                text-yellow-200
+                transition
+                hover:border-yellow-400
+                hover:bg-yellow-500
+                hover:text-black
+              "
+            >
+              {relation.name}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* AFFILIATION MODAL */}
+
+      {selectedRelation && (
+        <div
+          className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/90 p-4 backdrop-blur-sm"
+          onClick={() => setSelectedRelation(null)}
+        >
+          <div
+            className="relative w-full max-w-lg overflow-hidden rounded-lg border border-yellow-500/60 bg-zinc-950 shadow-[0_0_35px_rgba(234,179,8,0.15)]"
+            onClick={(event) => event.stopPropagation()}
+          >
+            {/* MODAL HEADER */}
+
+            <div className="flex items-center justify-between border-b border-yellow-500/30 bg-yellow-500/5 px-5 py-4">
+              <div>
+                <p className="text-[9px] uppercase tracking-[0.22em] text-zinc-600">
+                  Affiliation Record
+                </p>
+
+                <h3 className="mt-1 text-base font-bold uppercase tracking-[0.15em] text-yellow-300">
+                  {selectedRelation.name}
+                </h3>
               </div>
-            ))}
-          </div>
-
-          {/* Pagination */}
-          {totalPages > 1 && (
-            <div className="flex justify-center items-center gap-6 mt-14">
-              <button
-                onClick={() => setPage((p) => Math.max(p - 1, 0))}
-                disabled={page === 0}
-                className={`px-4 py-1 text-xs uppercase font-mono border rounded ${
-                  page === 0
-                    ? "text-gray-600 border-gray-700 cursor-not-allowed"
-                    : "text-yellow-300 border-yellow-500 hover:bg-yellow-800"
-                }`}
-              >
-                ◀ Prev
-              </button>
-
-              <span className="text-yellow-400 font-mono text-sm">
-                Page {page + 1} of {totalPages}
-              </span>
 
               <button
-                onClick={() =>
-                  setPage((p) => Math.min(p + 1, totalPages - 1))
-                }
-                disabled={page === totalPages - 1}
-                className={`px-4 py-1 text-xs uppercase font-mono border rounded ${
-                  page === totalPages - 1
-                    ? "text-gray-600 border-gray-700 cursor-not-allowed"
-                    : "text-yellow-300 border-yellow-500 hover:bg-yellow-800"
-                }`}
+                type="button"
+                onClick={() => setSelectedRelation(null)}
+                className="flex h-9 w-9 items-center justify-center rounded border border-zinc-700 text-zinc-400 transition hover:border-yellow-400 hover:text-yellow-300"
+                aria-label="Close affiliation details"
               >
-                Next ▶
+                <X size={18} />
               </button>
             </div>
-          )}
-        </>
-      )}
 
-      {/* Image Lightbox */}
-      {enlargedImage && (
-        <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50">
-          <div className="relative">
-            <button
-              onClick={() => setEnlargedImage(null)}
-              className="absolute -top-8 right-0 text-yellow-400 hover:text-yellow-200"
-            >
-              <X size={28} />
-            </button>
-            <img
-              src={enlargedImage}
-              alt="Enlarged portrait"
-              className="max-h-[80vh] max-w-[80vw] rounded-lg border-2 border-yellow-500 shadow-lg"
-            />
+            {/* MODAL BODY */}
+
+            <div className="p-5 sm:p-6">
+              {selectedRelation.role && (
+                <div className="mb-5 border-b border-yellow-500/20 pb-5">
+                  <span className="block text-[9px] uppercase tracking-[0.2em] text-zinc-600">
+                    Relationship
+                  </span>
+
+                  <span className="mt-1 block text-xs font-bold uppercase tracking-wide text-yellow-400">
+                    {selectedRelation.role}
+                  </span>
+                </div>
+              )}
+
+              {selectedRelation.description ? (
+                <p className="whitespace-pre-line text-sm leading-7 text-zinc-300">
+                  {selectedRelation.description}
+                </p>
+              ) : (
+                <p className="text-[10px] uppercase tracking-[0.2em] text-zinc-600">
+                  Additional affiliation details unavailable.
+                </p>
+              )}
+
+              {selectedRelation.link &&
+                selectedRelation.link.trim() !== "" && (
+                  <div className="mt-6 border-t border-yellow-500/20 pt-5">
+                    <Link
+                      to={selectedRelation.link}
+                      onClick={() => setSelectedRelation(null)}
+                      className="inline-flex items-center gap-2 rounded border border-yellow-500 px-4 py-2 text-[10px] font-bold uppercase tracking-[0.18em] text-yellow-300 transition hover:bg-yellow-500 hover:text-black"
+                    >
+                      View Dossier
+                      <ArrowRight size={14} />
+                    </Link>
+                  </div>
+                )}
+            </div>
           </div>
         </div>
       )}

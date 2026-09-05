@@ -1,5 +1,4 @@
 const robert = {
-  id: "#023",
   name: "Robert Garcia",
   slug: "robert",
   image: "/robert.jpg",
@@ -49,11 +48,11 @@ const robert = {
     ],
     relationships: [
       {
-        name: "Andrew Torres",
+        name: "Jesús Torres",
         role: "Bestfriend",
         status: "Alive",
-        link: "/characters/andrew",
-        image: "/andrew.jpg"
+        link: "/characters/jesús",
+        image: "/jesús.jpg"
       },
       {
         name: "Justin Frasier",

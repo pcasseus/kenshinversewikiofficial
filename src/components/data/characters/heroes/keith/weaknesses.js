@@ -1,33 +1,88 @@
 const weaknesses = [
   {
     name: "Emotional Volatility",
-    books: [1],
-    description:
-      "Keith’s power is rooted in emotion, and while that gives him explosive strength, it also makes him unpredictable. When his anger flares, it becomes almost impossible for him to dial it back. He lashes out without restraint, burning through his enemies and sometimes putting his allies at risk. His flames escalate quickly in both intensity and lethality, turning him into a liability if he loses control during a mission or confrontation.",
+    domain: "Power & Physical Limits",
+    classification: "Vulnerability",
+    release: "KVI",
+    discovery: "beginning",
+
+    description: `
+Keith’s fire is deeply connected to his emotional state. Anger, fear, stress, and adrenaline can dramatically increase his output, but strong emotional spikes can also make his attacks more aggressive and difficult to regulate. Before Ethan’s awakening, Keith is especially prone to pushing his flames harder than necessary when enraged.
+
+Ethan’s presence later helps stabilize this weakness by providing a second perspective and greater control, but Keith’s emotions remain an important influence on how violently his power responds.
+    `.trim(),
   },
+
   {
     name: "Pain Tolerance Backfire",
-    books: [1],
-    description:
-      "Keith’s ability to fight through pain is both a strength and a flaw. He often ignores damage in the heat of battle, pushing forward on sheer willpower. But this disregard for his own body catches up with him. Once he crashes, he crashes hard. His recovery is slow and painful, especially after pushing his limits too far. The damage builds quietly until it becomes too much.",
+    domain: "Power & Physical Limits",
+    classification: "Vulnerability",
+    release: "KVI",
+    discovery: "beginning",
+
+    description: `
+Keith’s unusually high pain tolerance allows him to keep fighting through injuries that would force most people to stop. The downside is that he can easily ignore how badly his body is actually damaged.
+
+Keith often continues pushing himself long after he should retreat, allowing injuries, exhaustion, and internal strain to accumulate until his body finally gives out. When that happens, the crash is often sudden and severe.
+    `.trim(),
   },
+
   {
-    name: "Fire vs Cold Counterbalance",
-    books: [1],
-    description:
-      "While Keith’s flames can burn through most threats with ease, certain forms of cold-based power can match or overpower him. Characters like Jade Stone or Axel Pierce possess specialized ice or cryogenic abilities that can suppress, contain, or destabilize his fire. Their cold doesn’t just freeze but disrupts combustion on a molecular level, giving them an edge even against Ethan’s advanced flames.",
+    name: "Cryogenic Suppression",
+    domain: "External Counters",
+    classification: "Vulnerability",
+    release: "KVI",
+    discovery: "beginning",
+
+    description: `
+Extreme cryogenic abilities can suppress Keith and Ethan’s fire faster than they can generate enough heat to counter it. Powerful genefrost users such as Jade Stone or Axel Pierce can freeze their flames, reduce their effective output, restrict movement, and force them to expend significantly more energy simply maintaining heat.
+
+Ethan’s golden-yellow fire offers greater precision and additional defensive options, but it is not inherently immune to sufficiently powerful cold.
+    `.trim(),
   },
+
   {
     name: "Twin Bond Instability",
-    books: [1],
-    description:
-      "Ethan may live inside Keith’s mind now, but that doesn’t mean they’re instantly a perfect team. Their relationship is complicated. Keith doesn’t fully trust or understand Ethan yet, and Ethan doesn’t always agree with Keith’s choices. This disconnect leads to miscommunication in battle, hesitation during joint attacks, and occasional clashes in instinct. Until they truly sync, their shared power isn’t operating at full efficiency.",
+    domain: "Chimeric Limitations",
+    classification: "Vulnerability",
+    release: "KVI",
+    discovery: "end",
+
+    description: `
+Immediately after Ethan awakens, the brothers do not function as a perfectly coordinated pair. Keith is still adjusting to another consciousness living actively inside his mind, while Ethan is experiencing freedom and direct interaction for the first time.
+
+Differences in judgment, instinct, and combat strategy can cause hesitation or interfere with their ability to use their shared powers efficiently. This instability diminishes considerably once Keith and Ethan establish trust and willingly agree to work together.
+    `.trim(),
   },
+
   {
-    name: "Mental Vulnerability",
-    books: [1],
-    description:
-      "Even with a second consciousness inside him, Keith is still human. Both he and Ethan are vulnerable to psychic interference, illusions, and mental control. Their dual-mind setup can create confusion under mental attacks, making it easier for skilled manipulators to exploit emotional triggers or fracture their cohesion. If one mind is compromised, it can put the entire system at risk.",
+    name: "Twin Flame Strain",
+    domain: "Chimeric Limitations",
+    classification: "Vulnerability",
+    release: "KVI",
+    discovery: "end",
+
+    description: `
+Twin Flame forces Keith’s body to sustain both brothers at full power simultaneously. Keith maintains control of the physical body and his orange flames while Ethan continuously manifests his golden-yellow form around him, allowing both brothers to attack, defend, and create constructs at the same time.
+
+The enormous combined output places severe strain on Keith’s nervous system, muscles, and Deviant physiology. As the strain builds, Ethan’s additional constructs begin to destabilize, his surrounding form starts to flicker, and the entire state can eventually collapse.
+
+Continuing to fight afterward leaves Keith’s body severely exhausted and makes further power use increasingly dangerous.
+    `.trim(),
+  },
+
+  {
+    name: "Shared Physical Dependency",
+    domain: "Chimeric Limitations",
+    classification: "Vulnerability",
+    release: "KVI",
+    discovery: "end",
+
+    description: `
+Keith and Ethan ultimately depend on the same physical body for survival. Ethan can project himself outside Keith and can assume control when Keith is unconscious, but he cannot survive independently if Keith dies.
+
+Severe injuries to Keith therefore threaten both brothers, and Ethan cannot simply abandon a critically damaged body to escape danger. Even while controlling Keith himself, Ethan is limited by whatever exhaustion, injuries, or physical damage Keith has already sustained.
+    `.trim(),
   },
 ];
 

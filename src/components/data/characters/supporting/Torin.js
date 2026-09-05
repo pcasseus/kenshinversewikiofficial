@@ -1,5 +1,4 @@
 const torin = {
-  id: "#028",
   name: "Torin Rossi",
   slug: "torin",
   image: "/torin.jpg",

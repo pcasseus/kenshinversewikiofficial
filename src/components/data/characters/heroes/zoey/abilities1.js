@@ -1,126 +1,313 @@
 const abilities = [
   {
     name: "Beta Deviant Physiology",
-    books: [1],
-    description:
-      "Beta-class Deviants form the backbone of the powered population. Their abilities manifest later between ages 15 and 16, including a wide array of enhancements across physical, elemental, or mental categories. Many Betas possess accelerated healing, increased strength, speed, or environmental adaptation, while some evolve into mid-tier powerhouses capable of manipulating matter, energy, or perception. Though not as innately powerful as Alphas, Betas exhibit consistent growth and high survivability. With sufficient training and field experience, Betas can overwhelm entire squads or neutralize Omega threats with ease. They are valued for their balance of raw ability and trainability, and serve as the standard.",
-    evolved: [
-      {
-        books: [2],
-        title: "Alpha Deviant Physiology",
-        description:
-          "After her near-death at the hands of her brother Axel, who forced her to absorb more energy than her body could contain, Zoey's physical form exploded from the overload. With Gavin’s help, her body was reconstructed just enough for her to pull herself back together. Upon her return, she was no longer the same. Her body regenerated not only to its pre-explosion state but returned far stronger and fully capable of sustaining the immense levels of energy she had once barely controlled. This reconstruction marked her transition to Alpha Deviant Physiology, placing her on par with Gavin Summers. While there is still a threshold beyond which her human form cannot operate, she can now access the full depth of her energy output up to that line without fear of collapse.",
+    domain: "Deviant Physiology",
+    classification: "Physiology",
+    release: "KVI",
+    discovery: "middle",
+
+    description: `
+Beta-class Deviants form the backbone of the powered population. Their abilities usually manifest later, between ages 15 and 16, and include a wide array of enhancements across physical, elemental, or mental categories. Many Betas possess accelerated healing, increased strength, speed, or environmental adaptation, while some evolve into mid-tier powerhouses capable of manipulating matter, energy, or perception.
+
+Though not as innately powerful as Alphas, Betas exhibit consistent growth and high survivability. With sufficient training and field experience, Betas can overwhelm entire squads or neutralize Omega threats with ease. They are valued for their balance of raw ability and trainability and serve as the standard classification for the majority of developed Deviants.
+    `.trim(),
+
+    progression: {
+      KVII: {
+        middle: {
+          title: "Gamma Deviant Physiology",
+
+          description: `
+After her near-death at the hands of her brother Axel, who forces her to absorb more energy than her physical body can contain, Zoey's form is destroyed by the resulting overload. With Gavin’s help, her scattered energy signature is stabilized long enough for Zoey to reconstruct herself.
+
+Upon her return, her physiology is fundamentally different. Her body regenerates far stronger than before and becomes capable of sustaining levels of internal energy that would have overwhelmed her original Beta physiology. This reconstruction marks her transition into Gamma Deviant Physiology.
+
+Her strength, durability, recovery rate, and energy tolerance increase dramatically. Although there remains a threshold beyond which her physical form cannot safely contain her power, Zoey can now access substantially greater portions of her internal energy without risking immediate physiological collapse.
+          `.trim(),
+        },
       },
-      {
-        books: [3],
-        title: "Enhanced Alpha Deviant Physiology",
-        description:
-          "Zoey’s body is now built to endure and regenerate on a level no other Deviant has ever reached. Her cellular systems, reinforced by the influence of her energy-based composition, push her endurance, strength, and adaptability beyond any known threshold. If her physical form sustains catastrophic damage, her body instinctively begins to reconstitute itself from within. The energy that defines her does not simply power her. It heals her, reinforces her, and ensures that even critical injuries cannot keep her down for long. As long as her essence and energy remain intact, she cannot be erased or killed. Like energy itself, she is a constant, a permanent, unyielding, and impossible to destroy completely.",
+
+      KVIII: {
+        end: {
+          title: "Enhanced Gamma Deviant Physiology",
+
+          description: `
+Zoey’s body eventually develops into a form capable of enduring and regenerating on a level beyond conventional Deviant physiology. Her cellular systems, permanently reinforced by the energy integrated throughout her body, push her endurance, strength, adaptability, and regenerative capacity beyond their previous limits.
+
+If her physical form sustains catastrophic damage, her internal energy automatically begins restoring structural integrity from within. The energy that defines her does not simply power her abilities. It reinforces her tissues, sustains her biological functions, and provides the template from which damaged portions of her body can be rebuilt.
+
+As long as Zoey's underlying energy signature remains intact, destruction of her physical form does not necessarily constitute permanent death. Her biology and energy have become inseparably linked, allowing one to reconstruct the other under otherwise fatal circumstances.
+          `.trim(),
+        },
       },
-    ],
+    },
+
     subAbilities: [],
   },
+
   {
     name: "Unlimited Energy Generation",
-    books: [1],
-    description:
-      "Zoey Harris is a rare energy generator whose cells naturally produce a limitless stream of internal power. This output is not confined to a single form but manifests as a dynamic fusion of energy types, making her body a self-sustaining and adaptive reactor. She generates energy continuously, even under extreme stress, and never requires recharging or external input. For most of her life, this ability remained dormant, deeply embedded within her biology and inaccessible under normal conditions. It took exposure to extreme duress that pushed her body and mind to the brink. A brief but pivotal encounter with Gavin Summers, whose body radiates nuclear fusion energy, acted as the first catalyst. His energy served as a biological ignition that stirred the dormant systems within her. Shortly after, a separate interaction with Danny Foster and his neurocharged lightning accelerated the process. The combined exposure to both energy signatures, paired with the intensity of her circumstances, pulled her core ability out of dormancy and activated the full potential of her cells. From that moment forward, Zoey’s body began producing, regulating, and adapting energy in real time.",
+    domain: "Core Energy System",
+    classification: "Core Ability",
+    release: "KVI",
+    discovery: "middle",
+
+    description: `
+Zoey Pierce-Harris possesses a rare Deviant mutation that allows her cells to naturally produce a continuous and effectively limitless stream of internal energy. Unlike Deviants who rely on external fuel sources, finite biological reserves, or environmental conditions, Zoey's body functions as a self-sustaining energy reactor.
+
+The energy generated by her core is not inherently restricted to one specific form. Instead, her physiology can route that power through specialized biological systems capable of expressing it as different forms of energy.
+
+For most of her life, the system remains dormant and inaccessible. Its awakening begins only after Zoey is placed under extreme physical and psychological stress.
+
+A brief encounter with Gavin Halden exposes her body to nuclear fusion energy, acting as the first major catalyst. Shortly afterward, exposure to Danny Foster's neuroelectric discharge stimulates another dormant pathway within her altered physiology. Neither Gavin nor Danny gives Zoey their powers. Their energy signatures instead trigger biological systems that already exist within her.
+
+Once activated, Zoey's internal core begins continuously generating, regulating, and distributing energy throughout her body. This system becomes the foundation from which every later energy-based ability develops.
+    `.trim(),
+
     subAbilities: [],
   },
+
   {
     name: "Universal Energy Absorption",
-    books: [2],
-    description:
-      "Zoey’s body is more than just a generator. It is a fully adaptive energy system. Once her cellular engine was activated, her biology began to absorb and integrate external energy sources to enhance and evolve her core output. Whether exposed to ambient electricity, solar radiation, or more exotic energy fields, Zoey’s body does not simply store what it absorbs. It learns from it. This process boosts her cellular performance, broadens her energy capabilities, and unlocks entirely new applications. Each new energy encounter becomes a catalyst for biological evolution, feeding directly into her self-sustaining loop and accelerating her growth.",
+    domain: "Core Energy System",
+    classification: "Absorption",
+    release: "KVII",
+    discovery: "beginning",
+
+    description: `
+As Zoey's internal energy system matures, her body develops the ability to absorb external forms of energy and integrate their properties into her own adaptive physiology.
+
+Unlike conventional energy absorbers, Zoey does not primarily absorb power because she requires additional fuel. Her internal generator already provides a limitless source of energy. Instead, external absorption functions as a method of biological adaptation.
+
+When exposed to electricity, radiation, photonic output, exotic energy fields, or other compatible sources, Zoey's cells analyze and incorporate aspects of those energetic signatures. This process can improve existing abilities, strengthen her energy regulation, or unlock entirely new pathways through which her internally generated power can be expressed.
+
+Every sufficiently distinct energy source therefore becomes potential information for her biology rather than merely additional stored power.
+    `.trim(),
+
     subAbilities: [
       {
-        books: [2],
         name: "Free Energy Usage",
-        description:
-          "Zoey’s cells are engineered to adapt to any energy she absorbs, eventually allowing her to manipulate those forms directly. What begins as passive absorption gradually evolves into active control. Each new energy source, whether natural, artificial, or alien in origin, expands her range of abilities. As she encounters increasingly rare and complex energy types, her mastery grows, pushing her closer to true energy versatility and near-limitless potential.",
+        domain: "Core Energy System",
+        classification: "Application",
+        release: "KVII",
+        discovery: "beginning",
+
+        description: `
+Zoey's adaptive cells can eventually reproduce and manipulate forms of energy that her body has successfully analyzed through absorption. Once an energetic signature has been sufficiently integrated, she no longer needs continued access to the original external source.
+
+Instead, her own limitless internal generator supplies the power while her altered physiology recreates the properties necessary to express that energy type.
+
+This allows each successful adaptation to permanently expand the range of energy forms available to her, gradually transforming Zoey from a specialized generator into an increasingly versatile energy manipulator.
+        `.trim(),
       },
     ],
   },
+
   {
     name: "Photonic Energy Manipulation",
-    books: [1],
-    description:
-      "Zoey’s ability to control light energy originates from specialized organelles within her cells known as light vacuoles. These microscopic reactors remained dormant for most of her life until Gavin Summers exposed her to his nuclear fusion output. The intense burst of energy acted as a biological ignition, jumpstarting her core systems and activating the vacuoles. Once awakened, they began functioning as natural photonic generators, drawing from her mitochondrial energy to excite targeted molecules. This reaction produces controlled streams of photons, which are released through finely tuned photonic resonance chambers. Through this process, Zoey can manipulate light with exceptional precision, shaping it into beams, pulses, or radiant flares for offense, utility, or suppression.",
-    evolved: [
-      {
-        books: [2],
-        title: "Enhanced Photonic Energy Manipulation",
-        description:
-          "When Zoey returned from the dead and evolved into an Alpha Deviant, her photonic capabilities surged to new heights. The core systems that once flickered with raw output now thrived with stability and control. In the days leading up to her collapse, Zoey had already refined her abilities, learning to focus and direct light more efficiently. This refinement became a foundation upon which her amplified physiology could build. Her blasts became brighter, denser, and more reactive, capable of stunning or damaging even powerful foes.",
+    domain: "Photonic Energy",
+    classification: "Core Ability",
+    release: "KVI",
+    discovery: "end",
+
+    description: `
+Zoey’s ability to manipulate photonic energy originates from specialized organelles within her cells known as light vacuoles. These microscopic structures remain dormant for most of her life until exposure to Gavin Halden's nuclear fusion output acts as a biological catalyst.
+
+The encounter does not grant Zoey control over light. Instead, the fusion energy stimulates preexisting structures connected to her newly awakened internal energy system.
+
+Once activated, the light vacuoles begin converting portions of Zoey's internally generated energy into controlled photon output through microscopic photonic resonance chambers.
+
+By regulating these systems, Zoey can generate and manipulate light as a direct expression of her core energy. Her control allows her to regulate photonic intensity, concentration, direction, and release for offensive, defensive, and utility applications.
+    `.trim(),
+
+    progression: {
+      KVII: {
+        middle: {
+          title: "Enhanced Photonic Energy Manipulation",
+
+          description: `
+Following Zoey's reconstruction and transition into Gamma Deviant Physiology, her photonic systems increase dramatically in both capacity and stability.
+
+The light vacuoles and resonance chambers that previously required careful regulation can now process much greater quantities of internally generated energy without overwhelming her physical body.
+
+Her control over photonic intensity, density, wavelength, and flow becomes substantially more precise. She can transition between concentrated output and dispersed illumination more efficiently, maintain photonic effects for longer periods, and manipulate greater quantities of light without sacrificing control.
+
+What began as a newly awakened energy pathway develops into one of Zoey's most refined and versatile power systems.
+          `.trim(),
+        },
       },
-      {
-        books: [3],
-        title: "Peak Photonic Energy Manipulation",
-        description:
-          "After a long period of concentrated training and combat experience, Zoey reaches complete command over her photonic abilities. Light no longer requires effort to summon or control, it responds to her intent as naturally as breathing. She can bend photonic energy into pinpoint-accurate strikes, cascading fields of radiant pressure, or wide-area suppression pulses. Her mastery allows her to regulate intensity, temperature, frequency, and flow, giving her near-limitless flexibility in the field. At this stage, light is not just a weapon in her arsenal. It is an extension of her will.",
+
+      KVIII: {
+        end: {
+          title: "Peak Photonic Energy Manipulation",
+
+          description: `
+After extensive training and combat experience, Zoey reaches complete command over her photonic abilities.
+
+Light responds to her intent with virtually no perceptible delay. She can regulate intensity, wavelength, temperature, frequency, density, and direction with extraordinary precision, allowing her to transition seamlessly between illumination, suppression, defense, and destructive output.
+
+She can bend photonic energy through complex trajectories, distribute it across large areas, concentrate it into extremely narrow focal points, or maintain multiple independent photonic effects simultaneously.
+
+At this stage, photonic energy no longer behaves like a separate ability Zoey must consciously operate. It functions as a natural extension of her internal energy system and her will.
+          `.trim(),
+        },
       },
-    ],
+    },
+
     subAbilities: [],
   },
+
   {
     name: "Photonic Energy Projection",
-    books: [1],
-    description:
-      "Zoey’s control over light energy extends beyond raw manipulation into high-level projection for both offense and tactical support. By channeling her internal photonic output through specialized resonance chambers within her cells, she can emit light in concentrated or dispersed forms. These emissions range from high-intensity blasts to precision beams, each capable of overwhelming targets, disrupting electronics, or disorienting enemies through sensory overload. Whether used to pierce armor, create visual suppression, or clear a path through the battlefield, her projections are as versatile as they are powerful.",
-    evolved: [
-      {
-        books: [2],
-        title: "Enhanced Photonic Energy Projection",
-        description:
-          "Following her resurrection and elevation to Alpha Deviant status, Zoey’s photonic projections became significantly more potent. With her newly stabilized body and refined focus, she gained sharper control over the density, shape, and delivery of her light attacks. Her blasts became faster to charge, harder to block, and more efficient in energy use. She could now adjust the wavelength and spread on command, shifting between blinding flashes, armor-penetrating rays, or wide-area concussive waves. This level of control allowed her to transition from reactive firepower to precision strike capability in the middle of battle.",
+    domain: "Photonic Energy",
+    classification: "Application",
+    release: "KVII",
+    discovery: "beginning",
+
+    description: `
+Zoey's control over photonic energy develops beyond general manipulation into specialized projection techniques.
+
+By channeling internally generated energy through her photonic resonance chambers, she can release light as concentrated beams, bursts, streams, flashes, and other directed emissions.
+
+These projections can be regulated for different tactical purposes. Narrow outputs provide greater precision and penetration, while wider releases can overwhelm vision, disrupt formations, or create large areas of photonic pressure.
+
+Because the energy originates from Zoey's self-sustaining core, the primary limitation is not the amount of power available to her but the amount her current physiology can safely channel through the photonic system at one time.
+    `.trim(),
+
+    progression: {
+      KVII: {
+        middle: {
+          title: "Enhanced Photonic Energy Projection",
+
+          description: `
+After Zoey develops Gamma Deviant Physiology, her photonic projections become significantly more powerful and considerably easier to regulate.
+
+Her improved physical tolerance allows greater quantities of energy to pass through her resonance chambers without destabilizing them. Charge times decrease, projection density increases, and she gains greater control over wavelength, spread, and intensity during active combat.
+
+Zoey can rapidly shift between blinding flashes, concentrated piercing beams, wide-area bursts, and sustained streams without needing to completely reset her output between techniques.
+
+Her photonic projection evolves from reactive firepower into a highly adaptable ranged combat system.
+          `.trim(),
+        },
       },
-      {
-        books: [3],
-        title: "Peak Photonic Energy Projection",
-        description:
-          "At her peak, Zoey’s mastery over photonic projection becomes absolute. Her blasts are no longer just energy outputs—they are surgical tools of destruction and control. She can weave beams through tight spaces, bend light around obstacles, or delay detonation for timed impact. She effortlessly tunes each emission to environmental factors, balancing power with purpose. Whether blinding a sniper with pinpoint flash or vaporizing enemy defenses with sustained radiation, her light-based offense becomes a flawless extension of thought. Each projection is calculated, adaptive, and devastating.",
+
+      KVIII: {
+        end: {
+          title: "Peak Photonic Energy Projection",
+
+          description: `
+At her peak, Zoey's photonic projection becomes an extraordinarily precise extension of her broader light manipulation.
+
+She can weave beams through confined spaces, redirect their trajectories around obstacles, alter their intensity while already in motion, and control the point at which concentrated photonic energy disperses or impacts.
+
+Every projection can be tailored to its intended purpose, from temporary sensory suppression to sustained destructive output.
+
+Rather than relying on maximum force for every attack, Zoey can regulate each emission according to the target, environment, and tactical objective with near-instantaneous precision.
+          `.trim(),
+        },
       },
-    ],
+    },
+
     subAbilities: [
       {
-        books: [2],
         name: "Photon Burst",
-        description:
-          "A short-range, wide-angle light explosion designed for crowd control and concussive force. These bursts knock enemies back and can stagger even reinforced opponents, disrupting formations and creating space in close-quarters engagements.",
+        domain: "Photonic Energy",
+        classification: "Application",
+        release: "KVII",
+        discovery: "beginning",
+
+        description: `
+Zoey releases photonic energy across a short-range, wide-angle area rather than concentrating it into a narrow beam.
+
+The sudden expansion produces a powerful burst capable of staggering opponents, disrupting formations, overwhelming visual perception, and creating immediate space around her during close-quarters engagements.
+        `.trim(),
       },
+
       {
-        books: [2],
         name: "Photon Stream",
-        description:
-          "A continuous, high-density blast of photonic energy that pierces armor, melts through barriers, and cuts across long distances. This is Zoey’s go-to precision weapon for ranged combat and neutralizing high-priority threats.",
+        domain: "Photonic Energy",
+        classification: "Application",
+        release: "KVII",
+        discovery: "beginning",
+
+        description: `
+Zoey produces a continuous stream of densely concentrated photonic energy for sustained ranged attacks.
+
+Unlike a single blast, the stream remains active as long as she maintains the projection, allowing her to apply continuous pressure against barriers, armor, or powerful opponents.
+
+She can adjust its direction and intensity while firing, making it useful for both precision engagement and sustained suppression.
+        `.trim(),
       },
+
       {
-        books: [2],
         name: "Photon Flashing",
-        description:
-          "Zoey can release an instant burst of blinding light from her hands, eyes, or any part of her body. This flash overwhelms visual receptors, disorienting enemies and giving her a critical opening to escape, counterattack, or shift momentum mid-battle.",
+        domain: "Photonic Energy",
+        classification: "Application",
+        release: "KVII",
+        discovery: "beginning",
+
+        description: `
+Zoey releases an instantaneous surge of intense visible light from her body.
+
+Rather than focusing on destructive output, the technique is designed to overwhelm nearby visual receptors and temporarily disorient anyone looking toward her.
+
+She can use the resulting opening to escape, reposition, interrupt an opponent's attack, or create an opportunity for allies.
+        `.trim(),
       },
     ],
   },
+
   {
     name: "Electrical Energy Manipulation",
-    books: [1],
-    description:
-      "Zoey’s electrokinesis originates from a secondary system of specialized cellular structures that evolved alongside her energy core. These structures remained dormant until a brief but powerful encounter with Danny Foster exposed her to his neurocharged lightning, a form of electricity shaped by his hyper-accelerated nervous system. Danny’s surge did not simply energize her cells. It activated a latent network of ion-regulating organelles designed to manage high-voltage electrical flow. Once triggered, this system began functioning independently of her light-based abilities, enabling her to generate, channel, and control electrical currents at will. Electricity now courses through her system as a raw, responsive force. She directs it with precision, using it for offense, propulsion, shielding, and even delicate neural synchronization.",
-    evolved: [
-      {
-        books: [2],
-        title: "Enhanced Electrical Energy Manipulation",
-        description:
-          "After returning from death and ascending to Alpha Deviant status, Zoey’s control over electricity became significantly more potent. Her ion-regulating organelles expanded in capacity, allowing her to handle greater voltage without strain. Her attacks became sharper and more variable, shifting instantly between wide-area bursts, pinpoint streams, or armor-cracking bolts. She gained the ability to charge her environment with residual currents, destabilize technology with minimal effort, and synchronize multiple electrical outputs simultaneously. Her electrokinesis evolved from a powerful weapon into a finely tuned tactical instrument.",
+    domain: "Electrical Energy",
+    classification: "Core Ability",
+    release: "KVI",
+    discovery: "middle",
+
+    description: `
+Zoey’s electrical abilities originate from a secondary network of specialized ion-regulating organelles connected to her awakened internal energy system.
+
+These structures remain dormant until Zoey is exposed to Danny Foster's neuroelectric discharge. The encounter does not give her electricity or provide her with a permanent external power source. Instead, Danny's energy acts as a biological stimulus that activates an electrical pathway already encoded within Zoey's Deviant physiology.
+
+Once active, the organelles convert portions of the energy continuously generated by Zoey's core into electrical output.
+
+Zoey can then generate, regulate, and manipulate those currents directly. Electricity becomes another expression of her limitless internal energy, allowing her to control voltage, current, direction, and discharge without relying on ambient electrical sources.
+    `.trim(),
+
+    progression: {
+      KVII: {
+        middle: {
+          title: "Enhanced Electrical Energy Manipulation",
+
+          description: `
+Following Zoey's reconstruction into Gamma Deviant Physiology, her ion-regulating systems dramatically increase in both capacity and precision.
+
+She can channel greater voltage without damaging her body, maintain several electrical processes simultaneously, and transition between different intensities with much greater speed.
+
+Her control expands beyond direct attacks. Zoey can saturate nearby conductive material with residual current, interfere with technological systems, regulate electrical flow through complex environments, and manipulate multiple electrical pathways simultaneously.
+
+Her electrokinesis develops from raw electrical output into a highly controlled and versatile energy system.
+          `.trim(),
+        },
       },
-      {
-        books: [3],
-        title: "Peak Electrical Energy Manipulation",
-        description:
-          "With prolonged training and experience, Zoey achieves complete mastery over her electrical abilities. Voltage, frequency, and current density respond to her intent with perfect fidelity. She can weave lightning through confined spaces, shape currents into complex patterns, or overload entire systems without collateral damage. Her electricity becomes a living extension of her will, capable of blinding speed, overwhelming force, or surgical precision. At this stage, she no longer merely wields electricity. She embodies it, commanding storms of power with effortless control.",
+
+      KVIII: {
+        end: {
+          title: "Peak Electrical Energy Manipulation",
+
+          description: `
+With extensive training and continued biological adaptation, Zoey achieves complete control over her electrical energy.
+
+Voltage, current, frequency, density, and direction respond directly to her intent. She can guide electricity through confined environments, manipulate complex branching currents, regulate electrical intensity with surgical precision, or unleash enormous quantities of power without sacrificing control.
+
+Electrical energy becomes as instinctive to Zoey as physical movement, allowing her to manipulate it continuously while performing other actions.
+
+At this stage, electricity functions as a fully integrated extension of her core energy system rather than a secondary ability requiring deliberate activation.
+          `.trim(),
+        },
       },
-    ],
+    },
+
     subAbilities: [],
   },
 ];

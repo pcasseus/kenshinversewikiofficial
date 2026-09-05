@@ -1,5 +1,4 @@
 const joaquin = {
-  id: "#030",
   name: "Joaquin Kuan",
   slug: "joaquin",
   image: "/joaquin.jpg",

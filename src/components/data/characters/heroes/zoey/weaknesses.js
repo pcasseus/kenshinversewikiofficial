@@ -1,47 +1,89 @@
 const weaknesses = [
   {
     name: "Threshold Anxiety",
-    books: [2],
+    domain: "Energy Regulation",
+    classification: "Psychological",
+    release: "KVII",
+    discovery: "beginning",
+
     description:
-      "Zoey possesses a deep fear of crossing an invisible line within her energy output. Though she has limitless potential, she is terrified of what might happen if she taps into too much, too fast. This anxiety causes hesitation during battle, forcing her to hold back even when greater force may be needed. Her fear is not of death, but of losing control and causing irreversible damage to herself or others.",
-    evolved: [
-      {
-        books: [3],
-        title: "Undefined Limits",
-        description:
-          "While Zoey eventually sheds her fear of unleashing more of her power, a new uncertainty takes its place. She no longer worries about crossing the threshold but becomes fixated on the fact that she doesn't know where her new limits actually are. This lack of clarity can be both liberating and dangerous. Without knowing how far is too far, she risks pushing herself into the unknown without warning.",
+      "Zoey possesses a deep fear of crossing the unknown threshold within her energy output. Although her energy supply is limitless, her physical body is not, leaving her afraid of what could happen if she channels too much power too quickly. This fear causes her to hesitate and deliberately restrict her output even when greater force may be necessary. She is less afraid of exhausting herself than she is of losing control and causing irreversible damage to herself, her surroundings, or the people around her.",
+
+    progression: {
+      KVIII: {
+        beginning: {
+          title: "Undefined Limits",
+          description:
+            "Zoey eventually overcomes her fear of pushing beyond her previous limits, but the uncertainty surrounding those limits remains. Her reconstructed body can withstand vastly greater amounts of energy than before, yet she has no precise measurement for where its new ceiling lies. This uncertainty encourages experimentation and greater confidence, but it can also lead her into dangerous territory when she increases her output without knowing exactly when her physical form will reach its threshold.",
+        },
       },
-    ],
+    },
   },
+
   {
     name: "Power Nullification Sensitivity",
-    books: [1],
+    domain: "Power Suppression",
+    classification: "External Counter",
+    release: "KVI",
+    discovery: "middle",
+
     description:
-      "Because Zoey's power is rooted in a unique form of self-generating energy, it cannot be fully nullified. However, her output can be dampened significantly when subjected to external nullification fields or suppression tech. This does not deactivate her core, but it weakens the effects of her abilities and limits their impact range and frequency.",
+      "Zoey's self-generating energy core prevents her powers from being completely shut down through conventional nullification. However, sufficiently powerful suppression abilities or specialized technology can drastically dampen her usable output. Her core continues generating energy, but her ability to project, manipulate, or efficiently channel that energy can be restricted, leaving her significantly weakened until the suppression is removed.",
   },
+
+  {
+    name: "Forced Energy Extraction",
+    domain: "Energy Regulation",
+    classification: "External Counter",
+    release: "KVII",
+    discovery: "beginning",
+
+    description:
+      "Although Zoey cannot truly run out of energy, her body can be subjected to forced energy extraction. A sufficiently powerful siphon can pull usable energy from her faster than her physical systems can comfortably regulate its removal. Her core continuously replaces what is taken, preventing true depletion, but sustained extraction can cause severe weakness, dizziness, muscular instability, pain, and eventual unconsciousness. The greater the extraction rate, the more violently her body is forced to compensate.",
+  },
+
   {
     name: "Physical Containment Threshold",
-    books: [3],
+    domain: "Energy Regulation",
+    classification: "Physiological Limit",
+    release: "KVIII",
+    discovery: "beginning",
+
     description:
-      "Even with her Alpha Deviant physiology, Zoey’s physical body has a ceiling. If her energy output spikes too rapidly or exceeds what her body can regulate, she is forcibly pushed into her Pure Energy Form. This transformation is involuntary at this stage and cannot be suppressed once triggered. While immensely powerful, entering the form unexpectedly can throw off her focus or timing in the middle of a mission.",
+      "Zoey's Gamma Deviant body can contain extraordinary amounts of energy, but it still possesses a finite physical threshold. If her internal output rises too quickly or exceeds what her body can safely regulate, her physical form can no longer contain the excess. This automatically forces her into her Pure Energy Form. Until she fully masters the transformation, crossing this threshold can trigger the change regardless of whether the timing is tactically convenient.",
   },
+
   {
     name: "Physical Vulnerability",
-    books: [3],
+    domain: "Physical Limitations",
+    classification: "Incapacitation",
+    release: "KVIII",
+    discovery: "beginning",
+
     description:
-      "Zoey cannot be killed or erased through conventional means, but her physical body is still capable of passing out or shutting down under certain conditions. Severe mental fatigue, psychic overload, or heavy suppression tech can knock her unconscious. While this state does not endanger her life, it leaves her vulnerable until she can recover or shift into her energy form.",
+      "Zoey's existence cannot be permanently destroyed through conventional means, but her physical body and consciousness can still be compromised. Extreme trauma, neurological disruption, psychic assault, powerful suppression, or sustained physical strain can render her unconscious even when the damage itself cannot kill her. Her immortality guarantees survival, not constant consciousness, leaving her capable of being incapacitated, restrained, or removed from a fight.",
   },
+
   {
     name: "Invincibility Complex",
-    books: [3],
+    domain: "Psychological & Behavioral",
+    classification: "Behavioral",
+    release: "KVIII",
+    discovery: "beginning",
+
     description:
-      "With great power comes the illusion of being unstoppable. As Zoey continues to survive lethal situations and operate on levels beyond most of her allies, she begins to develop a subconscious belief that she cannot lose. This overconfidence leads to reckless decisions, unnecessary risk-taking, and occasional disregard for tactical strategy. Her self-assurance can become a liability in moments that require caution and foresight.",
+      "Zoey's repeated survival of otherwise fatal situations gradually changes the way she evaluates danger. Knowing that conventional death is no longer a permanent threat can push her confidence into recklessness, causing her to take risks that she would have once considered unacceptable. While Zoey may survive those decisions, her allies, civilians, and mission objectives do not share her protection. Her greatest mistake can become assuming that because she can afford the consequences of failure, everyone around her can as well.",
   },
+
   {
     name: "Impulsiveness",
-    books: [2],
+    domain: "Psychological & Behavioral",
+    classification: "Behavioral",
+    release: "KVII",
+    discovery: "beginning",
+
     description:
-      "Zoey’s emotional compass can override her logic. When confronted with intense fear, guilt, or anger, she acts on instinct rather than reason. This impulsiveness makes her unpredictable and prone to charging into danger before thinking through the consequences. Her passion fuels her strength, but it also opens her up to avoidable mistakes.",
+      "Zoey can act before fully considering the consequences when her emotions overwhelm her judgment. Fear for someone she loves, anger, guilt, or desperation can cause her to abandon strategy and respond instinctively. This makes her especially dangerous when enormous amounts of power are immediately available to her, since a decision made in seconds can carry consequences far beyond the moment that provoked it.",
   },
 ];
 

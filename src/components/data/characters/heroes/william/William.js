@@ -11,12 +11,23 @@ import abilities1 from "./abilities1.js";
 const abilities = [...abilities1];
 
 const william = {
-  id: "#008",
   slug: "william",
   name: "William Hutton",
   image: "/william.jpg",
-  class: "Human Class",
-  primaryPower: "Omni-Technical Intellect",
+
+  race: {
+    KVI: {
+      beginning: "Human",
+      middle: "Human",
+      end: "Human",
+    },
+  },
+
+  profileType: "human",
+
+  role: "Engineering & Technology Specialist",
+
+  specialty: "Omni-Technical Intellect",
 
   aliases: [],
 
@@ -24,7 +35,9 @@ const william = {
 
   fancast: {
     actor: "Charlie Rowe",
-    note: "This is a non-commercial fancast reference only. The listed actor is not affiliated with or involved in this project.",
+
+    note:
+      "This is a non-commercial fancast reference only. The listed actor is not affiliated with or involved in this project.",
   },
 
   stats,

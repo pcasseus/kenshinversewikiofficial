@@ -1,122 +1,222 @@
 const abilities = [
   {
     name: "Electrical Energy Projection",
-    books: [1],
-    description:
-      "Zoey’s refined electrokinesis allows her to convert excess ionic energy and electric potential into direct, high-voltage attacks. These emissions are generated through the same bioenergetic system that powers her photonic abilities, with her body functioning as both conductor and capacitor. By regulating charge density and field intensity, she can release electricity in a wide range of forms from concussive barrages to focused, precision strikes. This power grants her exceptional versatility in ranged combat, allowing her to overwhelm, immobilize, or eliminate threats depending on the situation.",
-    evolved: [
-      {
-        books: [2],
-        title: "Enhanced Electrical Energy Projection",
-        description:
-          "After becoming an Alpha Deviant, Zoey’s electric emissions became faster, denser, and more responsive. She gained the ability to shift voltage output on the fly, allowing her to scale intensity for suppression, containment, or destruction. Her bolts carried deeper penetration and her bursts expanded with greater reach and disruption radius. Electrical blasts could now arc between targets, disable power grids, or fry entire banks of enemy tech. Her ability to discharge and recover energy between attacks also improved, making her a relentless force in prolonged encounters.",
+    domain: "Electrical Energy",
+    classification: "Application",
+    release: "KVI",
+    discovery: "middle",
+
+    description: `
+Zoey can project the electrical energy produced by her awakened internal energy system as high-voltage offensive discharges. Unlike conventional electrical Deviants, she does not rely on ambient electricity or a finite reserve of stored charge. Her core continuously generates the energy she channels, allowing her to repeatedly release golden electrical attacks without exhausting the source itself.
+
+By regulating the amount of charge passing through her body, she can produce anything from controlled strikes to powerful concussive blasts capable of overwhelming or incapacitating targets. At this stage, her greatest limitation is not how much energy she possesses, but how much her still-developing body can safely regulate and release at once.
+    `.trim(),
+
+    progression: {
+      KVII: {
+        middle: {
+          title: "Enhanced Electrical Energy Projection",
+
+          description: `
+After becoming a Gamma Deviant, Zoey's electric emissions become faster, denser, and more responsive. She gains the ability to shift voltage output on the fly, allowing her to scale intensity for suppression, containment, or destruction. Her bolts carry deeper penetration and her bursts expand with greater reach and disruption radius.
+
+Electrical attacks can now arc between targets, disable power grids, or fry entire banks of enemy technology. Her ability to discharge and recover between attacks also improves, making her a relentless force in prolonged engagements.
+          `.trim(),
+        },
       },
-      {
-        books: [3],
-        title: "Peak Electrical Energy Projection",
-        description:
-          "At her peak, Zoey’s mastery over photonic projection becomes absolute. Her blasts are no longer just energy outputs—they are surgical tools of destruction and control. She can weave beams through tight spaces, bend light around obstacles, or delay detonation for timed impact. She effortlessly tunes each emission to environmental factors, balancing power with purpose. Whether blinding a sniper with pinpoint flash or vaporizing enemy defenses with sustained radiation, her light-based offense becomes a flawless extension of thought. Each projection is calculated, adaptive, and devastating.",
+
+      KVIII: {
+        end: {
+          title: "Peak Electrical Energy Projection",
+
+          description: `
+At her peak, Zoey gains complete control over the delivery of her electrical output. Her attacks can be shaped into narrow piercing bolts, branching arcs, sustained streams, or explosive discharges without sacrificing precision. She can regulate voltage, current, density, and spread instantaneously, allowing each projection to be tailored to its target.
+
+Her electricity can travel through conductive surfaces, bend through complex paths, strike multiple targets in sequence, or be concentrated into devastating single-point attacks. By this stage, electrical projection functions as a direct extension of her intent, allowing her to shift seamlessly between disabling force, battlefield suppression, and overwhelming destructive output.
+          `.trim(),
+        },
       },
-    ],
+    },
+
     subAbilities: [
       {
-        books: [2],
         name: "Electro Chain Arc",
-        description:
-          "Zoey releases a targeted bolt of electricity that leaps from one enemy or conductive surface to another. Each jump increases the voltage but reduces precision, making it ideal for clearing out tightly clustered opponents or overloading electronic systems in succession.",
+        release: "KVII",
+        discovery: "beginning",
+
+        description: `
+Zoey releases a targeted bolt of electricity that leaps between enemies or conductive surfaces. Each successive jump carries increased voltage at the cost of precision, making the technique effective against clustered opponents, linked machinery, or interconnected electronic systems.
+        `.trim(),
       },
+
       {
-        books: [2],
         name: "Electro Spike",
-        description:
-          "A compact, needle-like surge of electrical energy designed for pinpoint strikes. Zoey uses it to disable joints in powered armor, strike pressure points, or deliver neural shocks through exposed or vulnerable areas.",
+        release: "KVII",
+        discovery: "beginning",
+
+        description: `
+Zoey compresses electrical energy into an extremely narrow discharge designed for precision rather than raw force. The spike can target exposed circuitry, powered armor joints, vulnerable equipment, or specific points on an opponent's body, delivering a concentrated neural or electrical shock with minimal spread.
+        `.trim(),
       },
+
       {
-        books: [2],
         name: "Electro Current Field",
-        description:
-          "Zoey charges the space around her or a selected target with a static field of electricity. This field lingers for several seconds, draining energy from nearby foes, disrupting balance, and interfering with mechanical or technological functions.",
+        release: "KVII",
+        discovery: "beginning",
+
+        description: `
+Zoey saturates the space around herself or a selected area with a persistent electrical field. The charged environment interferes with electronics, disrupts muscular coordination, and continuously exposes anything inside the field to fluctuating electrical current. The field can linger briefly after deployment, allowing Zoey to control space without maintaining a direct attack.
+        `.trim(),
       },
+
       {
-        books: [2],
         name: "Electro Bursts",
-        description:
-          "A short-range, radial eruption of high-voltage energy that explodes outward from Zoey’s body. These bursts can fry electronics, knock back enemies, and create breathing room in close-quarters combat.",
+        release: "KVII",
+        discovery: "beginning",
+
+        description: `
+Zoey releases electricity outward from her body in a short-range radial discharge. The expanding burst can knock nearby opponents back, overload surrounding electronics, and interrupt attacks from multiple directions, making it especially useful when she is surrounded or needs to immediately create distance.
+        `.trim(),
       },
+
       {
-        books: [2],
         name: "Electro Balls",
-        description:
-          "Zoey compresses volatile electrical energy into throwable spheres that detonate on contact or when triggered by proximity. These orbs release explosive charges capable of destabilizing enemy formations, disrupting machinery, or setting ambushes across the battlefield.",
+        release: "KVII",
+        discovery: "beginning",
+
+        description: `
+Zoey compresses volatile electrical energy into compact spheres that can be thrown or positioned around an area. The spheres discharge on impact or when triggered by proximity, releasing concentrated electrical explosions capable of destabilizing enemy formations, disabling machinery, or controlling movement across the battlefield.
+        `.trim(),
       },
     ],
   },
+
   {
     name: "Electro Shields",
-    books: [2],
-    description:
-      "By concentrating high-frequency electrical currents into a tightly woven field, Zoey can generate a protective dome or disc of electricity. The shield deflects incoming projectiles, energy blasts, and melee strikes while delivering reactive shocks to anything that makes contact.",
-    evolved: [],
+    domain: "Electrical Energy",
+    classification: "Defense",
+    release: "KVII",
+    discovery: "beginning",
+
+    description: `
+Zoey can concentrate high-frequency electrical currents into tightly woven defensive fields. These shields can take the form of discs, domes, or curved surfaces capable of intercepting projectiles, energy attacks, and physical strikes. Contact with the field can also trigger a reactive electrical discharge against whatever impacts it.
+
+Because the shield is sustained through Zoey's continuous energy generation, its primary limitation is not supply but structural stability. Attacks powerful enough to disrupt the electromagnetic pattern maintaining the shield can destabilize or break it.
+    `.trim(),
+
     subAbilities: [
       {
-        books: [2],
         name: "Electro Barrier",
-        description:
-          "A reinforced arc of electrical energy that forms a curved, semi-solid wall in front of Zoey or her allies. The barrier absorbs kinetic and energy-based attacks while emitting jolts of electricity upon impact. It’s ideal for halting advances, blocking narrow passageways, or shielding vulnerable allies under heavy fire.",
+        release: "KVII",
+        discovery: "beginning",
+
+        description: `
+Zoey expands her defensive field into a broad curved wall capable of protecting multiple people or blocking a larger section of space. The barrier absorbs incoming force while channeling electrical current across its surface, allowing it to halt advances, protect allies under fire, or temporarily seal narrow passages.
+        `.trim(),
       },
     ],
   },
+
   {
     name: "Electrokinetic Constructs",
-    books: [2],
-    description:
-      "Zoey can shape raw electricity into semi-solid forms by manipulating electromagnetic fields into stable, programmable patterns. These constructs are powered by her internal energy generator and reinforced through precise ionic regulation, allowing them to maintain structural integrity for short periods. Though they shimmer with volatile energy, each one is fully under her control. She can manifest them as weapons, tools, or restraining devices, adapting their shape and function to the needs of the moment.",
-    evolved: [
-      {
-        books: [2],
-        title: "Peak Electrokinetic Constructs",
-        description:
-          "After ascending to Alpha Deviant status, Zoey’s constructs became more durable, versatile, and reactive. She gained the ability to chain constructs together, remotely redirect them mid-use, or modify their shape on the fly. Her control extended to multi-point deployment, allowing her to project several constructs at once across a combat zone. Whether forming electrified barriers, extending whips, or locking down targets with ionized clamps, her constructs evolved into tools of strategic precision and layered defense.",
+    domain: "Electrical Energy",
+    classification: "Application",
+    release: "KVII",
+    discovery: "beginning",
+
+    description: `
+Zoey can shape electrical energy into stable, semi-solid constructs by using electromagnetic fields to confine and reinforce the current. These constructs are powered directly by her internal energy generation and maintained through precise ionic regulation.
+
+She can form weapons, restraints, traversal tools, and containment structures while adjusting their dimensions and behavior in real time. Although visibly composed of crackling electricity, the constructs possess enough cohesion to apply physical force, support weight, restrain targets, or withstand impact for limited periods.
+    `.trim(),
+
+    progression: {
+      KVII: {
+        middle: {
+          title: "Peak Electrokinetic Constructs",
+
+          description: `
+After ascending to Gamma Deviant status, Zoey's construct control becomes significantly more advanced. Her constructs gain greater durability, stability, and responsiveness, allowing her to reshape them during use, redirect them remotely, or maintain several independent structures at once.
+
+This multi-point control allows Zoey to treat constructs as an interconnected battlefield system rather than isolated objects. Weapons, barriers, restraints, and traversal tools can be deployed simultaneously and altered in response to changing conditions without requiring her to dismantle and recreate them.
+          `.trim(),
+        },
       },
-    ],
+    },
+
     subAbilities: [
       {
-        books: [2],
         name: "Electro Whip",
-        description:
-          "A long, crackling filament of high-tension electricity that Zoey can snap outward with precise control. The whip slices through metal, disarms opponents, or wraps around targets at range. Its length can extend or retract on command, and every strike delivers a searing electric jolt powerful enough to disable or incapacitate.",
+        release: "KVII",
+        discovery: "beginning",
+
+        description: `
+Zoey forms a long filament of stabilized electricity capable of extending, retracting, and changing direction while remaining connected to her control. The whip can strike, disarm, ensnare, or pull targets from range while delivering an electrical discharge through anything it contacts.
+        `.trim(),
       },
+
       {
-        books: [2],
         name: "Electro Rope",
-        description:
-          "A flexible tether made of stabilized electricity, used for grappling, restraint, or traversal. Zoey can lasso enemies, anchor onto surfaces, or climb across gaps with ease. The rope stays malleable until she commands it to lock in place, allowing it to function as a reactive tool or weapon depending on the situation.",
+        release: "KVII",
+        discovery: "beginning",
+
+        description: `
+Zoey forms a flexible electrical tether designed primarily for restraint and traversal. She can anchor it to surfaces, pull herself across gaps, secure objects, or bind opponents. The rope remains flexible while moving and can be electrically locked into a rigid hold once positioned.
+        `.trim(),
       },
+
       {
-        books: [2],
         name: "Electro Bolt",
-        description:
-          "A concentrated spear of electric energy formed for precision strikes. Denser than her standard blasts, the bolt delivers high-speed, high-voltage impact capable of piercing reinforced armor and penetrating barriers. On contact, it inflicts both kinetic damage and an explosive electric surge, ideal for breaching defenses or disabling heavy targets.",
+        release: "KVII",
+        discovery: "beginning",
+
+        description: `
+Zoey compresses electrical energy into a short, dense projectile construct resembling a heavy bolt or dart. Unlike her ordinary electrical projections, the construct maintains a defined shape during flight and delivers both concentrated impact force and a powerful electrical discharge when it strikes.
+
+Its compact size makes it faster and easier to deploy than her larger constructed weapons, allowing Zoey to use it for rapid precision attacks against armored or reinforced targets.
+        `.trim(),
       },
+
       {
-        books: [2],
         name: "Electro Lance",
-        description:
-          "A long, javelin-like construct of concentrated electricity used for ranged piercing strikes or melee combat. It overloads shields and creates a shockwave on impact. She can also hurl it like a lightning-charged spear that detonates on contact.",
+        release: "KVII",
+        discovery: "beginning",
+
+        description: `
+Zoey forms a long, rigid lance of concentrated electrical energy designed for both melee and ranged combat. The construct can be wielded directly as a piercing weapon or thrown like a javelin, maintaining its shape until impact.
+
+Because the lance contains a much larger concentration of electrical energy than her smaller constructs, it releases a powerful discharge when it strikes, allowing it to overload shields, penetrate reinforced defenses, or detonate against heavily protected targets.
+        `.trim(),
       },
+
       {
-        books: [2],
         name: "Electro Prison",
-        description:
-          "A containment field of high-frequency electricity that forms a sphere or cube around a target. The structure is built from tightly controlled ionic streams, layered with oscillating voltage that destabilizes escape attempts. Teleportation, phasing, and most tech-based breaches are neutralized inside the prison. Within the field, periodic voltage spikes disorient and weaken the captive over time. Duration depends on Zoey’s focus and energy reserve, making it ideal for isolating high-priority threats or capturing enemies alive.",
+        release: "KVII",
+        discovery: "beginning",
+
+        description: `
+Zoey creates a containment structure around a target using intersecting walls of stabilized electrical energy. The prison can form as a sphere, cube, or other enclosed shape depending on the available space.
+
+Oscillating electrical currents interfere with movement, technology, and attempts to destabilize the structure from within. Periodic voltage surges can also disorient or weaken the captive. Maintaining the prison requires sustained concentration, particularly against powerful targets actively attempting to escape.
+        `.trim(),
       },
     ],
   },
+
   {
     name: "Electrical Sight",
-    books: [1],
-    description:
-      "Zoey’s specialized vision allows her to perceive electrical currents and bioelectric signals with pinpoint clarity. This advanced sensory ability evolved from her adaptive energy system and enables her to read power flow as easily as others read motion or light. She can instantly analyze machines and living beings, identifying short circuits, electrical malfunctions, or failing components in tech, as well as detecting irregular neural activity, muscle contractions, or heartbeat patterns in people. Whether diagnosing battlefield injuries or pinpointing vulnerabilities in enemy gear, her electrical sight enhances both her combat precision and her utility as a tactical support asset.",
+    domain: "Electrical Energy",
+    classification: "Sensory",
+    release: "KVII",
+    discovery: "beginning",
+
+    description: `
+Zoey can visually perceive electrical currents and bioelectric activity as distinct patterns layered over her normal vision. Machines reveal active circuitry, power routes, damaged components, and electrical faults, while living organisms display the subtle bioelectric signals produced by neural activity, muscle movement, and cardiac function.
+
+This perception allows Zoey to identify malfunctioning technology, locate active electrical systems, track living targets through their bioelectric signatures, and recognize abnormalities in neural or muscular activity. In combat, it gives her a precise understanding of both technological vulnerabilities and biological movement that ordinary vision cannot provide.
+    `.trim(),
+
+    subAbilities: [],
   },
 ];
 

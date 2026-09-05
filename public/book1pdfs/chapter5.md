@@ -53,7 +53,7 @@ Did I punch you too many times? I don't know who you think I am, but what I do k
 Torn, Wesley remembers Stephen falling to his death, and his friends blaming him. He realizes that he has only a few options. 
 
 Wesley (Thinking)  
-I don't even know what to do at this point. There has to be a way out of this. I could take them both on, but there's no telling what they have up their sleeves. If I beat them both, I could possibly save Stephen, Gavin, and stop Iztan. Kill two birds with one stone?   
+I don't even know what to do at this point. There has to be a way out of this. I could take them both on, but there's no telling what they have up their sleeves. If I beat them both, I could possibly save Stephen, Gavin, and stop Iztahn. Kill two birds with one stone?   
 ​  
 Wesley (Thinking) (cont'd)  
 No, there's no way I could pull that off. If I die here, then it's over for everyone. Running wouldn't work either. Without Gavin, I can't execute any of my alternate escape plans. Not only would the impact on my arms be catastrophic, but I also wouldn't be able to get us out in time. 
@@ -171,7 +171,7 @@ Danny (On Comms)
 Ten minutes at most. I can run over there now and grab the both of you. 
 
 Wesley (On Comms)  
-No, there's no way Iztan is going to let us get away, especially Aiden and Shi. We also can't leave those students alone. I'll do what I can. Just move as fast as possible and get here.
+No, there's no way Iztahn is going to let us get away, especially Aiden and Shi. We also can't leave those students alone. I'll do what I can. Just move as fast as possible and get here.
 
 Danny (On Comms)   
 Wait, Aiden is there too?
@@ -405,7 +405,7 @@ Danny (On Comms)
 Ten minutes at most. I can run over there now and grab the both of you. 
 
 Wesley (On Comms)  
-No, there's no way Iztan is going to let us get away, especially Aiden and Shi. We also can't leave those students alone. I'll do what I can. Just move as fast as possible and get here.
+No, there's no way Iztahn is going to let us get away, especially Aiden and Shi. We also can't leave those students alone. I'll do what I can. Just move as fast as possible and get here.
 
 Danny (On Comms)   
 Wait, Aiden is there too?
@@ -575,19 +575,19 @@ Gavin lends a hand to Wesley, helping him to his feet. He offers a steady arm, a
 Gavin  
 Let's get you into a bed.
 
-Int. Iztan Hideout \- ???  
-After their defeat at the hands of S.T.A.T.I.C, Iztan regroups and retreats to their base. They eventually arrive at Celeste's laboratory. Aiden's weariness is evident as he steps inside. With a heavy sigh, he gently places Shi's injured body onto the examination table. The extent of Shi's injuries, resulting from the building collapse, is starkly evident.
+Int. Iztahn Hideout \- ???  
+After their defeat at the hands of S.T.A.T.I.C, Iztahn regroups and retreats to their base. They eventually arrive at Celeste's laboratory. Aiden's weariness is evident as he steps inside. With a heavy sigh, he gently places Shi's injured body onto the examination table. The extent of Shi's injuries, resulting from the building collapse, is starkly evident.
 
 Aiden  
 Do me a favor and fix this idiot ​up. Where’s the boss?  
 ​  
-Iztan Scientist  
+Iztahn Scientist  
 She’s in the Chamber Room.
 
 Aiden walks out and heads towards the Chamber Room. As he walks, Enzo's hurried steps catch up to him from behind. 
 
 Enzo  
-Summers, I want in on your next mission.
+Halden, I want in on your next mission.
 
 Aiden  
 You'll have to take it up with Celeste, and considering what happened before we left...
@@ -595,7 +595,7 @@ You'll have to take it up with Celeste, and considering what happened before we 
 Enzo   
 That was before you two failed the mission.
 
-Int. Iztan Chamber Room \- ???  
+Int. Iztahn Chamber Room \- ???  
 Enzo and Aiden walk into the Chamber Room and see the machine is still being built. Celeste turns around as they walk in.
 
 Celeste  

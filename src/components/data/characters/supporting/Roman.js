@@ -1,5 +1,4 @@
 const roman = {
-  id: "#049",
   name: "Roman Johnson",
   slug: "roman",
   image: "/roman.jpg",
@@ -46,7 +45,7 @@ const roman = {
         image: "/joaquin.jpg"
     },
     {
-        name: "Logan Summers",
+        name: "Logan Halden",
         role: "Friend",
         status: "Alive",
         link: "/characters/logan",

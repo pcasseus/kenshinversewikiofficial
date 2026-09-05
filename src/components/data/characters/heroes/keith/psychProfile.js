@@ -1,51 +1,70 @@
 const keithPsychProfile = {
   notes: [
-    "Subject’s power output is directly linked to emotional state.",
-    "Carries unresolved familial grief that manifests as anger and defensiveness.",
-    "Exhibits aggressive protective behavior toward close attachments.",
-    "Displays heightened sensitivity to religious environments due to childhood trauma.",
+    "Subject exhibits a strong correlation between emotional intensity and power output.",
+    "Familial loss remains a persistent source of anger, grief, and defensive behavior.",
+    "Protective responses intensify significantly when close personal attachments are threatened.",
+    "Religious environments and associated symbolism may trigger defensive or avoidant behavior due to adverse childhood experiences.",
+    "Subject demonstrates improved emotional regulation when given a clear protective objective or trusted interpersonal support.",
   ],
 
   traits: [
     {
       name: "Emotion-Fueled Power Response",
       description:
-        "Keith’s abilities are directly tied to his emotional state, particularly anger, grief, and fear. He does not separate feeling from action, causing power activation to occur immediately when emotions spike.",
+        "Keith’s emotional state has a direct effect on the intensity and behavior of his abilities. Anger, fear, grief, and protective urgency can produce immediate increases in thermal output, often before he has consciously decided to escalate. Emotional activation therefore functions as both a source of strength and a potential limitation on precision and restraint.",
     },
+
     {
       name: "Impulsive Crisis Response",
       description:
-        "When overwhelmed, Keith prioritizes immediate action over long-term consequence. This impulsivity allows for rapid intervention in sudden crises but increases the risk of escalation and collateral damage.",
+        "Keith tends to favor immediate intervention when confronted with an active threat. He is highly responsive under pressure and rarely hesitates when another person is in danger, but this tendency can cause him to act before a coordinated plan is established. His effectiveness increases when instinctive action and team objectives align.",
     },
+
     {
-      name: "Unresolved Grief Manifestation",
+      name: "Persistent Familial Grief",
       description:
-        "Keith carries deep, unresolved grief related to the loss of his family. Lacking a safe method to process this pain, it manifests as anger, defensiveness, and self-destructive behavior. The grief remains constant, awaiting emotional triggers.",
+        "The loss of Keith’s family remains one of the strongest influences on his emotional behavior. Anger frequently functions as the outward expression of grief that he struggles to communicate directly. Situations involving family, helplessness, or the potential loss of another loved one can provoke disproportionately intense reactions.",
     },
+
     {
       name: "Aggressive Protective Instinct",
       description:
-        "Keith is fiercely protective of those he cares about, especially his girlfriend, Jade Stone. When a loved one is threatened, restraint collapses and instinctive aggression takes over, making him effective in close combat but dangerous in coordinated team operations.",
+        "Keith exhibits an exceptionally strong protective response toward individuals he considers family or otherwise personally significant. Threats against these attachments can override normal restraint and produce immediate aggression. Although this makes him highly effective during emergency intervention, hostile actors may exploit these attachments to provoke predictable behavior.",
     },
+
     {
       name: "Religious Trauma Sensitivity",
       description:
-        "Keith has a history of negative experiences within religious environments tied to his childhood. Exposure to religious institutions, symbolism, or authority can provoke heightened defensiveness, agitation, or emotional destabilization.",
+        "Keith associates certain religious environments, institutions, and forms of authority with adverse experiences from childhood. Exposure can produce discomfort, defensiveness, anger, or withdrawal depending on the circumstances. The response is primarily associative rather than ideological and becomes more pronounced when the environment resembles experiences connected to his upbringing.",
+    },
+
+    {
+      name: "Defensive Humor",
+      description:
+        "Keith frequently uses sarcasm and sharp humor to redirect uncomfortable conversations, conceal emotional vulnerability, or regain a sense of control during tense situations. While often interpreted as simple hostility or irreverence, the behavior regularly functions as an emotional defense mechanism.",
+    },
+
+    {
+      name: "Attachment-Based Regulation",
+      description:
+        "Despite his volatility, Keith demonstrates noticeably greater emotional control around individuals he deeply trusts. Close relationships can interrupt escalating behavior, redirect his attention, and provide an external point of stability when grief or anger begins overwhelming his judgment.",
     },
   ],
 
   threatMeter: {
     book1: {
-      value: 57,
-      label: "Volatile State",
+      value: 72,
+      label: "High Volatility",
     },
+
     book2: {
-      value: 74,
-      label: "High Escalation Risk",
+      value: 64,
+      label: "Improving Regulation",
     },
+
     book3: {
-      value: 96,
-      label: "Critical Instability",
+      value: 48,
+      label: "Controlled Response",
     },
   },
 };

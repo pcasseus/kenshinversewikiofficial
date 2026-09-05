@@ -1,14 +1,14 @@
 Int. Avenger Level 3 | Lounge \- Night
 
-After successfully taking down Iztan, everyone gathers in the lounge of the Avenger.
+After successfully taking down Iztahn, everyone gathers in the lounge of the Avenger.
 
-Wesley is dressed in a marble-colored long sleeve sweater, paired with black khakis and black-and-white sneakers. Keith is wearing a white t-shirt along with black ripped jeans and black zip-up boots. Meanwhile, Andrew is wearing for a green sweatshirt, black sweatpants, and a pair of comfortable crocs.
+Wesley is dressed in a marble-colored long sleeve sweater, paired with black khakis and black-and-white sneakers. Keith is wearing a white t-shirt along with black ripped jeans and black zip-up boots. Meanwhile, Jesús is wearing for a green sweatshirt, black sweatpants, and a pair of comfortable crocs.
 
 Gavin reclines on a futon couch, shirtless, his left shoulder wrapped in bandages. He's casually wearing blue sweatpants. Nearby, Jade, Zoey, and Robert occupy the seating area.
 
 Jade is dressed in a tall knit dress, wearing a high neck and a stylish side split in black. She completes her look with white sneakers. Zoey, on the other hand, is wearing a beige chunky rib-knit crop bardot, with wide sleeves. She pairs it with beige jeans and stylish white and black shoes. Robert is wearing a white sweater with white shorts. His outfit is tied together with white and black sneakers.
 
-They're all visibly exhausted, and the room falls into silence, with only the Avengers soaring through the sky audible. As Wesley leans back towards the bar, lost in thought, Keith pours drinks for both himself and Andrew. It's then that Keith breaks the silence.
+They're all visibly exhausted, and the room falls into silence, with only the Avengers soaring through the sky audible. As Wesley leans back towards the bar, lost in thought, Keith pours drinks for both himself and Jesús. It's then that Keith breaks the silence.
 
 Keith   
 Wes, do you want a drink?
@@ -21,9 +21,9 @@ No, I'm good.
 Keith  
 Are you s- 
 
-Andrew grabs Keith's attention, interrupting him.
+Jesús grabs Keith's attention, interrupting him.
 
-Andrew   
+Jesús   
 He doesn't drink. 
 
 Keith nods in understanding.
@@ -31,7 +31,7 @@ Keith nods in understanding.
 Keith   
 Got it. 
 
-Andrew drinks his glass of Hennessy in one go, while Wesley, without looking at him, shifts his attention in Jade's direction.
+Jesús drinks his glass of Hennessy in one go, while Wesley, without looking at him, shifts his attention in Jade's direction.
 
 Wesley   
 Jade, how was he when you guys brought him on here? 
@@ -100,7 +100,7 @@ What about Stephen? Is he okay? Did you figure out what flipped his switch?
 Justin   
 I ran multiple MRIs and brain scans. I’m still trying to figure out what exactly happened.
 
-Andrew   
+Jesús   
 How long before he wakes up? 
 
 Justin   
@@ -115,21 +115,21 @@ A couple of days if he doesn't slip into a coma.
 Robert   
 Damn.
 
-Andrew   
+Jesús   
 I do have one question, though. 
 
 Justin   
 What's up? 
 
-Andrew   
+Jesús   
 It's actually for Wes. 
 
-Wesley turns to Andrew, curious.
+Wesley turns to Jesús, curious.
 
 Wesley  
 What is it? 
 
-Andrew   
+Jesús   
 Since when did you learn to scream like that? Was that a new power? 
 
 Wesley   
@@ -174,7 +174,7 @@ I’m fine. I have control over it now.
 
 His muscles shrink, his eyes return to normal, and he slightly stumbles back, gripping the bar counter for support.
 
-Andrew   
+Jesús   
 You good? 
 
 Wesley clutches his head, clearly in pain.
@@ -258,7 +258,7 @@ Justin, what's wrong?
 
 He remains silent, staring at his phone, and doesn't reply. As everyone else grows increasingly curious, tension fills the air.
 
-Andrew   
+Jesús   
 Justin, what is it? 
 
 Justin mirrors his phone onto one of the room's monitors, displaying a news channel on the screen.
@@ -338,7 +338,7 @@ Agreed. You literally just played a big part in saving not only the Deviants but
 Wesley   
 That's the thing. It's not over yet. 
 
-Andrew  
+Jesús  
 What do you mean? 
 
 Wesley   
@@ -429,7 +429,7 @@ He clears the lump in his throat while holding back his tears.
 Gavin   
 Your dad told us that if it ever came to the point where we have to do something completely unnatural to save his life, to let him go. 
 
-Stepping back, Wesley surveys the room, noting that only Robert, Andrew, Zoey, and Justin appear oblivious to the situation.
+Stepping back, Wesley surveys the room, noting that only Robert, Jesús, Zoey, and Justin appear oblivious to the situation.
 
 Wesley  
 No, you're lying. 
@@ -473,7 +473,7 @@ The energy in the room undergoes a sudden shift. Wesley turns to Robert, his sad
 Wesley (Shouting)   
 You say that, like me, wanting my father to stay alive is such a bad thing. What do you want me to say, Rob? Huh? Oh yeah, my dad's right? No.  
 ​  
-Andrew   
+Jesús   
 That's not what he's saying. 
 
 Wesley (Shouting)   
@@ -560,7 +560,7 @@ I'm not ready to lose you.
 Ajax gently places a frail hand on Wesley's cheek, his touch feeble yet filled with love.
 
 Ajax  
-Listen, my son. You don't need me anymore because you've already become everything I could have ever hoped for. You beat Iztan, and I'm proud of you.
+Listen, my son. You don't need me anymore because you've already become everything I could have ever hoped for. You beat Iztahn, and I'm proud of you.
 
 Wesley's tears continue to flow.
 
@@ -712,7 +712,7 @@ Which is why I'm apologizing for what's about to happen next. Gavin and the othe
 Wesley takes a deep breath.
 
 Wesley   
-When summer's over, they’re going to start tracking down leads on the remaining Iztan soldiers worldwide. I've heard some chatter on the dark web about heavy Iztan activity here in New York.
+When summer's over, they’re going to start tracking down leads on the remaining Iztahn soldiers worldwide. I've heard some chatter on the dark web about heavy Iztahn activity here in New York.
 
 He pauses briefly as Gavin calls him.
 
@@ -732,7 +732,7 @@ I'll visit again soon, Dad. I love you.
 Wesley turns around and heads straight for his friends waiting by the car.
 
 Wesley (V.O)   
-I can almost hear what you're thinking: "He shouldn't do this alone." Well, you're wrong. I can handle what's coming, all on my own. I'm not the one who needs to watch their back. It's Iztan. Every last one of them. They've taken everything from me, and too many others, and I'm going after every single one of them until I've completely crushed them.
+I can almost hear what you're thinking: "He shouldn't do this alone." Well, you're wrong. I can handle what's coming, all on my own. I'm not the one who needs to watch their back. It's Iztahn. Every last one of them. They've taken everything from me, and too many others, and I'm going after every single one of them until I've completely crushed them.
 
 Wesley's words carry a burning intensity as he concludes.
 

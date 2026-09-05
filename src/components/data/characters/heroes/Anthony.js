@@ -1,5 +1,4 @@
 const anthony = {
-  id: "#038",
   name: "Anthony Delgado",
   slug: "anthony",
   image: "/anthony.jpg",
@@ -86,11 +85,11 @@ const anthony = {
     ],
     relationships: [
       {
-        name: "Andrew Torres",
+        name: "Jesús Torres",
         role: "Friend",
         status: "Alive",
-        link: "/characters/andrew",
-        image: "/andrew.jpg"
+        link: "/characters/jesús",
+        image: "/jesús.jpg"
       },
       {
         name: "Justin Frasier",

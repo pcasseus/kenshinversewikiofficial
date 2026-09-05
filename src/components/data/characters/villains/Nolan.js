@@ -1,5 +1,4 @@
 const nolan = {
-  id: "#011",
   name: "Nolan Khan",
   slug: "Nolan",
   image: "/nolan.jpg",
@@ -8,7 +7,7 @@ const nolan = {
   tagline: "",
   primaryPower: "Hyperkinetic Drive",
   stats: {
-    affiliation: "Iztan",
+    affiliation: "Iztahn",
     gender: "Male",
     height: "5'11\"",
     weight: "160 lbs",
