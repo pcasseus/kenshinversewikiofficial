@@ -1,5 +1,4 @@
 const damien = {
-  id: "#046",
   name: "Damien Darkwood",
   slug: "damien",
   image: "/damien.jpg",
@@ -8,7 +7,7 @@ const damien = {
   tagline: "",
   primaryPower: "Darkness Control",
   stats: {
-    affiliation: "Iztan",
+    affiliation: "Iztahn",
     gender: "Male",
     height: "5'11\"",
     weight: "160 lbs",

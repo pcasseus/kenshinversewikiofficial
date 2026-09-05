@@ -1,6 +1,6 @@
-Int. Iztan Secret Headquarters \- Unknown 
+Int. Iztahn Secret Headquarters \- Unknown 
 
-In a colossal underground cavern, a sea of soldiers assembles before a raised stage. Dominating the front rows are the core five figures: Aiden Summers, Shi The Assassin, the Nolan Khan, Enzo Antonov, and Talia Yassin. The spotlight, however, falls on the woman commanding the stage – none other than Celeste Masters, the formidable leader of Iztan and Azazel's trusted right hand. Her commanding presence fills the space as she clears her throat, instantly hushing the entire room into an expectant silence.
+In a colossal underground cavern, a sea of soldiers assembles before a raised stage. Dominating the front rows are the core five figures: Aiden Halden, Shi The Assassin, the Nolan Khan, Enzo Antonov, and Talia Yassin. The spotlight, however, falls on the woman commanding the stage – none other than Celeste Masters, the formidable leader of Iztahn and Azazel's trusted right hand. Her commanding presence fills the space as she clears her throat, instantly hushing the entire room into an expectant silence.
 
 The room is brimming with individuals outfitted similarly to Shi and Talia. They sport sleek, full black bodysuits, clearly engineered for combat proficiency and agile maneuvering. The attire's design strikes a balance between protection and unrestricted movement. Unlike Shi's distinctive mask, none of them sport facial coverings.
 
@@ -17,7 +17,7 @@ The whole room goes quiet again.
 Celeste   
 Not only that but it seems he's figured out a piece of our plan and could already be aware of our next step. He's also already relayed that information to his father and the rest of the Deviant garbage he's protecting. I think we all know what he's capable of so that's why I'll be fast-tracking our plans. 
 
-Iztan Soldier   
+Iztahn Soldier   
 What do you mean by that mam? 
 
 Celeste   

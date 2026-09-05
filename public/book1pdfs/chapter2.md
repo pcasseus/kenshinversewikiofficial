@@ -345,10 +345,10 @@ Yeah but I just think-
 Danny falls silent as he spots Gavin entering the room, his attention shifting from Ajax to him with a look of surprise. Ajax shares the same look. 
 
 Ajax   
-Summers, where have you been? 
+Halden, where have you been? 
 
 Gavin  
-I've been gathering information, and I know what Iztan is up to. But, I had to use an outside resource.
+I've been gathering information, and I know what Iztahn is up to. But, I had to use an outside resource.
 
 Danny  
 Wait, how and why? 
@@ -366,7 +366,7 @@ Yeah, I told him everything.
 Ajax's now takes on a serious on the cusp of angry demeanor. 
 
 Ajax  
-Gavin Nathaniel Summers. 
+Gavin Nathaniel Halden. 
 
 At the sound of his complete government name, Gavin involuntarily flinches, a flicker of discomfort crossing his features before he composes himself.
 
@@ -374,7 +374,7 @@ Ajax
 I gave you a direct order. 
 
 Gavin  
-I know. You can yell at me later, but we figured out what Iztan is planning. At least most of it. 
+I know. You can yell at me later, but we figured out what Iztahn is planning. At least most of it. 
 
 Ajax's gaze shifts from Gavin to Wesley, his discerning eyes taking in the subtle signs of irritation on his son's face. He immediately backs down. 
 
@@ -386,10 +386,10 @@ Wesley cuts in, his tone laced with attitude and annoyance.
 Wesley  
 Thank you. 
 
-Gavin pulls out the holocube from his pocket and activates it displaying the complete Iztan schematics Wesley uncovered from his laptop. 
+Gavin pulls out the holocube from his pocket and activates it displaying the complete Iztahn schematics Wesley uncovered from his laptop. 
 
 Wesley  
-It's an old Iztan project that was scrapped. The project was called Project Revenant. 
+It's an old Iztahn project that was scrapped. The project was called Project Revenant. 
 
 Wesley looks around at the room, everyone staring at him, waiting for him to elaborate. 
 
@@ -462,7 +462,7 @@ Gavin
 What are you getting at? 
 
 Wesley   
-Well, S.T.A.T.I.C. was infiltrated by Noxus, who is actually Iztan. So if Iztan got their hands on the gadgets, weapons, or even copies of projects you had locked away, they'd have almost everything they need to bring him back. 
+Well, S.T.A.T.I.C. was infiltrated by Noxus, who is actually Iztahn. So if Iztahn got their hands on the gadgets, weapons, or even copies of projects you had locked away, they'd have almost everything they need to bring him back. 
 
 Wesley's revelation gives Danny goosebumps scaring him. He swallows deeply. 
 
@@ -594,7 +594,7 @@ Wesley
 We wanted to share everything else first, but now that I’m hearing Azazel has a daughter, that’s probably why they were trying to kill us in the first place.
 
 Ajax  
-He thought you guys knew too much. Damn, I was hoping we were ahead this time. Alright. Danny and Gavin will go to this event tomorrow. You're going to find Zoey and extract her before any Iztan agents get to her. 
+He thought you guys knew too much. Damn, I was hoping we were ahead this time. Alright. Danny and Gavin will go to this event tomorrow. You're going to find Zoey and extract her before any Iztahn agents get to her. 
 
 Wesley   
 Wait. What about-
@@ -754,7 +754,7 @@ Ajax
 Aiden.
 
 Wesley   
-So he really does work for Iztan now.
+So he really does work for Iztahn now.
 
 Ajax   
 Unfortunately, yes. Aiden was the one who murdered Samuel, Theodore, Torin, Ivan, and Charles. When the team found me, I was pinned down under debris. They saved me, but they couldn't save my arm, so we had to amputate it.
@@ -791,7 +791,7 @@ Ajax
 I know. I just can't lose you too. So much has happened – your uncle, Teddy, your mom, the Deviants, S.T.A.T.I.C. falling, and now this. You and this team are all I have left.
 
 Wesley   
-Dad, I get it. But if Iztan wins, you’ll lose us and more. I know you're supposed to protect me and keep me safe, but you also have to realize I'm not a kid anymore. I’m not the same person I was three years ago. I can handle myself in a fight, and I’ll have backup there.
+Dad, I get it. But if Iztahn wins, you’ll lose us and more. I know you're supposed to protect me and keep me safe, but you also have to realize I'm not a kid anymore. I’m not the same person I was three years ago. I can handle myself in a fight, and I’ll have backup there.
 
 Ajax lets out a heavy sigh, his inner conflict showing in his expression as he wrestles with uncertainty.
 
@@ -894,7 +894,7 @@ Gavin
 I thought you were talking to your dad? 
 
 Wesley   
-Yeah, I was and then he sent me to get checked out in the infirmary.
+Yeah, I was and then he sent me to get checked out in the infirelena.
 
 Gavin   
 Oh yeah. It's this way. 
@@ -918,7 +918,7 @@ Wesley
 And he blames me. Doesn't he? 
 
 Gavin   
-He blamed you and your friends at first. But then, a while back, a few agents who are now Iztan were talking about the moment you hesitated.
+He blamed you and your friends at first. But then, a while back, a few agents who are now Iztahn were talking about the moment you hesitated.
 
 Wesley's expression shifts to a slow understanding. With a slight nod, he acknowledges the grim truth that now ties Keith's distant demeanor to his tragic past.
 

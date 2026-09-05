@@ -5,12 +5,12 @@ import path from 'path';
 export default defineConfig({
   plugins: [react()],
   server: {
-    open: true, // 🔓 auto-opens in browser
-    port: 5173, // 🎯 optional: explicitly set your dev port
+    open: true, 
+    port: 5173, 
   },
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src'), // 💡 use "@/components/..." for cleaner imports
+      '@': path.resolve(__dirname, './src'), 
     },
   },
   test: {

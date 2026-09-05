@@ -15,11 +15,18 @@ import psychProfile from "./psychProfile.js";
 const abilities = [...abilities1, ...abilities2, ...abilities3];
 
 const danny = {
-  id: "#005",
   slug: "danny",
   name: "Danny Foster",
   image: "/danny.jpg",
-  class: "Beta Class Deviant",
+
+  race: {
+    KVI: {
+      beginning: "Beta Class Deviant",
+      middle: "Beta Class Deviant",
+      end: "Beta Class Deviant",
+    },
+  },
+
   primaryPower: "Cognitive Hyperacceleration",
 
   aliases: [],

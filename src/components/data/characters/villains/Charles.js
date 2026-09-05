@@ -1,5 +1,4 @@
 const charles = {
-  id: "#009",
   name: "charles",
   slug: "charles",
   image: "/charles.jpg",
@@ -8,7 +7,7 @@ const charles = {
   tagline: "",
   primaryPower: "Regenerative Reconstitution",
   stats: {
-    affiliation: "Iztan",
+    affiliation: "Iztahn",
     gender: "Male",
     height: "5'11\"",
     weight: "160 lbs",

@@ -1,5 +1,4 @@
 const ivan = {
-  id: "#029",
   name: "Ivan Dvořák",
   slug: "ivan",
   image: "/ivan.jpg",

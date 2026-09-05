@@ -1,5 +1,4 @@
 const shi = {
-  id: "#009",
   name: "Shi",
   slug: "shi",
   image: "/stephen.jpg",
@@ -8,7 +7,7 @@ const shi = {
   tagline: "",
   primaryPower: "Regenerative Reconstitution",
   stats: {
-    affiliation: "Iztan",
+    affiliation: "Iztahn",
     gender: "Male",
     height: "5'11\"",
     weight: "160 lbs",

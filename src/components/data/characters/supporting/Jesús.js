@@ -1,8 +1,7 @@
-const andrew = {
-  id: "#022",
-  name: "Andrew Torres",
-  slug: "andrew",
-  image: "/andrew.jpg",
+const jesús = {
+  name: "Jesús Torres",
+  slug: "jesús",
+  image: "/jesús.jpg",
   class: "Civilian",
   status: "Alive",
   tagline: "Somebody has to keep your secrets safe.",
@@ -18,10 +17,10 @@ const andrew = {
   },
   abilities: [
     { name: "Human Physiology", description: "Human Physiology refers to the natural biological structure of unenhanced humans — a race without innate superpowers but defined by extraordinary adaptability, resilience, and intelligence. Though lacking the raw strength or energy manipulation of Deviants, humans possess remarkable physical and cognitive versatility. With training and discipline, they can achieve peak conditioning, master complex skills, and perform at elite levels across combat, science, and strategy. Their brains are highly adaptive, capable of abstract reasoning, emotional regulation, and creative problem-solving — often enabling them to outthink or outmaneuver more powerful beings. Most importantly, humans compensate for their physical limitations through innovation and tool use, crafting weapons, technologies, and tactics that rival supernatural forces. In a world of powers and gods, it is the human will — sharpened by experience and driven by purpose — that continues to shape history.", book: "Book 1" },
-    { name: "Federal Agent Training Protocol", description: "Andrew is a standard field agent trained by the FBI in accordance with federal law enforcement guidelines. His capabilities stem from rigorous instruction in investigation, situational awareness, firearms handling, defensive tactics, and threat de-escalation — forming a well-rounded, grounded foundation.", book: "Book 1" },
+    { name: "Federal Agent Training Protocol", description: "Jesús is a standard field agent trained by the FBI in accordance with federal law enforcement guidelines. His capabilities stem from rigorous instruction in investigation, situational awareness, firearms handling, defensive tactics, and threat de-escalation — forming a well-rounded, grounded foundation.", book: "Book 1" },
     {
         name: "Behavioral Analysis & Predictive Profiling",
-        description: "Andrew is a graduate of the FBI’s Behavioral Science Unit and a pioneer in profiling Deviant and Unnatural behavior. He combines forensic psychology, social engineering, and combat intuition to anticipate threats before they happen.",
+        description: "Jesús is a graduate of the FBI’s Behavioral Science Unit and a pioneer in profiling Deviant and Unnatural behavior. He combines forensic psychology, social engineering, and combat intuition to anticipate threats before they happen.",
         book: "Book 1",
         subAbilities: [
           { name: "Profiling Mastermind", description: "Reads a subject’s psychological state in seconds — fear tells, aggression triggers, or confidence shifts — allowing him to predict intent with chilling accuracy.", book: "Book 1"},
@@ -32,7 +31,7 @@ const andrew = {
     },
     {
         name: "Tactical Firearms & Marksmanship Mastery",
-        description: "Andrew's skillset goes far beyond basic firearms training into combat-tested, field-specific weapons mastery.",
+        description: "Jesús's skillset goes far beyond basic firearms training into combat-tested, field-specific weapons mastery.",
         book: "Book 1",
         subAbilities: [
           { name: "Pistol Combat (CQB)", description: "Can double-tap center mass before most opponents draw. Capable of non-lethal disabling shots with surgical precision.", book: "Book 1"},
@@ -44,7 +43,7 @@ const andrew = {
     },
     {
         name: "Mental Conditioning & Resilience",
-        description: "Andrew’s mind is his sharpest weapon. Years of exposure to horrors have hardened him into a cold strategist with unwavering discipline.",
+        description: "Jesús’s mind is his sharpest weapon. Years of exposure to horrors have hardened him into a cold strategist with unwavering discipline.",
         book: "Book 1",
         subAbilities: [
           { name: "Combat-Ready Mindset", description: "Fear, adrenaline, and emotional noise are compartmentalized in real-time.", book: "Book 1"},
@@ -89,4 +88,4 @@ const andrew = {
   tools: []
 };
 
-export default andrew;
+export default jesús;

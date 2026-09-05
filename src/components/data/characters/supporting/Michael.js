@@ -1,5 +1,4 @@
 const michael = {
-  id: "#033",
   name: "Michael Caruso",
   slug: "michael",
   image: "/michael.jpg",
@@ -56,11 +55,11 @@ const michael = {
     ],
     relationships: [
       {
-        name: "Andrew Torres",
+        name: "Jesús Torres",
         role: "Friend",
         status: "Dead",
-        link: "/characters/andrew",
-        image: "/andrew.jpg"
+        link: "/characters/jesús",
+        image: "/jesús.jpg"
       },
       {
         name: "Justin Frasier",

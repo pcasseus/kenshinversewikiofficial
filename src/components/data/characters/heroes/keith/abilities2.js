@@ -1,89 +1,212 @@
 const abilities = [
   {
     name: "Pyrokinesis Output",
-    books: [1],
-    description:
-      "Keith’s standard fire techniques, including fire blasts, flame streams, and constructs, operate within the red and orange range of his combustion gradient. These levels represent his typical output, where heat is balanced with control. Red flames signify his base level, used when he is calm, focused, or holding back. Orange flames appear when he is emotionally charged, increasing the intensity, speed, and spread of his attacks. At this level, his fire can melt steel and tear through reinforced structures, but remains manageable enough for continuous combat use.",
+    domain: "Fire Manipulation",
+    classification: "Core Ability",
+    release: "KVI",
+    discovery: "beginning",
+
+    description: `
+Keith’s standard fire techniques, including fire blasts, flame streams, and constructs, burn with a natural orange coloration. Orange is the defining signature of Keith’s personal output, remaining consistent whether he is fighting with restraint or pushing his power toward destructive extremes.
+
+Rather than changing color with intensity, his fire becomes brighter, denser, hotter, and more forceful as his emotional state and output rise. At normal combat levels, Keith can sustain continuous fire projection capable of melting steel and tearing through reinforced structures without immediately overwhelming his body.
+    `.trim(),
+
     subAbilities: [
       {
         name: "Fraternal Flame Output",
-        books: [1],
-        description:
-          "When Ethan asserts control during combat, the flames shift to a radiant golden yellow. This hue represents the twin’s distinct presence and fighting instinct. Unlike Keith’s emotionally driven fire, Ethan’s flames are precise and deliberate, designed for focused damage and tactical advantage. These golden flames often appear in short, overwhelming bursts, signaling that Ethan is making the call not Keith.\n\nThe golden color also emerges when Keith uses abilities unlocked through his bond with Ethan. These techniques, often unfamiliar to Keith at first, carry Ethan’s unique imprint. Whether it’s a reactive counter, a redirecting flame shield, or a perfectly timed strike, golden flame attacks stand out. They cut through defenses, target weaknesses, and shift the momentum of battle with almost supernatural timing.\n\nRare but unmistakable, golden flame attacks mark the arrival of something different. When they appear, it’s clear the fight has changed.",
+        domain: "Fire Manipulation",
+        classification: "Application",
+        release: "KVI",
+        discovery: "middle",
+
+        description: `
+Ethan’s fire burns a distinct radiant golden yellow, visually separating his output from Keith’s orange flames. Whenever Ethan directly generates fire, whether through an external projection, a defensive intervention, independent attack, or physical control of Keith’s unconscious body, the resulting flames carry this golden-yellow signature.
+
+The color does not determine which techniques Ethan originally developed. Once the brothers synchronize, Keith can learn and perform abilities that originated from Ethan’s side of their shared power while still producing orange fire. Golden-yellow fire specifically indicates that Ethan himself is actively generating the output.
+
+When both brothers operate simultaneously through Twin Flame, orange and golden-yellow fire can exist together across the same attacks, constructs, defenses, and movements, making their separate contributions visible even while they function as a single combat unit.
+        `.trim(),
       },
     ],
   },
+
   {
     name: "Flameborne Twin",
-    books: [1],
-    description:
-      "Keith was born under the assumption that he was an only child. His parents never spoke of a twin, and the thought never crossed his mind. But the truth was hidden even from them. In the womb, Keith had a twin—Ethan—who carried the Deviant gene. Keith did not. When Keith unknowingly absorbed Ethan during early development, something extraordinary happened. Their DNA didn't just fuse. Ethan's Deviant powers, and his consciousness, became embedded deep inside Keith.\n\nThat consciousness remained dormant for years. Ethan was never gone, only buried. Trapped behind walls of memory and identity. But during Axel’s attack on the base, something cracked. When Axel triggered aneurysms in both Keith and Gavin to stop their advance, the psychic rupture reached deeper than anyone expected. It tore through Keith’s mental barriers and pulled Ethan forward for the first time.\n\nSince that moment, Ethan has remained a presence—fully sentient, aware, and bonded. He exists within Keith like a second soul, with his own thoughts, instincts, and emotions. Together, they are no longer one person. They are two minds, one body. And Ethan brings his own set of abilities.",
+    domain: "Chimeric Physiology",
+    classification: "Physiology",
+    release: "KVI",
+    discovery: "middle",
+
+    description: `
+Keith was born under the assumption that he was an only child. His parents never spoke of a twin because they never knew one had existed. During early fetal development, Keith unknowingly absorbed his fraternal twin, Ethan. Ethan carried the Deviant gene while Keith originally did not. The absorption left Keith as a biological chimera, carrying two distinct genetic lineages within the same developing body. Ethan’s Deviant cells became integrated deeply enough for Keith to eventually express the fire-based mutation as his own developing power system.
+
+Ethan’s body never survived independently, but his consciousness remained bound to the Deviant biology that had become part of Keith. Ethan was not consciously active from birth. His awareness surfaced when Keith’s powers first manifested, and from that point forward he quietly observed the outside world through Keith’s senses while remaining trapped inside Keith’s subconscious.
+
+During Axel’s attack on the base, the psychic damage inflicted on Keith disrupted the mental barrier that had prevented Ethan from reaching beyond that internal space. Axel did not create Ethan, awaken his powers, or place a new ability inside Keith. The attack simply opened a path Ethan had never possessed before, allowing him to communicate directly, project into the physical world, and eventually cooperate with Keith as an active second consciousness.
+
+Since then, Ethan has remained fully sentient, aware, and distinct from his brother. Keith controls their physical body while conscious, while Ethan exists alongside him with his own thoughts, instincts, emotions, and interpretation of their shared power. They are two minds occupying one body, connected through the same Deviant system without becoming a single identity.
+    `.trim(),
+
     subAbilities: [
       {
         name: "Backseat Driver",
-        books: [1],
-        description:
-          "Ethan shares full cognitive space with Keith, and during battle, he can subtly guide Keith’s movements. If Keith overextends or leaves himself open, Ethan adjusts his posture, redirects his momentum, or sharpens his strikes in real time. This dual-layered awareness gives Keith an inhuman sense of timing and efficiency in combat, allowing him to react faster than most opponents can process.",
+        domain: "Chimeric Physiology",
+        classification: "Sensory",
+        release: "KVI",
+        discovery: "middle",
+
+        description: `
+Ethan shares Keith’s cognitive space and constantly observes the battlefield from the same point of view. During combat, he can warn Keith about openings, identify threats outside Keith’s immediate focus, track multiple opponents, and offer tactical corrections in real time. Because Ethan processes events independently, Keith effectively gains a second stream of battlefield awareness operating alongside his own.
+
+Ethan cannot physically seize control of Keith while Keith remains conscious. Instead, the brothers coordinate through thought, allowing Ethan to call out timing, anticipate attacks, and supplement Keith’s instincts without overriding his bodily autonomy. Once their synchronization improves, Ethan can also use his own fire independently to respond to threats Keith cannot address himself.
+        `.trim(),
       },
+
       {
         name: "Flame Entity",
-        books: [2],
-        description:
-          "Ethan can temporarily exit Keith’s body as a sentient flame construct. In this state, he can hurl fireballs, fire streams, or create flame-based concussive waves to support Keith directly in battle. His form is sleek, humanoid, and crackling with intensity. Though not fully independent for long durations, he functions like a tactical support weapon—coordinating attacks alongside Keith or flanking enemies from behind.",
+        domain: "Chimeric Physiology",
+        classification: "Application",
+        release: "KVI",
+        discovery: "middle",
+
+        description: `
+Ethan can project his consciousness outward from Keith through a sentient body composed entirely of golden-yellow fire. He does not truly leave Keith behind. The projection remains tethered to their shared Deviant system, with the connection becoming stronger at close range and increasingly difficult to maintain as Ethan moves farther away.
+
+In this state, Ethan can fight independently, launch fire blasts and streams, create concussive flame attacks, intercept threats, defend Keith from blind spots, and coordinate directly with him as a second combatant. Ethan can also reshape his projected form, including transforming into larger flame configurations such as a phoenix. Maintaining a complete external manifestation is taxing, meaning Ethan normally projects only when his independent presence provides a meaningful tactical advantage.
+        `.trim(),
       },
+
       {
         name: "Flame Possession",
-        books: [2],
-        description:
-          "If Keith is knocked unconscious, paralyzed, or too injured to fight, Ethan can take full control of their shared body. In this state, Ethan becomes the pilot while Keith remains dormant. While not as physically refined as Keith, Ethan brings a brutal, overwhelming style to combat. His movements are explosive and direct, prioritizing survival and retaliation. This ability allows Keith’s body to stay in the fight even when Keith himself cannot.",
+        domain: "Chimeric Physiology",
+        classification: "Technique",
+        release: "KVI",
+        discovery: "middle",
+
+        description: `
+Ethan can assume direct control of Keith’s physical body only when Keith is completely unconscious. As long as Keith remains awake, control of the body belongs entirely to him. Once Keith loses consciousness, Ethan can take over their shared motor functions in order to protect his brother, escape danger, or continue fighting when stopping would mean death.
+
+While controlling the body, Ethan retains access to Keith’s learned combat knowledge and physical capabilities but expresses them through his own instincts and decision-making. Keith’s fire changes completely to Ethan’s golden-yellow coloration while Ethan is driving, and Keith’s normally golden-orange eyes burn with a much purer gold, providing a clear visual indication of who is currently in control.
+
+Ethan cannot sustain this state indefinitely, particularly if Keith’s body is already badly injured or exhausted. Ethan is still operating the same physical body, meaning any accumulated strain, damage, or fatigue remains present regardless of which brother is conscious at the controls.
+        `.trim(),
       },
+
       {
         name: "Subconscious Ascendance",
-        books: [1],
-        description:
-          "Even while buried deep in Keith’s subconscious, Ethan was never truly dormant. Inside Keith’s mind, a mental space began to form over the years—a quiet void shaped by memory, thought, and emotion. This subconscious playground became Ethan’s world. Time moved differently there. Moments in reality could stretch into hours or days in his mental space, allowing Ethan the chance to reflect, observe, and grow. While he couldn’t interact with the outside world directly, he could see everything through Keith’s eyes, feel what he felt, and process every experience like it was his own.\n\nOver time, this constant exposure to Keith’s life allowed Ethan to absorb every memory, every training session, every emotional scar. He didn’t just gain a basic understanding but he learned Keith’s habits, fighting style, and inner thoughts down to the smallest details. On top of that, Ethan had access to the full power set from the start. The Deviant gene belonged to him originally. While Keith, though extremely impressive in his own right, was working with a limited and emotionally reactive version of the ability, Ethan understood its true scope and inner mechanics. In the subconscious space, he studied the power instinctively like training with constructs, testing ranges, and perfecting techniques that Keith had only scratched the surface of.\n\nBy the time Ethan finally surfaced, he didn’t just have his own knowledge, he also knew everything Keith did, plus the deeper potential their power was always meant to have. This blend of inherited power and internal mastery makes Ethan not just a second mind, but an equal. A partner who has seen it all, learned it all, and is ready to bring out the version of Keith that neither of them could become alone.",
+        domain: "Chimeric Physiology",
+        classification: "Physiology",
+        release: "KVI",
+        discovery: "middle",
+
+        description: `
+When Keith’s powers first manifested, Ethan’s consciousness became aware within the subconscious world created by their shared mind. From that point forward, Ethan observed the outside world through Keith’s senses while remaining unable to interact with it directly. He witnessed Keith’s memories as they formed, watched every training session, studied every fight, and learned the habits and techniques Keith developed over the following eight years.
+
+Ethan can understand Keith’s thoughts, emotional state, and physical experiences through observation, but he does not personally experience Keith’s emotions or pain as his own. Unless Ethan is physically projected into the outside world, sensation belongs to Keith alone. Their survival remains connected, however, meaning Keith’s death would also mean Ethan’s death.
+
+While Keith developed the aggressive, emotionally driven expression of their fire abilities through real-world combat and experience, Ethan spent those same years exploring the power from within. Because Ethan carried the original Deviant gene, certain aspects of the ability developed more naturally through his consciousness. He experimented with applications Keith had never discovered, especially techniques based around precision, pressure, combustion control, and thermobaric force.
+
+Neither brother possesses the complete practical mastery of the ability alone. Keith brings years of physical experience, instinct, endurance, and combat refinement, while Ethan brings techniques and applications developed from his deeper connection to the original mutation. Once they consciously agree to cooperate, both sides of that development become accessible through their shared power system.
+        `.trim(),
       },
     ],
   },
+
   {
     name: "Thermobaric Combustion Manipulation",
-    books: [1],
-    description:
-      "Through his connection with Ethan, Keith gains access to a powerful and destructive form of fire control known as thermobaric combustion. This ability allows him to generate massive pressure-based explosions by compressing and igniting oxygen in the air. Unlike standard fire, thermobaric combustion creates a concussive blast followed by a vacuum effect, capable of disorienting enemies, shattering terrain, and stripping oxygen from enclosed spaces.\n\nThis ability is not part of Keith’s original power set. It is unlocked only after Ethan’s consciousness begins to surface, granting Keith access to the full DNA fragment that houses this power. Ethan, having retained more of the original Deviant blueprint, is the true origin of thermobaric combustion. The flames Keith wields during these attacks are often golden yellow, signifying Ethan’s presence.",
+    domain: "Thermobaric Combustion",
+    classification: "Core Ability",
+    release: "KVI",
+    discovery: "end",
+
+    description: `
+Through his synchronization with Ethan, Keith gains access to a destructive branch of their shared fire ability based around thermobaric combustion. Ethan developed this side of the power while confined within Keith’s subconscious, learning to manipulate heat, atmospheric pressure, expanding gases, and explosive combustion with far greater precision than Keith’s original approach to pyrokinesis.
+
+Thermobaric attacks create concentrated bursts of heat and overpressure capable of producing devastating concussive force. Larger applications can disrupt enclosed spaces, shatter terrain, destabilize structures, and create dangerous pressure changes around the point of detonation.
+
+This ability does not appear because Ethan grants Keith new DNA or physically transfers another mutation into him. Ethan’s genetics have always been part of Keith’s chimeric biology. Once the brothers synchronize, Keith simply gains access to applications of their shared power that Ethan independently learned and developed.
+
+When Keith generates thermobaric fire, it remains orange. When Ethan generates the same type of attack himself, it burns golden yellow.
+    `.trim(),
+
     subAbilities: [
       {
         name: "Thermobaric Kinetic Combat",
-        books: [1],
-        description:
-          "Using Ethan’s side of the ability, Keith can channel golden flame into his physical attacks. Whether it’s a punch, kick, elbow, or shoulder check, each strike can trigger a localized shockwave of compressed thermobaric fire. These blasts aren’t large-scale explosions, but precise detonations that erupt on contact. Every move becomes a pressure-loaded impact point, turning close-quarters combat into a series of fiery concussions that overwhelm opponents and destabilize terrain.\n\nThe power behind these strikes is magnified by Ethan’s instinctual precision, allowing Keith to break through guards, counter mid-combo, or hit exact joints and vulnerabilities with punishing force.",
+        domain: "Thermobaric Combustion",
+        classification: "Technique",
+        release: "KVI",
+        discovery: "end",
+
+        description: `
+Keith can channel concentrated thermobaric combustion into punches, kicks, elbows, shoulder checks, and other physical strikes. Each impact can trigger a localized detonation of compressed heat and pressure, turning close-quarters combat into a sequence of fiery concussions capable of breaking guards, damaging reinforced targets, and destabilizing the surrounding terrain.
+
+When Keith performs the technique, the flames remain orange. Ethan can assist through their mental synchronization by identifying openings, adjusting timing, or using his own golden-yellow output simultaneously. During Twin Flame, Ethan can restrain or defend against an opponent while Keith continues delivering thermobaric strikes, allowing both brothers to attack at the same time without sacrificing pressure or defense.
+        `.trim(),
       },
+
       {
         name: "Thermal Latency Imprinting",
-        books: [2],
-        description:
-          "Using Ethan’s side of the power, Keith can embed delayed thermobaric charges into physical surfaces, objects, or even opponents through touch. These imprints are formed instinctively, using subtle heat transfer and pressure manipulation to hide their presence. Once placed, they remain inert and nearly undetectable until Ethan issues a mental recall trigger.\n\nWhen activated, Keith’s eyes flash with ignition energy as the imprints detonate in rapid, synchronized bursts. The resulting explosions release focused concussive fire that can blanket a wide area or target specific zones. These delayed charges can be used for ambush traps, area control, or precise takedowns when timed correctly.",
+        domain: "Thermobaric Combustion",
+        classification: "Technique",
+        release: "KVII",
+        discovery: "beginning",
+
+        description: `
+Keith can embed delayed thermobaric charges into physical surfaces, objects, or opponents through direct contact. These imprints store controlled heat and pressure within the affected area while remaining largely dormant until deliberately triggered.
+
+Either brother can activate the charges through their shared mental connection once the technique has been established. When triggered, the imprints detonate in tightly controlled bursts of concussive fire, allowing Keith and Ethan to create ambushes, control sections of the battlefield, interrupt enemy movement, or coordinate multiple explosions simultaneously.
+
+Charges created by Keith carry his orange fire signature when activated, while charges formed directly through Ethan’s output detonate with golden-yellow flame.
+        `.trim(),
       },
+
       {
         name: "Adiabatic Combustion Acceleration",
-        books: [2],
-        description:
-          "Keith can generate high-pressure combustion bursts from his hands, feet, or back, allowing him to launch himself through the air with explosive speed. These controlled blasts give him the ability to evade incoming attacks, close distance in an instant, or strike from unpredictable angles. When paired with Ethan’s influence, the precision and efficiency of this ability increases dramatically. Keith can use it not just for movement, but as part of coordinated aerial strikes or reactive dodges, making it a core component of his evolving combat style.",
+        domain: "Thermobaric Combustion",
+        classification: "Mobility",
+        release: "KVII",
+        discovery: "beginning",
+
+        description: `
+Keith can generate focused, high-pressure combustion bursts from his hands, feet, or back to propel himself through the air with explosive acceleration. These controlled detonations allow him to evade attacks, close distance almost instantly, reverse direction in mid-air, or add additional momentum to physical strikes.
+
+Ethan’s independent awareness dramatically improves the technique once the brothers begin working together. Ethan can calculate angles, identify incoming threats, or generate his own bursts while Keith focuses on movement. During Twin Flame, both brothers can contribute propulsion simultaneously, allowing Keith’s orange fire and Ethan’s golden-yellow output to produce faster and more precise aerial movement than either could achieve independently.
+        `.trim(),
       },
     ],
   },
+
   {
     name: "Thermobaric Combustion Output",
-    books: [1],
-    description:
-      "Keith’s thermobaric ability stems directly from Ethan’s side of their power. When Ethan takes control during combat, the fire shifts to a vibrant golden yellow. This color signals the use of Ethan’s unique flames that no longer burn aimlessly but erupt with precise explosive force. These yellow flames create intense concussive bursts, triggering localized shockwaves with each impact. They’re reactive, sharp, and designed for close-quarters domination.",
-    evolved: [
-      {
-        title: "Peak Thermobaric Combustion Output",
-        books: [3],
-        description:
-          "In moments of full synchronization, when Keith and Ethan are perfectly aligned, a second flame spectrum emerges in the form of blue. Blue thermobaric fire is extremely rare and reserved for only the most extreme emotional or life-threatening situations. These flames are hyper-condensed and volatile, carrying both intense thermal heat and destructive overpressure. A single blast can vaporize reinforced structures or send shockwaves tearing through the environment.",
+    domain: "Thermobaric Combustion",
+    classification: "Application",
+    release: "KVI",
+    discovery: "end",
+
+    description: `
+Thermobaric fire follows the same color distinction as the rest of Keith and Ethan’s shared ability. Keith’s thermobaric attacks burn orange, reflecting his control of the physical body and his personal expression of their fire. Ethan’s thermobaric attacks burn golden yellow, marking output generated directly through his own consciousness.
+
+The difference is not one of raw temperature or superiority. Both brothers can perform devastating thermobaric attacks. The coloration identifies which consciousness is producing the fire. Keith tends toward aggressive, physically driven applications, while Ethan favors precision, timing, battlefield control, and coordinated pressure attacks.
+    `.trim(),
+
+    progression: {
+      KVI: {
+        end: {
+          title: "Twin Flame Thermobaric Output",
+
+          description: `
+During Twin Flame, Keith and Ethan can generate thermobaric fire simultaneously at full combat output. Keith’s orange flames and Ethan’s golden-yellow fire operate side by side through the same physical position, allowing one brother to attack while the other defends, restrains, constructs, redirects, or produces a second detonation at the same time.
+
+Rather than creating a new flame color, Twin Flame preserves both brothers’ individual signatures. Orange and golden yellow overlap across the surrounding inferno, making their synchronized contributions visually distinct. Their combined output effectively allows two independent expressions of the same Deviant power to operate at once, producing dramatically greater heat concentration, explosive force, construct speed, and battlefield pressure than either brother can sustain alone.
+
+This simultaneous maximum expression places severe strain on Keith’s body and their shared Deviant system. As the form begins to fail, complex extensions such as Ethan’s additional limbs and constructs destabilize first, followed by the surrounding golden-yellow overlay itself. If pushed too long, Twin Flame collapses completely and leaves Keith physically exhausted.
+          `.trim(),
+        },
       },
-    ],
+    },
+
+    subAbilities: [],
   },
 ];
 

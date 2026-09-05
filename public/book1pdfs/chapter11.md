@@ -1,10 +1,10 @@
 Ext. Frasier Towers 50th Floor | Terrace \- Afternoon  
-Several days have passed since S.T.A.T.I.C. was defeated by Iztan. Escaping the ruins of their base, the team seeks shelter at Frasier Towers. Wesley, heavy-hearted, sits outdoors, reflecting on the recent events.
+Several days have passed since S.T.A.T.I.C. was defeated by Iztahn. Escaping the ruins of their base, the team seeks shelter at Frasier Towers. Wesley, heavy-hearted, sits outdoors, reflecting on the recent events.
 
 Wesley sports a cream long-sleeve sweatshirt, complemented by grey cargo pants. His choice of footwear includes cream, black, and white sneakers.
 
 Wesley (V.O)   
-It's been a couple of days since Celeste beat us and got what she wanted. Why did I even bother coming back to fight Iztan if I was just going to fail? 
+It's been a couple of days since Celeste beat us and got what she wanted. Why did I even bother coming back to fight Iztahn if I was just going to fail? 
 
 Mysterious Voice   
 Hey.
@@ -38,7 +38,7 @@ What’s on your mind?
 Wesley sighs tiredly in response to her question.
 
 Wesley   
-Too much. My life got turned upside down ​again. Iztan is back and stronger than ever. 
+Too much. My life got turned upside down ​again. Iztahn is back and stronger than ever. 
 
 Lucinda   
 I see. 
@@ -330,7 +330,7 @@ Wesley
 I don't know. This was different. I can't explain it, but it just feels so important. But speaking of A.P.E.X., I distinctly remember saying I didn't want to involve anyone from that group.
 
 Gavin   
-Your survival was more important than protecting people who didn't deserve it. Andrew was the only person besides you who knew about the location of the crystals. Trust me, if there were any other-
+Your survival was more important than protecting people who didn't deserve it. Jesús was the only person besides you who knew about the location of the crystals. Trust me, if there were any other-
 
 Wesley cuts in, his face showing a genuine sincerity as he locks eyes with Gavin.
 
@@ -597,7 +597,7 @@ He did. He just wasn't in ​his own body. ​
 Gavin and the others stare at Wesley, horrified at the thought.
 
 Gavin   
-Do Andrew and the others know about this? 
+Do Jesús and the others know about this? 
 
 Wesley   
 No, and they never will. I never told the full truth about what happened to protect my dad. He was already feeling guilty enough, and I wasn't about to air out that detail to people. I'm only telling you guys this now because if we're going to be a team, I have to trust you. 
@@ -648,7 +648,7 @@ Wesley
 Thanks guys.   
 ​  
 Int. Frasier Towers 50th Floor | Lounge  \- Afternoon  
-Wesley and the others walk into the lounge, spotting Andrew and Robert engaged in a conversation with Justin. When Keith glances at Wesley, he notices Wesley's discomfort.
+Wesley and the others walk into the lounge, spotting Jesús and Robert engaged in a conversation with Justin. When Keith glances at Wesley, he notices Wesley's discomfort.
 
 Wesley   
 I need to get something in my ​room. I'll be right back. 
@@ -924,7 +924,7 @@ Yeah, well, I don't think Ajax wants to relive the worst moment of ​his entire
 Jade  
 Yeah, you're right. 
 
-Jade turns her attention to Danny, who's casually watching Andrew, Robert, and Justin chat.
+Jade turns her attention to Danny, who's casually watching Jesús, Robert, and Justin chat.
 
 Jade  
 Danny?
@@ -964,7 +964,7 @@ So what are you guys talking about?
 
 Their chat stops short as Danny slides into the seat next to them, prompting Jade and Gavin to quickly join.
 
-Andrew   
+Jesús   
 Nothing. 
 
 Gavin gives the three of them a suspicious look.
@@ -989,7 +989,7 @@ I can make you. Your choice.
 
 Justin swallows nervously.
 
-Andrew  
+Jesús  
 Alright, alright. We were talking about Stephen.
 
 The S.T.A.T.I.C. trio looks confusedly at the Elite Seven trio.
@@ -1002,7 +1002,7 @@ Jade takes a step back, and her eyes go back to normal.
 Jade  
 Yeah, we know the same things you do. 
 
-Andrew  
+Jesús  
 Ok, but it seems like I’m the only one who wants to save him.
 
 Gavin  
@@ -1011,10 +1011,10 @@ That’s not true.
 Jade  
 We all want to help him, especially Wesley. But we also have a much bigger ​problem to deal with first. Trying to focus on both at the same time-
 
-Andrew interrupts.
+Jesús interrupts.
 
-Andrew  
-It would be way too risky. Fine, we destroy Iztan again and save Stephen.  
+Jesús  
+It would be way too risky. Fine, we destroy Iztahn again and save Stephen.  
 ​  
 Gavin  
 Now who’s making dysfunctional plans…

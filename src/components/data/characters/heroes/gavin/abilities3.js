@@ -1,59 +1,123 @@
 const abilities = [
   {
     name: "Nuclear Fusion Flight",
-    books: [1],
-    description:
-      "By channeling his stored nuclear fusion energy into a continuous, radiant aura, Gavin achieves propulsion without the need for focused bursts or mechanical thrust. This energy envelope generates a constant lift and forward momentum, allowing him to fly seamlessly at high speeds while maintaining full maneuverability. The aura’s output can be adjusted on the fly, intensified for rapid acceleration or tapered for hovering and slow movement. In the atmosphere, his top speed approaches Mach-level ranges, with the surrounding air shimmering from the intense heat and glowing with the distinctive fusion color of his current energy tier. This method of flight integrates directly with his combat style, enabling him to weave through the sky, dodge attacks with precision, and maintain sustained aerial dominance without breaking flow.",
-    evolved: [
-      {
-        title: "Nova Flight",
-        books: [1],
-        description:
-          "After Gavin’s hypernova transformation, his flight ability evolved alongside the rest of his arsenal. Now fueled by his nova-infused physiology, his propulsion manifests as a brilliant blue-gold energy aura that radiates from his entire body, generating both lift and forward momentum in a seamless, continuous flow. This aura taps directly into his nova energy reserves, allowing for unmatched aerial control and raw speed. In atmosphere, his top speed soars well past Mach-level ranges, approaching hypersonic bursts during combat maneuvers. The surrounding air warps under the heat and force, leaving luminous trails that mark his path like the streak of a shooting star. With this evolved form, Gavin’s flight is not only faster and more agile but also capable of carrying him into and through extreme environments—including near-space combat—without loss of control or stability.",
+    domain: "Nuclear Fusion Energy Manipulation",
+    classification: "Mobility",
+    release: "KVI",
+    discovery: "beginning",
 
+    description: `
+By channeling his stored nuclear fusion energy into a continuous, radiant aura, Gavin achieves propulsion without the need for focused bursts or mechanical thrust. This energy envelope generates constant lift and forward momentum, allowing him to fly seamlessly at high speeds while maintaining full maneuverability.
+
+The aura’s output can be adjusted in real time, intensified for rapid acceleration or tapered for hovering and slower movement. In the atmosphere, his speed can approach Mach-level ranges, with the surrounding air shimmering from the intense heat and glowing with the distinctive fusion color associated with his current energy tier.
+
+This method of flight integrates directly with his combat style, allowing Gavin to maneuver through the air, evade attacks with precision, and maintain sustained aerial control without interrupting his energy output.
+    `.trim(),
+
+    progression: {
+      KVIII: {
+        end: {
+          title: "Nova Flight",
+
+          description: `
+Following Gavin’s hypernova transformation, his flight evolves alongside the rest of his energy system. Now fueled by his nova-infused physiology, propulsion manifests as a brilliant blue, gold, and white energy aura radiating from his entire body, generating lift and forward momentum in a seamless continuous flow.
+
+This evolved state grants dramatically greater aerial speed and control. In atmosphere, Gavin can accelerate well beyond his former Mach-level limits and reach hypersonic bursts during high-output maneuvers. The surrounding air distorts beneath the heat and force of his movement, leaving luminous trails along his flight path.
+
+Nova Flight also allows Gavin to maintain stable movement through extreme environments, including high-altitude and near-space combat, without losing control or propulsion efficiency.
+          `.trim(),
+        },
       },
-    ]
+    },
+
+    subAbilities: [],
   },
+
   {
     name: "Heat & Radiation Immunity",
-    books: [1],
-    description:
-      "Gavin’s fusion-based physiology renders him completely immune to extreme heat, radiation, and similar environmental hazards. Instead of harming him, these forces are absorbed by his body and converted into usable energy, reinforcing his internal reserves and further empowering his abilities.",
-    evolved: [
-      {
-        title: "Cosmic Immunity",
-        books: [3],
-        description:
-        "Gavin's immunity evolves into full cosmic-level environmental invulnerability. He can survive and operate in the most extreme conditions in the known universe: solar flares, black hole radiation, neutron star proximity, and deep space vacuum without sustaining any damage. His cells operate at such a heightened energy frequency that even the chaotic fallout of a supernova is harmless to him. All energy-based attacks, regardless of origin or scale, are either absorbed or reflected, effectively making him impervious to most conventional or cosmic hazards."
-      }
-    ]
+    domain: "Alpha Deviant Physiology",
+    classification: "Physiology",
+    release: "KVI",
+    discovery: "beginning",
+
+    description: `
+Gavin’s fusion-based physiology renders him completely immune to extreme heat, radiation, and similar environmental hazards. Rather than damaging him, these forms of energy can be absorbed by his body and converted into usable power, reinforcing his internal reserves and further fueling his abilities.
+    `.trim(),
+
+    progression: {
+      KVIII: {
+        end: {
+          title: "Cosmic Immunity",
+
+          description: `
+Following the evolution of Gavin’s physiology, his environmental resistance expands to a cosmic scale. He can survive and operate under conditions that would be immediately lethal to conventional life, including intense stellar radiation, solar flares, neutron-star proximity, deep-space vacuum, and the energetic fallout surrounding catastrophic stellar events.
+
+His nova-infused cells remain stable under extreme heat and radiation levels far beyond what his original fusion physiology could tolerate, allowing him to operate in hostile cosmic environments without sustaining conventional environmental damage.
+          `.trim(),
+        },
+      },
+    },
+
+    subAbilities: [],
   },
+
   {
-    name: "Energy Levels (Color Spectrum)",
-    books: [1],
-    description:
-      "Gavin’s fusion energy is visually expressed through a shifting aura that changes color depending on how much power he has stored. At 25%, his aura glows in a light Electric Blue, deepening into Cerulean Blue at 50%, marking the limit of his stable base output.",
-    evolved: [
-      {
-        title: "Enhanced Energy Levels",
-        books: [2],
-        description:
-          "After refining his control, Gavin’s aura takes on a darker Ultramarine Blue at 75%, signaling dangerous volatility. At 100%, when he enters his Energy Form, his aura transforms into a rich, dense Prussian Blue, its intensity warping the air around him from sheer fusion heat and pressure.",
+    name: "Energy Levels",
+    domain: "Energy Amplification",
+    classification: "Physiology",
+    release: "KVI",
+    discovery: "beginning",
+
+    description: `
+Gavin’s stored fusion energy is visually expressed through changes in the color, intensity, and pressure of the aura surrounding his body. These visual shifts correspond with measurable increases in his internal energy capacity and provide an observable indication of how much power he is currently channeling.
+
+At 25%, his energy appears Electric Blue. At 35%, the same Electric Blue becomes noticeably brighter and more intense as the amount of fusion energy circulating through his body increases. At 50%, his aura deepens into Cerulean Blue and becomes significantly tighter and denser around his body.
+
+Fifty percent represents the highest output Gavin can reliably sustain during KVI without exceeding the limits of his current physiological control.
+    `.trim(),
+
+    progression: {
+      KVII: {
+        middle: {
+          title: "Enhanced Energy Levels",
+
+          description: `
+As Gavin gains greater control over his fusion energy, previously inaccessible energy thresholds begin producing their own distinct visual states.
+
+At 75%, his aura shifts into Ultramarine Blue, representing a dramatic increase in stored energy and a much more volatile level of output. At 100%, Gavin enters his fully charged Energy Form and his aura deepens into Prussian Blue, becoming exceptionally dense as heat, pressure, and fusion energy radiate continuously from his body.
+
+These colors function as visible indicators of his expanding energy capacity, making his current output increasingly identifiable simply by observing the aura surrounding him.
+          `.trim(),
+        },
+
+        end: {
+          title: "Peak Energy Levels",
+
+          description: `
+When Gavin exceeds his normal 100% ceiling and enters his Overload State, the stable color progression breaks down entirely. His aura begins cycling through Electric Blue, Cerulean Blue, Ultramarine Blue, and Prussian Blue in unstable, wave-like fluctuations.
+
+Rather than representing a single controlled threshold, the shifting spectrum reflects the competing energy states surging through his body as his multiplier pushes beyond its natural operating range. The constantly changing aura serves as an immediate visual warning that Gavin has exceeded his established limiter and is operating at an unsustainable level.
+          `.trim(),
+        },
       },
-      {
-        title: "Peak Energy Levels",
-        books: [2],
-        description:
-          "If Gavin exceeds 100% and enters his Overload State, his aura becomes unstable, cycling hypnotically through Electric Blue, Cerulean, Ultramarine, and Prussian Blue in a ripple-like, multidimensional wave. This shifting spectrum serves as a visual warning that he has broken past his natural limiter and is treading into dangerous territory.",
+
+      KVIII: {
+        end: {
+          title: "Nova Energy Levels",
+
+          description: `
+Following Gavin’s hypernova evolution, the original tier-based color spectrum becomes obsolete. His energy no longer progresses through distinct percentage colors as his output rises.
+
+Instead, Gavin consistently radiates a combined white, gold, and blue nova aura generated by his permanently elevated energy state. Changes in output are expressed through the aura’s intensity, heat distortion, environmental pressure, and overall scale rather than through separate color stages.
+
+His power is no longer visually measured by which color he has reached, but by how strongly his nova energy affects the space surrounding him.
+          `.trim(),
+        },
       },
-      {
-        title: "Nova Energy Levels",
-        books: [3],
-        description:
-          "After his hypernova event, Gavin’s visual energy spectrum is abandoned entirely. Instead of fluctuating colors, he now radiates a permanent, consistent aura of white, gold, and blue energy, a constant manifestation of his nova-infused physiology. His power is no longer measured by what is seen, but by what is felt, the gravitational weight, heat distortion, and raw pressure he exerts on the environment, instantly recognized as the presence of a living supernova.",
-      }
-    ]
-  }
+    },
+
+    subAbilities: [],
+  },
 ];
 
 export default abilities;

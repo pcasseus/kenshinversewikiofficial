@@ -1,5 +1,4 @@
 const skyler = {
-  id: "#048",
   name: "Skyler Jordan",
   slug: "skyler",
   image: "/skyler.jpg",

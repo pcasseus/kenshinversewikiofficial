@@ -1,6 +1,5 @@
 const logan = {
-  id: "#031",
-  name: "Logan Summers",
+  name: "Logan Halden",
   slug: "logan",
   image: "/logan.jpg",
   class: "Beta",
@@ -60,7 +59,7 @@ const logan = {
       },
       {
         name: "Average Fighter",
-        description: "Logan isn’t a trained fighter like his brothers Gavin or Aiden, but he’s no pushover. Taught by his father, Warren Summers, he learned a practical, no-frills approach to fighting—focused on efficiency, defense, and survival. While not flashy, his style is adaptable and direct, allowing him to hold his own against standard threats. In close combat, Logan supplements his technique with disruptive energy bursts and displacements, giving him a chaotic edge even against stronger opponents.",
+        description: "Logan isn’t a trained fighter like his brothers Gavin or Aiden, but he’s no pushover. Taught by his father, Warren Halden, he learned a practical, no-frills approach to fighting—focused on efficiency, defense, and survival. While not flashy, his style is adaptable and direct, allowing him to hold his own against standard threats. In close combat, Logan supplements his technique with disruptive energy bursts and displacements, giving him a chaotic edge even against stronger opponents.",
         book: "Book 2",
         subAbilities: [
           { name: "Entropy Touch", description: "Logan’s physical attacks are subtly infused with Anolmic energy, causing minor destabilization on contact. Even a simple punch or shoulder check carries a corruptive signature that disrupts an opponent’s balance, motor coordination, or spatial awareness. Targets struck by Logan may feel briefly off-kilter—like the ground shifted beneath them or their limbs misfired. Additionally, when Logan is actively leaking energy, just being in his proximity can cause opponents to experience disorientation, delayed reflexes, or static in their vision. It's not a knockout effect—but it gives Logan a constant edge in close-quarters combat.", book: "Book 2"},
@@ -79,28 +78,28 @@ const logan = {
     ],
     relationships: [
       {
-        name: "Warren Summers",
+        name: "Warren Halden",
         role: "Dad",
         status: "Alive",
         link: "/characters/warren",
         image: "/warren.jpg"
       },
       {
-        name: "Katherine Summers",
+        name: "Katherine Halden",
         role: "Mom",
         status: "Alive",
         link: "/characters/katherine",
         image: "/katherine.jpg"
       },
       {
-        name: "Gavin Summers",
+        name: "Gavin Halden",
         role: "Brother",
         status: "Alive",
         link: "/characters/gavin",
         image: "/gavin.jpg"
       },
       {
-        name: "Aiden Summers",
+        name: "Aiden Halden",
         role: "Brother",
         status: "Alive",
         link: "/characters/aiden",

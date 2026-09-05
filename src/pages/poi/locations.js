@@ -2,16 +2,16 @@ export const locations = [
   {
     name: "Wesley's Loft",
     slug: "wesleys-loft",
-    description: "Wesley's home in Book 1 where he was originally living before Gavin Summers appeared and recruited him.",
+    description: "Wesley's home in Book 1 where he was originally living before Gavin Halden appeared and recruited him.",
     lat: 34.035686,
     lng: -118.230990,
     lore: [
-      "📘 Book 1 – Chapter 1: Gavin Summers appears and warns him of an incoming threat.",
+      "📘 Book 1 – Chapter 1: Gavin Halden appears and warns him of an incoming threat.",
       "📘 Book 1 – Chapter 1: Destroyed by Shi and Talia"
     ],
     characters: [
       { name: "Wesley Johnson", slug: "wesley-johnson", img: "/wesley.jpg" },
-      { name: "Gavin Summers", slug: "gavin-summers", img: "/gavin.jpg" },
+      { name: "Gavin Halden", slug: "gavin-summers", img: "/gavin.jpg" },
       { name: "Stephen Delgado", slug: "stephen-delgado", img: "/stephen.jpg" },
       { name: "Talia Yassin", slug: "talia-yassin", img: "/talia.jpg" }
     ]
@@ -19,7 +19,7 @@ export const locations = [
   {
     name: "S.T.A.T.I.C. Underground Base",
     slug: "static-underground-base",
-    description: "The base where Ajax and the team held up until Iztan invaded and destroyed it.",
+    description: "The base where Ajax and the team held up until Iztahn invaded and destroyed it.",
     lat: 45.920096,
     lng: -90.452294,
     lore: [
@@ -29,7 +29,7 @@ export const locations = [
     ],
     characters: [
       { name: "Ajax Johnson", slug: "ajax-johnson", img: "/ajax.jpg" },
-      { name: "Gavin Summers", slug: "gavin-summers", img: "/gavin.jpg" },
+      { name: "Gavin Halden", slug: "gavin-summers", img: "/gavin.jpg" },
       { name: "Jade Stone", slug: "jade-stone", img: "/jade.jpg" },
       { name: "Keith Powers", slug: "keith-powers", img: "/keith.jpg" },
       { name: "Danny Foster", slug: "danny-foster", img: "/danny.jpg" },
@@ -53,17 +53,17 @@ export const locations = [
     ],
     characters: [
       { name: "Ramesh Frasier", slug: "ramesh-frasier", img: "/ramesh.jpg" },
-      { name: "Logan Summers", slug: "logan-summers", img: "/logan.jpg" }
+      { name: "Logan Halden", slug: "logan-summers", img: "/logan.jpg" }
     ]
   },
   {
-    name: "Iztan Mountain Base",
+    name: "Iztahn Mountain Base",
     slug: "iztan-mountain-base",
-    description: "Iztan's stronghold where the team confronted Azazel and Celeste.",
+    description: "Iztahn's stronghold where the team confronted Azazel and Celeste.",
     lat: 45.6657089,
     lng: -111.1371696,
     characters: [
-      { name: "Iztan", slug: "iztan", img: "/iztan.jpg" },
+      { name: "Iztahn", slug: "iztan", img: "/iztan.jpg" },
       { name: "Azazel", slug: "azazel", img: "/azazel.jpg" },
       { name: "Celeste", slug: "celeste", img: "/celeste.jpg" }
     ]
@@ -76,14 +76,14 @@ export const locations = [
     lng: 4.7106938,
     characters: [
       { name: "Wesley Johnson", slug: "wesley-johnson", img: "/wesley.jpg" },
-      { name: "Gavin Summers", slug: "gavin-summers", img: "/gavin.jpg" },
+      { name: "Gavin Halden", slug: "gavin-summers", img: "/gavin.jpg" },
       { name: "Jade Stone", slug: "jade-stone", img: "/jade.jpg" },
     ]
   },
   {
     name: "Stryker's Warehouse",
     slug: "strykers-warehouse",
-    description: "Where Wesley debuted in the series as the powerful vigilante of New York, Ryctor and took down the last of Iztan's New York City forces.",
+    description: "Where Wesley debuted in the series as the powerful vigilante of New York, Ryctor and took down the last of Iztahn's New York City forces.",
     lat: 40.697778,
     lng: -73.971255,
     characters: [
@@ -103,7 +103,7 @@ export const locations = [
     characters: [
       { name: "Wesley Johnson", slug: "wesley-johnson", img: "/wesley.jpg" },
       { name: "Zoey Pierce-Harris", slug: "zoey-harris", img: "/zoey.jpg" },
-      { name: "Logan Summers", slug: "logan-summers", img: "/logan.jpg" },
+      { name: "Logan Halden", slug: "logan-summers", img: "/logan.jpg" },
       { name: "Samantha Clark", slug: "samantha-clark", img: "/samantha.jpg" }
     ]
   },
@@ -142,17 +142,17 @@ export const locations = [
   {
     name: "New York Presbyterian Hospital",
     slug: "new-york-presbyterian-hospital",
-    description: "Where Andrew Torres was hospitalized and a major battle occurred.",
+    description: "Where Jesús Torres was hospitalized and a major battle occurred.",
     lat: 40.7652595,
     lng: -73.9542491,
     characters: [
-      { name: "Andrew Torres", slug: "andrew-torres", img: "/andrew.jpg" },
+      { name: "Jesús Torres", slug: "jesús-torres", img: "/jesús.jpg" },
       { name: "Wesley Johnson", slug: "wesley-johnson", img: "/wesley.jpg" },
       { name: "Yvonne Montoya", slug: "yvonne-montoya", img: "/yvonne.jpg" },
       { name: "Kasen Malik Jr.", slug: "kasen-malik-jr", img: "/kasen.jpg" },
       { name: "Brianna Gutiérrez", slug: "brianna-gutiérrez", img: "/brianna.jpg" },
       { name: "David De Luca", slug: "david-de-luca", img: "/david.jpg" },
-      { name: "Gavin Summers", slug: "gavin-summers", img: "/gavin.jpg" },
+      { name: "Gavin Halden", slug: "gavin-summers", img: "/gavin.jpg" },
       { name: "Keith Powers", slug: "keith-powers", img: "/keith.jpg" },
     ]
   },
@@ -169,15 +169,15 @@ export const locations = [
   {
     name: "Summer's Residence",
     slug: "summers-residence",
-    description: "Where the Summers Family reside.",
+    description: "Where the Halden Family reside.",
     lat: 40.774269,
     lng: -73.7739359,
     characters: [
-      { name: "Warren Summers", slug: "warren-summers", img: "/warren.jpg" },
-      { name: "Katherine Summers", slug: "katherine-summers", img: "/katherine.jpg" },
+      { name: "Warren Halden", slug: "warren-summers", img: "/warren.jpg" },
+      { name: "Katherine Halden", slug: "katherine-summers", img: "/katherine.jpg" },
       { name: "Wesley Johnson", slug: "wesley-johnson", img: "/wesley.jpg" },
-      { name: "Gavin Summers", slug: "gavin-summers", img: "/gavin.jpg" },
-      { name: "Logan Summers", slug: "logan-summers", img: "/logan.jpg" },
+      { name: "Gavin Halden", slug: "gavin-summers", img: "/gavin.jpg" },
+      { name: "Logan Halden", slug: "logan-summers", img: "/logan.jpg" },
       { name: "Joaquin Kuan", slug: "joaquin-summers", img: "/joaquin.jpg" },
     ]
   },

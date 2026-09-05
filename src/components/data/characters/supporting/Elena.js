@@ -1,8 +1,7 @@
-const mary = {
-  id: "#020",
+const elena = {
   name: "Mary Santiago",
-  slug: "mary",
-  image: "/mary.jpg",
+  slug: "elena",
+  image: "/elena.jpg",
   class: "Civilian",
   status: "Alive",
   tagline: "",
@@ -39,4 +38,4 @@ const mary = {
   tools: []
 };
 
-export default mary;
+export default elena;

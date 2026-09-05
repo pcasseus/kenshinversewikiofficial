@@ -4,7 +4,7 @@ export default {
     "./index.html",
     "./src/**/*.{js,jsx}",
   ],
-  safelist: ['animate-blink'], // ✅ THIS IS CRUCIAL
+  safelist: ['animate-blink'], 
   theme: {
     extend: {
       animation: {
@@ -14,7 +14,7 @@ export default {
         scrollMatrix: 'scrollMatrix 60s linear infinite',
         glowPulse: 'glowPulse 2.5s ease-in-out infinite',
         scan: 'scan 3s linear infinite',
-        blink: 'blink 1.2s infinite', // 👈 already good
+        blink: 'blink 1.2s infinite',
       },
       keyframes: {
         fadeInDown: {

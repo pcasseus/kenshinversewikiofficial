@@ -26,15 +26,9 @@ const CharacterFilters = ({
                 <button
                   type="button"
                   onClick={() => onCharacterSelect(character)}
-                  className="flex w-full items-center justify-between px-4 py-3 text-left text-yellow-200 transition hover:bg-yellow-700/30"
+                  className="flex w-full items-center px-4 py-3 text-left text-yellow-200 transition hover:bg-yellow-700/30"
                 >
                   <span>{character.name}</span>
-
-                  {character.comingSoon && (
-                    <span className="ml-4 text-[10px] font-bold uppercase tracking-widest text-red-400">
-                      Locked
-                    </span>
-                  )}
                 </button>
               </li>
             ))}

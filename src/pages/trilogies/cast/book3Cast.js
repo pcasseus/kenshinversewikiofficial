@@ -10,7 +10,7 @@ export const book3Cast = [
     name: "Kyros",
     slug: "kyros",
     image: "/kyros.jpg",
-    role: "Primary Antagonist",
+    role: "Prielena Antagonist",
     comingSoon: true,
   },
   {

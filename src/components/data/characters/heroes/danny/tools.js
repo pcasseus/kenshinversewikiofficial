@@ -1,20 +1,57 @@
 const tools = [
   {
     name: "ARC-7.9X Prototype",
-    description:
-      "The first version of Danny’s neural regulator was the ARC-7.9X Prototype, a classified implant designed by Ivan Dvořák using S.T.A.T.I.C. technology. Roughly coin-sized, its titanium shell was etched with fine circuit grooves, and at its center pulsed a crystalline chlorozene core that gave off a faint emerald glow. The device had exposed wiring threads that betrayed its experimental design, emphasizing function over polish. It was stored in S.T.A.T.I.C.’s underground research wing before being surgically implanted into Danny’s neck, where it served as the only thing keeping his unstable neuroelectric divergence under control.",
+    type: "Neural Regulator",
+    classification: "Integrated Technology",
+    release: "KVI",
+    discovery: "beginning",
+
+    description: `
+The first version of Danny’s neural regulator is the ARC-7.9X Prototype, a classified implant designed by Ivan Dvořák using S.T.A.T.I.C. technology. Roughly coin-sized, its titanium shell is etched with fine circuit grooves, and at its center pulses a crystalline chlorozene core that gives off a faint emerald glow. Exposed wiring threads betray its experimental design, emphasizing function over polish.
+
+Surgically implanted at the base of Danny’s neck, the ARC-7.9X regulates the unstable neurological activity produced by his Neuroelectric Deviance. Rather than granting Danny his abilities, the implant stabilizes and sharpens the processes already occurring within his brain and nervous system, allowing him to maintain greater control over his accelerated cognition and neuroelectric output.
+    `.trim(),
+
     image: "/tools/dannyschip.png",
+
+    progression: {
+      KVII: {
+        beginning: {
+          title: "Quantum Synaptic Lattice",
+          designation: "ARC Node Mk II",
+          developer:
+            "William Hutton / Frasier Industries",
+
+          description: `
+Following the destruction of the ARC-7.9X Prototype, William Hutton develops a substantially more advanced replacement using experimental Frasier Industries technology. Designated the ARC Node Mk II and built around a Quantum Synaptic Lattice, the new regulator is smaller, faster, and far more deeply integrated with Danny’s nervous system than its predecessor.
+
+The device is approximately the size of a thumbnail, with a translucent shell exposing an internal lattice of emerald-green chlorozene pathways interwoven with silver quantum circuitry. Its symmetrical microstructure appears almost grown rather than conventionally manufactured, emitting a soft glow and faint hum while active.
+
+Unlike the original prototype, the Quantum Synaptic Lattice does more than suppress neurological instability. Its Cognitive Load Balancing system distributes the immense processing demands created by Danny’s accelerated cognition, while Electro-Neural Stabilization regulates the bioelectric activity moving through his nervous system. A dedicated Phase Transition Safeguard maintains neurological and molecular synchronization during phasing events.
+
+This allows the regulator to stabilize Danny without imposing the same restrictions as the original ARC-7.9X, giving his natural abilities significantly greater room to develop.
+          `.trim(),
+        },
+      },
+
+      KVIII: {
+        end: {
+          title: "ARC Node ∞",
+          designation: "Aetherian Regulator",
+          developer:
+            "Mathew Salazar & Jose Rivera / Aetherian Build",
+
+          description: `
+The final evolution of Danny’s neural regulator abandons conventional engineering entirely. Created through the combined abilities of Mathew Salazar and Jose Rivera, the ARC Node ∞ is grown from Deviant biological matter rather than assembled from mechanical components.
+
+The regulator resembles a smooth shard of living emerald glass threaded with flowing chlorozene energy. Its crystalline-organic structure subtly shifts as though breathing, continuously adapting to the neurological and bioelectric activity passing through it. There are no conventional wires, ports, or mechanical interfaces.
+
+Once fused permanently into the base of Danny’s neck, the ARC Node ∞ becomes a living extension of his nervous system rather than an external device regulating it. Its structure responds dynamically to changes in Danny’s cognition, physiology, and neuroelectric output, allowing the regulator to evolve alongside the very power it was created to stabilize.
+          `.trim(),
+        },
+      },
+    },
   },
 ];
-
-//ARC Node Mk II (William Hutton / Frasier Industries Build)
-//The second version, the ARC Node Mk II, was engineered by William Hutton using experimental Frasier Industries technology decades ahead of S.T.A.T.I.C.’s capabilities. It was a sleek, thumbnail-sized chip with a translucent shell, its inner lattice shimmering with emerald-green chlorozene veins interwoven with silver quantum circuitry. The device emitted a faint hum and glow, resembling a miniature reactor more than a medical implant. Initially housed in Frasier Industries’ Manhattan research division, it was later surgically installed at the base of Danny’s neck after the destruction of the prototype, amplifying his powers while keeping them barely stable.
-
-//The Mk II is sleeker and more advanced, about the size of a thumbnail but layered with fractal microstructures that shimmer under the light. Its surface is translucent, showing a lattice of emerald-green energy veins interwoven with silver quantum circuitry. The design is perfectly symmetrical, as if grown rather than engineered. It emits a soft, steady glow and hums faintly when activated, giving the impression of a miniature power reactor that bridges technology and biology.
-
-//ARC Node ∞ (Mathew Salazar & Jose Rivera / Aetherian Build)
-//The final and most advanced version of Danny’s regulator, the ARC Node ∞, was created in a collaborative effort between Mathew Salazar and Jose Rivera after the destruction of the Mk II in the battle against Axel Pierce. Forged through Mathew’s Reality Drafting and Jose’s Supernatural Intelligence, it was not built but grown from pure Deviant biological matter at the Aetherian facility. Unlike its predecessors, it resembled a living shard of emerald glass threaded with veins of flowing chlorozene energy, subtly shifting as though alive. Originally stabilized within a containment cradle in Aetheria’s bioengineering wing, it was later fused permanently into the base of Danny’s neck, merging seamlessly with his nervous system as a living extension of his power.
-
-//The final version no longer resembles conventional technology. It is a living fragment of bioengineered matter, crystalline and organic at once, shaped like a smooth shard of emerald glass threaded with veins of light. Its structure shifts subtly as though breathing, with chlorozene currents flowing through it like liquid fire. There are no ports, wires, or mechanical components — it feels more like holding a piece of condensed thought than a machine. The longer it is observed, the more it seems to change, adapting to perception as if it were aware.
 
 export default tools;

@@ -28,7 +28,7 @@ Gavin hears people screaming and gunfire outside.
 Gavin  
 Oh no. ​
 
-Gavin looks out the window and sees the students running away from armed Iztan soldiers. He quickly contacts Danny for backup.
+Gavin looks out the window and sees the students running away from armed Iztahn soldiers. He quickly contacts Danny for backup.
 
 Gavin (On Comms)  
 Danny? Come in.
@@ -59,7 +59,7 @@ Danny (On Comms)
 We were supposed to get in and get out. What are we going to do now? 
 
 Gavin (On Comms)  
-Relax, I have a plan. I need you to evacuate all the students and take out any Iztan agents if necessary. I’m gonna get these kids back to the Javelin. The car is still in the parking lot.
+Relax, I have a plan. I need you to evacuate all the students and take out any Iztahn agents if necessary. I’m gonna get these kids back to the Javelin. The car is still in the parking lot.
 
 Danny (On Comms)  
 Got it. But what about Wesley?
@@ -95,17 +95,17 @@ The group starts running toward the front entrance of the building.
 Ciara  
 The exit is around this corner.
 
-As they round the corner, they come face to face with a group of Iztan soldiers, their weapons raised and pointed directly at them. 
+As they round the corner, they come face to face with a group of Iztahn soldiers, their weapons raised and pointed directly at them. 
 
 Gavin  
 Woah\!
 
-Gavin steps to the forefront, placing himself between the group of frightened students and the menacing line of Iztan soldiers. With a determined expression, he raises his open hand in a clear gesture of both defense and negotiation.
+Gavin steps to the forefront, placing himself between the group of frightened students and the menacing line of Iztahn soldiers. With a determined expression, he raises his open hand in a clear gesture of both defense and negotiation.
 
 Gavin   
 Put your weapons down. These are innocent children. 
 
-Iztan Soldier 1  
+Iztahn Soldier 1  
 Give us the girl, you Deviant freak.
 
 Gavin's lips curl into a confident smirk, and he slowly nods, his eyes never leaving the soldiers before him.
@@ -113,13 +113,13 @@ Gavin's lips curl into a confident smirk, and he slowly nods, his eyes never lea
 Gavin  
 I have a counteroffer.
 
-Iztan Soldier 2  
+Iztahn Soldier 2  
 And what would that be?
 
 Gavin  
 This.
 
-Gavin's eyes flare electric blue as his power surges. He releases a controlled burst of energy, aiming it directly at the Iztan soldiers. The plasma blast strikes them with precision, and the soldiers are instantly incapacitated, collapsing to the ground. The students around him stare in a mixture of awe and shock.
+Gavin's eyes flare electric blue as his power surges. He releases a controlled burst of energy, aiming it directly at the Iztahn soldiers. The plasma blast strikes them with precision, and the soldiers are instantly incapacitated, collapsing to the ground. The students around him stare in a mixture of awe and shock.
 
 Marcellus   
 What the hell?
@@ -130,7 +130,7 @@ How did you…?
 Zoey  
 No offense, but what exactly are you?
 
-The sound of approaching footsteps echoes down the hallway. All eyes turn towards the source of the noise, revealing a young man at the forefront, accompanied by a contingent of Iztan soldiers. As Gavin's gaze falls upon the young man, a flicker of recognition crosses his face. Quickly assessing the situation, Gavin decides to alter the plan.
+The sound of approaching footsteps echoes down the hallway. All eyes turn towards the source of the noise, revealing a young man at the forefront, accompanied by a contingent of Iztahn soldiers. As Gavin's gaze falls upon the young man, a flicker of recognition crosses his face. Quickly assessing the situation, Gavin decides to alter the plan.
 
 Gavin  
 Crap, I don’t have time to explain that. Change ​of plans. Who has their license?
@@ -173,7 +173,7 @@ Danny (Over Comms)
 What? I’m not leaving you back here.
 
 Gavin (Over Comms)  
-I need to help Wes, and we can't risk Iztan finding them.
+I need to help Wes, and we can't risk Iztahn finding them.
 
 Danny (Over Comms)  
 Gavin I can help you\!
@@ -216,7 +216,7 @@ Yeah sorry not happening and Wes can handle himself.
 Aiden  
 Your loss.​
 
-The Iztan soldiers standing by Aiden aim their guns at Gavin. Gavin's eyes glow electric blue and all of the soldiers grab their heads in anguish. Aiden stands there unfazed, a sneer on his face, as the soldiers all fall to the ground unconscious.
+The Iztahn soldiers standing by Aiden aim their guns at Gavin. Gavin's eyes glow electric blue and all of the soldiers grab their heads in anguish. Aiden stands there unfazed, a sneer on his face, as the soldiers all fall to the ground unconscious.
 
 Aiden   
 Impressive. You redirected your energy at the lowest level to incapacitate them without causing serious harm. But you knew that wouldn't be enough to stop me. Come on, little brother. You and I both know that fighting me is pointless. You can't win.
@@ -300,7 +300,7 @@ You don’t know that in fact, you​ don’t know anything. ​
 Aiden's eyes emit a piercing lemon yellow glow as he releases an energy blast towards Gavin. Reacting hastily, Gavin absorbs the incoming attack, the energy swirling around him.
 
 Gavin   
-What did she promise you? Why are you really working for Iztan?
+What did she promise you? Why are you really working for Iztahn?
 
 Aiden   
 Isn't it obvious? Celeste promised that after we bring Azazel back to life, I can save Violet.

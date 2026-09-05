@@ -1,4 +1,4 @@
-Int. Iztan’s Mountain Base \- Afternoon
+Int. Iztahn’s Mountain Base \- Afternoon
 
 As they exit the cave, Wesley glances back and witnesses the entire room collapsing. The entrance hole fills up behind them, and Keith safely lands them on the ground. Wesley can feel his legs shaking beneath him.
 
@@ -131,7 +131,7 @@ Delusional? You don't know anything about what I've been through. You have no id
 Gavin loses his nerve after hearing Aiden’s comment. 
 
 Gavin (Shouting)  
-Are you kidding me? Do you know what it was like for me to watch my bestfriends suffer because you and Shi poisoned them? Or what it was like to watch Danny struggle to recover from Axel shattering his spine? Do you know how much death I’ve had to witness because of Iztan alone? I’m so sick of you trying to justify your actions when you're not even seeing the bigger picture. If you keep going down this path, I'll have no choice but to put you in your place.
+Are you kidding me? Do you know what it was like for me to watch my bestfriends suffer because you and Shi poisoned them? Or what it was like to watch Danny struggle to recover from Axel shattering his spine? Do you know how much death I’ve had to witness because of Iztahn alone? I’m so sick of you trying to justify your actions when you're not even seeing the bigger picture. If you keep going down this path, I'll have no choice but to put you in your place.
 
 Aiden (Shouting)   
 You and I both know you don’t have it in you. You’ve always been too weak to do what was necessary. This time is no different. I’ve been tossing you around like a ragdoll when you and I both know you’ve been holding back this entire time. You won't hurt me.
@@ -272,7 +272,7 @@ Gavin comes to a sudden stop, visibly hesitating before crossing his arms once m
 Gavin   
 I'm listening. 
 
-Int. Iztan’s Mountain Base | Celeste’s Lab \- Afternoon
+Int. Iztahn’s Mountain Base | Celeste’s Lab \- Afternoon
 
 Elsewhere…  
 Jade faces off against Talia and her clones. 
@@ -346,7 +346,7 @@ Or…
 
 An ice dagger begins to form in Jade's hand, while electricity crackles around Danny's body.
 
-Int. Iztan’s Mountain Base | Chamber Room \- Afternoon
+Int. Iztahn’s Mountain Base | Chamber Room \- Afternoon
 
 Simultaneously…   
 Ajax's eyes slowly open, his surroundings coming into focus. His vision remains blurry, preventing him from making out the figures in front of him. Blinking several times, he attempts to clear his sight, but it only intensifies his discomfort. In a reflex, he reaches up to clutch his head, but to his shock, he realizes that his cybernetic arm is no longer there.
@@ -354,7 +354,7 @@ Ajax's eyes slowly open, his surroundings coming into focus. His vision remains 
 Ajax (Thinking)   
 My arm. What the hell happened?
 
-As memories of his fight with Celeste resurface, Ajax recalls the bitter taste of failure just before he passes out. Gradually, his vision clears, revealing a daunting sight: over a dozen new Iztan soldiers, rifles at the ready, positioned on both sides of Celeste. His gaze then rises to the chamber's apex, where a fully formed Azazel floats ominously.
+As memories of his fight with Celeste resurface, Ajax recalls the bitter taste of failure just before he passes out. Gradually, his vision clears, revealing a daunting sight: over a dozen new Iztahn soldiers, rifles at the ready, positioned on both sides of Celeste. His gaze then rises to the chamber's apex, where a fully formed Azazel floats ominously.
 
 Ajax (Thinking)   
 No.  
@@ -499,12 +499,12 @@ Wesley (Thinking)
 Dad’s going to need that arm if he plans on fighting. Azazel may not be able to use his possession, but who knows what else Celeste gave him before bringing him back. 
 
 Ajax   
-It looks like your resurrection didn’t grant you all of your memories. Let me remind you how this story goes. Last time, you were taken down, it was by the very unity and resilience that you so carelessly dismiss. This war will end the same way, with your ego shattered and Iztan crumbling to dust.
+It looks like your resurrection didn’t grant you all of your memories. Let me remind you how this story goes. Last time, you were taken down, it was by the very unity and resilience that you so carelessly dismiss. This war will end the same way, with your ego shattered and Iztahn crumbling to dust.
 
 As Wesley's gaze sweeps past Celeste and Azazel, he immediately notices Ajax's cybernetic arm resting on a nearby table.
 
 Wesley (Shouting)  
-And this time, you’re not taking the easy way out. I’m going to make sure you and Iztan pay for everything you’ve done. 
+And this time, you’re not taking the easy way out. I’m going to make sure you and Iztahn pay for everything you’ve done. 
 
 Wesley steps forward, his eyes fixed on Celeste and Azazel. Suddenly, he fires a concussive blast, sending the two of them diving in opposite directions. However, just as they easily dodge the blast, they realize he wasn't really aiming for them. In the last second, he subtly curves his arm, altering the blast's trajectory and directing it at Ajax's arm, which rests on Celeste's desk. The blast hits the arm with a loud crack, sending it flying across the room to the right, where it lands on the floor with a thud.
 
@@ -624,7 +624,7 @@ Wesley
 This point?
 
 Celeste   
-But you’re missing a plethora of details. Starting with the fact that all of my real Iztan soldiers are scattered around the globe, prepared to mobilize and destroy the remaining Deviants. 
+But you’re missing a plethora of details. Starting with the fact that all of my real Iztahn soldiers are scattered around the globe, prepared to mobilize and destroy the remaining Deviants. 
 
 Ajax   
 That doesn’t change the fact that the both of you are finished. 
@@ -634,7 +634,7 @@ That’s just the tip of the iceberg.
 
 Celeste clicks a button on her belt.
 
-Int. Iztan’s Mountain Base \- Afternoon
+Int. Iztahn’s Mountain Base \- Afternoon
 
 Minutes Earlier…  
 After Keith sent Wesley to save Ajax, he unleashed his full power, hoping to finally defeat Axel once and for all. However, he soon realizes that he can't do it on his own.
@@ -784,7 +784,7 @@ The two of you won't be getting past us.
 
 As the four Axel clones charge, Keith and Gavin assume defensive positions, preparing for the fight of their lives.
 
-Int. Iztan’s Mountain Base | Chamber Room \- Afternoon
+Int. Iztahn’s Mountain Base | Chamber Room \- Afternoon
 
 Celeste presses a button on her belt, and Axel suddenly teleports in front of her and Azazel. Azazel's eyes widen in surprise as he takes in Axel’s sudden appearance.
 
@@ -806,7 +806,7 @@ Axel
 Hello father. 
 
 Celeste   
-When I created him, I needed male and female DNA, so I used ours. He has the powers of Iztan's best and S.T.A.T.I.C.'s entire lineup, including Wesley.
+When I created him, I needed male and female DNA, so I used ours. He has the powers of Iztahn's best and S.T.A.T.I.C.'s entire lineup, including Wesley.
 
 Azazel's face lights up with pride upon hearing about his son's incredible power.
 

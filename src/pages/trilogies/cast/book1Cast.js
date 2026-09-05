@@ -7,7 +7,7 @@ export const book1Cast = {
       role: "Protagonist",
     },
     {
-      name: "Gavin Summers",
+      name: "Gavin Halden",
       slug: "gavin",
       image: "/gavin.jpg",
       role: "Co-Protagonist",
@@ -80,8 +80,8 @@ export const book1Cast = {
     },
     {
       name: "Mary Santiago",
-      slug: "mary",
-      image: "/mary.jpg",
+      slug: "elena",
+      image: "/elena.jpg",
       role: "Supporting",
       comingSoon: true,
     },
@@ -93,9 +93,9 @@ export const book1Cast = {
       comingSoon: true,
     },
     {
-      name: "Andrew Torres",
-      slug: "andrew",
-      image: "/andrew.jpg",
+      name: "Jesús Torres",
+      slug: "jesús",
+      image: "/jesús.jpg",
       role: "Supporting",
       comingSoon: true,
     },
@@ -124,7 +124,7 @@ export const book1Cast = {
       comingSoon: true,
     },
     {
-      name: "Aiden Summers",
+      name: "Aiden Halden",
       slug: "aiden",
       image: "/aiden.jpg",
       role: "Antagonist",

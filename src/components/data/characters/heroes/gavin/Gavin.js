@@ -16,15 +16,20 @@ import psychProfile from "./psychProfile.js";
 const abilities = [...abilities1, ...abilities2, ...abilities3, ...abilities4];
 
 const gavin = {
-  id: "#002",
   slug: "gavin",
-  name: "Gavin Summers",
+  name: "Gavin Halden",
   image: "/gavin.jpg",
-  class: "Alpha Class Deviant",
+
+  race: {
+    KVI: {
+      beginning: "Alpha Class Deviant",
+      middle: "Alpha Class Deviant",
+      end: "Alpha Class Deviant",
+    },
+  },
+
   primaryPower: "Nuclear Fusion Energy Absorption",
-
-  aliases: ["Golden Boy", "Rayet"],
-
+  aliases: ["Golden Boy"],
   birthDate: "August 10, 1999",
 
   fancast: {

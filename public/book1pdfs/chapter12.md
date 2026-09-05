@@ -1,5 +1,5 @@
 Int. Frasier Industries Level 50 | Executive Planning Room \- Afternoon   
-The S.T.A.T.I.C. and Elite Seven members gather around the oval planning table and sit down. Ajax and Wesley lead the meeting, as they discuss how to stop Iztan.
+The S.T.A.T.I.C. and Elite Seven members gather around the oval planning table and sit down. Ajax and Wesley lead the meeting, as they discuss how to stop Iztahn.
 
 Ajax's dressed in a fitted white knit turtleneck that pairs effortlessly with sharp black dress pants. Completing the outfit are sleek dress boots.
 
@@ -14,20 +14,20 @@ Which she just took from us.
 
 Keith lays a hand on Danny's shoulder, giving him a reassuring touch.
 
-Andrew is wearing a white t-shirt, paired with black jeans and black running shoes.
+Jesús is wearing a white t-shirt, paired with black jeans and black running shoes.
 
-Andrew   
+Jesús   
 Right. So who are these people? 
 
 Ajax  
 Wes? 
 
-Wesley gestures for everyone to focus on the monitor and begins typing. He displays a file titled "Aiden Summers" on the large screen at the front of the room.
+Wesley gestures for everyone to focus on the monitor and begins typing. He displays a file titled "Aiden Halden" on the large screen at the front of the room.
 
 Wesley   
-Aiden Summers, aka Gavin's brother, joined Iztan because Celeste promised to bring back his deceased girlfriend, Violet Campbell. She was murdered by Azazel's anti-Deviant weapon. His power is energy manipulation.
+Aiden Halden, aka Gavin's brother, joined Iztahn because Celeste promised to bring back his deceased girlfriend, Violet Campbell. She was murdered by Azazel's anti-Deviant weapon. His power is energy manipulation.
 
-Andrew   
+Jesús   
 Wait, so let me get this straight...he's working with the people who murdered his girlfriend to bring her back? What an idiot\!
 
 Gavin   
@@ -36,7 +36,7 @@ Yeah, tell me about it.
 Ignoring their comments, Wesley proceeds to the next file, marked as 'Nolan Khan.'
 
 Wesley   
-Nolan Khan, an Unnatural, was under Azazel's leadership, and now he's under Celeste's. So he's been a member of Iztan for a while. His powers are similar to Danny's, but because he's not a natural Deviant like the ones in this room, he's a lot weaker.
+Nolan Khan, an Unnatural, was under Azazel's leadership, and now he's under Celeste's. So he's been a member of Iztahn for a while. His powers are similar to Danny's, but because he's not a natural Deviant like the ones in this room, he's a lot weaker.
 
 Ajax  
 He must've been one of the ones who got away all those years ago. 
@@ -76,7 +76,7 @@ He accesses another file labeled 'Celeste Masters.'
 Wesley   
 Now for the mastermind and one of the OG Unnaturals, Celeste Masters. She's got three powers, not just one: ergokinesis, teleportation, and telepathy. But her go-to is her ergokinesis, but it needs Deviant energy to work. 
 
-Andrew  
+Jesús  
 Deviant Energy?
 
 Valeria is elegantly dressed in a collared crop rugby sweater with stylish black and camel stripes, effortlessly paired with black jeans. To complete her outfit, she's chosen black, rational heeled western boots.
@@ -84,10 +84,10 @@ Valeria is elegantly dressed in a collared crop rugby sweater with stylish black
 Valeria  
 An average Deviant carries a unique energy signature that she can siphon and use to create constructs or energy blasts. She also has the ability to fully drain a Deviant until there's nothing left. With her teleportation and telepathy, she's an even greater threat.
 
-Wesley pulls another file, piquing the interest of Andrew, Robert, and Justin, who lean in closer.
+Wesley pulls another file, piquing the interest of Jesús, Robert, and Justin, who lean in closer.
 
 Wesley  
-Iztan’s most dangerous assassin, Shi, but we know him as Stephen Reyes. As far as I can tell, he doesn’t recognize us or remember us. Celeste most likely erased his memories and replaced them with new ones. 
+Iztahn’s most dangerous assassin, Shi, but we know him as Stephen Reyes. As far as I can tell, he doesn’t recognize us or remember us. Celeste most likely erased his memories and replaced them with new ones. 
 
 Gavin   
 Have you managed to get a full list of his powers?
@@ -101,7 +101,7 @@ Ok, but if we do save him, how are we going to help him? He obviously has a ton 
 Wesley   
 I know a person who might be able to help with that. 
 
-Gavin's eyes dart toward Andrew, Robert, and Justin. They exchange a quick, knowing look among themselves before redirecting their focus to Wesley, who seems unaware of their unspoken communication.
+Gavin's eyes dart toward Jesús, Robert, and Justin. They exchange a quick, knowing look among themselves before redirecting their focus to Wesley, who seems unaware of their unspoken communication.
 
 Ajax   
 What else do we not know?
@@ -221,7 +221,7 @@ Exactly. After he took both of you out, he just started cycling through differen
 
 Wesley pulls up footage from his fight. Everyone watches as he struggles to hold his own against Axel. On screen, Axel teleports behind Wesley and grabs him from behind, pinning his arms to his sides. They watch as Axel runs in and out of every room on the base, throwing Wesley into the lab.
 
-Andrew (Whispering)   
+Jesús (Whispering)   
 Jesus… 
 
 Wesley   
@@ -272,7 +272,7 @@ Keith
 Definitely.
 
 William   
-I figured if we're going to beat Iztan, you guys would need suits. As for you, Wes, I still haven't come up with a suit design yet. But, now that I know more about your limitations, I think I have a way to help you out.
+I figured if we're going to beat Iztahn, you guys would need suits. As for you, Wes, I still haven't come up with a suit design yet. But, now that I know more about your limitations, I think I have a way to help you out.
 
 Wesley   
 My suit? But I just joined S.T.A.T.I.C.
@@ -419,7 +419,7 @@ I'm sorry, what? I might not be an electrical engineering major, but I definitel
 Justin   
 No, Danny’s right.
 
-Andrew  
+Jesús  
 Ok, I’m confused. What are you guys talking about?
 
 Keith   
@@ -474,9 +474,9 @@ Gavin
 He’s right. 
 
 Justin   
-In order to fully deplete the power supply of the entire nation, Iztan would need to steal the energy from three of the United States' primary power grids.
+In order to fully deplete the power supply of the entire nation, Iztahn would need to steal the energy from three of the United States' primary power grids.
 
-Andrew   
+Jesús   
 Can Axel even handle that much all at once?
 
 Gavin  
@@ -494,7 +494,7 @@ Yeah.
 Gavin  
 My powers are exactly like that, except there is no limit to how much I can absorb.
 
-Andrew  
+Jesús  
 From what you're saying, he sounds impossible to stop, and that's just one of his powers. He has all of your powers and more. 
 
 Danny   
@@ -519,7 +519,7 @@ William interrupts as his tablet beeps.
 William   
 Actually, that idea could work. 
 
-Andrew  
+Jesús  
 In what way? It literally sounds like we're just giving them what they want. 
 
 Robert   
@@ -532,10 +532,10 @@ Ajax
 Our old S.T.A.T.I.C. satellite? 
 
 William  
-Yes, and now that I have access, the moment Iztan starts charging that chamber, the scanners will pick it up and give us the exact location of their base. 
+Yes, and now that I have access, the moment Iztahn starts charging that chamber, the scanners will pick it up and give us the exact location of their base. 
 
 Gavin  
-Either way, it's like Andrew said. It's not like any of us stand much of a chance against Axel. He'd get the energy whether we intervened or not.
+Either way, it's like Jesús said. It's not like any of us stand much of a chance against Axel. He'd get the energy whether we intervened or not.
 
 Wesley   
 He’s right. 
@@ -628,7 +628,7 @@ Ajax
 Are you sure? 
 
 Wesley   
-I’m positive, and I’ll be even better when we take Iztan down again.
+I’m positive, and I’ll be even better when we take Iztahn down again.
 
 Ajax   
 Alright, you can go. I just wanted to check in. 
@@ -718,9 +718,9 @@ Wesley
 I love you too. 
 
 Int. Frasier Towers \- Afternoon  
-Wesley leaves the planning room, feeling elated. His grin stretches ear to ear as he walks toward the elevator, full of excitement. However, his happiness takes a nosedive as he turns the corner and finds Robert, Andrew, and Justin waiting for him. The smile on his face gradually fades, replaced by a mix of surprise and confusion. He stops in his tracks, caught off guard and uncertain about what to say or do next.
+Wesley leaves the planning room, feeling elated. His grin stretches ear to ear as he walks toward the elevator, full of excitement. However, his happiness takes a nosedive as he turns the corner and finds Robert, Jesús, and Justin waiting for him. The smile on his face gradually fades, replaced by a mix of surprise and confusion. He stops in his tracks, caught off guard and uncertain about what to say or do next.
 
-Andrew   
+Jesús   
 We need to talk. 
 
 Wesley gazes at the three of them and lets out a deep sigh, a sense of unease settling over him.
@@ -731,18 +731,18 @@ Let’s talk in the lounge.
 Int. Frasier Towers Lounge \- Afternoon  
 They head to the lounge, and everyone except Wesley settles into their seats.
 
-Andrew  
+Jesús  
 Are you going to sit? 
 
-Wesley stands there, arms crossed, giving Andrew a pointed look, waiting for one of them to speak.
+Wesley stands there, arms crossed, giving Jesús a pointed look, waiting for one of them to speak.
 
-Andrew  
+Jesús  
 Ok…
 
 Wesley  
 I would ask what this is about, but something tells me I already know. 
 
-Andrew  
+Jesús  
 Yeah. Gavin filled us in on everything. How are you? 
 
 Wesley  
@@ -754,7 +754,7 @@ Wes, come on.
 Wesley  
 No, the only reason you both are helping is because you found out Stephen's alive. Otherwise, I would probably be dead right now.
 
-Andrew  
+Jesús  
 That's not why, and you know it. 
 
 Wesley  
@@ -768,7 +768,7 @@ He stopped, too.
 Justin   
 Wes...
 
-Andrew  
+Jesús  
 You have to understand- 
 
 Wesley interrupts him, slowly getting angrier by the second. 
@@ -804,26 +804,26 @@ They all remain silent.
 Wesley   
 That’s what I thought. 
 
-Wesley walks away, and just as he’s about to leave the lounge, Andrew stops him.  
+Wesley walks away, and just as he’s about to leave the lounge, Jesús stops him.  
    
-Andrew  
+Jesús  
 Wait. 
 
 Wesley turns around to face him. 
 
-Andrew   
+Jesús   
 I understand that you're hurt, and our actions caused you a lot of pain. We were wrong to turn our backs on you, and we regret it deeply. I know that we can't change the past, but we want to make things right. We want to be there for you now, to support you and help you in any way we can. I know that it won't be easy, and that it'll take time to rebuild the trust that we lost, but I'm hoping that you can find it in your heart to forgive us and give us a chance to make amends.
 
 Wesley   
 How long did you rehearse that in the mirror?
 
-Andrew  
+Jesús  
 What?
 
 ​Wesley  
 You’re right. You can’t change the past. I don't know if I can trust you guys again, and I don't know if I want to. So no, forgiveness isn't likely. Not right now, at least.
 
-Andrew and the rest of the group display clear disappointment at his reply, but Wesley remembers Keith's words.
+Jesús and the rest of the group display clear disappointment at his reply, but Wesley remembers Keith's words.
 
 \~Flashback\~
 

@@ -1,6 +1,5 @@
 const aiden = {
-  id: "#010",
-  name: "Aiden Summers",
+  name: "Aiden Halden",
   slug: "aiden",
   image: "/aiden.jpg",
   class: "Beta",
@@ -8,7 +7,7 @@ const aiden = {
   tagline: "",
   primaryPower: "Radiolux Energy Manipulation",
   stats: {
-    affiliation: "Iztan",
+    affiliation: "Iztahn",
     gender: "Male",
     height: "6'1\"",
     weight: "182 lbs",
@@ -130,28 +129,28 @@ const aiden = {
     
     relationships: [
       {
-        name: "Warren Summers",
+        name: "Warren Halden",
         role: "Father",
         status: "Alive",
         link: "/characters/warren",
         image: "/warren.jpg"
       },
       {
-        name: "Gavin Summers",
+        name: "Gavin Halden",
         role: "Brother",
         status: "Alive",
         link: "/characters/gavin",
         image: "/gavin.jpg"
       },
       {
-        name: "Logan Summers",
+        name: "Logan Halden",
         role: "Brother",
         status: "Alive",
         link: "/characters/logan",
         image: "/logan.jpg"
       },
       {
-        name: "Katherine Summers",
+        name: "Katherine Halden",
         role: "Mother",
         status: "Alive",
         link: "/characters/katherine",

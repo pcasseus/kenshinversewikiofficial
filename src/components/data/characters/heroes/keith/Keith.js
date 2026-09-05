@@ -13,14 +13,27 @@ import abilities4 from "./abilities4.js";
 
 import psychProfile from "./psychProfile.js";
 
-const abilities = [...abilities1, ...abilities2, ...abilities3, ...abilities4];
+const abilities = [
+  ...abilities1,
+  ...abilities2,
+  ...abilities3,
+  ...abilities4,
+];
 
 const keith = {
-  id: "#004",
   slug: "keith",
   name: "Keith Powers",
+
   image: "/keith.jpg",
-  class: "Beta Class Deviant",
+
+  race: {
+    KVI: {
+      beginning: "Beta Class Deviant",
+      middle: "Beta Class Deviant",
+      end: "Beta Class Deviant",
+    },
+  },
+
   primaryPower: "Fire Manipulation",
 
   aliases: [],
@@ -29,7 +42,8 @@ const keith = {
 
   fancast: {
     actor: "Drake Rodger",
-    note: "This is a non-commercial fancast reference only. The listed actor is not affiliated with or involved in this project.",
+    note:
+      "This is a non-commercial fancast reference only. The listed actor is not affiliated with or involved in this project.",
   },
 
   stats,

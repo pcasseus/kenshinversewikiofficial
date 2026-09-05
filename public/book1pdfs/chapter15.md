@@ -94,7 +94,7 @@ Wesley (Thinking)
 There's 14 people on the other side of the school. It looks like that's where the action is.
 
 Int. Arcadia Highschool \- Afternoon  
-Wesley moves silently down the dimly lit hallway, his footsteps barely making a sound as he carefully makes his way towards the lounge area. Pausing just outside the door, he discreetly peers through the window. His heart skips a beat when he spots six heavily armed Iztan soldiers standing guard at the gym entrances.The soldiers are dressed in full combat gear, their weapons at the ready as they scan the area for any potential threats.
+Wesley moves silently down the dimly lit hallway, his footsteps barely making a sound as he carefully makes his way towards the lounge area. Pausing just outside the door, he discreetly peers through the window. His heart skips a beat when he spots six heavily armed Iztahn soldiers standing guard at the gym entrances.The soldiers are dressed in full combat gear, their weapons at the ready as they scan the area for any potential threats.
 
 Wesley (Whispering)   
 Why am I not surprised? 
@@ -103,7 +103,7 @@ Wesley's eyes dart around the hallway, scanning for any potential distractions t
 
 Without thinking twice, Wesley hurries to the lockers, banging on them loudly to create a noise that echoes down the hallway. Startled, the soldiers head toward the noise, their weapons ready. While they make their way down the corridor, Wesley stays hidden, watching them closely as they pass by. Finally, when the soldiers reach the end of the hallway, Wesley takes his chance.. He comes out of hiding and charges toward them, grabbing their attention.
 
-The Iztan soldiers turn their attention toward him, their weapons raised, and Wesley braces himself for the imminent clash.
+The Iztahn soldiers turn their attention toward him, their weapons raised, and Wesley braces himself for the imminent clash.
 
 Wesley (Shouting)   
 Come at me\!
@@ -129,7 +129,7 @@ The final soldier steps forward, his shotgun raised and aimed at Wesley.
 Wesley   
 Alright enough is enough. 
 
-Wesley raises his left arm and fires a concussive blast, hitting the soldier squarely in the face and taking him down. Breathing heavily, he surveys the scene, all six Iztan soldiers defeated.
+Wesley raises his left arm and fires a concussive blast, hitting the soldier squarely in the face and taking him down. Breathing heavily, he surveys the scene, all six Iztahn soldiers defeated.
 
 Wesley   
 Well, that was easy. But, something tells me the real fight is in the gym.

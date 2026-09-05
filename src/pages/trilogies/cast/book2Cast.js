@@ -7,7 +7,7 @@ export const book2Cast = [
     comingSoon: true,
   },
   {
-    name: "Logan Summers",
+    name: "Logan Halden",
     slug: "logan",
     image: "/logan.jpg",
     role: "Antagonist",

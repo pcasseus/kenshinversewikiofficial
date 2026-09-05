@@ -122,7 +122,7 @@ Keith
 GS, what the hell happened on that mission?
 
 Gavin   
-We had a run-in with Iztan. My ​brother and Ste-
+We had a run-in with Iztahn. My ​brother and Ste-
 
 Gavin hesitates, and Ajax picks up on it.
 
@@ -375,10 +375,10 @@ Gavin
 Well, unless he has a twin we don't know about, it's him.
 
 Keith  
-That would explain why we weren't doing much hand-to-hand. From what I heard, when it came to fighters, the only people who came close to him were Wesley and his friend. I think his name was Andrew.
+That would explain why we weren't doing much hand-to-hand. From what I heard, when it came to fighters, the only people who came close to him were Wesley and his friend. I think his name was Jesús.
 
 Gavin  
-Andrew Torres?
+Jesús Torres?
 
 Keith   
 Yeah, they were the only ones who could match him in combat.
@@ -413,7 +413,7 @@ Ajax
 He’s not exactly in a position to ​object. So what’s your plan?
 
 Gavin   
-Andrew Torres.
+Jesús Torres.
 
 Ajax stares at Gavin, his expression a mix of uncertainty and curiosity. He's not sure what to make of Gavin's plan, but he's intrigued nonetheless.
 
@@ -424,7 +424,7 @@ Keith
 Damn.
 
 Ajax   
-Well, I'm not saying he's useless, but we're dealing with other Deviants here. Andrew is basically a civilian, armed with a gun and a badge.
+Well, I'm not saying he's useless, but we're dealing with other Deviants here. Jesús is basically a civilian, armed with a gun and a badge.
 
 Gavin   
 I'm not interested in his combat skills. I need to know where he and Wes hid the crystals.
@@ -438,7 +438,7 @@ Ajax
 He's referring to the same crystals that unlocked Wes' abilities in the first place. Do you really think those can save him?
 
 Gavin  
-I won’t know until I talk to Andrew. 
+I won’t know until I talk to Jesús. 
 
 Keith  
 Why not just ask Val and Will?
@@ -504,7 +504,7 @@ What kind of trouble?
 Keith gives Jade a knowing look.
 
 Jade  
-Why am I not surprised? I'm assuming Iztan was also after Azazel’s daughter.
+Why am I not surprised? I'm assuming Iztahn was also after Azazel’s daughter.
 
 Keith  
 Shi and Aiden were searching for her. She's safe on the base, but Wesley and Gavin had to confront them. Wesley faced both of them and managed to defeat them. However, he returned with injuries even worse than yours. One of those injuries is a specific stab wound that's killing him.
@@ -564,7 +564,7 @@ It was the way he walked in; the dynamics immediately changed. I went from being
 Keith's voice starts breaking, his usually steady tone quivering with emotion as he continues to speak.
 
 Keith   
-I felt so helpless, just watching Will & Val trying to save you. So I thought going after Iztan was the only way I could help, and then Wesley showed up. My chance was taken from me, and I wasn't allowed to go on the mission.
+I felt so helpless, just watching Will & Val trying to save you. So I thought going after Iztahn was the only way I could help, and then Wesley showed up. My chance was taken from me, and I wasn't allowed to go on the mission.
 
 Jade gives a slow nod, her eyes filled with empathy as she takes in Keith's words. She can sense the weight of his emotions and the turmoil he's been carrying.
 
@@ -686,7 +686,7 @@ Zoey
 So what does this have to do with my father?
 
 Danny   
-Well, about twenty-two years ago, your father started a criminal organization known as Iztan. His main goal was to exterminate all Deviants. Your grandparents, his parents, were murdered by Deviants in a home invasion a long time ago. On that day, he vowed to kill every last one of us. He spent years capturing, experimenting on, and torturing Deviants to death. It was gruesome. He would mutilate them and have their bodies dumped like garbage. Ajax spent years pursuing him, but he couldn’t catch him.
+Well, about twenty-two years ago, your father started a criminal organization known as Iztahn. His main goal was to exterminate all Deviants. Your grandparents, his parents, were murdered by Deviants in a home invasion a long time ago. On that day, he vowed to kill every last one of us. He spent years capturing, experimenting on, and torturing Deviants to death. It was gruesome. He would mutilate them and have their bodies dumped like garbage. Ajax spent years pursuing him, but he couldn’t catch him.
 
 Everyone in the room stares at Danny shocked by the truth about Zoey’s father. 
 
@@ -777,7 +777,7 @@ Zoey
 They’re hunting me for my blood?
 
 Danny   
-Specifically Celeste Masters. She used to be Azazel's right-hand woman and she's got a real grudge against Deviants. Her husband, an officer, got killed in a bank heist by some Deviants. Back then, she was just a scientist, but now she's calling the shots for Iztan and she's dead set on bringing him back, no matter what.
+Specifically Celeste Masters. She used to be Azazel's right-hand woman and she's got a real grudge against Deviants. Her husband, an officer, got killed in a bank heist by some Deviants. Back then, she was just a scientist, but now she's calling the shots for Iztahn and she's dead set on bringing him back, no matter what.
 
 Ciara   
 This is so messed up. 
@@ -983,7 +983,7 @@ As they exit Ajax's office, they hear a loud crash followed by the sound of shat
 
 Ext. Queens New York Neighborhood \- Night  
 ​  
-Gavin left the base just an hour ago and now stands outside Andrew Torres' house. As he approaches the front door, his phone rings. Checking the caller ID, he sees 'KP' and answers the call.
+Gavin left the base just an hour ago and now stands outside Jesús Torres' house. As he approaches the front door, his phone rings. Checking the caller ID, he sees 'KP' and answers the call.
 
 Gavin  
 What?

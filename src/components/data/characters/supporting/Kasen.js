@@ -1,5 +1,4 @@
 const kasen = {
-  id: "#034",
   name: "Kasen Malik Jr.",
   slug: "Kasen",
   image: "/kasen.jpg",
@@ -67,11 +66,11 @@ const kasen = {
     ],
     relationships: [
       {
-        name: "Andrew Torres",
+        name: "Jesús Torres",
         role: "Friend",
         status: "Dead",
-        link: "/characters/andrew",
-        image: "/andrew.jpg"
+        link: "/characters/jesús",
+        image: "/jesús.jpg"
       },
       {
         name: "Justin Frasier",

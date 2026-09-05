@@ -24,7 +24,7 @@ const relationships = [
     image: "/william.jpg",
   },
   {
-    name: "Gavin Summers",
+    name: "Gavin Halden",
     role: "Close Friend",
     link: "/characters/gavin",
     image: "/gavin.jpg",

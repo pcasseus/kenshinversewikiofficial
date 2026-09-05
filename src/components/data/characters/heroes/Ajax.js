@@ -1,5 +1,4 @@
 const ajax = {
-  id: "#025",
   name: "Ajax Johnson",
   slug: "ajax",
   image: "/ajax.jpg",
@@ -124,7 +123,7 @@ const ajax = {
         image: "/teddy.jpg"
       },
       {
-        name: "Gavin Summers",
+        name: "Gavin Halden",
         role: "Honorary Nephew",
         status: "Alive",
         link: "/characters/gavin",

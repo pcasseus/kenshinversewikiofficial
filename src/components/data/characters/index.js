@@ -11,12 +11,12 @@ import logan from "./heroes/Logan";
 import anthony from "./heroes/Anthony";
 import robert from "./heroes/Robert";
 
-import andrew from "./supporting/Andrew";
+import jesús from "./supporting/Jesús";
 import justin from "./supporting/Justin";
 import emely from "./supporting/Emely";
 import alexa from "./supporting/Alexa";
 import ciara from "./supporting/Ciara";
-import mary from "./supporting/Mary";
+import elena from "./supporting/Elena";
 import kiely from "./supporting/Kiely";
 import ezequiel from "./supporting/Ezequiel";
 import samuel from "./supporting/Samuel";
@@ -66,12 +66,12 @@ const characterData = {
   anthony,
   robert,
 
-  andrew,
+  jesús,
   justin,
   emely,
   alexa,
   ciara,
-  mary,
+  elena,
   kiely,
   ezequiel,
   samuel,

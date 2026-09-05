@@ -1,5 +1,4 @@
 const jackson = {
-  id: "#009",
   name: "jackson",
   slug: "jackson",
   image: "/jackson.jpg",
@@ -8,7 +7,7 @@ const jackson = {
   tagline: "",
   primaryPower: "Regenerative Reconstitution",
   stats: {
-    affiliation: "Iztan",
+    affiliation: "Iztahn",
     gender: "Male",
     height: "5'11\"",
     weight: "160 lbs",

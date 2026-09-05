@@ -1,5 +1,4 @@
 const mathew = {
-  id: "#040",
   name: "Mathew Salazar",
   slug: "mathew",
   image: "/mathew.jpg",
@@ -52,11 +51,11 @@ const mathew = {
         image: "/robert.jpg"
     },
     {
-        name: "Andrew Torres",
+        name: "Jesús Torres",
         role: "Acquaintance",
         status: "Alive",
-        link: "/characters/andrew",
-        image: "/andrew.jpg"
+        link: "/characters/jesús",
+        image: "/jesús.jpg"
     },
     {
         name: "Anthony Delgado",
