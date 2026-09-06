@@ -1,78 +1,214 @@
-import { useRef } from "react";
+import { useMemo } from "react";
+import { PHASES, getRankedPhase } from "./leaderboardData";
 
-export function useLeaderboardEngine(ranks, phaseIndex) {
-  const history = useRef({});
+function buildEntryMap(entries) {
+  return entries.reduce((map, entry) => {
+    map[entry.slug] = entry;
+    return map;
+  }, {});
+}
 
-  ranks.forEach((r) => {
-    if (!history.current[r.slug]) {
-      history.current[r.slug] = {
-        ranks: {},
+function findDebut(slug) {
+  for (
+    let phaseIndex = 0;
+    phaseIndex < PHASES.length;
+    phaseIndex += 1
+  ) {
+    const rankedPhase = getRankedPhase(phaseIndex);
+
+    const entry = rankedPhase.find(
+      (character) => character.slug === slug
+    );
+
+    if (entry) {
+      return {
         debutPhase: phaseIndex,
-        debutRank: r.rank,
+        debutRank: entry.rank,
       };
-    } else {
-      const rec = history.current[r.slug];
-      if (phaseIndex < rec.debutPhase) {
-        rec.debutPhase = phaseIndex;
-        rec.debutRank = r.rank;
-      }
     }
-
-    history.current[r.slug].ranks[phaseIndex] = r.rank;
-  });
-
-  const enriched = ranks.map((r) => {
-    const record = history.current[r.slug];
-    const prevRank = record.ranks[phaseIndex - 1];
-
-    const delta = prevRank != null ? prevRank - r.rank : 0;
-    const isDebutThisPhase = record.debutPhase === phaseIndex;
-
-    const streak = Object.values(record.ranks).filter(
-      (rank) => rank === 1
-    ).length;
-
-    return {
-      ...r,
-      delta,
-      isNew: isDebutThisPhase,
-      debutRank: record.debutRank,
-      debutPhase: record.debutPhase,
-      streak,
-      shockwave: delta >= 5,
-    };
-  });
-
-  const biggestGainer = enriched.reduce(
-    (best, curr) => (curr.delta > (best?.delta ?? 0) ? curr : best),
-    null
-  );
-
-  const biggestDrop = enriched.reduce(
-    (worst, curr) => (curr.delta < (worst?.delta ?? 0) ? curr : worst),
-    null
-  );
-
-  const consistentOne = enriched
-    .filter((r) => r.rank === 1 && r.streak >= 2)
-    .sort((a, b) => b.streak - a.streak)[0];
-
-  const newEntries = enriched
-    .filter((r) => r.debutPhase === phaseIndex)
-    .map((r) => ({
-      name: r.name,
-      debutRank: r.debutRank,
-      debutPhase: r.debutPhase,
-    }))
-    .sort((a, b) => a.debutRank - b.debutRank);
+  }
 
   return {
-    rankings: enriched,
-    stats: {
-      biggestGainer,
-      biggestDrop,
-      consistentOne,
-      newEntries,
-    },
+    debutPhase: null,
+    debutRank: null,
   };
+}
+
+function getNumberOneStreak(slug, currentPhaseIndex) {
+  let streak = 0;
+
+  for (
+    let phaseIndex = 0;
+    phaseIndex <= currentPhaseIndex;
+    phaseIndex += 1
+  ) {
+    const rankedPhase = getRankedPhase(phaseIndex);
+
+    const entry = rankedPhase.find(
+      (character) => character.slug === slug
+    );
+
+    if (entry?.rank === 1) {
+      streak += 1;
+    }
+  }
+
+  return streak;
+}
+
+export function useLeaderboardEngine(ranks, phaseIndex) {
+  return useMemo(() => {
+    const previousEntries =
+      phaseIndex > 0
+        ? buildEntryMap(getRankedPhase(phaseIndex - 1))
+        : {};
+
+    const enriched = ranks.map((entry) => {
+      const previousEntry = previousEntries[entry.slug];
+
+      const { debutPhase, debutRank } = findDebut(entry.slug);
+
+      const rankDelta =
+        previousEntry != null
+          ? previousEntry.rank - entry.rank
+          : 0;
+
+      const pointDelta =
+        previousEntry != null
+          ? entry.points - previousEntry.points
+          : null;
+
+      const streak = getNumberOneStreak(
+        entry.slug,
+        phaseIndex
+      );
+
+      return {
+        ...entry,
+
+        previousRank:
+          previousEntry?.rank ?? null,
+
+        previousPoints:
+          previousEntry?.points ?? null,
+
+        delta: rankDelta,
+
+        pointDelta,
+
+        isNew:
+          debutPhase === phaseIndex,
+
+        debutPhase,
+
+        debutRank,
+
+        streak,
+
+        shockwave:
+          rankDelta >= 5,
+      };
+    });
+
+    const biggestGainer =
+      phaseIndex === 0
+        ? null
+        : enriched.reduce((best, current) => {
+            if (current.previousRank == null) {
+              return best;
+            }
+
+            if (!best || current.delta > best.delta) {
+              return current;
+            }
+
+            return best;
+          }, null);
+
+    const biggestDrop =
+      phaseIndex === 0
+        ? null
+        : enriched.reduce((worst, current) => {
+            if (current.previousRank == null) {
+              return worst;
+            }
+
+            if (!worst || current.delta < worst.delta) {
+              return current;
+            }
+
+            return worst;
+          }, null);
+
+    const biggestPointGain =
+      phaseIndex === 0
+        ? null
+        : enriched.reduce((best, current) => {
+            if (current.pointDelta == null) {
+              return best;
+            }
+
+            if (
+              !best ||
+              current.pointDelta > best.pointDelta
+            ) {
+              return current;
+            }
+
+            return best;
+          }, null);
+
+    const consistentOne = enriched
+      .filter(
+        (entry) =>
+          entry.rank === 1 &&
+          entry.streak >= 2
+      )
+      .sort(
+        (a, b) =>
+          b.streak - a.streak
+      )[0];
+
+    const newEntries = enriched
+      .filter(
+        (entry) =>
+          entry.debutPhase === phaseIndex
+      )
+      .map((entry) => ({
+        name: entry.name,
+        slug: entry.slug,
+        debutRank: entry.debutRank,
+        debutPhase: entry.debutPhase,
+      }))
+      .sort(
+        (a, b) =>
+          a.debutRank - b.debutRank
+      );
+
+    return {
+      rankings: enriched,
+
+      stats: {
+        biggestGainer:
+          biggestGainer?.delta > 0
+            ? biggestGainer
+            : null,
+
+        biggestDrop:
+          biggestDrop?.delta < 0
+            ? biggestDrop
+            : null,
+
+        biggestPointGain:
+          biggestPointGain?.pointDelta > 0
+            ? biggestPointGain
+            : null,
+
+        consistentOne:
+          consistentOne ?? null,
+
+        newEntries,
+      },
+    };
+  }, [ranks, phaseIndex]);
 }

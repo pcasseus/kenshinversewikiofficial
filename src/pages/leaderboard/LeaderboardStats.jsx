@@ -1,147 +1,248 @@
-export default function LeaderboardStats({ stats }) {
-  const newEntries =
-    stats.newEntries && stats.newEntries.length > 0
-      ? stats.newEntries
-      : stats.newEntry
-      ? [stats.newEntry]
-      : [];
+export default function LeaderboardStats({
+  stats,
+  rankings,
+}) {
+  const topSubject =
+    rankings[0] ?? null;
 
   return (
-    <aside className="lb-stats">
-      <h3>ANALYSIS</h3>
+    <section className="index-summary">
+      <div className="summary-heading">
+        <span>
+          INDEX SUMMARY
+        </span>
 
-      <Stat label="Biggest Gainer" value={stats.biggestGainer} />
-      <Stat label="Biggest Drop" value={stats.biggestDrop} />
+        <span>
+          AUTO-GENERATED ANALYSIS
+        </span>
+      </div>
 
-      {stats.consistentOne && (
-        <div className="stat highlight">
-          <div className="label">Consistent #1</div>
-          <strong>{stats.consistentOne.name}</strong>
-          <div className="sub">
-            {stats.consistentOne.streak} phases
-          </div>
-        </div>
-      )}
+      <div className="summary-grid">
+        <SummaryCell
+          label="TOP SUBJECT"
+          value={
+            topSubject
+              ? `#01 ${topSubject.name}`
+              : "N/A"
+          }
+        />
 
-      {newEntries.length > 0 && (
-        <div className="stat">
-          <div className="label">New Entries</div>
+        <SummaryCell
+          label="LARGEST RANK GAIN"
+          value={
+            stats.biggestGainer
+              ? `${stats.biggestGainer.name} // +${stats.biggestGainer.delta}`
+              : "NO CHANGE DATA"
+          }
+        />
 
-          <div className="entries">
-            {newEntries.map((entry) => (
-              <div key={entry.name} className="entry">
-                <strong>{entry.name}</strong>
-                <span className="debut">
-                  Debuted at #{entry.debutRank}
-                </span>
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
+        <SummaryCell
+          label="LARGEST INDEX INCREASE"
+          value={
+            stats.biggestPointGain
+              ? `${stats.biggestPointGain.name} // +${stats.biggestPointGain.pointDelta.toLocaleString()}`
+              : "NO CHANGE DATA"
+          }
+        />
+
+        <SummaryCell
+          label="NEW INDEX ENTRIES"
+          value={String(
+            stats.newEntries.length
+          )}
+        />
+      </div>
 
       <style>{`
-        .lb-stats {
-          padding: 20px;
-          border-radius: 14px;
-          border: 1px solid rgba(255,200,66,0.25);
+        .index-summary {
+          margin-top: 20px;
+
+          border:
+            1px solid
+            rgba(
+              111,
+              255,
+              160,
+              0.15
+            );
+
+          border-radius: 4px;
         }
 
-        .lb-stats h3 {
-          font-size: 12px;
-          letter-spacing: 0.14em;
-          color: #f5c842;
-          margin-bottom: 16px;
-        }
-
-        .stat {
-          margin-bottom: 16px;
-        }
-
-        .highlight {
-          border-left: 3px solid #f5c842;
-          padding-left: 12px;
-        }
-
-        .label {
-          font-size: 11px;
-          opacity: 0.6;
-          margin-bottom: 6px;
-        }
-
-        .sub {
-          font-size: 12px;
-          opacity: 0.55;
-        }
-
-        .entries {
-          display: flex;
-          flex-direction: column;
-          gap: 6px;
-        }
-
-        .entry {
+        .summary-heading {
           display: flex;
           justify-content: space-between;
-          font-size: 13px;
+
           gap: 12px;
+
+          padding:
+            11px
+            14px;
+
+          border-bottom:
+            1px solid
+            rgba(
+              111,
+              255,
+              160,
+              0.1
+            );
+
+          color:
+            rgba(
+              188,
+              248,
+              205,
+              0.56
+            );
+
+          font-size: 9px;
+          font-weight: 900;
+
+          letter-spacing: 0.11em;
         }
 
-        .debut {
-          opacity: 0.65;
-          font-size: 12px;
+        .summary-grid {
+          display: grid;
+
+          grid-template-columns:
+            repeat(
+              4,
+              1fr
+            );
+        }
+
+        .summary-cell {
+          min-width: 0;
+
+          padding:
+            14px
+            15px;
+
+          border-right:
+            1px solid
+            rgba(
+              111,
+              255,
+              160,
+              0.09
+            );
+        }
+
+        .summary-cell:last-child {
+          border-right: none;
+        }
+
+        .summary-cell span {
+          display: block;
+
+          margin-bottom: 7px;
+
+          color:
+            rgba(
+              186,
+              247,
+              203,
+              0.5
+            );
+
+          font-size: 8px;
+          font-weight: 900;
+
+          letter-spacing: 0.09em;
+        }
+
+        .summary-cell strong {
+          overflow: hidden;
+
+          display: block;
+
+          color:
+            rgba(
+              239,
+              250,
+              242,
+              0.84
+            );
+
+          font-size: 11px;
+          font-weight: 850;
+
+          text-overflow:
+            ellipsis;
+
           white-space: nowrap;
         }
 
-        /* ---------------- MOBILE ENHANCEMENTS ---------------- */
-
-        @media (max-width: 700px) {
-          .lb-stats {
-            padding: 16px;
+        @media (
+          max-width: 700px
+        ) {
+          .summary-grid {
+            grid-template-columns:
+              repeat(
+                2,
+                1fr
+              );
           }
 
-          .lb-stats h3 {
-            text-align: center;
+          .summary-cell:nth-child(2) {
+            border-right: none;
           }
 
-          .entry {
-            font-size: 12px;
+          .summary-cell:nth-child(-n + 2) {
+            border-bottom:
+              1px solid
+              rgba(
+                111,
+                255,
+                160,
+                0.09
+              );
           }
         }
 
-        @media (max-width: 480px) {
-          .lb-stats {
-            padding: 14px;
+        @media (
+          max-width: 440px
+        ) {
+          .summary-grid {
+            grid-template-columns:
+              1fr;
           }
 
-          .stat {
-            margin-bottom: 14px;
+          .summary-cell {
+            border-right: none;
+
+            border-bottom:
+              1px solid
+              rgba(
+                111,
+                255,
+                160,
+                0.09
+              );
           }
 
-          .entry {
-            flex-direction: column;
-            align-items: flex-start;
-            gap: 2px;
-          }
-
-          .debut {
-            font-size: 11px;
+          .summary-cell:last-child {
+            border-bottom: none;
           }
         }
       `}</style>
-    </aside>
+    </section>
   );
 }
 
-function Stat({ label, value }) {
-  if (!value) return null;
-
+function SummaryCell({
+  label,
+  value,
+}) {
   return (
-    <div className="stat">
-      <div className="label">{label}</div>
+    <div className="summary-cell">
+      <span>
+        {label}
+      </span>
+
       <strong>
-        {value.name} ({value.delta > 0 ? "+" : ""}
-        {value.delta})
+        {value}
       </strong>
     </div>
   );
