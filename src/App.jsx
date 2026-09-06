@@ -1,9 +1,11 @@
 // src/App.jsx
-import React, { useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-// Firebase Auth Context
-import { FirebaseProvider } from "./contexts/FirebaseProvider";
+import React, { useEffect } from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 // Core Components
 import Navbar from "./components/navbar/Navbar";
@@ -22,16 +24,12 @@ import Broadcast from "./pages/broadcast/Broadcast";
 // Lore
 import Lore from "./pages/Lore";
 import Races from "./pages/races/Races";
-import POIHub from "./pages/POIHub";
 import Leaderboard from "./pages/leaderboard/Leaderboard";
+import HistoricalArchives from "./pages/history/HistoricalArchives";
+import TechArtifacts from "./pages/tech/TechArtifacts";
 
 // Trilogies
 import TrilogyOne from "./pages/trilogies/TrilogyOne";
-
-// Auth Pages
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import ForgotPassword from "./pages/ForgotPassword";
 
 // About
 import About from "./pages/About";
@@ -51,59 +49,88 @@ function App() {
   }, []);
 
   return (
-    <FirebaseProvider>
-      <Router>
-        <ScrollToTop />
+    <Router>
+      <ScrollToTop />
 
-        <div className="min-h-screen bg-black text-green-400 font-mono">
-          <Navbar />
+      <div className="min-h-screen bg-black text-green-400 font-mono">
+        <Navbar />
 
-          <main className="w-full min-w-0">
-            <Routes>
-              {/* Home */}
-              <Route path="/" element={<ResponsiveInterface />} />
+        <main className="w-full min-w-0">
+          <Routes>
+            {/* Home */}
+            <Route
+              path="/"
+              element={<ResponsiveInterface />}
+            />
 
-              {/* Characters */}
-              <Route path="/characters" element={<CharacterGallery />} />
-              <Route
-                path="/characters/:slug"
-                element={<SecureCharacterProfile />}
-              />
+            {/* Characters */}
+            <Route
+              path="/characters"
+              element={<CharacterGallery />}
+            />
 
-              {/* Broadcast */}
-              <Route path="/broadcast" element={<Broadcast />} />
+            <Route
+              path="/characters/:slug"
+              element={<SecureCharacterProfile />}
+            />
 
-              {/* Trilogy Hub */}
-              <Route path="/trilogy-1" element={<TrilogyOne />} />
+            {/* Broadcast */}
+            <Route
+              path="/broadcast"
+              element={<Broadcast />}
+            />
 
-              {/* Lore */}
-              <Route path="/lore" element={<Lore />} />
-              <Route path="/lore/races" element={<Races />} />
-              <Route path="/lore/pois/*" element={<POIHub />} />
-              <Route path="/lore/leaderboard" element={<Leaderboard />} />
+            {/* Trilogy Hub */}
+            <Route
+              path="/trilogy-1"
+              element={<TrilogyOne />}
+            />
 
-              {/* Auth */}
-              <Route path="/login" element={<Login />} />
-              <Route path="/register" element={<Register />} />
-              <Route path="/forgot-password" element={<ForgotPassword />} />
+            {/* Lore */}
+            <Route
+              path="/lore"
+              element={<Lore />}
+            />
 
-              {/* About */}
-              <Route path="/about" element={<About />} />
+            <Route
+              path="/lore/races"
+              element={<Races />}
+            />
 
-              {/* 404 */}
-              <Route
-                path="*"
-                element={
-                  <div className="px-4 py-20 text-center text-xl text-red-500 sm:px-6">
-                    404 — Page not found
-                  </div>
-                }
-              />
-            </Routes>
-          </main>
-        </div>
-      </Router>
-    </FirebaseProvider>
+            <Route
+              path="/lore/leaderboard"
+              element={<Leaderboard />}
+            />
+
+            <Route
+              path="/lore/history"
+              element={<HistoricalArchives />}
+            />
+
+            <Route
+              path="/lore/tech"
+              element={<TechArtifacts />}
+            />
+
+            {/* About */}
+            <Route
+              path="/about"
+              element={<About />}
+            />
+
+            {/* 404 */}
+            <Route
+              path="*"
+              element={
+                <div className="px-4 py-20 text-center text-xl text-red-500 sm:px-6">
+                  404 — Page not found
+                </div>
+              }
+            />
+          </Routes>
+        </main>
+      </div>
+    </Router>
   );
 }
 

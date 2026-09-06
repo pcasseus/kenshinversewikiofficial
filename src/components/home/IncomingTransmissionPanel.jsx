@@ -1,15 +1,17 @@
+// src/components/home/IncomingTransmissionPanel.jsx
+
 import React from "react";
-import { useFirebase } from "../../contexts/FirebaseProvider";
 import { useNavigate } from "react-router-dom";
-import { User, BookOpen, Globe } from "lucide-react";
+import {
+  User,
+  BookOpen,
+  Globe,
+} from "lucide-react";
+
 import AICoreCircle from "../ui/AICoreCircle";
 
 const IncomingTransmissionPanel = () => {
-  const { user } = useFirebase();
   const navigate = useNavigate();
-
-  const username =
-    user?.displayName || user?.email?.split("@")[0] || "Agent";
 
   const handleAccessWesley = () => {
     window.__kenshin_entrySource = "fromHome";
@@ -45,9 +47,12 @@ const IncomingTransmissionPanel = () => {
 
       {/* Welcome */}
       <div className="mt-5 text-center text-sm font-semibold leading-snug text-cyan-300 sm:mt-6 sm:text-base lg:mt-7 lg:text-left">
-        Welcome to the Kenshinverse,
+        Welcome to the
         <br />
-        <span className="text-base text-white/90 sm:text-lg">{username}</span>.
+
+        <span className="text-base text-white/90 sm:text-lg">
+          Kenshinverse Archive.
+        </span>
       </div>
 
       {/* Main Transmission Copy */}

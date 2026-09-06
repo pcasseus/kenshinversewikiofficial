@@ -4,125 +4,116 @@ import { Link } from "react-router-dom";
 export default function Lore() {
   return (
     <div className="min-h-screen bg-black text-white font-mono relative overflow-hidden">
-      {/* Archive Paper Texture */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,#ffffff06_1px,transparent_1px)] bg-[length:4px_4px] pointer-events-none z-0" />
 
-      {/* ================= DESKTOP LAYOUT ================= */}
+      <div className="absolute inset-x-0 top-0 h-[30rem] bg-gradient-to-b from-yellow-950/20 to-transparent pointer-events-none z-0" />
+
       <div className="relative z-10 max-w-6xl mx-auto px-6 py-20 hidden md:block">
-        {/* Header */}
-        <div className="text-center mb-20">
+        <header className="text-center mb-20">
+          <p className="text-xs uppercase tracking-[0.35em] text-yellow-700 mb-4">
+            KenshinVerse Database
+          </p>
+
           <h1 className="text-5xl font-extrabold text-yellow-400 uppercase tracking-widest">
             Lore Index
           </h1>
-          <p className="mt-4 text-gray-400 italic max-w-2xl mx-auto">
-            A living glossary documenting the races, locations, technologies, and
-            historical truths of the{" "}
+
+          <p className="mt-5 text-gray-400 italic max-w-2xl mx-auto leading-relaxed">
+            A living archive documenting the races, historical records,
+            technologies, artifacts, and power classifications of the{" "}
             <span className="text-blue-300">KenshinVerse</span>.
           </p>
-        </div>
 
-        {/* Core Volumes */}
+          <div className="mt-6 flex justify-center gap-3 text-[10px] uppercase tracking-widest">
+            <span className="border border-green-800 text-green-400 px-3 py-1 rounded-full">
+              Archive Online
+            </span>
+
+            <span className="border border-yellow-800 text-yellow-500 px-3 py-1 rounded-full">
+              KVI Access
+            </span>
+          </div>
+        </header>
+
         <section className="mb-24">
-          <h2 className="text-sm text-yellow-300 tracking-widest uppercase border-b border-yellow-700 pb-2 mb-8">
-            Core Volumes
-          </h2>
-
-          <div className="grid grid-cols-2 gap-12">
-            {/* ===== RACES — GREEN ===== */}
-            <Link
-              to="/lore/races"
-              className="group relative bg-gradient-to-br from-green-900/85 to-black border border-green-600 rounded-xl p-10 shadow-xl overflow-hidden transition-all duration-500"
-            >
-              {/* Page Curl */}
-              <div className="absolute top-0 right-0 h-full w-8 bg-gradient-to-l from-black/40 to-transparent transform translate-x-full group-hover:translate-x-0 transition-transform duration-500" />
-              <div className="absolute top-0 right-0 h-full w-full origin-right scale-x-0 group-hover:scale-x-100 bg-black/20 transition-transform duration-500" />
-
-              <h3 className="text-2xl font-bold text-green-300 mb-4 tracking-wide">
-                🧬 Races
-              </h3>
-              <p className="text-gray-300 leading-relaxed">
-                Definitive records of evolved species, Deviant classifications,
-                off-world entities, and hybrid lifeforms that shape the universe.
+          <div className="flex items-end justify-between border-b border-yellow-700 pb-3 mb-8">
+            <div>
+              <p className="text-[10px] uppercase tracking-[0.3em] text-yellow-700">
+                Primary Database
               </p>
 
-              <span className="absolute bottom-6 right-8 text-[11px] text-green-500 opacity-70">
-                Volume I
-              </span>
-            </Link>
-
-            {/* ===== LEADERBOARD — GOLD ===== */}
-            <Link
-              to="/lore/leaderboard"
-              className="group relative bg-gradient-to-br from-yellow-900/90 to-yellow-950 border border-yellow-600 rounded-xl p-10 shadow-xl overflow-hidden transition-all duration-500"
-            >
-              <h3 className="text-2xl font-bold text-yellow-300 mb-4 tracking-wide">
-                🧠 Kenshinverse Leaderboard
-              </h3>
-
-              <p className="text-gray-300 leading-relaxed">
-                A living strength index tracking the most powerful entities across
-                Books I–III. Rankings shift as power evolves, alliances change, and
-                limits are broken.
-              </p>
-
-              <p className="mt-4 text-yellow-400 text-xs italic">
-                Dynamic rankings • Timeline-based • Canon-locked
-              </p>
-
-              <span className="absolute bottom-6 right-8 text-[11px] text-yellow-500 opacity-70">
-                Power Index
-              </span>
-            </Link>
-
-            {/* ===== POI — LOCKED ===== */}
-            <div className="relative bg-black/70 border border-yellow-800 rounded-xl p-10 shadow-inner">
-              <span className="absolute top-4 right-5 text-xs text-red-400 tracking-widest">
-                LOCKED
-              </span>
-
-              <h3 className="text-2xl font-bold text-yellow-300 mb-4 tracking-wide">
-                📍 Points of Interest
-              </h3>
-              <p className="text-gray-400 leading-relaxed">
-                This volume is undergoing a complete reconstruction due to scale,
-                continuity, and structural issues within the location system.
-              </p>
-
-              <p className="mt-4 text-yellow-600 text-xs italic">
-                Revamp underway. Re-entry pending stabilization.
-              </p>
-
-              <span className="absolute bottom-6 right-8 text-[11px] text-yellow-700 opacity-50">
-                Volume II
-              </span>
+              <h2 className="mt-1 text-sm text-yellow-300 tracking-widest uppercase">
+                Core Volumes
+              </h2>
             </div>
+
+            <span className="text-[10px] text-gray-600 uppercase tracking-widest">
+              4 Active Records
+            </span>
+          </div>
+
+          <div className="grid grid-cols-2 gap-10">
+            <LoreCard
+              to="/lore/races"
+              accent="green"
+              icon="🧬"
+              title="Races"
+              description="Definitive records of humans, Deviants, Unnaturals, synthetic lifeforms, alien species, and other biological classifications documented within the KVI archive."
+              label="Species Database"
+              footer="Volume I"
+            />
+
+            <LoreCard
+              to="/lore/leaderboard"
+              accent="yellow"
+              icon="🧠"
+              title="Kenshinverse Leaderboard"
+              description="A classified strength index tracking the most powerful known entities and their demonstrated combat potential during KVI."
+              label="Power Analysis"
+              footer="Power Index"
+            />
+
+            <LoreCard
+              to="/lore/history"
+              accent="amber"
+              icon="📜"
+              title="Historical Archives"
+              description="Declassified incidents, organizational history, experimental programs, discoveries, and major events preserved within the historical record."
+              label="Historical Database"
+              footer="Archive Records"
+            />
+
+            <LoreCard
+              to="/lore/tech"
+              accent="cyan"
+              icon="⚙️"
+              title="Tech & Artifacts"
+              description="Cataloged weapons, alien relics, experimental systems, integrated technology, engineered materials, and specialized equipment."
+              label="Technology Database"
+              footer="Technical Archive"
+            />
           </div>
         </section>
 
-        {/* Archive Shelf */}
-        <section className="mb-24">
-          <h2 className="text-sm text-yellow-300 tracking-widest uppercase border-b border-yellow-700 pb-2 mb-8">
-            Archive Shelf — Incoming Volumes
-          </h2>
+        <section className="mb-20">
+          <div className="border border-yellow-900 bg-yellow-950/10 rounded-2xl p-8">
+            <div className="grid grid-cols-3 gap-8">
+              <InfoBlock
+                label="Archive Layer"
+                value="KVI"
+                description="Public database restricted to information approved for the KVI release."
+              />
 
-          <div className="grid grid-cols-2 gap-8">
-            <ArchiveCard
-              title="Historical Archives"
-              description="Timeline records, classified incidents, and universe-shaping events. Awaiting finalized chronology."
-              status="Planned"
-            />
+              <InfoBlock
+                label="Active Volumes"
+                value="04"
+                description="Four primary lore databases are currently available for public access."
+              />
 
-            <ArchiveCard
-              title="Tech & Artifacts"
-              description="Alien relics, experimental technology, Deviant enhancements, and legendary constructs."
-              status="Planned"
-            />
-
-            <div className="col-span-2">
-              <ArchiveCard
-                title="Additional Lore Systems"
-                description="Expanded glossaries, faction dossiers, cross-book indexing tools, and future codex modules."
-                status="In Ideation"
+              <InfoBlock
+                label="Classification"
+                value="Variable"
+                description="Individual records may contain declassified, restricted, or partially redacted information."
               />
             </div>
           </div>
@@ -133,150 +124,118 @@ export default function Lore() {
         </footer>
       </div>
 
-      {/* ================= MOBILE LAYOUT ================= */}
-      <div className="relative z-10 px-5 py-16 md:hidden">
-        {/* Mobile Header */}
-        <div className="text-center">
+      <div className="relative z-10 px-5 py-14 md:hidden">
+        <header className="text-center">
+          <p className="text-[9px] uppercase tracking-[0.3em] text-yellow-700 mb-3">
+            KenshinVerse Database
+          </p>
+
           <h1 className="text-3xl font-extrabold text-yellow-400 uppercase tracking-widest">
             Lore Index
           </h1>
 
-          <p className="mt-3 text-gray-400 italic text-center text-sm max-w-[26rem] mx-auto">
-            A living glossary documenting the races, locations, technologies, and
-            historical truths of the{" "}
+          <p className="mt-4 text-gray-400 italic text-sm max-w-[26rem] mx-auto leading-relaxed">
+            A living archive documenting the races, history, technology,
+            artifacts, and power classifications of the{" "}
             <span className="text-blue-300">KenshinVerse</span>.
           </p>
-        </div>
 
-        {/* Mobile Section Divider */}
-        <div className="mt-10">
-          <div className="text-[11px] text-yellow-300 tracking-widest uppercase border-b border-yellow-700 pb-2">
-            Core Volumes
+          <div className="mt-5 flex flex-wrap justify-center gap-2 text-[9px] uppercase tracking-widest">
+            <span className="border border-green-800 text-green-400 px-2.5 py-1 rounded-full">
+              Archive Online
+            </span>
+
+            <span className="border border-yellow-800 text-yellow-500 px-2.5 py-1 rounded-full">
+              KVI Access
+            </span>
           </div>
+        </header>
 
-          <div className="mt-6 space-y-6">
-            {/* Mobile Races — GREEN */}
-            <Link
-              to="/lore/races"
-              className="block border border-green-600 rounded-xl p-5 bg-gradient-to-br from-green-900/80 to-black shadow-lg"
-            >
-              <div className="flex items-start justify-between gap-4">
-                <div>
-                  <h3 className="text-lg font-bold text-green-300 tracking-wide">
-                    🧬 Races
-                  </h3>
-                  <p className="text-gray-300 text-sm mt-2 leading-relaxed">
-                    Definitive records of evolved species, Deviant classifications,
-                    off-world entities, and hybrid lifeforms.
-                  </p>
-                </div>
+        <section className="mt-12">
+          <div className="flex items-end justify-between border-b border-yellow-700 pb-2">
+            <div>
+              <p className="text-[8px] uppercase tracking-[0.25em] text-yellow-700">
+                Primary Database
+              </p>
 
-                <span className="text-[10px] text-green-400/70 uppercase tracking-widest whitespace-nowrap">
-                  Volume I
-                </span>
-              </div>
-            </Link>
-
-            {/* ✅ Mobile Leaderboard — GOLD (WAS MISSING) */}
-            <Link
-              to="/lore/leaderboard"
-              className="block border border-yellow-600 rounded-xl p-5 bg-gradient-to-br from-yellow-900/80 to-yellow-950 shadow-lg"
-            >
-              <div className="flex items-start justify-between gap-4">
-                <div>
-                  <h3 className="text-lg font-bold text-yellow-300 tracking-wide">
-                    🧠 Kenshinverse Leaderboard
-                  </h3>
-                  <p className="text-gray-300 text-sm mt-2 leading-relaxed">
-                    A living strength index tracking the most powerful entities
-                    across Books I–III as power evolves and limits break.
-                  </p>
-                  <p className="mt-3 text-yellow-400 text-[11px] italic">
-                    Dynamic rankings • Timeline-based • Canon-locked
-                  </p>
-                </div>
-
-                <span className="text-[10px] text-yellow-400/70 uppercase tracking-widest whitespace-nowrap">
-                  Power Index
-                </span>
-              </div>
-            </Link>
-
-            {/* Mobile POI — LOCKED */}
-            <div className="border border-yellow-800 rounded-xl p-5 bg-black/60 shadow-inner relative overflow-hidden">
-              <div className="absolute top-0 right-0 h-full w-24 bg-gradient-to-l from-yellow-950/30 to-transparent pointer-events-none" />
-
-              <div className="flex items-start justify-between gap-4">
-                <div>
-                  <div className="text-[10px] text-red-400 mb-1 tracking-widest">
-                    LOCKED
-                  </div>
-                  <h3 className="text-lg font-bold text-yellow-300 tracking-wide">
-                    📍 Points of Interest
-                  </h3>
-                  <p className="text-gray-400 text-sm mt-2 leading-relaxed">
-                    Undergoing reconstruction due to scale, continuity, and
-                    structural issues in the location system.
-                  </p>
-                  <p className="mt-3 text-yellow-600 text-[11px] italic">
-                    Revamp underway. Re-entry pending stabilization.
-                  </p>
-                </div>
-
-                <span className="text-[10px] text-yellow-700/60 uppercase tracking-widest whitespace-nowrap">
-                  Volume II
-                </span>
-              </div>
+              <h2 className="mt-1 text-[11px] text-yellow-300 tracking-widest uppercase">
+                Core Volumes
+              </h2>
             </div>
-          </div>
-        </div>
 
-        {/* Mobile Archive Shelf */}
-        <div className="mt-12">
-          <div className="text-[11px] text-yellow-300 tracking-widest uppercase border-b border-yellow-700 pb-2">
-            Archive Shelf — Incoming Volumes
+            <span className="text-[8px] text-gray-600 uppercase tracking-widest">
+              4 Active
+            </span>
           </div>
 
           <div className="mt-6 space-y-5">
-            <div className="border border-dashed border-yellow-700 rounded-xl p-5 bg-yellow-950/30 opacity-75">
-              <h4 className="text-yellow-300 font-semibold text-sm">
-                🔒 Historical Archives
-              </h4>
-              <p className="text-gray-400 text-xs mt-2 leading-relaxed">
-                Timeline records, classified incidents, and universe-shaping events.
-              </p>
-              <p className="mt-2 text-[11px] text-yellow-600 italic">
-                Status: Planned
-              </p>
-            </div>
+            <MobileLoreCard
+              to="/lore/races"
+              accent="green"
+              icon="🧬"
+              title="Races"
+              description="Records of humans, Deviants, Unnaturals, synthetic beings, alien species, and other biological classifications."
+              label="Species Database"
+              footer="Volume I"
+            />
 
-            <div className="border border-dashed border-yellow-700 rounded-xl p-5 bg-yellow-950/30 opacity-75">
-              <h4 className="text-yellow-300 font-semibold text-sm">
-                🔒 Tech & Artifacts
-              </h4>
-              <p className="text-gray-400 text-xs mt-2 leading-relaxed">
-                Alien relics, experimental technology, Deviant enhancements, and
-                legendary constructs.
-              </p>
-              <p className="mt-2 text-[11px] text-yellow-600 italic">
-                Status: Planned
-              </p>
-            </div>
+            <MobileLoreCard
+              to="/lore/leaderboard"
+              accent="yellow"
+              icon="🧠"
+              title="Kenshinverse Leaderboard"
+              description="A classified strength index tracking the most powerful known entities and their demonstrated KVI combat potential."
+              label="Power Analysis"
+              footer="Power Index"
+            />
 
-            <div className="border border-dashed border-yellow-700 rounded-xl p-5 bg-yellow-950/30 opacity-75">
-              <h4 className="text-yellow-300 font-semibold text-sm">
-                🔒 Additional Lore Systems
-              </h4>
-              <p className="text-gray-400 text-xs mt-2 leading-relaxed">
-                Expanded glossaries, faction dossiers, cross-book indexing tools,
-                and future codex modules.
-              </p>
-              <p className="mt-2 text-[11px] text-yellow-600 italic">
-                Status: In Ideation
-              </p>
-            </div>
+            <MobileLoreCard
+              to="/lore/history"
+              accent="amber"
+              icon="📜"
+              title="Historical Archives"
+              description="Declassified incidents, organizations, experimental programs, discoveries, and major historical events."
+              label="Historical Database"
+              footer="Archive Records"
+            />
+
+            <MobileLoreCard
+              to="/lore/tech"
+              accent="cyan"
+              icon="⚙️"
+              title="Tech & Artifacts"
+              description="Weapons, alien relics, experimental systems, advanced materials, integrated technology, and specialized equipment."
+              label="Technology Database"
+              footer="Technical Archive"
+            />
           </div>
-        </div>
+        </section>
+
+        <section className="mt-12">
+          <div className="text-[11px] text-yellow-300 tracking-widest uppercase border-b border-yellow-700 pb-2">
+            Archive Status
+          </div>
+
+          <div className="mt-5 space-y-3">
+            <MobileInfoBlock
+              label="Archive Layer"
+              value="KVI"
+              description="Public lore is restricted to information approved for the KVI release."
+            />
+
+            <MobileInfoBlock
+              label="Active Volumes"
+              value="04"
+              description="Four primary databases are currently available."
+            />
+
+            <MobileInfoBlock
+              label="Classification"
+              value="Variable"
+              description="Some individual records remain restricted or partially redacted."
+            />
+          </div>
+        </section>
 
         <footer className="mt-16 text-[10px] text-green-400 text-center tracking-widest border-t border-yellow-700 pt-4">
           LORE ARCHIVE ACTIVE
@@ -286,15 +245,222 @@ export default function Lore() {
   );
 }
 
-/* ===== Helper ===== */
-function ArchiveCard({ title, description, status }) {
+function LoreCard({
+  to,
+  accent,
+  icon,
+  title,
+  description,
+  label,
+  footer,
+}) {
+  const styles = {
+    green: {
+      border: "border-green-700 hover:border-green-400",
+      background:
+        "bg-gradient-to-br from-green-950/70 via-black to-black",
+      title: "text-green-300 group-hover:text-green-200",
+      label: "text-green-600",
+      footer: "text-green-500",
+      glow: "bg-green-500/5",
+    },
+
+    yellow: {
+      border: "border-yellow-700 hover:border-yellow-400",
+      background:
+        "bg-gradient-to-br from-yellow-950/80 via-black to-black",
+      title: "text-yellow-300 group-hover:text-yellow-200",
+      label: "text-yellow-600",
+      footer: "text-yellow-500",
+      glow: "bg-yellow-500/5",
+    },
+
+    amber: {
+      border: "border-amber-800 hover:border-amber-500",
+      background:
+        "bg-gradient-to-br from-amber-950/60 via-black to-black",
+      title: "text-amber-300 group-hover:text-amber-200",
+      label: "text-amber-700",
+      footer: "text-amber-500",
+      glow: "bg-amber-500/5",
+    },
+
+    cyan: {
+      border: "border-cyan-900 hover:border-cyan-600",
+      background:
+        "bg-gradient-to-br from-cyan-950/40 via-black to-black",
+      title: "text-cyan-300 group-hover:text-cyan-200",
+      label: "text-cyan-700",
+      footer: "text-cyan-500",
+      glow: "bg-cyan-500/5",
+    },
+  };
+
+  const style = styles[accent];
+
   return (
-    <div className="border border-dashed border-yellow-700 rounded-lg p-6 bg-yellow-950/40 opacity-70">
-      <h4 className="text-lg font-semibold text-yellow-300 mb-2">
-        🔒 {title}
-      </h4>
-      <p className="text-gray-400 text-sm leading-relaxed">{description}</p>
-      <p className="mt-2 text-xs text-yellow-600 italic">Status: {status}</p>
+    <Link
+      to={to}
+      className={`group relative min-h-[19rem] border rounded-2xl p-8 shadow-xl overflow-hidden transition-all duration-300 hover:-translate-y-1 ${style.border} ${style.background}`}
+    >
+      <div
+        className={`absolute top-0 right-0 w-40 h-40 rounded-bl-full pointer-events-none ${style.glow}`}
+      />
+
+      <p
+        className={`text-[10px] uppercase tracking-[0.25em] ${style.label}`}
+      >
+        {label}
+      </p>
+
+      <h3
+        className={`mt-4 text-2xl font-bold tracking-wide transition-colors ${style.title}`}
+      >
+        <span className="mr-2">{icon}</span>
+        {title}
+      </h3>
+
+      <p className="mt-5 text-gray-400 leading-relaxed">
+        {description}
+      </p>
+
+      <div className="absolute bottom-7 left-8 right-8 flex items-center justify-between border-t border-white/5 pt-4">
+        <span className={`text-[10px] uppercase tracking-widest ${style.footer}`}>
+          {footer}
+        </span>
+
+        <span className={`text-xs ${style.footer}`}>
+          Access →
+        </span>
+      </div>
+    </Link>
+  );
+}
+
+function MobileLoreCard({
+  to,
+  accent,
+  icon,
+  title,
+  description,
+  label,
+  footer,
+}) {
+  const styles = {
+    green: {
+      border: "border-green-700",
+      background:
+        "bg-gradient-to-br from-green-950/70 via-black to-black",
+      title: "text-green-300",
+      label: "text-green-600",
+      footer: "text-green-500",
+    },
+
+    yellow: {
+      border: "border-yellow-700",
+      background:
+        "bg-gradient-to-br from-yellow-950/80 via-black to-black",
+      title: "text-yellow-300",
+      label: "text-yellow-600",
+      footer: "text-yellow-500",
+    },
+
+    amber: {
+      border: "border-amber-800",
+      background:
+        "bg-gradient-to-br from-amber-950/60 via-black to-black",
+      title: "text-amber-300",
+      label: "text-amber-700",
+      footer: "text-amber-500",
+    },
+
+    cyan: {
+      border: "border-cyan-900",
+      background:
+        "bg-gradient-to-br from-cyan-950/40 via-black to-black",
+      title: "text-cyan-300",
+      label: "text-cyan-700",
+      footer: "text-cyan-500",
+    },
+  };
+
+  const style = styles[accent];
+
+  return (
+    <Link
+      to={to}
+      className={`block border rounded-xl p-5 shadow-lg ${style.border} ${style.background}`}
+    >
+      <div className="flex items-start justify-between gap-4">
+        <div className="min-w-0">
+          <p
+            className={`text-[8px] uppercase tracking-[0.2em] ${style.label}`}
+          >
+            {label}
+          </p>
+
+          <h3
+            className={`mt-2 text-lg font-bold tracking-wide ${style.title}`}
+          >
+            <span className="mr-2">{icon}</span>
+            {title}
+          </h3>
+        </div>
+
+        <span
+          className={`text-[8px] uppercase tracking-widest whitespace-nowrap ${style.footer}`}
+        >
+          {footer}
+        </span>
+      </div>
+
+      <p className="mt-3 text-gray-400 text-sm leading-relaxed">
+        {description}
+      </p>
+
+      <div className="mt-5 pt-3 border-t border-white/5 flex justify-end">
+        <span className={`text-[10px] ${style.footer}`}>
+          Access Record →
+        </span>
+      </div>
+    </Link>
+  );
+}
+
+function InfoBlock({ label, value, description }) {
+  return (
+    <div>
+      <p className="text-[10px] uppercase tracking-[0.25em] text-yellow-700">
+        {label}
+      </p>
+
+      <p className="mt-2 text-xl font-bold text-yellow-300">
+        {value}
+      </p>
+
+      <p className="mt-3 text-xs text-gray-500 leading-relaxed">
+        {description}
+      </p>
+    </div>
+  );
+}
+
+function MobileInfoBlock({ label, value, description }) {
+  return (
+    <div className="border border-yellow-950 bg-black/60 rounded-xl p-4">
+      <div className="flex items-center justify-between gap-3">
+        <p className="text-[9px] uppercase tracking-[0.2em] text-yellow-700">
+          {label}
+        </p>
+
+        <p className="text-sm font-bold text-yellow-300">
+          {value}
+        </p>
+      </div>
+
+      <p className="mt-2 text-xs text-gray-500 leading-relaxed">
+        {description}
+      </p>
     </div>
   );
 }
