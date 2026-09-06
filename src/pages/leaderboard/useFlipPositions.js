@@ -1,36 +1,68 @@
 import { useLayoutEffect, useRef } from "react";
 
 export function useFlipPositions(items) {
-  const prevPositions = useRef(new Map());
+  const previousRects = useRef(new Map());
+  const previousOrder = useRef([]);
 
   useLayoutEffect(() => {
-    items.forEach((item) => {
-      const el = document.getElementById(`row-${item.slug}`);
-      if (!el) return;
+    const currentOrder = items.map((item) => item.slug);
 
-      prevPositions.current.set(item.slug, el.getBoundingClientRect());
-    });
-  }, [items.map((i) => i.slug).join("|")]); 
+    const orderChanged =
+      previousOrder.current.length > 0 &&
+      previousOrder.current.join("|") !== currentOrder.join("|");
 
-  useLayoutEffect(() => {
-    items.forEach((item) => {
-      const el = document.getElementById(`row-${item.slug}`);
-      const prev = prevPositions.current.get(item.slug);
-      if (!el || !prev) return;
+    if (orderChanged) {
+      items.forEach((item) => {
+        const element = document.getElementById(`row-${item.slug}`);
+        const previousRect = previousRects.current.get(item.slug);
 
-      const next = el.getBoundingClientRect();
-      const dy = prev.top - next.top;
+        if (!element || !previousRect) {
+          return;
+        }
 
-      if (dy !== 0) {
-        el.style.transform = `translateY(${dy}px)`;
-        el.style.transition = "none";
+        const nextRect = element.getBoundingClientRect();
+        const deltaY = previousRect.top - nextRect.top;
+
+        if (Math.abs(deltaY) < 1) {
+          return;
+        }
+
+        element.style.transition = "none";
+        element.style.transform = `translateY(${deltaY}px)`;
+        element.style.zIndex = "3";
 
         requestAnimationFrame(() => {
-          el.style.transition =
-            "transform 500ms cubic-bezier(0.22, 0.61, 0.36, 1)";
-          el.style.transform = "translateY(0)";
+          requestAnimationFrame(() => {
+            element.style.transition =
+              "transform 560ms cubic-bezier(0.22, 0.61, 0.36, 1)";
+            element.style.transform = "translateY(0)";
+
+            const cleanup = () => {
+              element.style.transition = "";
+              element.style.transform = "";
+              element.style.zIndex = "";
+              element.removeEventListener("transitionend", cleanup);
+            };
+
+            element.addEventListener("transitionend", cleanup);
+          });
         });
+      });
+    }
+
+    const nextRects = new Map();
+
+    items.forEach((item) => {
+      const element = document.getElementById(`row-${item.slug}`);
+
+      if (!element) {
+        return;
       }
+
+      nextRects.set(item.slug, element.getBoundingClientRect());
     });
+
+    previousRects.current = nextRects;
+    previousOrder.current = currentOrder;
   }, [items]);
 }
